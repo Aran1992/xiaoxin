@@ -1,0 +1,43 @@
+{"frames": {
+
+"crystal_super_01.png":
+{
+	"frame": {"x":0,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"crystal_super_02.png":
+{
+	"frame": {"x":120,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"crystal_super_03.png":
+{
+	"frame": {"x":240,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+}},
+"animations": {
+	"crystal_super": [
+	"crystal_super_01.png",
+	"crystal_super_02.png",
+	"crystal_super_03.png"
+	]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "crystal_super.png",
+	"format": "RGBA8888",
+	"size": {"w":360,"h":120},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4a96962836b99998bedd5b129fb068e8:f1c581bf458d57f09975df098f48510b:ff2b86ddfe5e89e7e2bf72f46f7d6f48$"
+}
+}

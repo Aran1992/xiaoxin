@@ -1,0 +1,46 @@
+{"frames": {
+
+"1.png":
+{
+	"frame": {"x":0,"y":0,"w":231,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":268},
+	"sourceSize": {"w":231,"h":268}
+},
+"2.png":
+{
+	"frame": {"x":0,"y":268,"w":231,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":268},
+	"sourceSize": {"w":231,"h":268}
+},
+"3.png":
+{
+	"frame": {"x":0,"y":536,"w":231,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":231,"h":268},
+	"sourceSize": {"w":231,"h":268}
+}},
+  "animations": {
+	"SpellThunder3": [
+	"1.png",
+	"1.png",
+	"2.png",
+	"2.png",
+	"3.png",
+	"3.png"
+	]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "SpellThunder3.png",
+	"format": "RGBA8888",
+	"size": {"w":231,"h":804},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:bf5c1bd8842b960d60e137f17b5295f0:5ea8fa54bfa5070d701df26c68e22e63:ecf72fdc76ddf021d112882aa77d0402$"
+}
+}

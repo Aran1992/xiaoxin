@@ -1,0 +1,43 @@
+{"frames": {
+
+"crystal_frog_01.png":
+{
+	"frame": {"x":0,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"crystal_frog_02.png":
+{
+	"frame": {"x":120,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"crystal_frog_03.png":
+{
+	"frame": {"x":240,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+}},
+"animations": {
+	"crystal_frog": [
+	"crystal_frog_01.png",
+	"crystal_frog_02.png",
+	"crystal_frog_03.png"
+	]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "crystal_frog.png",
+	"format": "RGBA8888",
+	"size": {"w":360,"h":120},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4c6f98aec2d4908a08694d5e348d9c82:b67439a483453afb54b17801ecac8998:24da61850d38ebc516277a7b0df36ffd$"
+}
+}

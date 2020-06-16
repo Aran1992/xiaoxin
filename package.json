@@ -1,0 +1,37 @@
+{
+  "name": "bike-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "run.bat"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "archiver": "^3.0.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mime": "^2.4.3",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "xlsx": "^0.14.2"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.5.0",
+    "express": "^4.17.1",
+    "md5": "^2.2.1",
+    "pixi-particles": "^4.2.1",
+    "pixi-text-input": "^1.0.5",
+    "pixi.js": "^5.2.4",
+    "planck-js": "^0.3.0-rc.2"
+  }
+}

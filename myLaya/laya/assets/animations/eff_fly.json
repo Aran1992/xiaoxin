@@ -1,0 +1,44 @@
+{"frames": {
+
+"eff_fly_01.png":
+{
+	"frame": {"x":0,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"eff_fly_02.png":
+{
+	"frame": {"x":100,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"eff_fly_03.png":
+{
+	"frame": {"x":200,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+}},
+"animations": {
+	"eff_fly": [
+	"eff_fly_01.png",
+	"eff_fly_02.png",
+	"eff_fly_03.png",
+	"eff_fly_02.png"
+	]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "eff_fly.png",
+	"format": "RGBA8888",
+	"size": {"w":300,"h":100},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:da4ee8ae17926e25eabe3a9346b2fcc9:f5c9861a5af2491137ff627534dc2f8b:12190cd2df26f50904096284e1ab35df$"
+}
+}

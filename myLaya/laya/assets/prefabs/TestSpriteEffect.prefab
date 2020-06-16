@@ -1,0 +1,61 @@
+{
+  "type": "Box",
+  "props": {
+    "x": 0,
+    "y": 0,
+    "name": "TestSpriteEffect",
+    "preset": "laya/assets/prefabs/TestSpriteEffect.prefab",
+    "presetID": 1,
+    "isPresetRoot": true
+  },
+  "child": [
+    {
+      "type": "Animation",
+      "props": {
+        "source": "animations/bike.json",
+        "x": -41,
+        "y": -47,
+        "name": "Bike",
+        "preset": "laya/assets/prefabs/TestSpriteEffect.prefab",
+        "presetID": 2
+      },
+      "child": [],
+      "isAniNode": true,
+      "nodeParent": 63,
+      "searchKey": "Animation,Bike",
+      "label": "Bike",
+      "isDirectory": false,
+      "hasChild": false,
+      "compId": 65,
+      "x": 30
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "x": -10,
+        "y": -10,
+        "texture": "images/TextureGimmickSnowball-2.png",
+        "preset": "laya/assets/prefabs/TestSpriteEffect.prefab",
+        "presetID": 3
+      },
+      "child": [],
+      "isAniNode": true,
+      "nodeParent": 63,
+      "searchKey": "Sprite",
+      "label": "Sprite",
+      "isDirectory": false,
+      "hasChild": false,
+      "compId": 66,
+      "x": 30
+    }
+  ],
+  "isAniNode": true,
+  "nodeParent": 1,
+  "searchKey": "Box,TestSpriteEffect",
+  "label": "TestSpriteEffect",
+  "isDirectory": true,
+  "hasChild": true,
+  "isOpen": true,
+  "compId": 63,
+  "x": 15
+}

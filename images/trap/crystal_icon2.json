@@ -1,0 +1,43 @@
+{"frames": {
+
+"crystal_icon2_01.png":
+{
+	"frame": {"x":0,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"crystal_icon2_02.png":
+{
+	"frame": {"x":120,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"crystal_icon2_03.png":
+{
+	"frame": {"x":240,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+}},
+"animations": {
+	"crystal_icon2": [
+	"crystal_icon2_01.png",
+	"crystal_icon2_02.png",
+	"crystal_icon2_03.png"
+	]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "crystal_icon2.png",
+	"format": "RGBA8888",
+	"size": {"w":360,"h":120},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:db0d688dd8d3a141a04fc41d10338099:82830ed7af0b70c7a3c0aee319472e08:24e16b162a020b360049361d0aed2c48$"
+}
+}

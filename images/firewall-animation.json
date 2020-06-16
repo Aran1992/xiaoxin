@@ -1,0 +1,190 @@
+{
+  "frames": {
+    "firewallx4_01.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 616
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 616
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 616
+      }
+    },
+    "firewallx4_02.png": {
+      "frame": {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 616
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 616
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 616
+      }
+    },
+    "firewallx4_03.png": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 616
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 616
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 616
+      }
+    },
+    "firewallx4_04.png": {
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 616
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 616
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 616
+      }
+    },
+    "firewallx4B_01.png": {
+      "frame": {
+        "x": 0,
+        "y": 616,
+        "w": 64,
+        "h": 356
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 356
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 356
+      }
+    },
+    "firewallx4B_02.png": {
+      "frame": {
+        "x": 64,
+        "y": 616,
+        "w": 64,
+        "h": 356
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 356
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 356
+      }
+    },
+    "firewallx4B_03.png": {
+      "frame": {
+        "x": 128,
+        "y": 616,
+        "w": 64,
+        "h": 356
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 356
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 356
+      }
+    },
+    "firewallx4B_04.png": {
+      "frame": {
+        "x": 192,
+        "y": 616,
+        "w": 64,
+        "h": 356
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 356
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 356
+      }
+    }
+  },
+  "animations": {
+    "firewallx4": [
+      "firewallx4_01.png",
+      "firewallx4_02.png",
+      "firewallx4_03.png",
+      "firewallx4_04.png"
+    ],
+    "firewallx4B": [
+      "firewallx4B_01.png",
+      "firewallx4B_02.png",
+      "firewallx4B_03.png",
+      "firewallx4B_04.png"
+    ]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "firewall-animation.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 256,
+      "h": 972
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:2314bbbdf39e86ddddc3362bde49ab63:e7ae85832838edb31c65ec3938720741:a1faad2593841893a03bd8f8dbb4e44c$"
+  }
+}

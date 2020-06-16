@@ -1,0 +1,61 @@
+{"frames": {
+
+"0":
+{
+	"frame": {"x":0,"y":0,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"1":
+{
+	"frame": {"x":256,"y":0,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"2":
+{
+	"frame": {"x":512,"y":0,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"3":
+{
+	"frame": {"x":0,"y":256,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"4":
+{
+	"frame": {"x":256,"y":256,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+}},
+  "animations": {
+    "sprint": [
+      "0","0","0","0",
+      "1","1","1","1",
+      "2","2","2","2",
+      "3","3","3","3",
+      "4","4","4","4"
+    ]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sns5150_dash_01.png",
+	"format": "RGBA8888",
+	"size": {"w":768,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a90ee0edb244bb5fd9bd24026d2f671d:f3e5b157c54e1faaef678e72d974bf28:abe4fb773906d5707b4fc23c93a86db0$"
+}
+}

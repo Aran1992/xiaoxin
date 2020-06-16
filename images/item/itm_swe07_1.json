@@ -1,0 +1,25 @@
+{"frames": {
+
+"itm_swe07_1.png":
+{
+	"frame": {"x":0,"y":0,"w":73,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":83},
+	"sourceSize": {"w":73,"h":83}
+}},
+"animations": {
+	"itm_swe07_1": [
+	"itm_swe07_1.png"
+	]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "itm_swe07_1.png",
+	"format": "RGBA8888",
+	"size": {"w":73,"h":83},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:228fe4366fa97cd33a2b0ff0f3749fac:de2b931a0655e6b058982d2676e59585:01d05979e7c1f8c1b6bf2bfbcc34c694$"
+}
+}

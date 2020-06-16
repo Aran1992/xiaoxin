@@ -1,0 +1,47 @@
+{"frames": {
+
+"bullet-time-line-1.png":
+{
+	"frame": {"x":0,"y":0,"w":630,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":630,"h":48},
+	"sourceSize": {"w":630,"h":48}
+},
+"bullet-time-line-2.png":
+{
+	"frame": {"x":0,"y":48,"w":630,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":630,"h":48},
+	"sourceSize": {"w":630,"h":48}
+},
+"bullet-time-line-3.png":
+{
+	"frame": {"x":0,"y":96,"w":630,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":630,"h":48},
+	"sourceSize": {"w":630,"h":48}
+},
+"bullet-time-line-4.png":
+{
+	"frame": {"x":0,"y":144,"w":630,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":630,"h":48},
+	"sourceSize": {"w":630,"h":48}
+}},
+"animations": {
+	"bullet-time-line": ["bullet-time-line-1.png","bullet-time-line-2.png","bullet-time-line-3.png","bullet-time-line-4.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "bullet-time-line.png",
+	"format": "RGBA8888",
+	"size": {"w":630,"h":192},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a387d740126de748a9a12921de0a01a4:bfda0f12540934eea7b8e99941ffbfaf:ef9851ff0a322e354e3ece4162af289c$"
+}
+}

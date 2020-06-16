@@ -1,0 +1,10 @@
+/node_modules
+/.idea
+dist
+publish
+publish.zip
+*.scene.json
+*.prefab.json
+/index-超娱内部对外测试服-只能用内网连.html
+/index-超娱内部对外测试服-只能用外网连.html
+/index-james服务器.html

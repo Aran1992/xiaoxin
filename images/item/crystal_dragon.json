@@ -1,0 +1,43 @@
+{"frames": {
+
+"crystal_dragon_01.png":
+{
+	"frame": {"x":0,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"crystal_dragon_02.png":
+{
+	"frame": {"x":120,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"crystal_dragon_03.png":
+{
+	"frame": {"x":240,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+}},
+"animations": {
+	"crystal_dragon": [
+	"crystal_dragon_01.png",
+	"crystal_dragon_02.png",
+	"crystal_dragon_03.png"
+	]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "crystal_dragon.png",
+	"format": "RGBA8888",
+	"size": {"w":360,"h":120},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4a96ec7b27a8c0882faea3f379eb3b66:db6d3b9285df94f0b7e3e7a28028352b:e4e69faf6a5c6e46c5eb6686092c4f97$"
+}
+}

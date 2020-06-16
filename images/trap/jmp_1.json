@@ -1,0 +1,25 @@
+{"frames": {
+
+"jmp_1.png":
+{
+	"frame": {"x":0,"y":0,"w":115,"h":145},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":145},
+	"sourceSize": {"w":115,"h":145}
+}},
+  "animations": {
+    "jmp_1": [
+      "jmp_1.png"
+	  ]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "jmp_1.png",
+	"format": "RGBA8888",
+	"size": {"w":115,"h":145},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:75b0b022ccc2d28189ef04ce2612b435:880d86655df688fe2f5eff7f05cf9743:6c791b96271ffad15906f088fba1322c$"
+}
+}

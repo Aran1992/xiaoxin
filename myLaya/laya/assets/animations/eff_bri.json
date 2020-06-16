@@ -1,0 +1,43 @@
+{"frames": {
+
+"eff_bri_01_1.png":
+{
+	"frame": {"x":0,"y":0,"w":200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":200},
+	"sourceSize": {"w":200,"h":200}
+},
+"eff_bri_01_2.png":
+{
+	"frame": {"x":200,"y":0,"w":200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":200},
+	"sourceSize": {"w":200,"h":200}
+},
+"eff_bri_01_3.png":
+{
+	"frame": {"x":400,"y":0,"w":200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":200},
+	"sourceSize": {"w":200,"h":200}
+}},
+"animations": {
+	"eff_bri": [
+	"eff_bri_01_1.png",
+	"eff_bri_01_2.png",
+	"eff_bri_01_3.png"
+	]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "eff_bri.png",
+	"format": "RGBA8888",
+	"size": {"w":600,"h":200},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d70e6aa784e71493c7a759e73ed79369:ae616fedc407b084db207df6621f1848:69430542aa3dfa81d353bb5a2a418cdb$"
+}
+}

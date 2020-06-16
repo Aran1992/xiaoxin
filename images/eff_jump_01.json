@@ -1,0 +1,25 @@
+{"frames": {
+
+"eff_jump_01_1.png":
+{
+	"frame": {"x":0,"y":0,"w":66,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":70},
+	"sourceSize": {"w":66,"h":70}
+}},
+  "animations": {
+    "eff_jump_01": [
+      "eff_jump_01_1.png"
+	  ]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "eff_jump_01.png",
+	"format": "RGBA8888",
+	"size": {"w":66,"h":70},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:99dedd8ec8c80b2f80f4647c1ed36e8e:45754d08f364b6b98f880f9f73065e59:59dcfc92b47f0becbb69c55963b87cb6$"
+}
+}

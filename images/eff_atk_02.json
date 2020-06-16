@@ -1,0 +1,25 @@
+{"frames": {
+
+"eff_atk_02.png":
+{
+	"frame": {"x":0,"y":0,"w":280,"h":144},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":280,"h":144},
+	"sourceSize": {"w":280,"h":144}
+}},
+  "animations": {
+    "eff_atk_02": [
+      "eff_atk_02.png"
+	  ]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "eff_atk_02.png",
+	"format": "RGBA8888",
+	"size": {"w":280,"h":144},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:69ffafbdf5fcd74f1a42b823af3af06b:a6578ac0d1087bf72ead8ec654653eb7:d7b21f16f96a4009f8bf060a7ac72f35$"
+}
+}

@@ -1,0 +1,75 @@
+{"frames": {
+
+"run1.png":
+{
+	"frame": {"x":256,"y":512,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"run2.png":
+{
+	"frame": {"x":512,"y":512,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"run3.png":
+{
+	"frame": {"x":768,"y":512,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"run4.png":
+{
+	"frame": {"x":0,"y":768,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"run5.png":
+{
+	"frame": {"x":256,"y":768,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"run6.png":
+{
+	"frame": {"x":512,"y":768,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+}},
+"animations": {
+	"xiaoxin_run": [
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png",
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png",
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png",
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png",
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png",
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png",
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png",
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png",
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png",
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png",
+			"run1.png","run2.png","run3.png","run4.png","run5.png","run6.png"
+			]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sns2040_jump_01.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a90ee0edb244bb5fd9bd24026d2f671d:f3e5b157c54e1faaef678e72d974bf28:abe4fb773906d5707b4fc23c93a86db0$"
+}
+}

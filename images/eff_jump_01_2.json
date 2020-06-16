@@ -1,0 +1,43 @@
+{"frames": {
+
+"eff_jump_01_2_1.png":
+{
+	"frame": {"x":0,"y":0,"w":194,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":60},
+	"sourceSize": {"w":194,"h":60}
+},
+"eff_jump_01_2_2.png":
+{
+	"frame": {"x":194,"y":0,"w":194,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":60},
+	"sourceSize": {"w":194,"h":60}
+},
+"eff_jump_01_2_3.png":
+{
+	"frame": {"x":388,"y":0,"w":194,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":60},
+	"sourceSize": {"w":194,"h":60}
+}},
+  "animations": {
+    "eff_jump_01_2": [
+      "eff_jump_01_2_1.png",
+      "eff_jump_01_2_2.png",
+      "eff_jump_01_2_3.png"
+	  ]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "eff_jump_01_2.png",
+	"format": "RGBA8888",
+	"size": {"w":582,"h":60},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f16f885d8c57aff600ae410dfdf34710:1cc82fe7603d322565f4c4378adf30f4:c0292b3abf7585ffe1dd2609b837ac66$"
+}
+}

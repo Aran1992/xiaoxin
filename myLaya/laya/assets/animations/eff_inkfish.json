@@ -1,0 +1,52 @@
+{"frames": {
+
+"eff_inkfish_01.png":
+{
+	"frame": {"x":0,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"eff_inkfish_02.png":
+{
+	"frame": {"x":100,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"eff_inkfish_03.png":
+{
+	"frame": {"x":200,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"eff_inkfish_04.png":
+{
+	"frame": {"x":300,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+}},
+"animations": {
+	"eff_inkfish": [
+	"eff_inkfish_01.png",
+	"eff_inkfish_02.png",
+	"eff_inkfish_03.png",
+	"eff_inkfish_04.png"
+	]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "eff_inkfish.png",
+	"format": "RGBA8888",
+	"size": {"w":400,"h":100},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:223e5b562166287bb3745eada4fa29ab:dbae7f23efe7c468818b6c3350a6ee68:7f0cd52340c4de93aa208f249586976d$"
+}
+}

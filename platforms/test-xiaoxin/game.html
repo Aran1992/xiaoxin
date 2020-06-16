@@ -1,0 +1,177 @@
+<html>
+<head>
+    <title>小新快跑</title>
+    <meta content="text/html;charset=utf-8" http-equiv="content-type">
+    <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+          name="viewport"/>
+    <script src="//sdk.talkingdata.com/g/h5/v1/44C663F8CD4849369D1BB85E0F7EAFFD" type="text/javascript"></script>
+    <style>
+        html, body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        #logoScene {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-image: url('myLaya/laya/assets/images/logo-pic.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+        #emptyImg {
+            position: absolute;
+            height: 7.81%;
+            bottom: 10%;
+        }
+
+        #fillImg {
+            height: 100%;
+        }
+
+        #fillDiv {
+            position: absolute;
+            height: 7.81%;
+            bottom: 10%;
+            overflow: hidden;
+        }
+
+        #textImg {
+            height: 38.28%;
+            position: absolute;
+            top: 1%;
+        }
+
+        #loadingText, #percentText {
+            position: absolute;
+            bottom: 20%;
+            color: white;
+            font-size: 30px;
+            text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+        }
+    </style>
+</head>
+<body>
+<p hidden id="ipConfig">//58.23.237.218:10001</p>
+<canvas id="canvas"></canvas>
+<div id="logoScene">
+    <img id="emptyImg" src="myLaya/laya/assets/images/loading-1.png"/>
+    <div hidden id="fillDiv">
+        <img id="fillImg" src="myLaya/laya/assets/images/loading-2.png"/>
+    </div>
+    <img id="textImg" src="myLaya/laya/assets/images/title_logo.png"/>
+    <span id="percentText">0%</span>
+    <span id="loadingText">加载中...</span>
+</div>
+<script>
+    var logoScene = document.getElementById("logoScene");
+    var emptyImg = document.getElementById("emptyImg");
+    var fillDiv = document.getElementById("fillDiv");
+    var fillImg = document.getElementById("fillImg");
+    var textImg = document.getElementById("textImg");
+    var percentText = document.getElementById("percentText");
+    var fullWidth = 0;
+    var curPercent = 0;
+    var targetPercent = 0;
+    var animationID;
+    var loadingUILoaded = false;
+    var emptyImgLoaded = false;
+    var fillDivLoaded = false;
+
+    function centerImg(img, callback) {
+        img.onload = function () {
+            var left = (window.innerWidth - img.clientWidth) / 2;
+            img.style.left = left + "px";
+            if (callback) {
+                callback();
+            }
+        };
+    }
+
+    function onEmptyImgLoaded() {
+        emptyImgLoaded = true;
+        console.log("onEmptyImgLoaded");
+        onBothLoaded();
+    }
+
+    function onFillDivLoaded() {
+        fillDiv.hidden = false;
+        var height = 50 / 640 * window.innerHeight;
+        var width = 697 / 50 * height;
+        fillDiv.style.height = height + "px";
+        fillDiv.style.width = width + "px";
+        fillDiv.style.left = (window.innerWidth - width) / 2 + "px";
+        fullWidth = width;
+        fillDivLoaded = true;
+        onBothLoaded();
+    }
+
+    function onBothLoaded() {
+        if (emptyImgLoaded && fillDivLoaded && !loadingUILoaded) {
+            loadingUILoaded = true;
+            setPercent(0);
+        }
+    }
+
+    function setPercent(percent) {
+        curPercent = percent;
+        fillDiv.style.width = fullWidth * percent + "px";
+        percentText.innerHTML = Math.floor(percent * 100) + "%";
+        percentText.style.right = (window.innerWidth - fullWidth) / 2 + "px";
+    }
+
+    function addPercent(percent) {
+        percent /= 100;
+        targetPercent = percent;
+        if (loadingUILoaded) {
+            if (animationID === undefined) {
+                animationID = requestAnimationFrame(onFrame);
+            }
+        }
+    }
+
+    function onFrame() {
+        curPercent += 0.01;
+        if (curPercent >= 1) {
+            curPercent = 1;
+        }
+        setPercent(curPercent);
+        if (curPercent >= targetPercent) {
+            animationID = undefined;
+        } else {
+            animationID = requestAnimationFrame(onFrame);
+        }
+    }
+
+    centerImg(textImg);
+    centerImg(emptyImg, onEmptyImgLoaded);
+    centerImg(fillImg, onFillDivLoaded);
+    loadingText.style.left = (window.innerWidth - loadingText.clientWidth) / 2 + "px";
+    var count = 0;
+    var base = 30;
+    (function frame() {
+        count++;
+        if (count >= base * 3) {
+            count = 0;
+        }
+        var str = "加载中";
+        for (var i = 0; i <= Math.floor(count / base); i++) {
+            str += ".";
+        }
+        loadingText.innerHTML = str;
+        requestAnimationFrame(frame);
+    }());
+</script>
+<script src="dist/bundle.js"></script>
+</body>
+</html>

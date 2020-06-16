@@ -1,0 +1,52 @@
+{"frames": {
+
+"eff_atk_01_1.png":
+{
+	"frame": {"x":0,"y":0,"w":200,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":106},
+	"sourceSize": {"w":200,"h":106}
+},
+"eff_atk_01_2.png":
+{
+	"frame": {"x":200,"y":0,"w":200,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":106},
+	"sourceSize": {"w":200,"h":106}
+},
+"eff_atk_01_3.png":
+{
+	"frame": {"x":400,"y":0,"w":200,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":106},
+	"sourceSize": {"w":200,"h":106}
+},
+"eff_atk_01_4.png":
+{
+	"frame": {"x":600,"y":0,"w":200,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":106},
+	"sourceSize": {"w":200,"h":106}
+}},
+  "animations": {
+    "eff_atk_01": [
+      "eff_atk_01_1.png",
+      "eff_atk_01_2.png",
+      "eff_atk_01_3.png",
+      "eff_atk_01_4.png"
+	  ]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "eff_atk_01.png",
+	"format": "RGBA8888",
+	"size": {"w":800,"h":106},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f348b66450f83b22eb867e12fb92ffc5:d1c8f7a651f88bf362f8d9f081f006e6:4aaa006cfcb57387552fe1cf183a6e93$"
+}
+}

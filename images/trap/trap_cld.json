@@ -1,0 +1,25 @@
+{"frames": {
+
+"trap_cld.png":
+{
+	"frame": {"x":0,"y":0,"w":237,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":120},
+	"sourceSize": {"w":237,"h":120}
+}},
+  "animations": {
+    "trap_cld": [
+      "trap_cld.png"
+	  ]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "trap_cld.png",
+	"format": "RGBA8888",
+	"size": {"w":237,"h":120},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ade0e55d9e556af67d841c451ac2ac09:46ee2f5566757c611324bbaafff98c06:a9f93c56ef9abeba5662d2f1b2d935f5$"
+}
+}

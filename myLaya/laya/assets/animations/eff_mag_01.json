@@ -1,0 +1,52 @@
+{"frames": {
+
+"eff_mag_01_1.png":
+{
+	"frame": {"x":0,"y":0,"w":230,"h":190},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":190},
+	"sourceSize": {"w":230,"h":190}
+},
+"eff_mag_01_2.png":
+{
+	"frame": {"x":230,"y":0,"w":230,"h":190},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":190},
+	"sourceSize": {"w":230,"h":190}
+},
+"eff_mag_01_3.png":
+{
+	"frame": {"x":460,"y":0,"w":230,"h":190},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":190},
+	"sourceSize": {"w":230,"h":190}
+},
+"eff_mag_01_4.png":
+{
+	"frame": {"x":690,"y":0,"w":230,"h":190},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":190},
+	"sourceSize": {"w":230,"h":190}
+}},
+"animations": {
+	"eff_mag_01": [
+	"eff_mag_01_1.png",
+	"eff_mag_01_2.png",
+	"eff_mag_01_3.png",
+	"eff_mag_01_4.png"
+	]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "eff_mag_01.png",
+	"format": "RGBA8888",
+	"size": {"w":920,"h":190},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:dc86b52e8c150e529316b0537f634da4:0d491ab867163c34daac9631542f29ca:61b278c1ef1a20c4df655ed92b721f92$"
+}
+}

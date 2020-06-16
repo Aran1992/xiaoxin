@@ -1,0 +1,34 @@
+{"frames": {
+
+"eff_rocket_01_1.png":
+{
+	"frame": {"x":0,"y":0,"w":120,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":122},
+	"sourceSize": {"w":120,"h":122}
+},
+"eff_rocket_01_2.png":
+{
+	"frame": {"x":120,"y":0,"w":120,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":122},
+	"sourceSize": {"w":120,"h":122}
+}},
+  "animations": {
+    "eff_rocket": [
+      "eff_rocket_01_1.png",
+      "eff_rocket_01_2.png"
+    ]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "eff_rocket.png",
+	"format": "RGBA8888",
+	"size": {"w":240,"h":122},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:868593b887e3b916a3c05df8fbe23e7e:c7fa6b0bb00e72d000048fc104897401:61108eee8b1f32a9de165a9663305757$"
+}
+}

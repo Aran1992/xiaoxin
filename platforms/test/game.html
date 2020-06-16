@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>饿了么骑士</title>
+    <meta content="text/html;charset=utf-8" http-equiv="content-type">
+    <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+          name="viewport"/>
+    <script src="//sdk.talkingdata.com/g/h5/v1/44C663F8CD4849369D1BB85E0F7EAFFD" type="text/javascript"></script>
+</head>
+<body style="margin:0">
+<p hidden id="ipConfig">//58.23.237.218:10001</p>
+<canvas id="canvas" style="width: 100%; height: 100%; position: absolute; left: 0; top: 0;"></canvas>
+<div id="logoScene" style="background-color: white; width: 100%; height: 100%; position: absolute; left: 0; top: 0;">
+    <img id="logo1" src="myLaya/laya/assets/images/logo.png"
+         style="position: absolute; top: calc(50% - 48px); left: calc(50% - 200px);">
+    <img id="logo2" src="myLaya/laya/assets/images/english/logo-name.png"
+         style="position: absolute; top: calc(50% - 31px); right: calc(50% - 200px);">
+</div>
+<script>
+    var x = 400 / 720 * window.logoScene.clientWidth / 2;
+    window.logo1.style.width = window.logoScene.clientWidth / 720 * 104 + "px";
+    window.logo1.style.top = window.logoScene.clientHeight / 2 - window.logo1.clientHeight / 2 + "px";
+    window.logo1.style.left = window.logoScene.clientWidth / 2 - x + "px";
+    window.logo2.style.width = window.logoScene.clientWidth / 720 * 292 + "px";
+    window.logo2.style.top = window.logoScene.clientHeight / 2 - window.logo2.clientHeight / 2 + "px";
+    window.logo2.style.right = window.logoScene.clientWidth / 2 - x + "px";
+</script>
+<script src="dist/bundle.js"></script>
+</body>
+</html>

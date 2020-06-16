@@ -1,0 +1,44 @@
+{"frames": {
+
+"1.png":
+{
+	"frame": {"x":0,"y":0,"w":82,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":82,"h":16},
+	"sourceSize": {"w":82,"h":16}
+},
+"2.png":
+{
+	"frame": {"x":0,"y":16,"w":89,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":89,"h":77},
+	"sourceSize": {"w":89,"h":77}
+},
+"3.png":
+{
+	"frame": {"x":0,"y":93,"w":95,"h":139},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":95,"h":139},
+	"sourceSize": {"w":95,"h":139}
+}},
+  "animations": {
+    "needlex4": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "2.png"
+	  ]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ground_stab.png",
+	"format": "RGBA8888",
+	"size": {"w":95,"h":232},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e40f9fb37d53f7221af8cf5a93f70eae:8a2c3ad43c41d2693c0cec6b6b7c05e7:d629ea27b5d83b669af765908caf603e$"
+}
+}

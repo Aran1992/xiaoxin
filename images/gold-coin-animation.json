@@ -1,0 +1,41 @@
+{
+  "frames": {
+    "medal_00.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 160
+      }
+    }
+  },
+  "animations": {
+    "medal": [
+      "medal_00.png"
+    ]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "gold-coin-animation.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 164,
+      "h": 160
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:f5360f13a866289e01be0bf6a5d7058d:2bb59c2e5b2587100f7770372e7f2b73:7c7338d1f6c24443128b8a75f0cb3813$"
+  }
+}

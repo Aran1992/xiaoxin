@@ -1,0 +1,151 @@
+{"frames": {
+
+"00001.png":
+{
+	"frame": {"x":0,"y":0,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00002.png":
+{
+	"frame": {"x":100,"y":0,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00003.png":
+{
+	"frame": {"x":200,"y":0,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00004.png":
+{
+	"frame": {"x":300,"y":0,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00005.png":
+{
+	"frame": {"x":400,"y":0,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00006.png":
+{
+	"frame": {"x":0,"y":82,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00007.png":
+{
+	"frame": {"x":100,"y":82,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00008.png":
+{
+	"frame": {"x":200,"y":82,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00009.png":
+{
+	"frame": {"x":300,"y":82,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00010.png":
+{
+	"frame": {"x":400,"y":82,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00011.png":
+{
+	"frame": {"x":0,"y":164,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00012.png":
+{
+	"frame": {"x":100,"y":164,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00013.png":
+{
+	"frame": {"x":200,"y":164,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00014.png":
+{
+	"frame": {"x":300,"y":164,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+},
+"00015.png":
+{
+	"frame": {"x":400,"y":164,"w":100,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":82},
+	"sourceSize": {"w":100,"h":82}
+}},
+  "animations": {
+	"Magnet-1": [
+	"00001.png",
+	"00002.png",
+	"00003.png",
+	"00004.png",
+	"00005.png",
+	"00006.png",
+	"00007.png",
+	"00008.png",
+	"00009.png",
+	"00010.png",
+	"00011.png",
+	"00012.png",
+	"00013.png",
+	"00014.png",
+	"00015.png"
+	]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Magnet-1.png",
+	"format": "RGBA8888",
+	"size": {"w":500,"h":246},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e75ecdc428a174b0b94c3bcf96283a2e:091959a26d791187cf7d42389b3b394b:7ecd09b15f8633d71cb09240518c6db7$"
+}
+}

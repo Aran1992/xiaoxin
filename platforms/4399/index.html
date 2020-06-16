@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="content-type">
+    <script src="https://h5.talkingdata.com/g/h5/v1/BBB625EBA9B54B1FA29CC2156973CE45" type="text/javascript"></script>
+    <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+          name="viewport"/>
+</head>
+<body style="margin:0">
+<p id="ipConfig" hidden>//elmqs.9rt.com:10001</p>
+<canvas id="canvas" style="width: 100%; height: 100%; position: absolute; left: 0; top: 0;"></canvas>
+<div id="logoScene" style="background-color: white; width: 100%; height: 100%; position: absolute; left: 0; top: 0;">
+    <img id="logo1" src="myLaya/laya/assets/images/logo.png"
+         style="position: absolute; top: calc(50% - 48px); left: calc(50% - 200px);">
+    <img id="logo2" src="myLaya/laya/assets/images/english/logo-name.png"
+         style="position: absolute; top: calc(50% - 31px); right: calc(50% - 200px);">
+</div>
+<script>
+    var x = 400 / 720 * window.logoScene.clientWidth / 2;
+    window.logo1.style.width = window.logoScene.clientWidth / 720 * 104 + "px";
+    window.logo1.style.top = window.logoScene.clientHeight / 2 - window.logo1.clientHeight / 2 + "px";
+    window.logo1.style.left = window.logoScene.clientWidth / 2 - x + "px";
+    window.logo2.style.width = window.logoScene.clientWidth / 720 * 292 + "px";
+    window.logo2.style.top = window.logoScene.clientHeight / 2 - window.logo2.clientHeight / 2 + "px";
+    window.logo2.style.right = window.logoScene.clientWidth / 2 - x + "px";
+</script>
+<script src="https://cdn.h5wan.4399sj.com/h5web-frame/dist/static/js/api.js"></script>
+<script src="dist/bundle.js"></script>
+</body>
+</html>

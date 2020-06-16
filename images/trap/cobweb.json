@@ -1,0 +1,54 @@
+{"frames": {
+
+"cobweb-1.png":
+{
+	"frame": {"x":0,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"cobweb-2.png":
+{
+	"frame": {"x":100,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"cobweb-3.png":
+{
+	"frame": {"x":200,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"cobweb-4.png":
+{
+	"frame": {"x":300,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+}},
+"animations": {
+	"cobweb": [
+	"cobweb-1.png",
+	"cobweb-2.png",
+	"cobweb-3.png",
+	"cobweb-4.png",
+	"cobweb-3.png",
+	"cobweb-2.png"
+	]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cobweb.png",
+	"format": "RGBA8888",
+	"size": {"w":400,"h":100},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5feb3ce707bd90c4f4ef30d92fba0005:98478270b4d8be9996e2f6805a2a2fde:56f4fae980a6a14ac0599895f942b5b2$"
+}
+}

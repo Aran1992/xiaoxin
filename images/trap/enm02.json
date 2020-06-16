@@ -1,0 +1,25 @@
+{"frames": {
+
+"enm02.png":
+{
+	"frame": {"x":0,"y":0,"w":92,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":180},
+	"sourceSize": {"w":92,"h":180}
+}},
+  "animations": {
+    "enm02": [
+      "enm02.png"
+	  ]
+  },
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "enm02.png",
+	"format": "RGBA8888",
+	"size": {"w":92,"h":180},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7cf0a991f1a35b3108e5847278499f03:a44ce41f59c573b7d0e6ac5e5f04f7fb:28690199cd34de4e24f30a5974159d31$"
+}
+}
