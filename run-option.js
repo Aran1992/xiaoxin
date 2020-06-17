@@ -25,7 +25,7 @@ const RunOption = {
     forceShowBeginnerGuide: 0,
     // 强制显示界面引导 0表现不进行控制，1表示每次都会显示，2表现每次都不会显示
     forceShowUIGuide: 0,
-    // 强制显示的引导列表
-    forceShowUIGuideList: []
+    // 强制显示的引导列表（可以多个测试用）
+    forceShowUIGuideList: ["无尽模式界面引导","排名模式界面引导"]
 };
 export default RunOption;

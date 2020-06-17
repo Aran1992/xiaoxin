@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":1,
-    "selecteID":160,
+    "selectedBox":198,
+    "selecteID":215,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
-    "maxID":183,
+    "maxID":217,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -774,14 +774,13 @@
             "props":{"y":680,"x":0,"visible":false,"var":"guidePanel","right":0,"left":0,"height":600,"bottom":0},
             "nodeParent":1,
             "label":"guidePanel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":100,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":320,"skin":"images/bg-382.png","sizeGrid":"50,50,50,50","left":330,"height":100,"bottom":5},
@@ -794,7 +793,6 @@
                     "compId":67,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"x":0,"skin":"images/english/say-1.png","centerY":0,"centerX":0},
@@ -812,7 +810,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":320,"visible":true,"skin":"images/bg-381.png","sizeGrid":"50,50,50,50","left":5,"height":100,"bottom":5},
@@ -825,7 +822,6 @@
                     "compId":70,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"y":0,"x":0,"skin":"images/english/say-2.png","centerY":0,"centerX":0},
@@ -1129,23 +1125,39 @@
             "props":{"var":"Guide0","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
             "label":"Guide0",
+            "isOpen":true,
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":157,
+            "child":[
+                ],
+            "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide1",
+            "props":{"y":0,"x":0,"var":"Guide1","top":0,"right":0,"left":0,"bottom":0},
+            "nodeParent":1,
+            "label":"Guide1",
             "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
-            "compId":157,
+            "compId":183,
             "child":[
                 {
                     "type":"Image",
                     "searchKey":"Image,对玩家位置用",
                     "props":{"visible":false,"top":454,"skin":"images/help-12.png","name":"对玩家位置用","left":304},
-                    "nodeParent":157,
+                    "nodeParent":183,
                     "label":"对玩家位置用",
                     "isOpen":true,
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":161,
+                    "compId":184,
                     "child":[
                         ]
                 },
@@ -1153,64 +1165,50 @@
                     "type":"Image",
                     "searchKey":"Image,对左下位置用",
                     "props":{"visible":false,"skin":"images/help-12.png","name":"对左下位置用","left":0,"bottom":0},
-                    "nodeParent":157,
+                    "nodeParent":183,
                     "label":"对左下位置用",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":162,
+                    "compId":185,
                     "child":[
                         ]
                 },
                 {
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"width":320,"top":90,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","left":290,"height":100},
-                    "nodeParent":157,
+                    "props":{"width":470,"top":90,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","height":100,"centerX":0},
+                    "nodeParent":183,
                     "label":"Image",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
-                    "compId":163,
+                    "compId":186,
                     "child":[
                         {
                             "type":"Label",
                             "searchKey":"Label",
-                            "props":{"text":"${TextMap-1-1-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
-                            "nodeParent":163,
+                            "props":{"text":"${RandomMap-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":186,
                             "label":"Label",
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":164,
+                            "compId":187,
                             "child":[
                                 ]
                         }]
-                },
-                {
-                    "type":"Image",
-                    "searchKey":"Image",
-                    "props":{"top":140,"skin":"images/arrow.png","rotation":-90,"left":230},
-                    "nodeParent":157,
-                    "label":"Image",
-                    "isOpen":true,
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":165,
-                    "child":[
-                        ]
                 }],
             "$HIDDEN":true
         },
         {
             "x":15,
             "type":"Panel",
-            "searchKey":"Panel,Guide1",
-            "props":{"var":"Guide1","top":0,"right":0,"left":0,"bottom":0},
+            "searchKey":"Panel,Guide2",
+            "props":{"var":"Guide2","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
-            "label":"Guide1",
+            "label":"Guide2",
             "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
@@ -1247,7 +1245,7 @@
                 {
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"width":320,"top":90,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","left":520,"height":100},
+                    "props":{"width":360,"top":90,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","right":220,"height":100},
                     "nodeParent":158,
                     "label":"Image",
                     "isOpen":true,
@@ -1259,7 +1257,7 @@
                         {
                             "type":"Label",
                             "searchKey":"Label",
-                            "props":{"text":"${TextMap-1-1-11}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "props":{"text":"${RandomMap-11}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
                             "nodeParent":168,
                             "label":"Label",
                             "isDirectory":false,
@@ -1273,7 +1271,7 @@
                 {
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"top":140,"skin":"images/arrow.png","rotation":-90,"left":460},
+                    "props":{"width":55,"top":30,"skin":"images/arrow.png","rotation":0,"right":200,"height":51},
                     "nodeParent":158,
                     "label":"Image",
                     "isOpen":true,
@@ -1289,10 +1287,10 @@
         {
             "x":15,
             "type":"Panel",
-            "searchKey":"Panel,Guide2",
-            "props":{"var":"Guide2","top":0,"right":0,"left":0,"bottom":0},
+            "searchKey":"Panel,Guide3",
+            "props":{"var":"Guide3","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
-            "label":"Guide2",
+            "label":"Guide3",
             "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
@@ -1329,7 +1327,7 @@
                 {
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"width":320,"top":90,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","left":750,"height":100},
+                    "props":{"width":440,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","left":180,"height":100,"bottom":10},
                     "nodeParent":159,
                     "label":"Image",
                     "isOpen":true,
@@ -1341,7 +1339,7 @@
                         {
                             "type":"Label",
                             "searchKey":"Label",
-                            "props":{"text":"${TextMap-1-1-21}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "props":{"text":"${RandomMap-21}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
                             "nodeParent":173,
                             "label":"Label",
                             "isDirectory":false,
@@ -1355,7 +1353,7 @@
                 {
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"top":140,"skin":"images/arrow.png","rotation":-90,"left":690},
+                    "props":{"width":55,"skin":"images/arrow.png","rotation":30,"left":650,"height":51,"bottom":40},
                     "nodeParent":159,
                     "label":"Image",
                     "isOpen":true,
@@ -1371,27 +1369,27 @@
         {
             "x":15,
             "type":"Panel",
-            "searchKey":"Panel,Guide3",
-            "props":{"var":"Guide3","top":0,"right":0,"left":0,"bottom":0},
+            "searchKey":"Panel,Guide4",
+            "props":{"y":0,"x":0,"var":"Guide4","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
-            "label":"Guide3",
+            "label":"Guide4",
             "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
-            "compId":160,
+            "compId":189,
             "child":[
                 {
                     "type":"Image",
                     "searchKey":"Image,对玩家位置用",
                     "props":{"visible":false,"top":454,"skin":"images/help-12.png","name":"对玩家位置用","left":304},
-                    "nodeParent":160,
+                    "nodeParent":189,
                     "label":"对玩家位置用",
                     "isOpen":true,
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":176,
+                    "compId":190,
                     "child":[
                         ]
                 },
@@ -1399,54 +1397,374 @@
                     "type":"Image",
                     "searchKey":"Image,对左下位置用",
                     "props":{"visible":false,"skin":"images/help-12.png","name":"对左下位置用","left":0,"bottom":0},
-                    "nodeParent":160,
+                    "nodeParent":189,
                     "label":"对左下位置用",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":177,
+                    "compId":191,
                     "child":[
                         ]
                 },
                 {
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"width":320,"top":90,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","left":750,"height":100},
-                    "nodeParent":160,
+                    "props":{"width":400,"top":90,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","height":100,"centerX":0},
+                    "nodeParent":189,
                     "label":"Image",
                     "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
-                    "compId":178,
+                    "compId":192,
                     "child":[
                         {
                             "type":"Label",
                             "searchKey":"Label",
-                            "props":{"text":"${TextMap-1-1-31}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
-                            "nodeParent":178,
+                            "props":{"text":"${RandomMap-31}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":192,
                             "label":"Label",
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":179,
+                            "compId":193,
+                            "child":[
+                                ]
+                        }]
+                }],
+            "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide100",
+            "props":{"y":0,"x":0,"var":"Guide100","top":0,"right":0,"left":0,"bottom":0},
+            "nodeParent":1,
+            "label":"Guide100",
+            "isOpen":true,
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":194,
+            "child":[
+                ],
+            "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide101",
+            "props":{"y":0,"x":0,"var":"Guide101","top":0,"right":0,"left":0,"bottom":0},
+            "nodeParent":1,
+            "label":"Guide101",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":195,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对玩家位置用",
+                    "props":{"visible":false,"top":454,"skin":"images/help-12.png","name":"对玩家位置用","left":304},
+                    "nodeParent":195,
+                    "label":"对玩家位置用",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":199,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对左下位置用",
+                    "props":{"visible":false,"skin":"images/help-12.png","name":"对左下位置用","left":0,"bottom":0},
+                    "nodeParent":195,
+                    "label":"对左下位置用",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":200,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":440,"top":10,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","height":100,"centerX":0},
+                    "nodeParent":195,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":201,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Label",
+                            "searchKey":"Label",
+                            "props":{"text":"${PkMap-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":201,
+                            "label":"Label",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":202,
+                            "child":[
+                                ]
+                        }]
+                }],
+            "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide102",
+            "props":{"y":0,"x":0,"var":"Guide102","top":0,"right":0,"left":0,"bottom":0},
+            "nodeParent":1,
+            "label":"Guide102",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":197,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对玩家位置用",
+                    "props":{"visible":false,"top":454,"skin":"images/help-12.png","name":"对玩家位置用","left":304},
+                    "nodeParent":197,
+                    "label":"对玩家位置用",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":208,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对左下位置用",
+                    "props":{"visible":false,"skin":"images/help-12.png","name":"对左下位置用","left":0,"bottom":0},
+                    "nodeParent":197,
+                    "label":"对左下位置用",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":209,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":440,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","left":180,"height":100,"bottom":10},
+                    "nodeParent":197,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":210,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Label",
+                            "searchKey":"Label",
+                            "props":{"text":"${PkMap-11}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":210,
+                            "label":"Label",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":211,
                             "child":[
                                 ]
                         }]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"top":30,"skin":"images/arrow.png","rotation":1,"right":190},
-                    "nodeParent":160,
+                    "props":{"width":55,"skin":"images/arrow.png","rotation":30,"left":650,"height":51,"bottom":40},
+                    "nodeParent":197,
                     "label":"Image",
                     "isOpen":true,
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":180,
+                    "compId":212,
                     "child":[
                         ]
+                }],
+            "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide103",
+            "props":{"y":0,"x":0,"var":"Guide103","top":0,"right":0,"left":0,"bottom":0},
+            "nodeParent":1,
+            "label":"Guide103",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":196,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对玩家位置用",
+                    "props":{"visible":false,"top":454,"skin":"images/help-12.png","name":"对玩家位置用","left":304},
+                    "nodeParent":196,
+                    "label":"对玩家位置用",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":203,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对左下位置用",
+                    "props":{"visible":false,"skin":"images/help-12.png","name":"对左下位置用","left":0,"bottom":0},
+                    "nodeParent":196,
+                    "label":"对左下位置用",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":204,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":470,"top":10,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","right":500,"height":100},
+                    "nodeParent":196,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":205,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Label",
+                            "searchKey":"Label",
+                            "props":{"text":"${PkMap-21}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":205,
+                            "label":"Label",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":206,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":55,"top":20,"skin":"images/arrow.png","rotation":28,"right":415,"height":51},
+                    "nodeParent":196,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":207,
+                    "child":[
+                        ]
+                }],
+            "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide104",
+            "props":{"y":0,"x":0,"var":"Guide104","top":0,"right":0,"left":0,"bottom":0},
+            "nodeParent":1,
+            "label":"Guide104",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":198,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对玩家位置用",
+                    "props":{"visible":false,"top":454,"skin":"images/help-12.png","name":"对玩家位置用","left":304},
+                    "nodeParent":198,
+                    "label":"对玩家位置用",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":213,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对左下位置用",
+                    "props":{"visible":false,"skin":"images/help-12.png","name":"对左下位置用","left":0,"bottom":0},
+                    "nodeParent":198,
+                    "label":"对左下位置用",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":214,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":400,"top":10,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","height":100,"centerX":0},
+                    "nodeParent":198,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":215,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Label",
+                            "searchKey":"Label",
+                            "props":{"text":"${PkMap-31}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":215,
+                            "label":"Label",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":216,
+                            "child":[
+                                ]
+                        }]
                 }],
             "$HIDDEN":true
         }],
