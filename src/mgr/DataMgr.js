@@ -561,6 +561,9 @@ class DataMgr_ {
     }
 
     hasCompletedGuide(guideKey) {
+        if (RunOption.forceShowUIGuideList.includes(guideKey)) {
+            return false;
+        }
         if (RunOption.forceShowUIGuide === 0) {
             const data = DataMgr.get(DataMgr.showedGuide);
             return data.indexOf(guideKey) !== -1;
