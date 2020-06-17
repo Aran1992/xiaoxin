@@ -341,3 +341,5 @@ export default class EndlessGameScene extends GameScene {
         }
     }
 }
+
+window.EndlessGameScene = EndlessGameScene;

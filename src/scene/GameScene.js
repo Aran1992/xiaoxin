@@ -44,6 +44,7 @@ import TWEEN from "@tweenjs/tween.js";
 import BulletTimeLineMgr from "../mgr/BulletTimeLineMgr";
 import GuideMgr from "../mgr/GuideMgr";
 import UIHelper from "../ui/UIHelper";
+import UIGuidePanel from "../item/UIGuidePanel";
 
 function getValue(value, defaultValue) {
     if (value === undefined) {
@@ -257,11 +258,10 @@ export default class GameScene extends Scene {
         return id;
     }
 
-    onHide() {
-        this.stopSounds();
-    }
-
     onDestroy() {
+        if (this.uiGuidePanel) {
+            this.uiGuidePanel.destroy();
+        }
         this.stopSounds();
         window.removeEventListener("keydown", this.keyDownHandler);
         super.onDestroy();
@@ -444,6 +444,46 @@ export default class GameScene extends Scene {
         this.resumeGame();
 
         MusicMgr.pauseBGM();
+
+        this.initGameUIGuide();
+    }
+
+    initGameUIGuide() {
+        [
+            [window.MapGameScene, "startInMapGameBegin"],
+            [window.LevelGameScene, "startInLevelGameBegin"],
+            [window.EndlessGameScene, "startInEndlessGameBegin"],
+        ].some(([class_, key]) => {
+            if (this instanceof class_) {
+                for (let guideKey in Config.UIGuide) {
+                    if (Config.UIGuide.hasOwnProperty(guideKey)) {
+                        const guide = Config.UIGuide[guideKey];
+                        if (guide[key]) {
+                            if (!DataMgr.hasCompletedGuide(guideKey)) {
+                                this.guideKey = guideKey;
+                                this.config = Config.UIGuide[this.guideKey];
+                                this.index = 0;
+                                const data = this.config.guidePanelList[this.index];
+                                this.uiGuidePanel = new UIGuidePanel(data, this, this.ui.uiGuidePanel);
+                            }
+                            break;
+                        }
+                    }
+                }
+                return true;
+            }
+        });
+    }
+
+    destroyUIGuidePanel() {
+        this.uiGuidePanel.destroy();
+        this.index++;
+        const data = this.config.guidePanelList[this.index];
+        if (data) {
+            this.uiGuidePanel = new UIGuidePanel(data, this, this.ui.uiGuidePanel);
+        } else {
+            DataMgr.completeGuide(this.guideKey);
+        }
     }
 
     initContactHandleTable() {
@@ -2132,11 +2172,13 @@ export default class GameScene extends Scene {
     pauseGame() {
         this.gameLoopFunc = this.pause.bind(this);
         this.animationList.forEach(a => a.stop());
+        EventMgr.dispatchEvent("GamePause");
     }
 
     resumeGame() {
         this.gameLoopFunc = this.play.bind(this);
         this.animationList.forEach(a => a.play());
+        EventMgr.dispatchEvent("GameResume");
     }
 
     getSpriteGameBounds(sprite) {

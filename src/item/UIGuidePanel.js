@@ -3,11 +3,12 @@ import SceneHelper from "../mgr/SceneHelper";
 import UIHelper from "../ui/UIHelper";
 import Animation from "../ui/Animation";
 import Config from "../config";
+import GameTimer from "../mgr/GameTimer";
 
 export default class UIGuidePanel {
     constructor(guideData, mgr, parent) {
         this.mgr = mgr;
-        const scene = App.getScene(guideData.scene);
+        const scene = App.getScene(guideData.scene) || mgr;
         const panel = new Container();
         SceneHelper.createSceneByData(scene.getGuidePanelData(guideData.panel), panel, true);
         parent.addChild(panel);
@@ -45,7 +46,7 @@ export default class UIGuidePanel {
         }
         const remainTime = guideData.showDuration;
         if (remainTime) {
-            this.timer = setTimeout(this.onTimeout.bind(this), remainTime * 1000);
+            this.timer = new GameTimer(this.onTimeout.bind(this), remainTime * 1000);
         }
         this.guidePanel = panel;
         const animation = scene.getAnimationConfig("normal");
@@ -57,7 +58,7 @@ export default class UIGuidePanel {
     destroy() {
         UIHelper.freeClick();
         if (this.timer) {
-            clearTimeout(this.timer);
+            this.timer.clearTimeout();
         }
         if (this.animation) {
             this.animation.stop();

@@ -215,3 +215,5 @@ export default class MapGameScene extends StaticGameScene {
         this.deadCompleteTimer = setTimeout(this.onReborn.bind(this), Config.bike.deadCompleteTime);
     }
 }
+
+window.MapGameScene = MapGameScene;

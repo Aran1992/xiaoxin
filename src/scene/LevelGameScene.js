@@ -95,3 +95,5 @@ export default class LevelGameScene extends StaticGameScene {
         this.onClickPauseButton();
     }
 }
+
+window.LevelGameScene = LevelGameScene;
