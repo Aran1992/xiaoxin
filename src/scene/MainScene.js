@@ -111,7 +111,16 @@ export default class MainScene extends Scene {
         this.refreshLockStatus();
         this.updatePoint();
 
-        if ((RunOption.forceShowBeginnerGuide === 0 && !DataMgr.get(DataMgr.throughGuide, false))
+        if (RunOption.testUnlockSystemGuide) {
+            const guideName = RunOption.testUnlockSystemGuide;
+            RunOption.testUnlockSystemGuide = "";
+            setTimeout(() => {
+                new UIGuideMgr(guideName);
+                setTimeout(() => {
+                    App.showScene("GameLevelScene");
+                }, 0);
+            }, 0);
+        } else if ((RunOption.forceShowBeginnerGuide === 0 && !DataMgr.get(DataMgr.throughGuide, false))
             || RunOption.forceShowBeginnerGuide === 1) {
             App.showScene("GuideGameScene");
         } else {
