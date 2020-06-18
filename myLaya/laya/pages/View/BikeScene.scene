@@ -1,14 +1,14 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":391,
-    "selecteID":392,
+    "selectedBox":381,
+    "selecteID":382,
     "searchKey":"Scene",
     "referenceLines":[
         ],
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
-    "maxID":406,
+    "maxID":410,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -369,50 +369,6 @@
         {
             "x":15,
             "type":"Image",
-            "searchKey":"Image,upgradePanelButton",
-            "props":{"var":"upgradePanelButton","top":24,"skin":"images/english/button-skill-1.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":78},
-            "nodeParent":1,
-            "label":"upgradePanelButton",
-            "isOpen":false,
-            "isDirectory":true,
-            "isAniNode":true,
-            "hasChild":true,
-            "compId":65,
-            "child":[
-                {
-                    "type":"Image",
-                    "searchKey":"Image,lockedImage",
-                    "props":{"top":-24,"skin":"images/key_lock-2.png","scaleY":0.6,"scaleX":0.6,"name":"lockedImage","centerX":59},
-                    "nodeParent":65,
-                    "label":"lockedImage",
-                    "isOpen":true,
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":281,
-                    "child":[
-                        ],
-                    "$HIDDEN":false
-                },
-                {
-                    "type":"Image",
-                    "searchKey":"Image,redPoint",
-                    "props":{"top":-5,"skin":"images/redPoint.png","scaleY":1.5,"scaleX":1.5,"right":-27,"name":"redPoint"},
-                    "nodeParent":65,
-                    "label":"redPoint",
-                    "isOpen":true,
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":285,
-                    "child":[
-                        ],
-                    "$HIDDEN":false
-                }]
-        },
-        {
-            "x":15,
-            "type":"Image",
             "searchKey":"Image,propPanel",
             "props":{"var":"propPanel","skin":"images/bg-461.png","left":65,"bottom":28},
             "nodeParent":1,
@@ -689,7 +645,7 @@
                             "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"skin":"images/icon-level.png","scaleY":0.65,"scaleX":0.65,"left":16,"centerY":0},
+                            "props":{"skin":"images/icon-level.png","scaleY":0.65,"scaleX":0.65,"left":20,"centerY":0},
                             "nodeParent":381,
                             "label":"Image",
                             "isOpen":true,
@@ -1817,6 +1773,108 @@
             "compId":14,
             "child":[
                 ]
+        },
+        {
+            "x":15,
+            "type":"Image",
+            "searchKey":"Image,upgradePanelButton",
+            "props":{"y":-1,"x":78,"width":140,"var":"upgradePanelButton","top":-1,"runtime":"../laya/assets/sounds/SoundSE001.mp3","left":78,"height":58},
+            "nodeParent":1,
+            "label":"upgradePanelButton",
+            "isOpen":false,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":65,
+            "child":[
+                {
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"y":0,"x":77,"skin":"images/icon-role-2.png","centerY":0,"centerX":40},
+                    "nodeParent":65,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":407,
+                    "child":[
+                        {
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"skin":"images/english/role-skill.png","centerX":0,"bottom":-10},
+                            "nodeParent":407,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":408,
+                            "child":[
+                                ],
+                            "$HIDDEN":false
+                        }],
+                    "$HIDDEN":false
+                },
+                {
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"y":2,"x":-3,"skin":"images/icon-role-1.png","centerY":0,"centerX":-40},
+                    "nodeParent":65,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":406,
+                    "child":[
+                        {
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"y":0,"x":0,"skin":"images/english/role-property.png","centerX":0,"bottom":-10},
+                            "nodeParent":406,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":409,
+                            "child":[
+                                ],
+                            "$HIDDEN":false
+                        }],
+                    "$HIDDEN":false
+                },
+                {
+                    "type":"Image",
+                    "searchKey":"Image,lockedImage",
+                    "props":{"skin":"images/key_lock-2.png","scaleY":0.6,"scaleX":0.6,"name":"lockedImage","centerY":0,"centerX":45},
+                    "nodeParent":65,
+                    "label":"lockedImage",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":281,
+                    "child":[
+                        ],
+                    "$HIDDEN":false
+                },
+                {
+                    "type":"Image",
+                    "searchKey":"Image,redPoint",
+                    "props":{"top":1,"skin":"images/redPoint.png","scaleY":1.5,"scaleX":1.5,"right":-43,"name":"redPoint"},
+                    "nodeParent":65,
+                    "label":"redPoint",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":285,
+                    "child":[
+                        ],
+                    "$HIDDEN":false
+                }]
         },
         {
             "x":15,
