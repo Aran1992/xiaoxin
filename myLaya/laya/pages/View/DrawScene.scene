@@ -2,7 +2,6 @@
     "x":0,
     "type":"Scene",
     "selectedBox":1,
-    "selecteID":163,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
@@ -673,21 +672,7 @@
                     "compId":131,
                     "child":[
                         ]
-                }]
-        },
-        {
-            "x":15,
-            "type":"Image",
-            "searchKey":"Image,ballImage",
-            "props":{"var":"ballImage","skin":"images/icon-draw-ball.png","scaleY":1.2,"scaleX":1.2,"centerY":-72,"centerX":1005},
-            "nodeParent":1,
-            "label":"ballImage",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":14,
-            "child":[
-                ],
+                }],
             "$HIDDEN":false
         },
         {
@@ -871,7 +856,7 @@
                         ]
                 }],
             "$LOCKED":false,
-            "$HIDDEN":false
+            "$HIDDEN":true
         },
         {
             "x":15,
@@ -927,7 +912,7 @@
                         ]
                 }],
             "$LOCKED":false,
-            "$HIDDEN":false
+            "$HIDDEN":true
         }],
     "animations":[
         {
@@ -2065,6 +2050,15 @@
                                     ]
                             },
                             {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":155,
+                                "label":null,
+                                "key":"scaleY",
+                                "index":27
+                            },
+                            {
                                 "value":2,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
@@ -2096,7 +2090,9 @@
                                 "tween":true,
                                 "target":155,
                                 "key":"scaleY",
-                                "index":55
+                                "index":55,
+                                "functions":[
+                                    ]
                             }],
                         "scaleX":[
                             {
@@ -2108,6 +2104,15 @@
                                 "index":0,
                                 "functions":[
                                     ]
+                            },
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":155,
+                                "label":null,
+                                "key":"scaleX",
+                                "index":27
                             },
                             {
                                 "value":2,
@@ -2157,12 +2162,31 @@
                                     ]
                             },
                             {
+                                "value":0,
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":155,
+                                "label":null,
+                                "key":"alpha",
+                                "index":27
+                            },
+                            {
                                 "value":1,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
                                 "target":155,
                                 "key":"alpha",
-                                "index":28
+                                "index":28,
+                                "functions":[
+                                    ]
+                            },
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":155,
+                                "key":"alpha",
+                                "index":30
                             }]
                     }
                 },
@@ -2199,80 +2223,167 @@
                                     ]
                             }]
                     }
-                },
+                }],
+            "name":"special_draw",
+            "id":3,
+            "frameRate":60,
+            "action":0
+        },
+        {
+            "nodes":[
                 {
-                    "target":39,
+                    "target":134,
                     "keyframes":{
-                        "alpha":[
+                        "scaleY":[
                             {
-                                "value":0,
+                                "value":1,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
-                                "target":39,
-                                "key":"alpha",
+                                "target":134,
+                                "key":"scaleY",
                                 "index":0,
+                                "functions":[
+                                    ]
+                            },
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":134,
+                                "label":null,
+                                "key":"scaleY",
+                                "index":1
+                            }],
+                        "scaleX":[
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":134,
+                                "key":"scaleX",
+                                "index":0,
+                                "functions":[
+                                    ]
+                            },
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":134,
+                                "label":null,
+                                "key":"scaleX",
+                                "index":1
+                            }],
+                        "alpha":[
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":134,
+                                "key":"alpha",
+                                "index":0
+                            },
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":134,
+                                "key":"alpha",
+                                "index":1,
                                 "functions":[
                                     ]
                             }]
                     }
                 },
                 {
-                    "target":13,
+                    "target":155,
                     "keyframes":{
+                        "scaleY":[
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":155,
+                                "key":"scaleY",
+                                "index":0,
+                                "functions":[
+                                    ]
+                            },
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":155,
+                                "label":null,
+                                "key":"scaleY",
+                                "index":1
+                            }],
+                        "scaleX":[
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":155,
+                                "key":"scaleX",
+                                "index":0,
+                                "functions":[
+                                    ]
+                            },
+                            {
+                                "value":1,
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":155,
+                                "label":null,
+                                "key":"scaleX",
+                                "index":1
+                            }],
                         "alpha":[
                             {
                                 "value":0,
                                 "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":13,
+                                "tween":false,
+                                "target":155,
                                 "key":"alpha",
-                                "index":0
+                                "index":0,
+                                "functions":[
+                                    ]
+                            },
+                            {
+                                "value":0,
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":155,
+                                "label":null,
+                                "key":"alpha",
+                                "index":1
                             }]
                     }
                 },
                 {
-                    "target":44,
+                    "target":158,
                     "keyframes":{
                         "alpha":[
                             {
                                 "value":0,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
-                                "target":44,
+                                "target":158,
                                 "key":"alpha",
                                 "index":0
-                            }]
-                    }
-                },
-                {
-                    "target":11,
-                    "keyframes":{
-                        "alpha":[
+                            },
                             {
                                 "value":0,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
-                                "target":11,
+                                "target":158,
+                                "label":null,
                                 "key":"alpha",
-                                "index":0
-                            }]
-                    }
-                },
-                {
-                    "target":7,
-                    "keyframes":{
-                        "alpha":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":7,
-                                "key":"alpha",
-                                "index":0
+                                "index":1
                             }]
                     }
                 }],
-            "name":"special_draw",
+            "name":"recover_special_draw",
             "id":3,
             "frameRate":24,
             "action":0

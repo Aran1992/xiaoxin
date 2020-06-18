@@ -129,10 +129,10 @@ export default class Scene extends Container {
         return this.uiWithID[id];
     }
 
-    playAnimation(name, callback = () => 0) {
+    playAnimation(name, callback = () => 0, option = {}) {
         const animation = this.getAnimationConfig(name);
         if (animation) {
-            App.showMask();
+            App.showMask(option.onClickMask);
             return new Animation(this.getChildByID.bind(this), animation, () => {
                 App.hideMask();
                 callback();

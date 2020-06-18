@@ -13,10 +13,6 @@ export default class DrawScene extends Scene {
         this.onClick(this.ui.bikeButton, this.onClickBikeButton.bind(this));
         this.onClick(this.ui.drawButton, this.onClickDrawButton.bind(this));
         this.onClick(this.ui.advertButton, this.onClickAdvertButton.bind(this));
-        this.ballImage = this.ui.ballImage.children[0];
-        this.ballImage.anchor.set(0.5, 0.5);
-        this.ballImage.position.set(this.ui.ballImage.mywidth / 2, this.ui.ballImage.myheight / 2);
-        this.ballImage.visible = false;
         this.onTick();
         this.timer = setInterval(this.onTick.bind(this), 1000);
         this.ui.costDiamondText.text = Config.diamondDrawCost;
@@ -55,95 +51,22 @@ export default class DrawScene extends Scene {
         if (this.ui.costDiamondPanel.visible) {
             let diamond = DataMgr.get(DataMgr.diamond, 0);
             if (diamond >= Config.diamondDrawCost) {
-                this.startAnimation();
+                this.draw();
             } else {
                 App.showNotice(App.getText("DiamondIsNotEnough"));
             }
         } else {
-            this.startAnimation();
+            this.draw();
         }
     }
 
     onClickAdvertButton() {
         window.PlatformHelper.showAd(success => {
             if (success) {
-                this.startAnimation();
+                this.draw();
                 window.TDGA && TDGA.onEvent("广告扭蛋");
             }
         });
-    }
-
-    startAnimation() {
-        window.TDGA && TDGA.onEvent("扭蛋");
-        App.showMask(this.onAnimationEnded.bind(this));
-        this.ballImage.visible = true;
-        this.ballImage.scale.set(0, 0);
-        this.ballImage.rotation = 0;
-        this.animationFrame = 0;
-        this.totalAnimationFrame = 180;
-        this.totalRotation = Math.PI * 2 * 6;
-        this.animationID = requestAnimationFrame(this.onAnimation.bind(this));
-        this.drawSound = MusicMgr.playLoopSound(Config.drawScene.res.drawSound);
-    }
-
-    onAnimation() {
-        let i = this.ballImage;
-        i.scale.x += 1 / this.totalAnimationFrame;
-        i.scale.y += 1 / this.totalAnimationFrame;
-        i.rotation += this.totalRotation / this.totalAnimationFrame;
-        this.animationFrame++;
-        if (this.animationFrame === this.totalAnimationFrame) {
-            setTimeout(this.onAnimationEnded.bind(this), 500);
-        } else {
-            this.animationID = requestAnimationFrame(this.onAnimation.bind(this));
-        }
-    }
-
-    onAnimationEnded() {
-        if (this.drawSound) {
-            MusicMgr.stopLoopSound(this.drawSound);
-            this.drawSound = undefined;
-        }
-
-        if (this.ui.costDiamondPanel.visible) {
-            let diamond = DataMgr.get(DataMgr.diamond, 0);
-            diamond -= Config.diamondDrawCost;
-            DataMgr.set(DataMgr.diamond, diamond);
-            this.ui.diamondText.text = diamond;
-        } else if (this.ui.advertButton.visible === true) {
-            DataMgr.set(DataMgr.drawAdvertTimes, DataMgr.get(DataMgr.drawAdvertTimes, 0) + 1);
-        } else {
-            let nextTime = (new Date()).getTime() + Config.freeDrawInterval * 1000;
-            DataMgr.set(DataMgr.nextFreeDrawTime, nextTime);
-            EventMgr.dispatchEvent("UpdatePoint");
-        }
-
-        App.hideMask();
-
-        cancelAnimationFrame(this.animationID);
-
-        this.ballImage.visible = false;
-
-        let index = Utils.randomWithWeight(Config.drawWeightList.map(item => item.weight));
-        let reward = Config.drawWeightList[index];
-        switch (reward.type) {
-            case "bike": {
-                const id = reward.id;
-                let {levelUp, highestLevel} = DataMgr.plusBike(id);
-                App.showScene("BikeDetailScene", id, levelUp, highestLevel);
-                break;
-            }
-            case "coin": {
-                App.showScene("PrizeScene", [{rewardCoin: reward.number}]);
-                break;
-            }
-            case "diamond": {
-                App.showScene("PrizeScene", [{rewardDiamond: reward.number}]);
-                break;
-            }
-        }
-
-        this.onTick();
     }
 
     onTick() {
@@ -164,6 +87,69 @@ export default class DrawScene extends Scene {
             this.ui.drawButton.visible = true;
             this.ui.costDiamondPanel.visible = true;
         }
+    }
+
+    draw() {
+        window.TDGA && TDGA.onEvent("扭蛋");
+        this.playDrawAnimation1();
+    }
+
+    playDrawAnimation1() {
+        this.drawAnimation = this.playAnimation("special_draw", this.onAnimation1Ended.bind(this), {onClickMask: this.onClickMask.bind(this)});
+    }
+
+    onAnimation1Ended() {
+        this.playDrawAnimation2();
+        this.openPrizeScene();
+    }
+
+    openPrizeScene() {
+        if (this.ui.costDiamondPanel.visible) {
+            let diamond = DataMgr.get(DataMgr.diamond, 0);
+            diamond -= Config.diamondDrawCost;
+            DataMgr.set(DataMgr.diamond, diamond);
+            this.ui.diamondText.text = diamond;
+        } else if (this.ui.advertButton.visible === true) {
+            DataMgr.set(DataMgr.drawAdvertTimes, DataMgr.get(DataMgr.drawAdvertTimes, 0) + 1);
+        } else {
+            let nextTime = (new Date()).getTime() + Config.freeDrawInterval * 1000;
+            DataMgr.set(DataMgr.nextFreeDrawTime, nextTime);
+            EventMgr.dispatchEvent("UpdatePoint");
+        }
+        let index = Utils.randomWithWeight(Config.drawWeightList.map(item => item.weight));
+        let reward = Config.drawWeightList[index];
+        switch (reward.type) {
+            case "bike": {
+                const id = reward.id;
+                let {levelUp, highestLevel} = DataMgr.plusBike(id);
+                App.showScene("BikeDetailScene", id, levelUp, highestLevel);
+                break;
+            }
+            case "coin": {
+                App.showScene("PrizeScene", [{rewardCoin: reward.number}]);
+                break;
+            }
+            case "diamond": {
+                App.showScene("PrizeScene", [{rewardDiamond: reward.number}]);
+                break;
+            }
+        }
+        this.onTick();
+    }
+
+    playDrawAnimation2() {
+        this.drawAnimation = this.playAnimation("recover_special_draw");
+    }
+
+    onClickMask() {
+        App.hideMask();
+        this.drawAnimation.stop();
+        this.recoverDrawAnimation();
+        this.openPrizeScene();
+    }
+
+    recoverDrawAnimation() {
+        this.playAnimation("recover_special_draw");
     }
 }
 
