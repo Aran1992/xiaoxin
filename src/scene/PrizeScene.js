@@ -27,6 +27,7 @@ export default class PrizeScene extends Scene {
             item.numberText = item.children[0].children[1].children[2];
             item.bikePanel = item.children[0].children[1].children[3];
             item.bikeSprite = new BikeSprite(item.bikePanel);
+            this.onClick(item, () => this.onClickItem(item), true);
         });
     }
 
@@ -65,20 +66,24 @@ export default class PrizeScene extends Scene {
                 numberText.visible = true;
                 itemIcon.texture = Texture.from("myLaya/laya/assets/images/icon-coin.png");
                 numberText.text = reward.rewardCoin;
+                item.info = {coin: 1};
             } else if (reward.rewardDiamond) {
                 itemIcon.visible = true;
                 numberText.visible = true;
                 itemIcon.texture = Texture.from("myLaya/laya/assets/images/icon-diamond.png");
                 numberText.text = reward.rewardDiamond;
+                item.info = {diamond: 1};
             } else if (reward.rewardExp) {
                 itemIcon.visible = true;
                 numberText.visible = true;
                 itemIcon.texture = Texture.from("myLaya/laya/assets/images/icon-exp.png");
                 numberText.text = reward.rewardExp;
+                item.info = {exp: 1};
             } else if (reward.rewardBike) {
                 item.bikePanel.visible = true;
                 item.bikeSprite.setBikeID(reward.rewardBike);
                 item.bikeSprite.play();
+                item.info = {bike: reward.rewardBike};
             }
         });
         let itemWidth = this.list[0].mywidth;
@@ -110,6 +115,10 @@ export default class PrizeScene extends Scene {
         if (this.closeCallback) {
             this.closeCallback();
         }
+    }
+
+    onClickItem(item) {
+        App.showScene("InfoScene", item.info);
     }
 }
 
