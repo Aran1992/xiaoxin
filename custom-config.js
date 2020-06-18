@@ -8461,7 +8461,7 @@ Config.effect = {
         // 闪烁间隔（单位：帧）
         twinkleInterval: 5,
         // 闪烁透明度（0-1，越低的话越透明）
-        twinkleAlpha: 0.5,
+        twinkleAlpha: 1,
         // 道具栏显示的道具图标
         imagePath: "myLaya/laya/assets/images/crystal_invincible_09.png",
         // 使用者使用特效路径（只能是动画）（因为平台关系需加上.json）
@@ -8502,6 +8502,12 @@ Config.effect = {
         // 描述
         dsc: "Info-item-106",
     },
+    // 小无敌
+    LittleInvincible: {// 闪烁间隔（单位：帧）
+        twinkleInterval: 5,
+        // 闪烁透明度（0-1，越低的话越透明）
+        twinkleAlpha: 0.5,
+    }
 };
 
 // 排行榜分数（按照1/2/3/4名往下配置）

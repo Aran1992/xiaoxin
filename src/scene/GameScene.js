@@ -1156,7 +1156,7 @@ export default class GameScene extends Scene {
         this.followAnimation.animationSpeed = animation.animationSpeed * this.stepSpeed;
         this.followAnimation.loop = true;
         this.followAnimation.play();
-        this.bikeOutterContainer.addChild(this.followAnimation);
+        this.bikeSprite.addChild(this.followAnimation);
         this.animationList.push(this.followAnimation);
 
         this.bulletEffectList = Config.playerEffect.bulletTime.map(config => this.playPlayerEffect(config));
@@ -2053,6 +2053,7 @@ export default class GameScene extends Scene {
         let radius = Config.bikeRadius * scale;
         if (!onlyChangeFixture) {
             this.bikeSprite.scale.set(scale, scale);
+            this.buffIconContainer.y = Config.buff.containerY * scale;
         }
         if (this.bikeFixture) {
             this.bikeBody.destroyFixture(this.bikeFixture);
@@ -2688,8 +2689,8 @@ export default class GameScene extends Scene {
             if (this.littleInvincible.remainFrames <= 0) {
                 this.leaveInvincible();
             } else {
-                const light = Math.floor(this.littleInvincible.remainFrames / Config.effect.Invincible.twinkleInterval) % 2 === 0;
-                this.bikeSprite.alpha = light ? 1 : Config.effect.Invincible.twinkleAlpha;
+                const light = Math.floor(this.littleInvincible.remainFrames / Config.effect.LittleInvincible.twinkleInterval) % 2 === 0;
+                this.bikeSprite.alpha = light ? 1 : Config.effect.LittleInvincible.twinkleAlpha;
             }
         }
     }
