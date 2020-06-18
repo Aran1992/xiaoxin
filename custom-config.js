@@ -61,6 +61,18 @@ Config.bikeSprintAnimation = "myLaya/laya/assets/animations/sprint.json";
 // 默认自行车冲刺动画的偏移
 Config.bikeSprintAnimationPos = [0, -40];
 
+// 默认自行车旋转动画
+Config.bikeRotateAnimation = {
+    // 路径
+    path: "myLaya/laya/assets/animations/xiaoxin_run2.json",
+    // 名称
+    name: "xiaoxin_run",
+    // 播放速度
+    speed: 0.2,
+    // 偏移
+    pos: [0, -40],
+};
+
 // 默认的自行车跳跃图集
 Config.bikeJumpingAnimation = {
     "1": {
@@ -12067,6 +12079,8 @@ Config.gameLevelMode = {
     ],
 };
 
+Config.firstDrawBikeID = 1;
+
 // 抽奖相关配置
 Config.drawWeightList = [
     {
@@ -13420,6 +13434,12 @@ Config.UIGuide = {
             },
         ]
     },
+};
+
+// 旋转状态相关配置
+Config.rotateStatus = {
+    // 进入旋转状态需要按压多久（单位：毫秒）
+    enterDuration: 500,
 };
 
 export default Config;

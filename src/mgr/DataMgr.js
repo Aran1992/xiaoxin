@@ -605,6 +605,16 @@ class DataMgr_ {
         }
         return level;
     }
+
+    hasDrawed() {
+        return DataMgr.get(DataMgr.hasDrawedFlag, false);
+    }
+
+    markDrawed() {
+        if (!DataMgr.hasDrawed()) {
+            return DataMgr.set(DataMgr.hasDrawedFlag, true);
+        }
+    }
 }
 
 const DataMgr = new DataMgr_();
@@ -665,5 +675,6 @@ DataMgr.rankCostNextRefreshTime = "46";
 DataMgr.mapModeWatchedAdTimes = "47";
 DataMgr.throughGuide = "48";
 DataMgr.showedGuide = "49";
+DataMgr.hasDrawedFlag = "50";
 
 export default DataMgr;

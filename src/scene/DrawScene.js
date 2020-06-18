@@ -117,7 +117,7 @@ export default class DrawScene extends Scene {
             EventMgr.dispatchEvent("UpdatePoint");
         }
         let index = Utils.randomWithWeight(Config.drawWeightList.map(item => item.weight));
-        let reward = Config.drawWeightList[index];
+        let reward = DataMgr.hasDrawed() ? Config.drawWeightList[index] : {type: "bike", id: Config.firstDrawBikeID};
         switch (reward.type) {
             case "bike": {
                 const id = reward.id;
@@ -134,6 +134,7 @@ export default class DrawScene extends Scene {
                 break;
             }
         }
+        DataMgr.markDrawed();
         this.onTick();
     }
 
