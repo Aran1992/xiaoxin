@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":76,
-    "selecteID":82,
+    "selectedBox":16,
+    "selecteID":64,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
@@ -223,19 +223,20 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image,advertDoubleButton",
-                    "props":{"var":"advertDoubleButton","skin":"images/button-start-2.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":135,"bottom":35},
+                    "props":{"width":315,"var":"advertDoubleButton","skin":"images/button-51.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":135,"height":74,"bottom":50},
                     "nodeParent":16,
                     "label":"advertDoubleButton",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":64,
                     "child":[
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"skin":"images/advert.png","scaleY":0.8,"scaleX":0.8,"left":25,"centerY":-5},
+                            "props":{"skin":"images/advert.png","scaleY":0.8,"scaleX":0.8,"left":25,"centerY":0},
                             "nodeParent":64,
                             "label":"Image",
                             "isOpen":true,
@@ -247,9 +248,10 @@
                                 ]
                         },
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"skin":"images/english/double.png","left":95,"centerY":-5},
+                            "props":{"skin":"images/english/double.png","left":95,"centerY":0},
                             "nodeParent":64,
                             "label":"Image",
                             "isOpen":true,
@@ -265,7 +267,7 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image,hasDoubleRewardText",
-                    "props":{"var":"hasDoubleRewardText","skin":"images/english/HasDoubleReward.png","left":70,"bottom":50},
+                    "props":{"var":"hasDoubleRewardText","skin":"images/english/HasDoubleReward.png","left":70,"bottom":1150},
                     "nodeParent":16,
                     "label":"hasDoubleRewardText",
                     "isOpen":true,
@@ -337,14 +339,13 @@
                     "props":{"width":700,"top":285,"skin":"images/bg-432.png","sizeGrid":"20,20,20,20","left":50},
                     "nodeParent":16,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":75,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-metre.png","scaleY":0.6,"scaleX":0.6,"left":20,"centerY":-2},
@@ -359,7 +360,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label",
                             "props":{"y":0,"text":"里程奖励","left":80,"fontSize":40,"color":"#000000","centerY":0},
@@ -373,7 +373,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,distanceValueText",
                             "props":{"y":0,"x":0,"var":"distanceValueText","text":"123456","right":20,"fontSize":30,"font":"meter","color":"#000000","centerY":0},
@@ -387,7 +386,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,distancePercentText",
                             "props":{"y":0,"var":"distancePercentText","text":"+ 999%","left":350,"fontSize":30,"font":"bonus","color":"#000000","centerY":0},
@@ -408,14 +406,13 @@
                     "props":{"width":700,"top":340,"skin":"images/bg-432.png","sizeGrid":"20,20,20,20","left":50},
                     "nodeParent":16,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":76,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/levelbg_s.png","scaleY":0.25,"scaleX":0.25,"left":20,"centerY":0},
@@ -430,7 +427,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label",
                             "props":{"y":0,"text":"经验奖励","left":80,"fontSize":40,"color":"#000000","centerY":0},
@@ -444,7 +440,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,expValueText",
                             "props":{"y":0,"x":0,"var":"expValueText","text":"123456","right":20,"fontSize":30,"font":"exp","color":"#000000","centerY":0},
@@ -458,7 +453,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,expPercentText",
                             "props":{"y":0,"var":"expPercentText","text":"+ 999%","left":350,"fontSize":30,"font":"bonus","color":"#000000","centerY":0},
@@ -479,14 +473,13 @@
                     "props":{"width":700,"top":395,"skin":"images/bg-432.png","sizeGrid":"20,20,20,20","left":50},
                     "nodeParent":16,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":77,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-coin.png","scaleY":0.3,"scaleX":0.3,"left":20,"centerY":0},
@@ -501,7 +494,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label",
                             "props":{"y":0,"text":"钱币奖励","left":80,"fontSize":40,"color":"#000000","centerY":0},
@@ -515,7 +507,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,coinValueText",
                             "props":{"var":"coinValueText","text":"123456","right":20,"fontSize":30,"font":"medal","color":"#000000","centerY":0},
@@ -529,7 +520,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,coinPercentText",
                             "props":{"y":0,"var":"coinPercentText","text":"+ 999%","left":350,"fontSize":30,"font":"bonus","color":"#000000","centerY":0},

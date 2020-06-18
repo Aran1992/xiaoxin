@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":142,
-    "selecteID":122,
+    "selectedBox":2,
+    "selecteID":54,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
@@ -264,14 +264,13 @@
                     "props":{"width":750,"top":212,"skin":"images/bg-231.png","sizeGrid":"50,50,50,50","left":35,"height":275},
                     "nodeParent":2,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":93,
                     "child":[
                         {
-                            "x":45,
                             "type":"Panel",
                             "searchKey":"Panel,rankList",
                             "props":{"width":710,"var":"rankList","top":20,"left":20,"height":240},
@@ -284,7 +283,6 @@
                             "compId":143,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,rankItem",
                                     "props":{"y":0,"x":0,"width":710,"var":"rankItem","height":60},
@@ -297,7 +295,6 @@
                                     "compId":142,
                                     "child":[
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,bg0",
                                             "props":{"top":0,"skin":"images/bg-451.png","right":0,"name":"bg0","left":0,"bottom":0},
@@ -310,7 +307,6 @@
                                             "compId":114,
                                             "child":[
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/star-1.png","scaleY":0.7,"scaleX":0.7,"left":25,"centerY":0},
@@ -326,7 +322,6 @@
                                                     "$HIDDEN":false
                                                 },
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/list-1.png","scaleY":0.7,"scaleX":0.7,"left":35,"centerY":0},
@@ -343,7 +338,6 @@
                                                 }]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,bg1",
                                             "props":{"top":0,"skin":"images/bg-452.png","right":0,"name":"bg1","left":0,"bottom":0},
@@ -356,7 +350,6 @@
                                             "compId":116,
                                             "child":[
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/star-2.png","scaleY":0.7,"scaleX":0.7,"left":25,"centerY":0},
@@ -371,7 +364,6 @@
                                                         ]
                                                 },
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/list-2.png","scaleY":0.7,"scaleX":0.7,"left":30,"centerY":0},
@@ -387,7 +379,6 @@
                                                 }]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,bg2",
                                             "props":{"top":0,"skin":"images/bg-453.png","right":0,"name":"bg2","left":0,"bottom":0},
@@ -400,7 +391,6 @@
                                             "compId":119,
                                             "child":[
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/star-3.png","scaleY":0.7,"scaleX":0.7,"left":25,"centerY":0},
@@ -415,7 +405,6 @@
                                                         ]
                                                 },
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/list-3.png","scaleY":0.7,"scaleX":0.7,"left":30,"centerY":0},
@@ -431,7 +420,6 @@
                                                 }]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,bg3",
                                             "props":{"top":0,"skin":"images/bg-454.png","right":0,"name":"bg3","left":0,"bottom":0},
@@ -444,7 +432,6 @@
                                             "compId":120,
                                             "child":[
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/list-4.png","scaleY":0.7,"scaleX":0.7,"left":30,"centerY":0},
@@ -460,7 +447,6 @@
                                                 }]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image",
                                             "props":{"y":8,"skin":"images/icon-mark.png","scaleY":0.7,"scaleX":0.7,"right":170,"centerY":0},
@@ -475,7 +461,6 @@
                                                 ]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,scoreText",
                                             "props":{"y":10,"x":601,"text":"9999","strokeColor":"#000000","stroke":5,"right":20,"name":"scoreText","fontSize":40,"font":"bonuspt3","color":"#ffffff","centerY":0,"align":"right"},
@@ -489,7 +474,6 @@
                                                 ]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,userImage",
                                             "props":{"y":2,"x":165,"width":80,"skin":"images/UserIconDefault.png","scaleY":0.7,"scaleX":0.7,"name":"userImage","left":165,"height":80,"centerY":0},
@@ -504,7 +488,6 @@
                                                 ]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,nameText",
                                             "props":{"y":8,"x":246,"text":"玩家名","strokeColor":"#3e1400","stroke":1,"name":"nameText","left":246,"fontSize":40,"color":"#3e1400","centerY":-2,"align":"left"},
@@ -569,7 +552,7 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image,advertDoubleButton",
-                    "props":{"y":513,"x":135,"var":"advertDoubleButton","skin":"images/button-start-2.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":135,"bottom":35},
+                    "props":{"width":315,"var":"advertDoubleButton","skin":"images/button-51.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":135,"height":74,"bottom":50},
                     "nodeParent":2,
                     "label":"advertDoubleButton",
                     "isOpen":false,
@@ -579,9 +562,10 @@
                     "compId":54,
                     "child":[
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"y":0,"x":0,"skin":"images/advert.png","scaleY":0.8,"scaleX":0.8,"left":25,"centerY":-5},
+                            "props":{"x":0,"skin":"images/advert.png","scaleY":0.8,"scaleX":0.8,"left":25,"centerY":0},
                             "nodeParent":54,
                             "label":"Image",
                             "isOpen":true,
@@ -593,9 +577,10 @@
                                 ]
                         },
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"y":0,"x":0,"skin":"images/english/double.png","left":95,"centerY":-5},
+                            "props":{"x":0,"skin":"images/english/double.png","left":95,"centerY":0},
                             "nodeParent":54,
                             "label":"Image",
                             "isOpen":true,
@@ -611,7 +596,7 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image,hasDoubleRewardText",
-                    "props":{"y":522,"var":"hasDoubleRewardText","skin":"images/english/HasDoubleReward.png","left":70,"bottom":50},
+                    "props":{"var":"hasDoubleRewardText","skin":"images/english/HasDoubleReward.png","left":70,"bottom":50},
                     "nodeParent":2,
                     "label":"hasDoubleRewardText",
                     "isOpen":true,
