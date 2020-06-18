@@ -110,7 +110,6 @@ export default class EatableItem extends EditorItem {
                 ["Magnet", "Sprint"].some(key => {
                     if (this.gameMgr.hasEffect(key) && this.config[`attractedBy${key}`]) {
                         this.isAttracted = true;
-                        this.body.setDynamic();
                         this.moveToPlayer();
                         return true;
                     }
@@ -139,9 +138,9 @@ export default class EatableItem extends EditorItem {
             let velocity = Config.effect.Magnet.velocity * Config.pixel2meter;
             let vx = velocity * Math.cos(radius);
             let vy = velocity * Math.sin(radius);
-            this.body.setLinearVelocity(Vec2(vx, vy));
-        } else {
-            this.body.setLinearVelocity(Vec2(0, 0));
+            const delta = this.gameMgr.stepDuration * Config.stepTimesEachFrame * this.gameMgr.stepSpeed;
+            const pos = this.body.getPosition();
+            this.body.setPosition(Vec2(pos.x + vx * delta, pos.y + vy * delta));
         }
     }
 
