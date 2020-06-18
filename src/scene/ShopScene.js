@@ -32,7 +32,7 @@ export default class ShopScene extends Scene {
             initItemFunc: this.initRadioButton.bind(this),
             clickButtonFunc: this.onClickRadio.bind(this),
             infoList: this.infoList,
-            buttonDistance: 208
+            buttonDistance: Config.shopScene.radioDistance,
         });
         EventMgr.registerEvent("RefreshRankData", this.onRefreshRankData.bind(this));
         EventMgr.registerEvent("UpdatePoint", this.updatePoint.bind(this));

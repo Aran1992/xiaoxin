@@ -5828,6 +5828,11 @@ Config.levelUpScene = {
         scale: 0.8,
     }
 };
+// 商店界面/福利界面
+Config.shopScene = {
+    // 切页按钮的距离
+    radioDistance: 270,
+};
 
 // 商店游戏币配置（目前关闭了不用）
 Config.moneyList = [
