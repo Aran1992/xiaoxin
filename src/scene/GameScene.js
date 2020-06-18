@@ -747,14 +747,13 @@ export default class GameScene extends Scene {
                 }
                 const jumpAnimation = this.getBikeJumpAnimation(this.jumpCount);
                 if (jumpAnimation) {
-                    this.jumpingAnimationFrames = GameUtils.getFrames(jumpAnimation.atlasPath, jumpAnimation.animationName);
-                    this.jumpingAnimationIndex = 0;
-                    this.jumpingAnimationInterval = jumpAnimation.interval;
-                    this.bikeAnimSprite.position.set(...(jumpAnimation.pos || Config.bikeCommonAnimationPos));
+                    this.setBikeAnimation(
+                        GameUtils.getFrames(jumpAnimation.atlasPath, jumpAnimation.animationName),
+                        1 / jumpAnimation.interval,
+                        jumpAnimation.pos || Config.bikeCommonAnimationPos
+                    );
                 } else {
                     this.bikeSelfContainer.rotation = Utils.angle2radius(Config.bikeJumpingRotation);
-                    this.jumpingAnimationFrames = undefined;
-                    this.jumpingAnimationIndex = undefined;
                 }
                 const config = this.jumpCount === 1 ? Config.playerEffect.ground : Config.playerEffect.air;
                 this.playPlayerEffect(config);
@@ -1168,12 +1167,6 @@ export default class GameScene extends Scene {
 
         this.setContactFatalEdge(false);
 
-        const {frames, pos} = this.getBikeCommonAnimation();
-        this.bikeFrames = frames;
-        this.bikeFrame = 0;
-        this.bikeAnimSprite.texture = this.bikeFrames[this.bikeFrame];
-        this.bikeAnimSprite.position.set(...pos);
-
         this.bikeAccSprite = this.bikeContainer.addChild(new Sprite());
         this.bikeAccSprite.anchor.set(0.5, 1);
         this.bikeAccSprite.visible = false;
@@ -1396,49 +1389,17 @@ export default class GameScene extends Scene {
             }
             if (this.jumping) {
                 this.bikeSelfContainer.rotation = Utils.angle2radius(Config.bikeJumpingRotation);
-                if (this.jumpingAnimationFrames) {
-                    this.jumpingAnimationIndex += this.stepSpeed;
-                    let frameIndex = Math.floor(this.jumpingAnimationIndex / this.jumpingAnimationInterval);
-                    let frame = this.jumpingAnimationFrames[frameIndex];
-                    if (frame === undefined) {
-                        frame = this.jumpingAnimationFrames[this.jumpingAnimationFrames.length - 1];
-                    }
-                    this.bikeAnimSprite.texture = frame;
-                }
-            } else if (this.isSpring) {
-                const animationConfig = Config.bikeList.find(bike => bike.id === this.getBikeID()).bikeSpringAnimation || Config.bikeSpringAnimation;
-                const frames = GameUtils.getFrames(animationConfig.path, animationConfig.name);
-                this.bikeFrame += this.stepSpeed;
-                const gameFrameEachAnimationFrame = 1 / animationConfig.speed;
-                const frame = Math.floor(this.bikeFrame / gameFrameEachAnimationFrame);
-                this.bikeAnimSprite.texture = frames[frame] || Utils.getLast(frames);
-                this.bikeAnimSprite.position.set(...animationConfig.pos);
-            } else if (this.isJacking) {
             } else {
                 if (Config.bikeRotateByMoveDirection) {
                     this.bikeSelfContainer.rotation = -Math.atan(velocity.y / velocity.x);
                 }
-                this.bikeFrame += this.stepSpeed;
-                if (this.hasEffect("Sprint")) {
-                    const {frames, pos} = this.getBikeSprintAnimation();
-                    if (this.bikeFrame >= frames.length) {
-                        this.bikeFrame = 0;
-                    }
-                    this.bikeAnimSprite.texture = frames[Math.floor(this.bikeFrame)];
-                    this.bikeAnimSprite.position.set(...pos);
-                } else {
+                if (!this.hasEffect("Sprint")) {
                     let cv = this.bikeBody.getLinearVelocity().x;
                     let bv = Config.bikeBasicVelocity;
-                    let framesEachFrame = Config.framesForChangeImageInBasicVelocity / (cv / bv);
-                    this.bikeFrame = this.bikeFrame % (this.bikeFrames.length * framesEachFrame);
-                    let frame = Math.floor(this.bikeFrame / framesEachFrame);
-                    this.bikeAnimSprite.texture = this.bikeFrames[frame];
-                    if (this.bikeFrames[frame] === undefined) {
-                        this.bikeAnimSprite.texture = this.bikeFrames[0];
-                    }
-                    this.bikeAnimSprite.position.set(...this.getBikeCommonAnimation().pos);
+                    this.bikeAnimSpeed = cv / bv / Config.framesForChangeImageInBasicVelocity;
                 }
             }
+            this.updateBikeAnimation();
         }
     }
 
@@ -1887,6 +1848,8 @@ export default class GameScene extends Scene {
         this.isSpring = false;
         this.isJacking = false;
         this.jumpCount = 0;
+        const {frames, pos} = this.getBikeCommonAnimation();
+        this.setBikeAnimation(frames, 1, pos);
     }
 
     startEffect(type, fixedDuration) {
@@ -2035,12 +1998,16 @@ export default class GameScene extends Scene {
                     this.bikeBody.setKinematic();
                     this.resetJumpStatus();
                     this.bikeFrame = -1;
+                    const {frames, pos} = this.getBikeSprintAnimation();
+                    this.setBikeAnimation(frames, 1, pos);
                 },
                 end: () => {
                     this.setBikeScale(1, true);
                     this.bikeBody.setDynamic();
                     this.bikeFrame = -1;
                     this.enterInvincible(Config.effect.Sprint.endInvincibleDuration);
+                    const {frames, pos} = this.getBikeCommonAnimation();
+                    this.setBikeAnimation(frames, 1, pos);
                 }
             },
         };
@@ -2625,7 +2592,9 @@ export default class GameScene extends Scene {
     spring(velocity) {
         this.resetJumpStatus();
         this.isSpring = true;
-        this.bikeFrame = 0;
+        const animationConfig = Config.bikeList.find(bike => bike.id === this.getBikeID()).bikeSpringAnimation || Config.bikeSpringAnimation;
+        const frames = GameUtils.getFrames(animationConfig.path, animationConfig.name);
+        this.setBikeAnimation(frames, animationConfig.speed, animationConfig.pos, {once: true});
         this.bikeBody.setLinearVelocity(Vec2(this.bikeBody.getLinearVelocity().x, velocity));
     }
 
@@ -2773,6 +2742,27 @@ export default class GameScene extends Scene {
                     .start(performance.now());
             })
             .start(performance.now());
+    }
+
+    setBikeAnimation(frames, speed = 1, pos = [0, 0], option = {}) {
+        this.bikeAnimSprite.position.set(...pos);
+        this.bikeAnimSpeed = speed;
+        this.bikeAnimTextures = frames;
+        this.bikeAnimFrameIndex = 0;
+        this.bikeAnimSprite.texture = this.bikeAnimTextures[0];
+        this.bikeAnimOption = option;
+    }
+
+    updateBikeAnimation() {
+        this.bikeAnimFrameIndex += this.bikeAnimSpeed * this.stepSpeed;
+        if (this.bikeAnimFrameIndex >= this.bikeAnimTextures.length) {
+            if (this.bikeAnimOption.once) {
+                this.bikeAnimFrameIndex = this.bikeAnimTextures.length - 1;
+            } else {
+                this.bikeAnimFrameIndex %= this.bikeAnimTextures.length;
+            }
+        }
+        this.bikeAnimSprite.texture = this.bikeAnimTextures[Math.floor(this.bikeAnimFrameIndex)];
     }
 }
 
