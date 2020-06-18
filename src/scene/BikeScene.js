@@ -8,7 +8,7 @@ import Utils from "../mgr/Utils";
 import MusicMgr from "../mgr/MusicMgr";
 import LockableButton from "../ui/LockableButton";
 import EventMgr from "../mgr/EventMgr";
-import {resources, Texture} from "../libs/pixi-wrapper";
+import {Texture} from "../libs/pixi-wrapper";
 
 export default class BikeScene extends Scene {
     onCreate() {
@@ -16,6 +16,7 @@ export default class BikeScene extends Scene {
         this.onClick(this.ui.returnButton, this.onClickReturnButton.bind(this));
         this.onClick(this.ui.selectBikeButton, this.onClickSelectedBikeButton.bind(this));
         this.onClick(this.ui.upgradeButton, this.onClickUpgradeButton.bind(this));
+        this.onClick(this.ui.bikePanelButton, this.onClickBikePanelButton.bind(this));
         this.list = new List({
             root: this.ui.list,
             initItemFunc: this.initItem.bind(this),
@@ -91,6 +92,7 @@ export default class BikeScene extends Scene {
         }
     }
 
+
     updateUpgradeItem(item, index) {
         Config.upgradeBike.items.forEach((upgrade, i) => {
             item.ui[`itemPanel${i}`].visible = index === i;
@@ -143,7 +145,7 @@ export default class BikeScene extends Scene {
         for (let i = 0; i < 3; i++) {
             this.ui[`specialIcon${i}`].visible = i < config.quality;
         }
-        const level = DataMgr.get(DataMgr.bikeLevelMap, {})[id]||0;
+        const level = DataMgr.get(DataMgr.bikeLevelMap, {})[id] || 0;
         this.ui.levelText.text = level + 1;
         [
             "distance",
@@ -180,13 +182,17 @@ export default class BikeScene extends Scene {
     }
 
     onClickUpgradePanelButton() {
-        if (!DataMgr.hasOwnedBike(Config.bikeList[this.selectedIndex].id)) {
-            return App.showNotice("该自行车未解锁");
-        }
-        this.ui.upgradePanel.visible = !this.ui.upgradePanel.visible;
+        this.ui.upgradePanel.visible = true;
+    }
+
+    onClickBikePanelButton() {
+        this.ui.upgradePanel.visible = false;
     }
 
     onClickUpgradeButton() {
+        if (!DataMgr.hasOwnedBike(Config.bikeList[this.selectedIndex].id)) {
+            return App.showNotice("该自行车未解锁");
+        }
         const owned = DataMgr.get(DataMgr.coin, 0);
         const cost = DataMgr.getBikeUpgradeCost(Config.bikeList[this.selectedIndex].id);
         if (owned < cost) {
@@ -229,6 +235,7 @@ export default class BikeScene extends Scene {
 
         this.ui.upgradeCostLabel.text = DataMgr.getBikeUpgradeCost(Config.bikeList[this.selectedIndex].id);
         this.ui.upgradeTimesLabel.text = App.getText("已升级${times}次", {times: upgradeTimes});
+        GameUtils.greySprite(this.ui.upgradePanel, !DataMgr.hasOwnedBike(Config.bikeList[this.selectedIndex].id));
     }
 
     upgradeBike() {

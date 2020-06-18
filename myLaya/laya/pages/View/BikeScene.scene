@@ -1,14 +1,14 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":381,
-    "selecteID":382,
+    "selectedBox":1,
+    "selecteID":14,
     "searchKey":"Scene",
     "referenceLines":[
         ],
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
-    "maxID":410,
+    "maxID":415,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -373,14 +373,13 @@
             "props":{"var":"propPanel","skin":"images/bg-461.png","left":65,"bottom":28},
             "nodeParent":1,
             "label":"propPanel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":364,
             "child":[
                 {
-                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,bikeNameText",
                     "props":{"var":"bikeNameText","top":40,"text":"角色名称","leading":5,"fontSize":30,"color":"#000000","centerX":0},
@@ -394,7 +393,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Label",
                     "searchKey":"Label",
                     "props":{"text":"角色形象介绍说明","leading":5,"fontSize":30,"color":"#000000","centerX":0,"bottom":40},
@@ -408,7 +406,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":430,"top":100,"skin":"images/bg-431.png","left":20},
@@ -421,7 +418,6 @@
                     "compId":367,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-speed.png","left":20,"centerY":0},
@@ -437,7 +433,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/speed-21.png","left":70,"centerY":0},
@@ -453,7 +448,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,velocityLevelIcon",
                             "props":{"y":0,"var":"velocityLevelIcon","skin":"images/skill-star-1.png","right":20,"centerY":0},
@@ -471,7 +465,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"x":0,"width":430,"top":155,"skin":"images/bg-431.png","left":20},
@@ -484,7 +477,6 @@
                     "compId":371,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-jump.png","left":20,"centerY":0},
@@ -500,7 +492,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/jump-21.png","left":70,"centerY":0},
@@ -516,7 +507,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,jumpLevelIcon",
                             "props":{"y":0,"var":"jumpLevelIcon","skin":"images/skill-star-1.png","right":20,"centerY":0},
@@ -534,7 +524,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"x":0,"width":430,"top":210,"skin":"images/bg-432.png","left":20},
@@ -547,7 +536,6 @@
                     "compId":375,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-skill.png","left":20,"centerY":0},
@@ -563,7 +551,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/skill-21.png","left":70,"centerY":0},
@@ -579,7 +566,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,specialIcon0",
                             "props":{"y":0,"var":"specialIcon0","skin":"images/icon-skill.png","left":230,"centerY":0},
@@ -595,7 +581,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,specialIcon1",
                             "props":{"y":0,"var":"specialIcon1","skin":"images/icon-skill.png","left":300,"centerY":0},
@@ -611,7 +596,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,specialIcon2",
                             "props":{"y":0,"var":"specialIcon2","skin":"images/icon-skill.png","left":370,"centerY":0},
@@ -629,7 +613,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"x":0,"width":430,"top":265,"skin":"images/bg-432.png","left":20},
@@ -642,7 +625,6 @@
                     "compId":381,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-level.png","scaleY":0.65,"scaleX":0.65,"left":20,"centerY":0},
@@ -658,7 +640,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/level-21.png","left":70,"centerY":0},
@@ -674,7 +655,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -687,7 +667,6 @@
                             "compId":384,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Label",
                                     "searchKey":"Label,levelText",
                                     "props":{"var":"levelText","text":"999","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -705,7 +684,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"x":0,"width":430,"top":320,"skin":"images/bg-432.png","left":20},
@@ -718,7 +696,6 @@
                     "compId":386,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-metre.png","scaleY":0.5,"scaleX":0.5,"left":20,"centerY":0},
@@ -734,7 +711,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/distance-21.png","left":70,"centerY":0},
@@ -750,7 +726,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -763,7 +738,6 @@
                             "compId":389,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Label",
                                     "searchKey":"Label,distancePercentText",
                                     "props":{"y":0,"x":0,"var":"distancePercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -781,7 +755,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"x":0,"width":430,"top":375,"skin":"images/bg-432.png","left":20},
@@ -794,7 +767,6 @@
                     "compId":391,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/levelbg_s.png","scaleY":0.2,"scaleX":0.2,"left":20,"centerY":0},
@@ -810,7 +782,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/exp-21.png","left":70,"centerY":0},
@@ -826,7 +797,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -839,7 +809,6 @@
                             "compId":394,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Label",
                                     "searchKey":"Label,expPercentText",
                                     "props":{"y":0,"x":0,"var":"expPercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -857,7 +826,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"x":0,"width":430,"top":430,"skin":"images/bg-432.png","left":20},
@@ -870,7 +838,6 @@
                     "compId":396,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-coin.png","scaleY":0.25,"scaleX":0.25,"left":20,"centerY":0},
@@ -886,7 +853,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/coin-21.png","left":70,"centerY":0},
@@ -902,7 +868,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -915,7 +880,6 @@
                             "compId":399,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Label",
                                     "searchKey":"Label,coinPercentText",
                                     "props":{"y":0,"x":0,"var":"coinPercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -933,7 +897,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"x":0,"width":430,"top":485,"skin":"images/bg-432.png","left":20},
@@ -946,7 +909,6 @@
                     "compId":401,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-mark.png","scaleY":0.5,"scaleX":0.5,"left":20,"centerY":0},
@@ -962,7 +924,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/totalScore-21.png","left":70,"centerY":0},
@@ -978,7 +939,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -991,7 +951,6 @@
                             "compId":404,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Label",
                                     "searchKey":"Label,scorePercentText",
                                     "props":{"y":0,"x":0,"var":"scorePercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -1700,7 +1659,7 @@
                         ],
                     "$HIDDEN":false
                 }],
-            "$HIDDEN":true
+            "$HIDDEN":false
         },
         {
             "x":15,
@@ -1764,7 +1723,7 @@
             "x":15,
             "type":"Image",
             "searchKey":"Image,returnButton",
-            "props":{"var":"returnButton","top":0,"skin":"images/ButtonClose_Gray.png","runtime":"../laya/assets/sounds/SoundSE002.mp3","right":0,"left":1208},
+            "props":{"var":"returnButton","top":0,"skin":"images/ButtonClose_Gray.png","runtime":"../laya/assets/sounds/SoundSE002.mp3","right":0},
             "nodeParent":1,
             "label":"returnButton",
             "isDirectory":false,
@@ -1777,8 +1736,39 @@
         {
             "x":15,
             "type":"Image",
+            "searchKey":"Image,bikePanelButton",
+            "props":{"var":"bikePanelButton","top":10,"skin":"images/icon-role-1.png","left":73},
+            "nodeParent":1,
+            "label":"bikePanelButton",
+            "isOpen":false,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":406,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"y":0,"x":0,"skin":"images/english/role-property.png","centerX":0,"bottom":-10},
+                    "nodeParent":406,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":409,
+                    "child":[
+                        ],
+                    "$HIDDEN":false
+                }],
+            "$HIDDEN":false
+        },
+        {
+            "x":15,
+            "type":"Image",
             "searchKey":"Image,upgradePanelButton",
-            "props":{"y":-1,"x":78,"width":140,"var":"upgradePanelButton","top":-1,"runtime":"../laya/assets/sounds/SoundSE001.mp3","left":78,"height":58},
+            "props":{"y":-1,"width":75,"var":"upgradePanelButton","top":-1,"runtime":"../laya/assets/sounds/SoundSE001.mp3","left":150,"height":75},
             "nodeParent":1,
             "label":"upgradePanelButton",
             "isOpen":false,
@@ -1788,12 +1778,13 @@
             "compId":65,
             "child":[
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"y":0,"x":77,"skin":"images/icon-role-2.png","centerY":0,"centerX":40},
+                    "props":{"y":0,"skin":"images/icon-role-2.png","centerY":0,"centerX":0},
                     "nodeParent":65,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -1817,38 +1808,10 @@
                     "$HIDDEN":false
                 },
                 {
-                    "type":"Image",
-                    "searchKey":"Image",
-                    "props":{"y":2,"x":-3,"skin":"images/icon-role-1.png","centerY":0,"centerX":-40},
-                    "nodeParent":65,
-                    "label":"Image",
-                    "isOpen":true,
-                    "isDirectory":true,
-                    "isAniNode":true,
-                    "hasChild":true,
-                    "compId":406,
-                    "child":[
-                        {
-                            "type":"Image",
-                            "searchKey":"Image",
-                            "props":{"y":0,"x":0,"skin":"images/english/role-property.png","centerX":0,"bottom":-10},
-                            "nodeParent":406,
-                            "label":"Image",
-                            "isOpen":true,
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":409,
-                            "child":[
-                                ],
-                            "$HIDDEN":false
-                        }],
-                    "$HIDDEN":false
-                },
-                {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,lockedImage",
-                    "props":{"skin":"images/key_lock-2.png","scaleY":0.6,"scaleX":0.6,"name":"lockedImage","centerY":0,"centerX":45},
+                    "props":{"skin":"images/key_lock-2.png","scaleY":0.6,"scaleX":0.6,"name":"lockedImage","centerY":0,"centerX":0},
                     "nodeParent":65,
                     "label":"lockedImage",
                     "isOpen":true,
@@ -1861,9 +1824,10 @@
                     "$HIDDEN":false
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,redPoint",
-                    "props":{"top":1,"skin":"images/redPoint.png","scaleY":1.5,"scaleX":1.5,"right":-43,"name":"redPoint"},
+                    "props":{"skin":"images/redPoint.png","scaleY":1.5,"scaleX":1.5,"name":"redPoint","centerY":-35,"centerX":35},
                     "nodeParent":65,
                     "label":"redPoint",
                     "isOpen":true,
@@ -1874,7 +1838,8 @@
                     "child":[
                         ],
                     "$HIDDEN":false
-                }]
+                }],
+            "$HIDDEN":false
         },
         {
             "x":15,
