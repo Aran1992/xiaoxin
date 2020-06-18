@@ -6524,6 +6524,17 @@ Config.item = {
                 animationSpeed: 1,
                 // 动画偏移
                 animationPos: [0, 0],
+                // 子弹时间时显示的动画
+                bulletTimeAnimation: {
+                    // 动画路径
+                    animationJsonPath: "images/trap/enm11-2.json",
+                    // 动画名称
+                    animationName: "enm11-2",
+                    // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
+                    animationSpeed: 1,
+                    // 动画偏移
+                    animationPos: [0, 0],
+                },
                 // 实际区域宽度（图档比例的0.8）
                 bodyWidth: 96,
                 // 实际区域高度（图档比例的0.7）
@@ -6569,6 +6580,17 @@ Config.item = {
                 animationSpeed: 1,
                 // 动画偏移
                 animationPos: [0, 0],
+                // 子弹时间时显示的动画
+                bulletTimeAnimation: {
+                    // 动画路径
+                    animationJsonPath: "images/trap/enm12-2.json",
+                    // 动画名称
+                    animationName: "enm12-2",
+                    // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
+                    animationSpeed: 1,
+                    // 动画偏移
+                    animationPos: [0, 0],
+                },
                 // 实际区域宽度（图档比例的0.8）
                 bodyWidth: 195,
                 // 实际区域高度（图档比例的0.7）
@@ -6614,6 +6636,17 @@ Config.item = {
                 animationSpeed: 1,
                 // 动画偏移
                 animationPos: [0, 0],
+                // 子弹时间时显示的动画
+                bulletTimeAnimation: {
+                    // 动画路径
+                    animationJsonPath: "images/trap/enm10-2.json",
+                    // 动画名称
+                    animationName: "enm10-2",
+                    // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
+                    animationSpeed: 1,
+                    // 动画偏移
+                    animationPos: [0, 0],
+                },
                 // 实际区域宽度（图档比例的0.8）
                 bodyWidth: 104,
                 // 实际区域高度（图档比例的0.8）
@@ -6715,6 +6748,17 @@ Config.item = {
                 animationSpeed: 1,
                 // 动画偏移
                 animationPos: [0, 0],
+                // 子弹时间时显示的动画
+                bulletTimeAnimation: {
+                    // 动画路径
+                    animationJsonPath: "images/trap/enm13-2.json",
+                    // 动画名称
+                    animationName: "enm13-2",
+                    // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
+                    animationSpeed: 1,
+                    // 动画偏移
+                    animationPos: [0, 0],
+                },
                 // 实际区域宽度（图档比例的0.8）
                 bodyWidth: 120,
                 // 实际区域高度（图档比例的0.8）
@@ -6756,6 +6800,17 @@ Config.item = {
                 animationSpeed: 1,
                 // 动画偏移
                 animationPos: [0, 0],
+                // 子弹时间时显示的动画
+                bulletTimeAnimation: {
+                    // 动画路径
+                    animationJsonPath: "images/trap/enm14-2.json",
+                    // 动画名称
+                    animationName: "enm14-2",
+                    // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
+                    animationSpeed: 1,
+                    // 动画偏移
+                    animationPos: [0, 0],
+                },
                 // 实际区域宽度（图档比例的0.8）
                 bodyWidth: 77,
                 // 实际区域高度（图档比例的0.6）
