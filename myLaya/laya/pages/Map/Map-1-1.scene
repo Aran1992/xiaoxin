@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":1,
-    "selecteID":3310,
+    "selectedBox":3355,
+    "selecteID":3358,
     "searchKey":"Scene",
     "props":{"width":720,"sceneColor":"#000000","height":1280},
     "nodeParent":-1,
-    "maxID":3343,
+    "maxID":3361,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -4732,7 +4732,7 @@
                             "x":45,
                             "type":"Label",
                             "searchKey":"Label",
-                            "props":{"text":"${TextMap-1-1-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "props":{"text":"${TextMap-1-1-6}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
                             "nodeParent":3280,
                             "label":"Label",
                             "isDirectory":false,
@@ -5006,7 +5006,7 @@
             "x":15,
             "type":"Panel",
             "searchKey":"Panel,Guide//引导//蒙版:0//暂停直到用户点击:0//暂停直到用户跳跃:0//暂停直到用户使用道具:0//只出现一次:1//暂停直到用户使用子弹时间:0",
-            "props":{"y":-595,"x":17500,"width":1280,"name":"Guide//引导//蒙版:0//暂停直到用户点击:0//暂停直到用户跳跃:0//暂停直到用户使用道具:0//只出现一次:1//暂停直到用户使用子弹时间:0","height":720},
+            "props":{"y":-595,"x":19500,"width":1280,"name":"Guide//引导//蒙版:0//暂停直到用户点击:0//暂停直到用户跳跃:0//暂停直到用户使用道具:0//只出现一次:1//暂停直到用户使用子弹时间:0","height":720},
             "nodeParent":1,
             "label":"Guide//引导//蒙版:0//暂停直到用户点击:0//暂停直到用户跳跃:0//暂停直到用户使用道具:0//只出现一次:1//暂停直到用户使用子弹时间:0",
             "isOpen":true,
@@ -5301,6 +5301,148 @@
                     "compId":3342,
                     "child":[
                         ]
+                }]
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide//引导//蒙版:0//暂停直到用户点击:0//暂停直到用户跳跃:0//暂停直到用户使用道具:0//只出现一次:1//暂停直到用户使用子弹时间:0",
+            "props":{"y":-595,"x":1500,"width":1280,"name":"Guide//引导//蒙版:0//暂停直到用户点击:0//暂停直到用户跳跃:0//暂停直到用户使用道具:0//只出现一次:1//暂停直到用户使用子弹时间:0","height":720},
+            "nodeParent":1,
+            "label":"Guide//引导//蒙版:0//暂停直到用户点击:0//暂停直到用户跳跃:0//暂停直到用户使用道具:0//只出现一次:1//暂停直到用户使用子弹时间:0",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":3343,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对玩家位置用",
+                    "props":{"visible":false,"top":454,"skin":"images/help-12.png","name":"对玩家位置用","left":304},
+                    "nodeParent":3343,
+                    "label":"对玩家位置用",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":3344,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对左下位置用",
+                    "props":{"visible":false,"skin":"images/help-12.png","name":"对左下位置用","left":0,"bottom":0},
+                    "nodeParent":3343,
+                    "label":"对左下位置用",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":3345,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":440,"top":90,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","height":100,"centerX":0},
+                    "nodeParent":3343,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":3346,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Label",
+                            "searchKey":"Label",
+                            "props":{"text":"${TextMap-1-1-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":3346,
+                            "label":"Label",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":3347,
+                            "child":[
+                                ]
+                        }]
+                }]
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide//引导//蒙版:0//暂停直到用户点击:0//暂停直到用户跳跃:0//暂停直到用户使用道具:0//只出现一次:1//暂停直到用户使用子弹时间:0",
+            "props":{"y":-595,"x":17500,"width":1280,"name":"Guide//引导//蒙版:0//暂停直到用户点击:0//暂停直到用户跳跃:0//暂停直到用户使用道具:0//只出现一次:1//暂停直到用户使用子弹时间:0","height":720},
+            "nodeParent":1,
+            "label":"Guide//引导//蒙版:0//暂停直到用户点击:0//暂停直到用户跳跃:0//暂停直到用户使用道具:0//只出现一次:1//暂停直到用户使用子弹时间:0",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":3355,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对玩家位置用",
+                    "props":{"visible":false,"top":454,"skin":"images/help-12.png","name":"对玩家位置用","left":304},
+                    "nodeParent":3355,
+                    "label":"对玩家位置用",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":3356,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,对左下位置用",
+                    "props":{"visible":false,"skin":"images/help-12.png","name":"对左下位置用","left":0,"bottom":0},
+                    "nodeParent":3355,
+                    "label":"对左下位置用",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":3357,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":400,"top":90,"skin":"images/bg-471.png","sizeGrid":"50,50,50,50","height":100,"centerX":0},
+                    "nodeParent":3355,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":3358,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Label",
+                            "searchKey":"Label",
+                            "props":{"text":"${TextMap-1-1-71}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":3358,
+                            "label":"Label",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":3359,
+                            "child":[
+                                ]
+                        }]
                 }]
         }],
     "animations":[

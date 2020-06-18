@@ -10950,13 +10950,13 @@ Config.bike.enemyNameText = {
         fontSize: 20,
     },
     // Y轴位置
-    positionY: -100
+    positionY: -120
 };
 
 // 敌人自行车头像图片相关配置
 Config.bike.enemyHeadImage = {
     // Y轴位置
-    positionY: -60,
+    positionY: -150,
     // 宽
     width: 30,
     // 高
