@@ -6926,8 +6926,8 @@ Config.item = {
                 animationSpeed: 0.3,
                 // 动画偏移
                 animationPos: [0, 0],
-                // 实际区域宽度（图档比例的0.8）
-                bodyWidth: 43,
+                // 实际区域宽度（图档比例的0.6）
+                bodyWidth: 32,
                 // 实际区域高度（图档比例的0.8）
                 bodyHeight: 403,
                 // 触碰到的时候的自行车竖直方向上的速度

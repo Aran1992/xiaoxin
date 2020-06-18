@@ -2,11 +2,11 @@
     "x":0,
     "type":"Scene",
     "selectedBox":1,
-    "selecteID":32,
+    "selecteID":119,
     "searchKey":"Scene",
     "props":{"width":1136,"sceneColor":"#000000","height":640},
     "nodeParent":-1,
-    "maxID":131,
+    "maxID":132,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -1086,10 +1086,10 @@
         {
             "x":15,
             "type":"Image",
-            "searchKey":"Image,BlackBird//黑鸟//ID:12100",
-            "props":{"y":-50,"x":-4300,"skin":"images/edit/trp_gas.png","scaleY":1,"scaleX":1,"name":"BlackBird//黑鸟//ID:12100","anchorY":0.5,"anchorX":0.5},
+            "searchKey":"Image,BlackBird//黑鸟//ID:12300",
+            "props":{"y":-211.5,"x":-4790,"skin":"images/edit/firewall.png","scaleY":1,"scaleX":1,"name":"BlackBird//黑鸟//ID:12300","anchorY":0.5,"anchorX":0.5},
             "nodeParent":1,
-            "label":"BlackBird//黑鸟//ID:12100",
+            "label":"BlackBird//黑鸟//ID:12300",
             "isDirectory":false,
             "isAniNode":true,
             "hasChild":false,
@@ -1211,6 +1211,20 @@
                     "child":[
                         ]
                 }]
+        },
+        {
+            "x":15,
+            "type":"Image",
+            "searchKey":"Image,Sprite",
+            "props":{"y":0,"x":-4790,"skin":"images/firewall-bottom.png","name":"Sprite","anchorY":1,"anchorX":0.5},
+            "nodeParent":1,
+            "label":"Sprite",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":131,
+            "child":[
+                ]
         }],
     "animations":[
         {
