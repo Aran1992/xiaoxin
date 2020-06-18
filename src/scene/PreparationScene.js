@@ -19,9 +19,7 @@ export default class PreparationScene extends Scene {
             this.onClick(this.ui[`advertButton${i}`], () => {
                 this.onClickAdvertButton(i);
             });
-            this.onClick(this.ui[`item${i}`], () => {
-                this.onClickItem(i);
-            });
+            this.onClick(this.ui[`item${i}`], () => this.onClickItem(this.ui[`item${i}`]), true);
         }
         this.onClick(this.ui.startButton, this.onClickStartButton.bind(this));
         this.bikeSprite = new BikeSprite(this.ui.itemIcon3, 0);
@@ -31,6 +29,7 @@ export default class PreparationScene extends Scene {
             item.ui.itemIcon = item.ui.itemIcon.addChild(new Sprite());
             item.ui.itemIcon.anchor.set(0.5, 0.5);
             item.ui.bikeSprite = new BikeSprite(item.ui.bikeSpritePanel);
+            this.onClick(item, () => this.onClickItem(item), true);
         }
         this.onClick(this.ui.mapAdButton, this.onClickMapAdButton.bind(this));
     }
@@ -65,6 +64,10 @@ export default class PreparationScene extends Scene {
         }
         this.rewards = DataMgr.get(this.rewardType);
 
+        for (let i = 1; i <= 3; i++) {
+            const item = this.ui[`item${i}`];
+            item.info = this.rewards[i - 1];
+        }
         this.ui.itemIcon1.children[0].texture = Texture.from(Config.effect[this.rewards[0].effect].imagePath);
         this.ui.itemIcon2.children[0].texture = Texture.from(Config.effect[this.rewards[1].effect].imagePath);
         this.bikeSprite.setBikeID(this.rewards[2].bike);
@@ -180,6 +183,7 @@ export default class PreparationScene extends Scene {
                                 item.ui.itemIcon.texture = Texture.from("myLaya/laya/assets/images/icon-coin.png");
                                 item.ui.numberText.visible = true;
                                 item.ui.numberText.text = reward;
+                                item.info = {coin: 1};
                                 break;
                             }
                             case "diamond": {
@@ -187,6 +191,7 @@ export default class PreparationScene extends Scene {
                                 item.ui.itemIcon.texture = Texture.from("myLaya/laya/assets/images/icon-diamond.png");
                                 item.ui.numberText.visible = true;
                                 item.ui.numberText.text = reward;
+                                item.info = {diamond: 1};
                                 break;
                             }
                             case "exp": {
@@ -194,12 +199,14 @@ export default class PreparationScene extends Scene {
                                 item.ui.itemIcon.texture = Texture.from("myLaya/laya/assets/images/icon-exp.png");
                                 item.ui.numberText.visible = true;
                                 item.ui.numberText.text = reward;
+                                item.info = {exp: 1};
                                 break;
                             }
                             case "bike": {
                                 item.ui.bikeSpritePanel.visible = true;
                                 item.ui.bikeSprite.setBikeID(reward);
                                 item.ui.bikeSprite.play();
+                                item.info = {bike: reward};
                                 break;
                             }
                         }
@@ -212,8 +219,8 @@ export default class PreparationScene extends Scene {
         }
     }
 
-    onClickItem(i) {
-        App.showScene("InfoScene", this.rewards[i - 1]);
+    onClickItem(item) {
+        App.showScene("InfoScene", item.info);
     }
 }
 

@@ -58,7 +58,7 @@ export default class RankScene extends Scene {
     }
 
     initListItem(item) {
-        // this.onClick(item, this.onClickItem.bind(this));
+        // this.onClick(item, this.onClickItem.bind(this), true);
     }
 
     updateListItem(item, index) {
@@ -79,7 +79,7 @@ export default class RankScene extends Scene {
                     item.ui.levelText.visible = false;
                 } else {
                     item.ui.levelText.visible = true;
-                    item.ui.levelText.text = App.getText("LevelDsc",{level:DataMgr.getPlayerLevel(info.exp).level});
+                    item.ui.levelText.text = App.getText("LevelDsc", {level: DataMgr.getPlayerLevel(info.exp).level});
                 }
             }
         });

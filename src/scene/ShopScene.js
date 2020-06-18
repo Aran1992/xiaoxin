@@ -81,6 +81,8 @@ export default class ShopScene extends Scene {
     }
 
     initGoldItem(item) {
+        item.info = {coin: 1};
+        this.onClick(item, () => this.onClickItem(item), true);
         this.onClick(item.ui.advertButton, this.onClickCoinAdvertButton.bind(this));
     }
 
@@ -141,6 +143,8 @@ export default class ShopScene extends Scene {
     }
 
     initDiamondItem(item) {
+        item.info = {diamond: 1};
+        this.onClick(item, () => this.onClickItem(item), true);
         this.onClick(item.ui.advertButton, this.onClickDiamondAdvertButton.bind(this));
     }
 
@@ -288,6 +292,10 @@ export default class ShopScene extends Scene {
             }
             GameUtils.showRedPoint(button, visible);
         });
+    }
+
+    onClickItem(item) {
+        App.showScene("InfoScene", item.info);
     }
 }
 
