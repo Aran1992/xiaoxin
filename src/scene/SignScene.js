@@ -33,10 +33,12 @@ export default class SignScene extends Scene {
         item.ui.itemIcon = item.ui.itemIcon.addChild(new Sprite());
         item.ui.itemIcon.anchor.set(0.5, 0.5);
         item.ui.bikeSprite = new BikeSprite(item.ui.bikeSpritePanel);
+        this.onClick(item, () => this.onClickItem(item), true);
     }
 
     updateItem(item, index) {
         let reward = Config.signRewardList[index];
+        item.info = reward;
         item.ui.title.text = App.getText(`day${index + 1}`);
         item.ui.itemIcon.visible = false;
         item.ui.numberText.visible = false;
@@ -71,6 +73,19 @@ export default class SignScene extends Scene {
         this.ui.bikeSprite.play();
         this.ui.coinNumberText.text = Config.signRewardList[6].coin;
         this.ui.diamondNumberText.text = Config.signRewardList[6].diamond;
+        for (let i = 0; i < 3; i++) {
+            const item = this.ui[`day7item${i}`];
+            let info;
+            if (i === 0) {
+                info = {coin: Config.signRewardList[6].coin};
+            } else if (i === 1) {
+                info = {diamond: Config.signRewardList[6].diamond};
+            } else {
+                info = {bike: Config.signRewardList[6].bike};
+            }
+            item.info = info;
+            this.onClick(item, () => this.onClickItem(item), true);
+        }
     }
 
     updateItem7() {
@@ -117,6 +132,10 @@ export default class SignScene extends Scene {
         } else {
             App.showNotice("已经没有签到奖励可以领取了");
         }
+    }
+
+    onClickItem(item) {
+        App.showScene("InfoScene", item.info);
     }
 }
 

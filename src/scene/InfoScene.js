@@ -19,7 +19,36 @@ export default class InfoScene extends Scene {
 
     onShow(data) {
         this.parent.setChildIndex(this, this.parent.children.length - 1);
-        if (data.bike !== undefined) {
+
+        if (data.coin) {
+            this.ui.bikePanel.visible = false;
+            this.ui.itemIcon.visible = true;
+            const config = Config.infoScene.coin;
+            this.ui.itemIcon.children[0].texture = Texture.from(config.texture);
+            this.ui.itemName.text = App.getText(config.name);
+            this.ui.itemDsc.text = App.getText(config.dsc);
+        } else if (data.diamond) {
+            this.ui.bikePanel.visible = false;
+            this.ui.itemIcon.visible = true;
+            const config = Config.infoScene.diamond;
+            this.ui.itemIcon.children[0].texture = Texture.from(config.texture);
+            this.ui.itemName.text = App.getText(config.name);
+            this.ui.itemDsc.text = App.getText(config.dsc);
+        } else if (data.exp) {
+            this.ui.bikePanel.visible = false;
+            this.ui.itemIcon.visible = true;
+            const config = Config.infoScene.exp;
+            this.ui.itemIcon.children[0].texture = Texture.from(config.texture);
+            this.ui.itemName.text = App.getText(config.name);
+            this.ui.itemDsc.text = App.getText(config.dsc);
+        }  else if (data.bulletTimeMaxValue) {
+            this.ui.bikePanel.visible = false;
+            this.ui.itemIcon.visible = true;
+            const config = Config.infoScene.bulletTimeMaxValue;
+            this.ui.itemIcon.children[0].texture = Texture.from(config.texture);
+            this.ui.itemName.text = App.getText(config.name);
+            this.ui.itemDsc.text = App.getText(config.dsc);
+        } else if (data.bike !== undefined) {
             this.ui.bikePanel.visible = true;
             this.ui.itemIcon.visible = false;
             this.bikeSprite.setBikeID(data.bike);

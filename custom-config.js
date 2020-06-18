@@ -5833,6 +5833,36 @@ Config.shopScene = {
     // 切页按钮的距离
     radioDistance: 270,
 };
+// 物品详情界面
+Config.infoScene = {
+    // 金币
+    coin: {
+        // 图片
+        texture: "myLaya/laya/assets/images/icon-coin.png",
+        // 名称
+        name: "Coin",
+        // 描述
+        dsc: "Coin"
+    },
+    // 钻石
+    diamond: {
+        texture: "myLaya/laya/assets/images/icon-diamond.png",
+        name: "Diamond",
+        dsc: "Diamond"
+    },
+    // 经验
+    exp: {
+        texture: "myLaya/laya/assets/images/icon-exp.png",
+        name: "Exp",
+        dsc: "Exp"
+    },
+    // 子弹时间最大值
+    bulletTimeMaxValue: {
+        texture: "myLaya/laya/assets/images/bullet-time-slot.png",
+        name: "Exp",
+        dsc: "Exp"
+    },
+};
 
 // 商店游戏币配置（目前关闭了不用）
 Config.moneyList = [
