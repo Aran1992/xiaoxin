@@ -77,6 +77,7 @@ export default class ShopScene extends Scene {
             initItemFunc: this.initGoldItem.bind(this),
             updateItemFunc: this.updateGoldItem.bind(this),
             count: Config.rewardGoldList.length,
+            isStatic: !Config.shopScene.enableListMove,
         });
     }
 
@@ -139,6 +140,7 @@ export default class ShopScene extends Scene {
             initItemFunc: this.initDiamondItem.bind(this),
             updateItemFunc: this.updateDiamondItem.bind(this),
             count: Config.rewardDiamondList.length,
+            isStatic: !Config.shopScene.enableListMove,
         });
     }
 
@@ -201,6 +203,7 @@ export default class ShopScene extends Scene {
             initItemFunc: this.initMapItem.bind(this),
             updateItemFunc: this.updateMapItem.bind(this),
             count: Config.endlessMode.sceneList.length,
+            isStatic: !Config.shopScene.enableListMove,
         });
     }
 

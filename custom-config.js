@@ -5832,6 +5832,8 @@ Config.levelUpScene = {
 Config.shopScene = {
     // 切页按钮的距离
     radioDistance: 270,
+    // 是否能够拖动列表
+    enableListMove: false,
 };
 // 物品详情界面
 Config.infoScene = {
