@@ -1403,9 +1403,7 @@ export default class GameScene extends Scene {
 
     syncBikeSprite(velocity, bikePhysicsPos) {
         if (this.followAnimation) {
-            this.followAnimation.visible = this.contactRoadList.length !== 0
-                || this.contactRoad2List.some(fixture => !fixture.getBody().getUserData().obj.isPlayerInside)
-                || this.contactUpdownPlatformList.some(fixture => this.bikeBody.getPosition().y > fixture.getBody().getPosition().y);
+            this.followAnimation.visible = this.isBikeLanding();
         }
         this.contactRoad2List.forEach(fixture => fixture.getBody().getUserData().obj.isPlayerInside = false);
 
@@ -1436,6 +1434,12 @@ export default class GameScene extends Scene {
             }
             this.updateBikeAnimation();
         }
+    }
+
+    isBikeLanding() {
+        return this.contactRoadList.length !== 0
+            || this.contactRoad2List.some(fixture => !fixture.getBody().getUserData().obj.isPlayerInside)
+            || this.contactUpdownPlatformList.some(fixture => this.bikeBody.getPosition().y > fixture.getBody().getPosition().y);
     }
 
     judgeGameLose(velocity, bikePhysicsPos) {
