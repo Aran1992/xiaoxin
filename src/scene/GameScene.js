@@ -1815,6 +1815,9 @@ export default class GameScene extends Scene {
     }
 
     onPointerUp() {
+        if (!UIHelper.getClickPredicate()(this.gameContainer)) {
+            return;
+        }
         this.stopEnterRotateStatus();
         if (this.startAdjustBikeHeight && this.startY !== undefined) {
             this.startY = undefined;

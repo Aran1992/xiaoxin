@@ -43,7 +43,7 @@ export default class UIGuidePanel {
                     alert(`引导界面不存在要点击的控件：${controlID}`);
                 }
             }
-        } else {
+        } else if (guideData.scene !== "GameScene") {
             UIHelper.controlClick(() => false, this.onClickGuidePanel.bind(this));
         }
         const remainTime = guideData.showDuration;
