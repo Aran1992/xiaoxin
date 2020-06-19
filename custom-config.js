@@ -2626,7 +2626,6 @@ Config.bikeVelocityLevel = [0.8, 0.9, 1, 1.1,];
 // 所以五个等级只要配置四个点就可以
 Config.bikeJumpLevel = [1.4, 1.3, 1.2, 1.1];
 
-
 // 自行车列表 自行车在列表里面的排序就是在界面上显示的顺序
 Config.bikeList = [
     {

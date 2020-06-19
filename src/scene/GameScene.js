@@ -330,6 +330,7 @@ export default class GameScene extends Scene {
         const bjas = Utils.values(config.bikeJumpingAnimation || Config.bikeJumpingAnimation).map(item => item.atlasPath);
         const bsa = config.bikeSprintAnimation || Config.bikeSprintAnimation;
         const bspa = config.bikeSpringAnimation ? config.bikeSpringAnimation.path : Config.bikeSpringAnimation.path;
+        const bra = config.bikeRotateAnimation ? config.bikeRotateAnimation.path : Config.bikeRotateAnimation.path;
         const pe = [];
         Utils.values(Config.playerEffect).forEach(config => {
             if (config.length) {
@@ -348,6 +349,7 @@ export default class GameScene extends Scene {
             bca,
             bsa,
             bspa,
+            bra,
             Config.bulletTime.filmImagePath,
             Config.bulletTime.lineAnimationPath,
             Config.warningAnimation.warnSpritePath,
