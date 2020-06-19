@@ -45,7 +45,7 @@ Purchased,,ShopScene.scene.json,已拥有,Purchased,持っているもの
 Confirm,,TipScene.scene.json,确认,Confirm,確認
 RequestingRankData,,RankScene.scene.json,排行榜数据加载中,Requesting rank data,
 NotListed,,RankScene.scene.json,榜外名单,Not Listed,
-RestartAfterTime,,RankScene.scene.json,${time} 之后重新开始,Restart after ${time},
+RestartAfterTime,,RankScene.scene.json,${time} ,Restart after ${time},
 UnlockAllBike,,ShopScene.scene.json,解锁所有的造型,Unlock All Bike,
 UnlockAllEndlessScene,,ShopScene.scene.json,解锁所有的无尽旅程地图,Unlock All Endless Scene,
 Money2DCPresentDsc,,ShopScene.scene.json,"${money} 钱
