@@ -61,18 +61,6 @@ Config.bikeSprintAnimation = "myLaya/laya/assets/animations/sprint.json";
 // 默认自行车冲刺动画的偏移
 Config.bikeSprintAnimationPos = [0, -40];
 
-// 默认自行车旋转动画
-Config.bikeRotateAnimation = {
-    // 路径
-    path: "myLaya/laya/assets/animations/xiaoxin_run2.json",
-    // 名称
-    name: "xiaoxin_run",
-    // 播放速度
-    speed: 0.2,
-    // 偏移
-    pos: [0, -40],
-};
-
 // 默认的自行车跳跃图集
 Config.bikeJumpingAnimation = {
     "1": {
@@ -116,6 +104,18 @@ Config.bikeJumpingAnimation = {
 Config.bikeSpringAnimation = {
     // 路径
     path: "myLaya/laya/assets/animations/xiaoxin_run2.json",
+    // 名称
+    name: "xiaoxin_run",
+    // 播放速度
+    speed: 0.2,
+    // 偏移
+    pos: [0, -40],
+};
+
+// 默认自行车旋转动画
+Config.bikeRotateAnimation = {
+    // 路径
+    path: "myLaya/laya/assets/animations/xiaoxin_run5.json",
     // 名称
     name: "xiaoxin_run",
     // 播放速度
@@ -2710,7 +2710,7 @@ Config.bikeList = [
         // 自行车旋转动画
         bikeRotateAnimation : {
             // 路径
-            path: "myLaya/laya/assets/animations/xiaoxin_run2.json",
+            path: "myLaya/laya/assets/animations/xiaoxin_run5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -2909,6 +2909,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns1030-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 2,
         // 自行车名
         "name": "Select Bike2",
@@ -2993,6 +3004,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns1010-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns1010-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3092,6 +3114,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns1020-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 4,
         // 自行车名
         "name": "Select Bike4",
@@ -3174,6 +3207,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns2010-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns2010-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3265,6 +3309,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns2020-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns2020-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3364,6 +3419,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns2030-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 7,
         // 自行车名
         "name": "Select Bike7",
@@ -3446,6 +3512,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns2040-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns2040-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3537,6 +3614,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns2060-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns2060-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3636,6 +3724,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns2070-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 10,
         // 自行车名
         "name": "Select Bike10",
@@ -3718,6 +3817,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns2080-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns2080-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3809,6 +3919,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns2090-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns2090-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3908,6 +4029,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns3000-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 13,
         // 自行车名
         "name": "Select Bike13",
@@ -3990,6 +4122,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns3010-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns3010-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4081,6 +4224,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns3020-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns3020-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4180,6 +4334,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns3030-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 16,
         // 自行车名
         "name": "Select Bike16",
@@ -4262,6 +4427,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5000-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5000-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4353,6 +4529,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5010-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5010-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4452,6 +4639,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5020-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 19,
         // 自行车名
         "name": "Select Bike19",
@@ -4534,6 +4732,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5030-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5030-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4625,6 +4834,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5040-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5040-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4724,6 +4944,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5050-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 22,
         // 自行车名
         "name": "Select Bike22",
@@ -4806,6 +5037,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5060-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5060-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4897,6 +5139,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5070-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5070-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4996,6 +5249,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5080-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 25,
         // 自行车名
         "name": "Select Bike25",
@@ -5078,6 +5342,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5090-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5090-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -5169,6 +5444,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5100-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5100-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -5268,6 +5554,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5110-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 28,
         // 自行车名
         "name": "Select Bike28",
@@ -5350,6 +5647,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5120-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5120-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -5441,6 +5749,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5130-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5130-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -5540,6 +5859,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5140-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 31,
         // 自行车名
         "name": "Select Bike31",
@@ -5632,6 +5962,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5150-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 32,
         // 自行车名
         "name": "Select Bike32",
@@ -5717,6 +6058,17 @@ Config.bikeList = [
         bikeSpringAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5630-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -11162,7 +11514,6 @@ Config.lockSystems = {
     // 扭蛋
     drawButton: {
         // 解锁条件
-//        condition: [12, 2, 3],
         condition: [12, 1, 1],
         // 解锁内容标题
         title: "SystemUnlockTitle1",
@@ -11176,8 +11527,7 @@ Config.lockSystems = {
     // 签到
     signButton: {
         // 解锁条件
-//        condition: [12, 2, 5],
-        condition: [12, 1, 1],
+        condition: [12, 1, 4],
         // 解锁内容标题
         title: "SystemUnlockTitle11",
         // 解锁描述
@@ -11190,8 +11540,7 @@ Config.lockSystems = {
     // 礼包
     giftButton: {
         // 解锁条件
-//        condition: [12, 1, 5],
-        condition: [12, 1, 1],
+        condition: [12, 2, 1],
         // 解锁内容标题
         title: "SystemUnlockTitle12",
         // 解锁描述
@@ -11204,8 +11553,7 @@ Config.lockSystems = {
     // 商店（福利）
     shopButton: {
         // 解锁条件
-//        condition: [12, 3, 5],
-        condition: [12, 1, 1],
+        condition: [12, 2, 3],
         // 解锁内容标题
         title: "SystemUnlockTitle13",
         // 解锁描述
@@ -11219,7 +11567,7 @@ Config.lockSystems = {
     mapModeButton: {
         // 解锁条件
 //        condition: [11, 5],
-        condition: [12, 1, 1],
+        condition: [12, 1, 5],
         // 解锁内容标题
         title: "SystemUnlockTitle2",
         // 解锁描述
@@ -11233,7 +11581,7 @@ Config.lockSystems = {
     rankButton: {
         // 解锁条件
 //        condition: [10, 1],
-        condition: [12, 1, 1],
+        condition: [12, 2, 4],
         // 解锁内容标题
         title: "SystemUnlockTitle3",
         // 解锁描述
@@ -11254,7 +11602,7 @@ Config.lockSystems = {
         // 解锁图片
         image: "myLaya/laya/assets/images/ButtonSocial_Blue.png",
         // 解锁图片缩放
-        imageScale: 2,
+        imageScale: 1,
     },
     // 战前准备界面（目前可能默认开启比较合适）
     preparationScene: {
@@ -11264,8 +11612,7 @@ Config.lockSystems = {
     // 车库
     bikeButton: {
         // 解锁条件
-//        condition: [12, 1, 3],
-        condition: [12, 1, 1],
+        condition: [12, 1, 2],
         // 解锁内容标题
         title: "SystemUnlockTitle6",
         // 解锁描述
@@ -11278,8 +11625,7 @@ Config.lockSystems = {
     // 无尽模式
     endlessModeButton: {
         // 解锁条件
-//        condition: [11, 4],
-        condition: [12, 1, 1],
+        condition: [12, 1, 3],
         // 解锁内容标题
         title: "SystemUnlockTitle5",
         // 解锁描述
@@ -11292,8 +11638,7 @@ Config.lockSystems = {
     // 自行车能力
     upgradePanelButton: {
         // 解锁条件
-//        condition: [12, 3, 3],
-        condition: [12, 1, 1],
+        condition: [12, 2, 2],
         // 解锁内容标题
         title: "SystemUnlockTitle7",
         // 解锁描述
