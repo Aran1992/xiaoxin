@@ -2714,7 +2714,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -2733,6 +2733,8 @@ Config.bikeList = [
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
         // 结算金币倍率（不填的话就使用默认值）
         "coinPercent": [
             1,
@@ -2829,8 +2831,6 @@ Config.bikeList = [
             1.95,
             2
         ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -2918,7 +2918,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -2938,7 +2938,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3020,7 +3022,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3041,7 +3043,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3123,7 +3127,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3141,7 +3145,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3223,7 +3229,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3243,7 +3249,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3325,7 +3333,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3346,7 +3354,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3428,7 +3438,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3446,7 +3456,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3528,7 +3540,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3548,7 +3560,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3630,7 +3644,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3651,7 +3665,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3733,7 +3749,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3751,7 +3767,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.3,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3833,7 +3851,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3853,7 +3871,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3935,7 +3955,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3956,7 +3976,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4038,7 +4060,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4056,7 +4078,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4138,7 +4162,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4158,7 +4182,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4240,7 +4266,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4261,7 +4287,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4343,7 +4371,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4361,7 +4389,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4443,7 +4473,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4463,7 +4493,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4545,7 +4577,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4566,7 +4598,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4648,7 +4682,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4666,7 +4700,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4748,7 +4784,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4768,7 +4804,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4850,7 +4888,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4871,7 +4909,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4953,7 +4993,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4971,7 +5011,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.4,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5053,7 +5095,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5073,7 +5115,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5155,7 +5199,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5176,7 +5220,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5258,7 +5304,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5276,7 +5322,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5358,7 +5406,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5378,7 +5426,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5460,7 +5510,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5481,7 +5531,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5563,7 +5615,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5581,7 +5633,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.4,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5663,7 +5717,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5683,7 +5737,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5765,7 +5821,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5786,7 +5842,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5868,7 +5926,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5889,7 +5947,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5971,7 +6031,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5992,7 +6052,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -6074,7 +6136,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -6095,7 +6157,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
     }
 ];
 
@@ -13810,9 +13874,9 @@ Config.double = {
     // 金币
     coin: 1,
     // 子弹时间值
-    bulletTimeValue: 1,
+    bulletTimeValue: 0,
     // 奖励关卡值
-    rewardProgressValue: 1,
+    rewardProgressValue: 0,
 };
 
 // 翻倍数字动画
@@ -13820,7 +13884,7 @@ Config.doubleAnimation = {
     // 动画时长（单位：毫秒）
     duration: 750,
     // 弹起高度
-    yOffset: 200,
+    yOffset: 100,
     // 一开始的时候偏移中心点多少高度
     yStartOffset: -100,
     // 消失时候的透明度
