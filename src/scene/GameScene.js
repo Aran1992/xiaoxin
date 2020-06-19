@@ -765,7 +765,33 @@ export default class GameScene extends Scene {
         }
     }
 
+    getMultiple() {
+        let i = 1;
+        if (this.rotating) {
+            i += Config.rotateStatus.rewardAddTimes;
+        }
+        if (this.stepSpeed !== 1) {
+            i += Config.bulletTime.rewardAddTimes;
+        }
+        return i;
+    }
+
+    getMultipleAble(type) {
+        switch (type) {
+            case "GoldCoin": {
+                return Config.double.coin;
+            }
+            case "Exp": {
+                return Config.double.exp;
+            }
+            default: {
+                return false;
+            }
+        }
+    }
+
     onAteItem(type, effect, texture, itemConfig) {
+        let multiple = 1;
         switch (type) {
             case "Random": {
                 let effect = this.randomEffect(this);
@@ -785,7 +811,12 @@ export default class GameScene extends Scene {
                 break;
             }
             case "GoldCoin": {
-                this.updateCoin(this.coin + itemConfig.value);
+                let value = itemConfig.value;
+                if (Config.double.coin) {
+                    multiple = this.getMultiple();
+                    value *= multiple;
+                }
+                this.updateCoin(this.coin + value);
                 MusicMgr.playSound(Config.soundPath.eatGoldCoin, undefined, this.stepSpeed);
                 break;
             }
@@ -795,7 +826,12 @@ export default class GameScene extends Scene {
                 break;
             }
             case "Exp": {
-                this.updateExp(this.exp + itemConfig.value);
+                let value = itemConfig.value;
+                if (Config.double.exp) {
+                    multiple = this.getMultiple();
+                    value *= multiple;
+                }
+                this.updateExp(this.exp + value);
                 MusicMgr.playSound(Config.soundPath.eatExp, undefined, this.stepSpeed);
                 break;
             }
@@ -817,12 +853,61 @@ export default class GameScene extends Scene {
         }
         if (itemConfig) {
             if (itemConfig.bulletTimeValue) {
-                this.addBulletTime(itemConfig.bulletTimeValue);
+                let value = itemConfig.bulletTimeValue;
+                if (Config.double.bulletTimeValue) {
+                    multiple = this.getMultiple();
+                    value *= multiple;
+                }
+                this.addBulletTime(value);
             }
             if (this.addRewardProgressValue && itemConfig.rewardProgressValue) {
-                this.addRewardProgressValue(itemConfig.rewardProgressValue);
+                let value = itemConfig.rewardProgressValue;
+                if (Config.double.rewardProgressValue) {
+                    multiple = this.getMultiple();
+                    value *= multiple;
+                }
+                this.addRewardProgressValue(value);
             }
         }
+        if (multiple > 1) {
+            this.playMultiple(multiple);
+        }
+    }
+
+    createImageText(line, fontFamily, parent) {
+        const container = new Container();
+        parent.addChild(container);
+        const config = Config.imageText[fontFamily];
+        const chars = line.split("");
+        let lastX = 0;
+        chars.forEach(char => {
+            const path = config.charImgPathTable[char];
+            if (path) {
+                let sprite = Sprite.from(path);
+                let charHeight = sprite.texture.height;
+                sprite.x = lastX;
+                lastX += sprite.width;
+                sprite.y = config.charHeight - charHeight;
+                container.addChild(sprite);
+            }
+        });
+        container.x = -lastX / 2;
+        container.y = -config.charHeight / 2;
+        return container;
+    }
+
+    playMultiple(multiple) {
+        const sprite = this.createImageText(`x${multiple}`, "bonuspt3", this.bikeSprite);
+        sprite.y += Config.doubleAnimation.yStartOffset;
+        new TWEEN.Tween(sprite)
+            .to({
+                y: sprite.y - Config.doubleAnimation.yOffset,
+                alpha: Config.doubleAnimation.endAlpha
+            }, Config.doubleAnimation.duration / this.stepSpeed)
+            .onComplete(() => {
+                sprite.destroy();
+            })
+            .start(performance.now());
     }
 
     createBottomMask() {
@@ -1340,7 +1425,7 @@ export default class GameScene extends Scene {
                 if (Config.bikeRotateByMoveDirection) {
                     this.bikeSelfContainer.rotation = -Math.atan(velocity.y / velocity.x);
                 }
-                if (!this.hasEffect("Sprint")) {
+                if (!this.hasEffect("Sprint") && !this.rotating && !this.isSpring && !this.isJacking) {
                     let cv = this.bikeBody.getLinearVelocity().x;
                     let bv = Config.bikeBasicVelocity;
                     this.bikeAnimSpeed = cv / bv / Config.framesForChangeImageInBasicVelocity;
@@ -1670,6 +1755,7 @@ export default class GameScene extends Scene {
     onDead() {
         this.leaveInvincible();
         this.leaveBulletTime();
+        this.leaveRotateStatus();
         MusicMgr.playSound(Config.soundPath.die);
         this.gameStatus = "end";
         let pos = this.bikeBody.getPosition();
@@ -1770,7 +1856,7 @@ export default class GameScene extends Scene {
                         this.emitter.playOnce();
                         break;
                     default:
-                        
+
                         MusicMgr.playSound(Config.soundPath.extraJump, undefined, this.stepSpeed);
                         this.emitter.playOnce();
                 }
@@ -2790,7 +2876,7 @@ export default class GameScene extends Scene {
     enterRotateStatus() {
         this.rotating = true;
         const {frames, pos, speed} = this.getBikeRotateAnimation();
-        this.setBikeAnimation(frames, speed, pos, {xxx: true});
+        this.setBikeAnimation(frames, speed, pos);
     }
 
     leaveRotateStatus() {

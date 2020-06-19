@@ -2708,6 +2708,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeRotateAnimation : {
+            // 路径
+            path: "myLaya/laya/assets/animations/xiaoxin_run2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 1,
         // 自行车名
         "name": "Select Bike1",
@@ -12826,6 +12837,8 @@ Config.bulletTime = {
     },
     // 结束时的无敌时间（秒）
     endInvincibleDuration: 2,
+    // 进入旋转状态奖励增加倍数
+    rewardAddTimes: 1,
 };
 
 // 引导模式
@@ -13440,6 +13453,32 @@ Config.UIGuide = {
 Config.rotateStatus = {
     // 进入旋转状态需要按压多久（单位：毫秒）
     enterDuration: 500,
+    // 进入旋转状态奖励增加倍数
+    rewardAddTimes: 1,
+};
+
+// 哪些值在进入子弹时间/旋转状态会加倍
+Config.double = {
+    // 经验
+    exp: 1,
+    // 金币
+    coin: 1,
+    // 子弹时间值
+    bulletTimeValue: 1,
+    // 奖励关卡值
+    rewardProgressValue: 1,
+};
+
+// 翻倍数字动画
+Config.doubleAnimation = {
+    // 动画时长（单位：毫秒）
+    duration: 750,
+    // 弹起高度
+    yOffset: 200,
+    // 一开始的时候偏移中心点多少高度
+    yStartOffset: -100,
+    // 消失时候的透明度
+    endAlpha: 0.5,
 };
 
 export default Config;

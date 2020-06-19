@@ -6,6 +6,7 @@ import EventMgr from "../mgr/EventMgr";
 import Utils from "../mgr/Utils";
 import MusicMgr from "../mgr/MusicMgr";
 import TWEEN from "@tweenjs/tween.js";
+import ImageText from "../ui/ImageText";
 
 export default class EatableItem extends EditorItem {
     constructor(gameMgr, parent, world, config, chainData) {
