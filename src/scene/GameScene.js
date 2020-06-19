@@ -18,7 +18,6 @@ import {
     TextStyle,
     Texture
 } from "../libs/pixi-wrapper";
-
 import Road from "../item/Road";
 import Item from "../item/Item";
 import SmallFireWall from "../item/SmallFireWall";
@@ -706,7 +705,9 @@ export default class GameScene extends Scene {
             if (this.hasEffect("Sprint")) {
                 return;
             }
-            this.enterRotateTimer = new GameTimer(this.enterRotateStatus.bind(this), Config.rotateStatus.enterDuration);
+            if (this.canBikeRotate()) {
+                this.enterRotateTimer = new GameTimer(this.enterRotateStatus.bind(this), Config.rotateStatus.enterDuration);
+            }
         } else if (this.gameStatus === "end" && this.startAdjustBikeHeight) {
             this.startY = event.data.global.y;
         }
@@ -2893,6 +2894,12 @@ export default class GameScene extends Scene {
         if (this.enterRotateTimer) {
             this.enterRotateTimer.clearTimeout();
         }
+    }
+
+    canBikeRotate() {
+        const id = this.getBikeID();
+        const config = Config.bikeList.find(bike => bike.id === id);
+        return config.rotatable;
     }
 }
 

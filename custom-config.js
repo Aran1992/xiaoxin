@@ -2708,7 +2708,7 @@ Config.bikeList = [
             pos: [0, -40],
         },
         // 自行车旋转动画
-        bikeRotateAnimation : {
+        bikeRotateAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/xiaoxin_run2.json",
             // 名称
@@ -2828,7 +2828,9 @@ Config.bikeList = [
             1.9,
             1.95,
             2
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
