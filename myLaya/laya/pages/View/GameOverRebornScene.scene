@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":94,
-    "selecteID":95,
+    "selectedBox":97,
+    "selecteID":110,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
-    "maxID":107,
+    "maxID":111,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -74,7 +74,7 @@
                             "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"skin":"images/icon-metre.png","scaleY":0.6,"scaleX":0.6,"left":20,"centerY":-2},
+                            "props":{"skin":"images/icon-metre-2.png","scaleY":0.8,"scaleX":0.8,"left":20,"centerY":0},
                             "nodeParent":81,
                             "label":"Image",
                             "isOpen":true,
@@ -82,20 +82,6 @@
                             "isAniNode":true,
                             "hasChild":false,
                             "compId":89,
-                            "child":[
-                                ]
-                        },
-                        {
-                            "x":45,
-                            "type":"Label",
-                            "searchKey":"Label",
-                            "props":{"y":0,"text":"最远里程","left":80,"fontSize":40,"color":"#000000","centerY":0},
-                            "nodeParent":81,
-                            "label":"Label",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":90,
                             "child":[
                                 ]
                         },
@@ -110,6 +96,21 @@
                             "isAniNode":true,
                             "hasChild":false,
                             "compId":106,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"y":0,"x":0,"skin":"images/english/best-distance.png","left":80,"centerY":0},
+                            "nodeParent":81,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":107,
                             "child":[
                                 ]
                         }]
@@ -145,20 +146,6 @@
                         {
                             "x":45,
                             "type":"Label",
-                            "searchKey":"Label",
-                            "props":{"y":0,"text":"当前里程","left":80,"fontSize":40,"color":"#000000","centerY":0},
-                            "nodeParent":80,
-                            "label":"Label",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":88,
-                            "child":[
-                                ]
-                        },
-                        {
-                            "x":45,
-                            "type":"Label",
                             "searchKey":"Label,distanceValueText",
                             "props":{"y":0,"x":0,"var":"distanceValueText","text":"123456","right":20,"fontSize":30,"font":"meter","color":"#000000","centerY":0},
                             "nodeParent":80,
@@ -167,6 +154,21 @@
                             "isAniNode":true,
                             "hasChild":false,
                             "compId":105,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"width":150,"skin":"images/english/current-distance.png","left":80,"height":38,"centerY":0},
+                            "nodeParent":80,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":108,
                             "child":[
                                 ]
                         }]
@@ -202,20 +204,6 @@
                         {
                             "x":45,
                             "type":"Label",
-                            "searchKey":"Label",
-                            "props":{"y":0,"text":"当前经验","left":80,"fontSize":40,"color":"#000000","centerY":0},
-                            "nodeParent":94,
-                            "label":"Label",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":96,
-                            "child":[
-                                ]
-                        },
-                        {
-                            "x":45,
-                            "type":"Label",
                             "searchKey":"Label,expValueText",
                             "props":{"y":0,"x":0,"var":"expValueText","text":"123456","right":20,"fontSize":30,"font":"exp","color":"#000000","centerY":0},
                             "nodeParent":94,
@@ -224,6 +212,21 @@
                             "isAniNode":true,
                             "hasChild":false,
                             "compId":104,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"width":150,"skin":"images/english/current-exp.png","left":80,"height":38,"centerY":0},
+                            "nodeParent":94,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":109,
                             "child":[
                                 ]
                         }]
@@ -259,20 +262,6 @@
                         {
                             "x":45,
                             "type":"Label",
-                            "searchKey":"Label",
-                            "props":{"y":0,"text":"当前钱币","left":80,"fontSize":40,"color":"#000000","centerY":0},
-                            "nodeParent":97,
-                            "label":"Label",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":99,
-                            "child":[
-                                ]
-                        },
-                        {
-                            "x":45,
-                            "type":"Label",
                             "searchKey":"Label,coinValueText",
                             "props":{"var":"coinValueText","text":"123456","right":20,"fontSize":30,"font":"medal","color":"#000000","centerY":0},
                             "nodeParent":97,
@@ -281,6 +270,21 @@
                             "isAniNode":true,
                             "hasChild":false,
                             "compId":103,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"width":150,"skin":"images/english/current-gold.png","left":80,"height":39,"centerY":0},
+                            "nodeParent":97,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":110,
                             "child":[
                                 ]
                         }]
