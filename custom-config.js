@@ -11710,9 +11710,9 @@ Config.lockSystems = {
         // 解锁描述
         dsc: "SystemUnlockDescribe7",
         // 解锁图片
-        image: "myLaya/laya/assets/images/button-skill.png",
+        image: "myLaya/laya/assets/images/english/NewContent-16.png",
         // 解锁图片缩放
-        imageScale: 2,
+        imageScale: 1,
     }
 };
 
