@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":65,
-    "selecteID":285,
+    "selectedBox":74,
+    "selecteID":88,
     "searchKey":"Scene",
     "referenceLines":[
         ],
@@ -53,37 +53,40 @@
             "props":{"width":600,"var":"list","right":75,"height":590,"bottom":100},
             "nodeParent":1,
             "label":"list",
-            "isOpen":false,
+            "isOpen":true,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":3,
             "child":[
                 {
+                    "x":30,
                     "type":"Panel",
                     "searchKey":"Panel,item",
                     "props":{"width":200,"runtime":"../laya/assets/sounds/SE312.mp3","name":"item","height":200},
                     "nodeParent":3,
                     "label":"item",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":30,
                     "child":[
                         {
+                            "x":45,
                             "type":"Panel",
                             "searchKey":"Panel",
                             "props":{"width":175,"height":175,"centerY":0,"centerX":0},
                             "nodeParent":30,
                             "label":"Panel",
-                            "isOpen":false,
+                            "isOpen":true,
                             "isDirectory":true,
                             "isAniNode":true,
                             "hasChild":true,
                             "compId":20,
                             "child":[
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,common0",
                                     "props":{"width":150,"skin":"images/bike-common0.png","name":"common0","height":150,"centerY":0,"centerX":0},
@@ -99,6 +102,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,common1",
                                     "props":{"width":150,"skin":"images/bike-common1.png","name":"common1","height":150,"centerY":0,"centerX":0},
@@ -114,6 +118,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,common2",
                                     "props":{"width":150,"skin":"images/bike-common2.png","name":"common2","height":150,"centerY":0,"centerX":0},
@@ -129,6 +134,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,common3",
                                     "props":{"width":150,"skin":"images/bike-common3.png","name":"common3","height":150,"centerY":0,"centerX":0},
@@ -144,6 +150,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,selected0",
                                     "props":{"width":150,"skin":"images/bike-selected0.png","name":"selected0","height":150,"centerY":0,"centerX":0},
@@ -159,6 +166,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,selected1",
                                     "props":{"width":150,"skin":"images/bike-selected1.png","name":"selected1","height":150,"centerY":0,"centerX":0},
@@ -174,6 +182,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,selected2",
                                     "props":{"width":150,"skin":"images/bike-selected2.png","name":"selected2","height":150,"centerY":0,"centerX":0},
@@ -189,6 +198,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,selected3",
                                     "props":{"width":150,"skin":"images/bike-selected3.png","name":"selected3","height":150,"centerY":0,"centerX":0},
@@ -204,6 +214,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,bikePanel",
                                     "props":{"y":0,"x":0,"width":175,"name":"bikePanel","height":175},
@@ -217,6 +228,7 @@
                                         ]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,lostMaskImage",
                                     "props":{"width":150,"name":"lostMaskImage","height":150,"centerY":0,"centerX":0,"alpha":0.5},
@@ -232,6 +244,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,fightMaskImage",
                                     "props":{"top":4,"skin":"images/english/fight.png","name":"fightMaskImage","left":2},
@@ -247,21 +260,23 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,levelIcon",
-                                    "props":{"visible":false,"skin":"images/bottom-icon-1.png","scaleY":0.7,"scaleX":0.7,"right":0,"name":"levelIcon","bottom":0},
+                                    "props":{"visible":false,"skin":"images/bottom-icon-1.png","right":0,"name":"levelIcon","bottom":0},
                                     "nodeParent":20,
                                     "label":"levelIcon",
-                                    "isOpen":false,
+                                    "isOpen":true,
                                     "isDirectory":true,
                                     "isAniNode":true,
                                     "hasChild":true,
                                     "compId":283,
                                     "child":[
                                         {
+                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,levelText",
-                                            "props":{"text":"11","strokeColor":"#000000","name":"levelText","fontSize":30,"color":"#000000","centerY":0,"centerX":0,"bold":true},
+                                            "props":{"text":"11","strokeColor":"#000000","stroke":1,"scaleY":0.8,"scaleX":0.8,"name":"levelText","fontSize":25,"font":"font_4","color":"#000000","centerY":0,"centerX":0,"bold":true},
                                             "nodeParent":283,
                                             "label":"levelText",
                                             "isDirectory":false,
@@ -274,21 +289,23 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,upgradeLevelIcon",
-                                    "props":{"visible":false,"skin":"images/bottom-icon-2.png","scaleY":0.7,"scaleX":0.7,"name":"upgradeLevelIcon","left":0,"bottom":0},
+                                    "props":{"visible":false,"skin":"images/bottom-icon-1.png","name":"upgradeLevelIcon","left":0,"bottom":0},
                                     "nodeParent":20,
                                     "label":"upgradeLevelIcon",
-                                    "isOpen":false,
+                                    "isOpen":true,
                                     "isDirectory":true,
                                     "isAniNode":true,
                                     "hasChild":true,
                                     "compId":282,
                                     "child":[
                                         {
+                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,upgradeLevelText",
-                                            "props":{"text":"11","strokeColor":"#000000","name":"upgradeLevelText","fontSize":30,"color":"#000000","centerY":0,"centerX":0,"bold":true},
+                                            "props":{"text":"11","strokeColor":"#000000","stroke":1,"scaleY":0.8,"scaleX":0.8,"name":"upgradeLevelText","fontSize":25,"font":"font_4","color":"#000000","centerY":0,"centerX":0,"bold":true},
                                             "nodeParent":282,
                                             "label":"upgradeLevelText",
                                             "isDirectory":false,
@@ -301,6 +318,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,lockedImage",
                                     "props":{"visible":false,"top":20,"skin":"images/key_lock-2.png","name":"lockedImage","left":20},
@@ -316,6 +334,7 @@
                                     "$HIDDEN":false
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,redPoint",
                                     "props":{"top":0,"skin":"images/redPoint.png","scaleY":1.5,"scaleX":1.5,"right":0,"name":"redPoint"},
@@ -975,13 +994,14 @@
             "props":{"visible":true,"var":"upgradePanel","skin":"images/bg-461.png","left":65,"bottom":28},
             "nodeParent":1,
             "label":"upgradePanel",
-            "isOpen":false,
+            "isOpen":true,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":68,
             "child":[
                 {
+                    "x":30,
                     "type":"Panel",
                     "searchKey":"Panel,upgradeList",
                     "props":{"width":570,"var":"upgradeList","top":10,"scaleY":0.79,"scaleX":0.79,"left":10,"height":480},
@@ -994,6 +1014,7 @@
                     "compId":277,
                     "child":[
                         {
+                            "x":45,
                             "type":"Panel",
                             "searchKey":"Panel",
                             "props":{"width":570,"height":120},
@@ -1006,18 +1027,20 @@
                             "compId":278,
                             "child":[
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"width":570,"skin":"images/bg-241.png","sizeGrid":"50,50,50,50","height":115,"centerY":0,"centerX":0},
                                     "nodeParent":278,
                                     "label":"Image",
-                                    "isOpen":false,
+                                    "isOpen":true,
                                     "isDirectory":true,
                                     "isAniNode":true,
                                     "hasChild":true,
                                     "compId":74,
                                     "child":[
                                         {
+                                            "x":75,
                                             "type":"Panel",
                                             "searchKey":"Panel,itemPanel0",
                                             "props":{"y":0,"x":0,"top":0,"right":0,"name":"itemPanel0","left":0,"bottom":0},
@@ -1030,6 +1053,7 @@
                                             "compId":273,
                                             "child":[
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/item/crystal_dragon_04.png","scaleY":0.7,"scaleX":0.7,"right":60,"centerY":-20},
@@ -1043,6 +1067,7 @@
                                                         ]
                                                 },
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/english/skill-name-1.png","right":20,"centerY":30},
@@ -1057,6 +1082,7 @@
                                                 }]
                                         },
                                         {
+                                            "x":75,
                                             "type":"Panel",
                                             "searchKey":"Panel,itemPanel1",
                                             "props":{"y":0,"x":0,"top":0,"right":0,"name":"itemPanel1","left":0,"bottom":0},
@@ -1069,6 +1095,7 @@
                                             "compId":274,
                                             "child":[
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/item/crystal_wing_04.png","scaleY":0.6,"scaleX":0.6,"right":60,"centerY":-20},
@@ -1082,6 +1109,7 @@
                                                         ]
                                                 },
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"y":0,"x":0,"skin":"images/english/skill-name-2.png","right":20,"centerY":30},
@@ -1096,6 +1124,7 @@
                                                 }]
                                         },
                                         {
+                                            "x":75,
                                             "type":"Panel",
                                             "searchKey":"Panel,itemPanel2",
                                             "props":{"y":0,"x":0,"top":0,"right":0,"name":"itemPanel2","left":0,"bottom":0},
@@ -1108,6 +1137,7 @@
                                             "compId":275,
                                             "child":[
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/item/crystal_invincible_04.png","scaleY":0.6,"scaleX":0.6,"right":60,"centerY":-20},
@@ -1121,6 +1151,7 @@
                                                         ]
                                                 },
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"y":0,"x":0,"skin":"images/english/skill-name-3.png","right":20,"centerY":30},
@@ -1135,6 +1166,7 @@
                                                 }]
                                         },
                                         {
+                                            "x":75,
                                             "type":"Panel",
                                             "searchKey":"Panel,itemPanel3",
                                             "props":{"y":0,"x":0,"top":0,"right":0,"name":"itemPanel3","left":0,"bottom":0},
@@ -1147,6 +1179,7 @@
                                             "compId":276,
                                             "child":[
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/item/crystal_super_04.png","scaleY":0.7,"scaleX":0.7,"right":60,"centerY":-20},
@@ -1160,6 +1193,7 @@
                                                         ]
                                                 },
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"y":0,"x":0,"skin":"images/english/skill-name-4.png","right":20,"centerY":30},
@@ -1174,6 +1208,7 @@
                                                 }]
                                         },
                                         {
+                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image",
                                             "props":{"width":340,"top":10,"skin":"images/bottom-num-21.png","left":15,"height":60},
@@ -1502,9 +1537,10 @@
                                                 }]
                                         },
                                         {
+                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,upgradeProgressLabel",
-                                            "props":{"text":"0.5秒 / 6秒","strokeColor":"#000000","stroke":5,"name":"upgradeProgressLabel","left":120,"fontSize":35,"color":"#ffffff","bottom":3},
+                                            "props":{"text":"0.5秒 / 6秒","strokeColor":"#000000","stroke":5,"scaleY":1.3,"scaleX":1.3,"name":"upgradeProgressLabel","left":120,"fontSize":35,"font":"font_401","color":"#ffffff","bottom":10},
                                             "nodeParent":74,
                                             "label":"upgradeProgressLabel",
                                             "isOpen":true,
@@ -1516,6 +1552,7 @@
                                                 ]
                                         },
                                         {
+                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,selectedIcon",
                                             "props":{"width":570,"skin":"images/bg-91.png","name":"selectedIcon","height":115,"centerY":0,"centerX":0},
@@ -1534,18 +1571,20 @@
                         }]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,lvLimitPanel",
                     "props":{"width":360,"visible":false,"var":"lvLimitPanel","top":496,"skin":"images/button-42.png","sizeGrid":"50,50,50,50","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":55,"height":85},
                     "nodeParent":68,
                     "label":"lvLimitPanel",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":77,
                     "child":[
                         {
+                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,lvLimitLabel",
                             "props":{"var":"lvLimitLabel","text":"玩家99级才能继续升级","strokeColor":"#000000","stroke":5,"fontSize":30,"color":"#ffffff","centerY":-5,"centerX":0},
@@ -1562,18 +1601,20 @@
                     "$HIDDEN":false
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,upgradeButton",
                     "props":{"width":220,"var":"upgradeButton","top":496,"skin":"images/button-41.png","sizeGrid":"50,50,50,50","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":125,"height":120},
                     "nodeParent":68,
                     "label":"upgradeButton",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":160,
                     "child":[
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"x":57,"width":170,"skin":"images/bg-371.png","height":45,"centerX":0,"bottom":15},
@@ -1586,6 +1627,7 @@
                             "compId":305,
                             "child":[
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,upgradeCostPanel",
                                     "props":{"width":170,"var":"upgradeCostPanel","height":45,"centerY":0,"centerX":0},
@@ -1598,6 +1640,7 @@
                                     "compId":79,
                                     "child":[
                                         {
+                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image",
                                             "props":{"skin":"images/icon-coin.png","scaleY":0.25,"scaleX":0.25,"left":5,"centerY":0},
@@ -1612,9 +1655,10 @@
                                                 ]
                                         },
                                         {
+                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,upgradeCostLabel",
-                                            "props":{"var":"upgradeCostLabel","text":"9999999","strokeColor":"#000000","stroke":5,"fontSize":30,"color":"#ffffff","centerY":0,"centerX":20},
+                                            "props":{"var":"upgradeCostLabel","text":"9999999","strokeColor":"#000000","stroke":5,"fontSize":30,"font":"font_4","color":"#ffffff","centerY":0,"centerX":20},
                                             "nodeParent":79,
                                             "label":"upgradeCostLabel",
                                             "isDirectory":false,
@@ -1629,6 +1673,7 @@
                                 }]
                         },
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"top":15,"skin":"images/english/LevelUp.png","centerX":0},
@@ -1645,6 +1690,7 @@
                     "$HIDDEN":false
                 },
                 {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,upgradeTimesLabel",
                     "props":{"var":"upgradeTimesLabel","top":436,"text":"已升级99次","strokeColor":"#000000","stroke":5,"left":133,"fontSize":40,"color":"#ffffff"},
@@ -1739,14 +1785,13 @@
             "props":{"var":"bikePanelButton","top":5,"skin":"images/icon-role-1.png","left":75},
             "nodeParent":1,
             "label":"bikePanelButton",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":406,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"skin":"images/english/role-property.png","centerX":0,"bottom":-15},
@@ -1770,14 +1815,13 @@
             "props":{"width":67,"var":"upgradePanelButton","top":2,"runtime":"../laya/assets/sounds/SoundSE001.mp3","left":150,"height":58},
             "nodeParent":1,
             "label":"upgradePanelButton",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":65,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"skin":"images/icon-role-2.png","centerY":0,"centerX":0},
@@ -1790,7 +1834,6 @@
                     "compId":407,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/role-skill.png","centerX":0,"bottom":-15},
@@ -1808,7 +1851,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,lockedImage",
                     "props":{"skin":"images/key_lock-2.png","scaleY":0.6,"scaleX":0.6,"name":"lockedImage","centerY":0,"centerX":0},
@@ -1824,7 +1866,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,redPoint",
                     "props":{"top":0,"skin":"images/redPoint.png","right":-25,"name":"redPoint"},

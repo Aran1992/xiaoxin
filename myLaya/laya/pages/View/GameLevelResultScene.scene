@@ -2,11 +2,11 @@
     "x":0,
     "type":"Scene",
     "selectedBox":16,
-    "selecteID":64,
+    "selecteID":77,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
-    "maxID":98,
+    "maxID":101,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -222,65 +222,6 @@
                 {
                     "x":30,
                     "type":"Image",
-                    "searchKey":"Image,advertDoubleButton",
-                    "props":{"width":315,"var":"advertDoubleButton","skin":"images/button-51.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":135,"height":74,"bottom":50},
-                    "nodeParent":16,
-                    "label":"advertDoubleButton",
-                    "isOpen":true,
-                    "isDirectory":true,
-                    "isAniNode":true,
-                    "hasChild":true,
-                    "compId":64,
-                    "child":[
-                        {
-                            "x":45,
-                            "type":"Image",
-                            "searchKey":"Image",
-                            "props":{"skin":"images/advert.png","scaleY":0.8,"scaleX":0.8,"left":25,"centerY":0},
-                            "nodeParent":64,
-                            "label":"Image",
-                            "isOpen":true,
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":66,
-                            "child":[
-                                ]
-                        },
-                        {
-                            "x":45,
-                            "type":"Image",
-                            "searchKey":"Image",
-                            "props":{"skin":"images/english/double.png","left":95,"centerY":0},
-                            "nodeParent":64,
-                            "label":"Image",
-                            "isOpen":true,
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":69,
-                            "child":[
-                                ]
-                        }]
-                },
-                {
-                    "x":30,
-                    "type":"Image",
-                    "searchKey":"Image,hasDoubleRewardText",
-                    "props":{"var":"hasDoubleRewardText","skin":"images/english/HasDoubleReward.png","left":70,"bottom":1150},
-                    "nodeParent":16,
-                    "label":"hasDoubleRewardText",
-                    "isOpen":true,
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":73,
-                    "child":[
-                        ]
-                },
-                {
-                    "x":30,
-                    "type":"Image",
                     "searchKey":"Image,mainButton",
                     "props":{"var":"mainButton","skin":"images/bg-352.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","right":50,"bottom":25},
                     "nodeParent":16,
@@ -339,13 +280,14 @@
                     "props":{"width":700,"top":285,"skin":"images/bg-432.png","sizeGrid":"20,20,20,20","left":50},
                     "nodeParent":16,
                     "label":"Image",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":75,
                     "child":[
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-metre.png","scaleY":0.6,"scaleX":0.6,"left":20,"centerY":-2},
@@ -360,19 +302,7 @@
                                 ]
                         },
                         {
-                            "type":"Label",
-                            "searchKey":"Label",
-                            "props":{"y":0,"text":"里程奖励","left":80,"fontSize":40,"color":"#000000","centerY":0},
-                            "nodeParent":75,
-                            "label":"Label",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":79,
-                            "child":[
-                                ]
-                        },
-                        {
+                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,distanceValueText",
                             "props":{"y":0,"x":0,"var":"distanceValueText","text":"123456","right":20,"fontSize":30,"font":"meter","color":"#000000","centerY":0},
@@ -386,6 +316,7 @@
                                 ]
                         },
                         {
+                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,distancePercentText",
                             "props":{"y":0,"var":"distancePercentText","text":"+ 999%","left":350,"fontSize":30,"font":"bonus","color":"#000000","centerY":0},
@@ -397,6 +328,21 @@
                             "compId":81,
                             "child":[
                                 ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"y":0,"x":0,"width":150,"skin":"images/english/reward-distance.png","left":80,"height":37,"centerY":0},
+                            "nodeParent":75,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":98,
+                            "child":[
+                                ]
                         }]
                 },
                 {
@@ -406,13 +352,14 @@
                     "props":{"width":700,"top":340,"skin":"images/bg-432.png","sizeGrid":"20,20,20,20","left":50},
                     "nodeParent":16,
                     "label":"Image",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":76,
                     "child":[
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/levelbg_s.png","scaleY":0.25,"scaleX":0.25,"left":20,"centerY":0},
@@ -427,19 +374,7 @@
                                 ]
                         },
                         {
-                            "type":"Label",
-                            "searchKey":"Label",
-                            "props":{"y":0,"text":"经验奖励","left":80,"fontSize":40,"color":"#000000","centerY":0},
-                            "nodeParent":76,
-                            "label":"Label",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":83,
-                            "child":[
-                                ]
-                        },
-                        {
+                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,expValueText",
                             "props":{"y":0,"x":0,"var":"expValueText","text":"123456","right":20,"fontSize":30,"font":"exp","color":"#000000","centerY":0},
@@ -453,6 +388,7 @@
                                 ]
                         },
                         {
+                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,expPercentText",
                             "props":{"y":0,"var":"expPercentText","text":"+ 999%","left":350,"fontSize":30,"font":"bonus","color":"#000000","centerY":0},
@@ -464,6 +400,21 @@
                             "compId":85,
                             "child":[
                                 ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"y":0,"x":0,"width":150,"skin":"images/english/reward-exp.png","left":80,"height":38,"centerY":0},
+                            "nodeParent":76,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":99,
+                            "child":[
+                                ]
                         }]
                 },
                 {
@@ -473,13 +424,14 @@
                     "props":{"width":700,"top":395,"skin":"images/bg-432.png","sizeGrid":"20,20,20,20","left":50},
                     "nodeParent":16,
                     "label":"Image",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":77,
                     "child":[
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-coin.png","scaleY":0.3,"scaleX":0.3,"left":20,"centerY":0},
@@ -494,19 +446,7 @@
                                 ]
                         },
                         {
-                            "type":"Label",
-                            "searchKey":"Label",
-                            "props":{"y":0,"text":"钱币奖励","left":80,"fontSize":40,"color":"#000000","centerY":0},
-                            "nodeParent":77,
-                            "label":"Label",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":87,
-                            "child":[
-                                ]
-                        },
-                        {
+                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,coinValueText",
                             "props":{"var":"coinValueText","text":"123456","right":20,"fontSize":30,"font":"medal","color":"#000000","centerY":0},
@@ -520,6 +460,7 @@
                                 ]
                         },
                         {
+                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,coinPercentText",
                             "props":{"y":0,"var":"coinPercentText","text":"+ 999%","left":350,"fontSize":30,"font":"bonus","color":"#000000","centerY":0},
@@ -531,7 +472,109 @@
                             "compId":89,
                             "child":[
                                 ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"y":0,"x":0,"width":150,"skin":"images/english/reward-gold.png","left":80,"height":38,"centerY":0},
+                            "nodeParent":77,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":100,
+                            "child":[
+                                ]
                         }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,advertDoubleButton",
+                    "props":{"var":"advertDoubleButton","skin":"images/button-50.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":135,"bottom":36},
+                    "nodeParent":16,
+                    "label":"advertDoubleButton",
+                    "isOpen":false,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":64,
+                    "child":[
+                        {
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"skin":"images/advert.png","scaleY":0.8,"scaleX":0.8,"left":16,"centerY":-4},
+                            "nodeParent":64,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":66,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"skin":"images/english/double.png","left":73,"centerY":-4},
+                            "nodeParent":64,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":69,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,star2",
+                    "props":{"y":102,"x":562,"var":"star2","skin":"images/balance_centerx4-2.png","scaleY":0.8,"scaleX":0.8,"left":562,"centerY":-145},
+                    "nodeParent":16,
+                    "label":"star2",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":97,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,star1",
+                    "props":{"y":102,"x":337,"var":"star1","skin":"images/balance_centerx4-2.png","scaleY":0.8,"scaleX":0.8,"left":337,"centerY":-145},
+                    "nodeParent":16,
+                    "label":"star1",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":96,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,star0",
+                    "props":{"y":102,"x":112,"var":"star0","skin":"images/balance_centerx4-2.png","scaleY":0.8,"scaleX":0.8,"left":112,"centerY":-145},
+                    "nodeParent":16,
+                    "label":"star0",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":59,
+                    "child":[
+                        ]
                 },
                 {
                     "x":30,
@@ -581,45 +624,15 @@
                 {
                     "x":30,
                     "type":"Image",
-                    "searchKey":"Image,star0",
-                    "props":{"var":"star0","skin":"images/balance_centerx4-2.png","scaleY":0.8,"scaleX":0.8,"left":112,"centerY":-145},
+                    "searchKey":"Image,hasDoubleRewardText",
+                    "props":{"var":"hasDoubleRewardText","skin":"images/english/HasDoubleReward.png","left":70,"bottom":50},
                     "nodeParent":16,
-                    "label":"star0",
+                    "label":"hasDoubleRewardText",
                     "isOpen":true,
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":59,
-                    "child":[
-                        ]
-                },
-                {
-                    "x":30,
-                    "type":"Image",
-                    "searchKey":"Image,star1",
-                    "props":{"var":"star1","skin":"images/balance_centerx4-2.png","scaleY":0.8,"scaleX":0.8,"left":337,"centerY":-145},
-                    "nodeParent":16,
-                    "label":"star1",
-                    "isOpen":true,
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":96,
-                    "child":[
-                        ]
-                },
-                {
-                    "x":30,
-                    "type":"Image",
-                    "searchKey":"Image,star2",
-                    "props":{"var":"star2","skin":"images/balance_centerx4-2.png","scaleY":0.8,"scaleX":0.8,"left":562,"centerY":-145},
-                    "nodeParent":16,
-                    "label":"star2",
-                    "isOpen":true,
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":97,
+                    "compId":73,
                     "child":[
                         ]
                 }]

@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":266,
-    "selecteID":267,
+    "selectedBox":153,
+    "selecteID":156,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#ffffff","height":720},
     "nodeParent":-1,
@@ -59,7 +59,7 @@
                         {
                             "type":"Label",
                             "searchKey":"Label,nameLabel",
-                            "props":{"text":"99-1","strokeColor":"#000000","stroke":5,"scaleY":1.2,"scaleX":1.2,"name":"nameLabel","fontSize":30,"color":"#ffffff","centerX":0,"bottom":-40},
+                            "props":{"text":"99-1","strokeColor":"#000000","stroke":5,"name":"nameLabel","fontSize":30,"font":"font_901","color":"#ffffff","centerX":0,"bottom":-30},
                             "nodeParent":117,
                             "label":"nameLabel",
                             "isDirectory":false,
@@ -128,7 +128,7 @@
                         {
                             "type":"Label",
                             "searchKey":"Label,nameLabel",
-                            "props":{"x":0,"text":"99-2","strokeColor":"#000000","stroke":5,"scaleY":1.2,"scaleX":1.2,"name":"nameLabel","fontSize":30,"color":"#ffffff","centerX":0,"bottom":-40},
+                            "props":{"text":"99-2","strokeColor":"#000000","stroke":5,"name":"nameLabel","fontSize":30,"font":"font_901","color":"#ffffff","centerX":0,"bottom":-30},
                             "nodeParent":119,
                             "label":"nameLabel",
                             "isDirectory":false,
@@ -197,7 +197,7 @@
                         {
                             "type":"Label",
                             "searchKey":"Label,nameLabel",
-                            "props":{"x":0,"text":"99-3","strokeColor":"#000000","stroke":5,"scaleY":1.2,"scaleX":1.2,"name":"nameLabel","fontSize":30,"color":"#ffffff","centerX":0,"bottom":-40},
+                            "props":{"text":"99-3","strokeColor":"#000000","stroke":5,"name":"nameLabel","fontSize":30,"font":"font_901","color":"#ffffff","centerX":0,"bottom":-30},
                             "nodeParent":120,
                             "label":"nameLabel",
                             "isDirectory":false,
@@ -266,7 +266,7 @@
                         {
                             "type":"Label",
                             "searchKey":"Label,nameLabel",
-                            "props":{"x":0,"text":"99-4","strokeColor":"#000000","stroke":5,"scaleY":1.2,"scaleX":1.2,"name":"nameLabel","fontSize":30,"color":"#ffffff","centerX":0,"bottom":-40},
+                            "props":{"text":"99-4","strokeColor":"#000000","stroke":5,"name":"nameLabel","fontSize":30,"font":"font_901","color":"#ffffff","centerX":0,"bottom":-30},
                             "nodeParent":121,
                             "label":"nameLabel",
                             "isDirectory":false,
@@ -335,7 +335,7 @@
                         {
                             "type":"Label",
                             "searchKey":"Label,nameLabel",
-                            "props":{"x":0,"text":"99-5","strokeColor":"#000000","stroke":5,"scaleY":1.2,"scaleX":1.2,"name":"nameLabel","fontSize":30,"color":"#ffffff","centerX":0,"bottom":-40},
+                            "props":{"text":"99-5","strokeColor":"#000000","stroke":5,"name":"nameLabel","fontSize":30,"font":"font_901","color":"#ffffff","centerX":0,"bottom":-30},
                             "nodeParent":123,
                             "label":"nameLabel",
                             "isDirectory":false,
@@ -441,16 +441,17 @@
                     "props":{"var":"gameLevelLocked","skin":"images/bg_lockmedal.png","scaleY":0.6,"scaleX":0.6,"runtime":"../laya/assets/sounds/SoundSE001.mp3","centerX":0,"bottom":150},
                     "nodeParent":98,
                     "label":"gameLevelLocked",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":153,
                     "child":[
                         {
+                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,glUnlockStarCount",
-                            "props":{"var":"glUnlockStarCount","text":"999","fontSize":45,"color":"#000000","centerY":37,"centerX":25,"align":"center"},
+                            "props":{"var":"glUnlockStarCount","top":118,"text":"999","scaleY":1.5,"scaleX":1.5,"left":100,"fontSize":25,"font":"font_4","color":"#000000","align":"center"},
                             "nodeParent":153,
                             "label":"glUnlockStarCount",
                             "isDirectory":false,
@@ -469,13 +470,14 @@
                     "props":{"skin":"images/bg-23.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","centerX":0,"bottom":30},
                     "nodeParent":98,
                     "label":"Image",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":157,
                     "child":[
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/balance_centerx4.png","scaleY":1.4,"scaleX":1.4,"left":50,"centerY":0},
@@ -490,9 +492,10 @@
                                 ]
                         },
                         {
+                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,totalStarCount",
-                            "props":{"var":"totalStarCount","text":"9999","fontSize":30,"color":"#000000","centerY":-1,"centerX":18,"align":"center"},
+                            "props":{"var":"totalStarCount","text":"9999","left":120,"fontSize":30,"font":"font_4","color":"#000000","centerY":-1,"align":"center"},
                             "nodeParent":157,
                             "label":"totalStarCount",
                             "isDirectory":false,
