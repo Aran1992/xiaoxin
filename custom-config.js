@@ -124,6 +124,18 @@ Config.bikeRotateAnimation = {
     pos: [0, -40],
 };
 
+// 默认自行车缓降动画
+Config.bikeFallingAnimation = {
+    // 路径
+    path: "myLaya/laya/assets/animations/xiaoxin_run5.json",
+    // 名称
+    name: "xiaoxin_run",
+    // 播放速度
+    speed: 0.2,
+    // 偏移
+    pos: [0, -40],
+};
+
 // 自行车在场景中显示的尺寸是原图的多大
 Config.bikeScale = 1;
 
@@ -2718,6 +2730,17 @@ Config.bikeList = [
             // 偏移
             pos: [0, -40],
         },
+        // 自行车旋转动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/xiaoxin_run5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
         "index": 1,
         // 自行车名
         "name": "Select Bike1",
@@ -2735,6 +2758,8 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
         "rotatable": 0,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
         // 结算金币倍率（不填的话就使用默认值）
         "coinPercent": [
             1,
@@ -14012,17 +14037,17 @@ Config.doubleAnimation = {
 
 // loading动画素材
 Config.loadingImagePathList = [
-    "images/loading/of_native_loader_progress_01.png",
-    "images/loading/of_native_loader_progress_02.png",
-    "images/loading/of_native_loader_progress_03.png",
-    "images/loading/of_native_loader_progress_04.png",
-    "images/loading/of_native_loader_progress_05.png",
-    "images/loading/of_native_loader_progress_06.png",
-    "images/loading/of_native_loader_progress_07.png",
-    "images/loading/of_native_loader_progress_08.png",
-    "images/loading/of_native_loader_progress_09.png",
-    "images/loading/of_native_loader_progress_11.png",
-    "images/loading/of_native_loader_progress_12.png",
+    "images/loading/anim_load01.png",
+    "images/loading/anim_load02.png",
+    "images/loading/anim_load03.png",
+    "images/loading/anim_load04.png",
+    "images/loading/anim_load05.png",
+    "images/loading/anim_load06.png",
+    "images/loading/anim_load07.png",
+    "images/loading/anim_load08.png",
 ];
+
+// 缓慢下落时下降速度是正常的几倍
+Config.slowFallingCoeffient = 0.75;
 
 export default Config;

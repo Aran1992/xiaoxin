@@ -163,7 +163,7 @@ export default class Bird {
             } else if (
                 this.isAbleToBeJacked()
                 && anotherBody.getPosition().y <= this.body.getPosition().y - this.bodyHeight / 2
-                && another.isBikeLanding && !another.isBikeLanding()
+                && another.isBikeLanded && !another.isBikeLanded()
             ) {
                 another.resetJumpStatus();
                 if (another.jack) {

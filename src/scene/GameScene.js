@@ -44,7 +44,6 @@ import BulletTimeLineMgr from "../mgr/BulletTimeLineMgr";
 import GuideMgr from "../mgr/GuideMgr";
 import UIHelper from "../ui/UIHelper";
 import UIGuidePanel from "../item/UIGuidePanel";
-import GameTimer from "../mgr/GameTimer";
 
 function getValue(value, defaultValue) {
     if (value === undefined) {
@@ -330,6 +329,7 @@ export default class GameScene extends Scene {
         const bsa = config.bikeSprintAnimation || Config.bikeSprintAnimation;
         const bspa = config.bikeSpringAnimation ? config.bikeSpringAnimation.path : Config.bikeSpringAnimation.path;
         const bra = config.bikeRotateAnimation ? config.bikeRotateAnimation.path : Config.bikeRotateAnimation.path;
+        const bfa = config.bikeFallingAnimation ? config.bikeFallingAnimation.path : Config.bikeFallingAnimation.path;
         const pe = [];
         Utils.values(Config.playerEffect).forEach(config => {
             if (config.length) {
@@ -349,6 +349,7 @@ export default class GameScene extends Scene {
             bsa,
             bspa,
             bra,
+            bfa,
             Config.bulletTime.filmImagePath,
             Config.bulletTime.lineAnimationPath,
             Config.warningAnimation.warnSpritePath,
@@ -705,8 +706,14 @@ export default class GameScene extends Scene {
             if (this.hasEffect("Sprint")) {
                 return;
             }
-            if (this.canBikeRotate()) {
-                this.enterRotateTimer = new GameTimer(this.enterRotateStatus.bind(this), Config.rotateStatus.enterDuration);
+            if (this.startFloat) {
+                this.startFloat = false;
+                this.bikeBubbleSprite.visible = false;
+                this.stopSounds();
+                MusicMgr.playSound(Config.soundPath.bubbleDestroy);
+            } else {
+                this.tryJump();
+                this._isPressing = true;
             }
         } else if (this.gameStatus === "end" && this.startAdjustBikeHeight) {
             this.startY = event.data.global.y;
@@ -1248,6 +1255,7 @@ export default class GameScene extends Scene {
 
         let oldX = this.bikeBody.getPosition().x;
 
+        const isLandedBeforeStep = this.isBikeLanded();
         const times = Config.stepTimesEachFrame * this.stepSpeed;
         for (let i = 0; i < times; i++) {
             this.world.step(this.stepDuration);
@@ -1255,6 +1263,15 @@ export default class GameScene extends Scene {
 
         let velocity = this.bikeBody.getLinearVelocity();
         let bikePhysicsPos = this.bikeBody.getPosition();
+
+        if (!this.isBikeLanded() && velocity.y < 0) {
+            this.onFalling();
+        }
+
+        const isLandedAfterStep = this.isBikeLanded();
+        if (!isLandedBeforeStep && isLandedAfterStep) {
+            this.onLanded();
+        }
 
         this.syncBikeSprite(velocity, bikePhysicsPos);
 
@@ -1403,7 +1420,7 @@ export default class GameScene extends Scene {
 
     syncBikeSprite(velocity, bikePhysicsPos) {
         if (this.followAnimation) {
-            this.followAnimation.visible = this.isBikeLanding();
+            this.followAnimation.visible = this.isBikeLanded();
         }
         this.contactRoad2List.forEach(fixture => fixture.getBody().getUserData().obj.isPlayerInside = false);
 
@@ -1436,7 +1453,7 @@ export default class GameScene extends Scene {
         }
     }
 
-    isBikeLanding() {
+    isBikeLanded() {
         return this.contactRoadList.length !== 0
             || this.contactRoad2List.some(fixture => !fixture.getBody().getUserData().obj.isPlayerInside)
             || this.contactUpdownPlatformList.some(fixture => this.bikeBody.getPosition().y > fixture.getBody().getPosition().y);
@@ -1611,6 +1628,8 @@ export default class GameScene extends Scene {
                 }
                 this.bikeBody.applyForceToCenter(Vec2(0, -this.gravity * this.bikeBody.getMass()));
                 this.bikeBody.setLinearVelocity(Vec2(Config.rebornFloatVelocity, 0));
+            } else if (this.isSlowFalling) {
+                this.bikeBody.setLinearVelocity(Vec2(this.player.velocity.value, velocity.y * Config.slowFallingCoeffient));
             } else {
                 this.bikeBody.setLinearVelocity(Vec2(this.player.velocity.value, velocity.y));
             }
@@ -1819,69 +1838,16 @@ export default class GameScene extends Scene {
     }
 
     onPointerUp() {
+        this._isPressing = false;
         if (!UIHelper.getClickPredicate()(this.gameContainer)) {
             return;
         }
-        this.stopEnterRotateStatus();
         if (this.startAdjustBikeHeight && this.startY !== undefined) {
             this.startY = undefined;
-        } else if (this.gameStatus === "play") {
-            this.leaveRotateStatus();
-            if (this.startFloat) {
-                this.startFloat = false;
-                this.bikeBubbleSprite.visible = false;
-                this.stopSounds();
-                MusicMgr.playSound(Config.soundPath.bubbleDestroy);
-            } else if (this.hasEffect("SpiderWeb")) {
-                this.bikeBody.applyLinearImpulse(Vec2(0, Config.effect.SpiderWeb.jumpForce), this.bikeBody.getPosition());
-                this.spiderWebRemainBreakTimes--;
-                if (this.spiderWebRemainBreakTimes <= 0) {
-                    delete this.effectRemainFrame.SpiderWeb;
-                    if (this.effectTable.SpiderWeb.end) {
-                        this.effectTable.SpiderWeb.end();
-                    }
-                    if (this.durationEffectTable.SpiderWeb) {
-                        this.durationEffectTable.SpiderWeb.destroy();
-                        delete this.durationEffectTable.SpiderWeb;
-                    }
-                    this.removeBuffIcon("SpiderWeb");
-                }
-            } else if (this.hasEffect("UnlimitedJump")
-                || this.jumpCount < Config.jumpCommonMaxCount
-                || this.jumpExtraCountdown > 0) {
-                let velocity = this.bikeBody.getLinearVelocity();
-                this.bikeBody.setLinearVelocity(Vec2(velocity.x, 0));
-                this.bikeBody.applyLinearImpulse(Vec2(0, this.player.jumpForce.value), this.bikeBody.getPosition());
-                this.jumping = true;
-                this.isSpring = false;
-                this.isJacking = false;
-                this.jumpCount++;
-                this.jumpExtraCountdown = this.bikeJumpExtraCountdown[this.jumpCount - Config.jumpCommonMaxCount];
-                switch (this.jumpCount) {
-                    case 1:
-                        MusicMgr.playSound(Config.soundPath.firstJump, undefined, this.stepSpeed);
-                        break;
-                    case 2:
-                        MusicMgr.playSound(Config.soundPath.secondJump, undefined, this.stepSpeed);
-                        this.emitter.playOnce();
-                        break;
-                    default:
-
-                        MusicMgr.playSound(Config.soundPath.extraJump, undefined, this.stepSpeed);
-                        this.emitter.playOnce();
-                }
-                const jumpAnimation = this.getBikeJumpAnimation(this.jumpCount);
-                if (jumpAnimation) {
-                    this.setBikeAnimation(
-                        GameUtils.getFrames(jumpAnimation.atlasPath, jumpAnimation.animationName),
-                        1 / jumpAnimation.interval,
-                        jumpAnimation.pos || Config.bikeCommonAnimationPos
-                    );
-                } else {
-                    this.bikeSelfContainer.rotation = Utils.angle2radius(Config.bikeJumpingRotation);
-                }
-                const config = this.jumpCount === 1 ? Config.playerEffect.ground : Config.playerEffect.air;
-                this.playPlayerEffect(config);
+        } else {
+            if (this.rotating) {
+                this.leaveRotateStatus();
+                this.tryJump();
             }
         }
     }
@@ -1950,6 +1916,9 @@ export default class GameScene extends Scene {
         this.isSpring = false;
         this.isJacking = false;
         this.jumpCount = 0;
+        if (this.isSlowFalling) {
+            this.leaveSlowFalling();
+        }
         if (!this.rotating) {
             const {frames, pos} = this.getBikeCommonAnimation();
             this.setBikeAnimation(frames, 1, pos);
@@ -2104,7 +2073,6 @@ export default class GameScene extends Scene {
                     this.bikeFrame = -1;
                     const {frames, pos} = this.getBikeSprintAnimation();
                     this.setBikeAnimation(frames, 1, pos);
-                    this.stopEnterRotateStatus();
                 },
                 end: () => {
                     this.setBikeScale(1, true);
@@ -2486,10 +2454,10 @@ export default class GameScene extends Scene {
         };
     }
 
-    getBikeRotateAnimation() {
+    getBikeAnimation(name) {
         const id = this.getBikeID();
         const config = Config.bikeList.find(bike => bike.id === id);
-        const animation = config.bikeRotateAnimation || Config.bikeRotateAnimation;
+        const animation = config[name] || Config[name];
         return {
             frames: GameUtils.getFrames(animation.path, animation.name),
             pos: animation.pos,
@@ -2885,7 +2853,7 @@ export default class GameScene extends Scene {
 
     enterRotateStatus() {
         this.rotating = true;
-        const {frames, pos, speed} = this.getBikeRotateAnimation();
+        const {frames, pos, speed} = this.getBikeAnimation("bikeRotateAnimation");
         this.setBikeAnimation(frames, speed, pos);
     }
 
@@ -2897,16 +2865,120 @@ export default class GameScene extends Scene {
         }
     }
 
-    stopEnterRotateStatus() {
-        if (this.enterRotateTimer) {
-            this.enterRotateTimer.clearTimeout();
-        }
-    }
-
     canBikeRotate() {
         const id = this.getBikeID();
         const config = Config.bikeList.find(bike => bike.id === id);
         return config.rotatable;
+    }
+
+    canBikeSlowFalling() {
+        const id = this.getBikeID();
+        const config = Config.bikeList.find(bike => bike.id === id);
+        return config.slowFalling;
+    }
+
+    isBikeLatestJump() {
+        if (this.hasEffect("UnlimitedJump")) {
+            return false;
+        }
+        if (this.jumpCount >= Config.jumpCommonMaxCount) {
+            return true;
+        } else {
+            return this.jumpExtraCountdown <= 0;
+        }
+    }
+
+    onLanded() {
+        if (this.isSlowFalling) {
+            this.leaveSlowFalling();
+        }
+        if (
+            this.isPressing()
+            && this.canBikeRotate()
+        ) {
+            this.enterRotateStatus();
+        }
+    }
+
+    tryJump() {
+        if (this.hasEffect("SpiderWeb")) {
+            this.bikeBody.applyLinearImpulse(Vec2(0, Config.effect.SpiderWeb.jumpForce), this.bikeBody.getPosition());
+            this.spiderWebRemainBreakTimes--;
+            if (this.spiderWebRemainBreakTimes <= 0) {
+                delete this.effectRemainFrame.SpiderWeb;
+                if (this.effectTable.SpiderWeb.end) {
+                    this.effectTable.SpiderWeb.end();
+                }
+                if (this.durationEffectTable.SpiderWeb) {
+                    this.durationEffectTable.SpiderWeb.destroy();
+                    delete this.durationEffectTable.SpiderWeb;
+                }
+                this.removeBuffIcon("SpiderWeb");
+            }
+        } else if (this.hasEffect("UnlimitedJump")
+            || this.jumpCount < Config.jumpCommonMaxCount
+            || this.jumpExtraCountdown > 0) {
+            let velocity = this.bikeBody.getLinearVelocity();
+            this.bikeBody.setLinearVelocity(Vec2(velocity.x, 0));
+            this.bikeBody.applyLinearImpulse(Vec2(0, this.player.jumpForce.value), this.bikeBody.getPosition());
+            this.jumping = true;
+            this.isSpring = false;
+            this.isJacking = false;
+            this.jumpCount++;
+            this.jumpExtraCountdown = this.bikeJumpExtraCountdown[this.jumpCount - Config.jumpCommonMaxCount];
+            switch (this.jumpCount) {
+                case 1:
+                    MusicMgr.playSound(Config.soundPath.firstJump, undefined, this.stepSpeed);
+                    break;
+                case 2:
+                    MusicMgr.playSound(Config.soundPath.secondJump, undefined, this.stepSpeed);
+                    this.emitter.playOnce();
+                    break;
+                default:
+                    MusicMgr.playSound(Config.soundPath.extraJump, undefined, this.stepSpeed);
+                    this.emitter.playOnce();
+            }
+            const jumpAnimation = this.getBikeJumpAnimation(this.jumpCount);
+            if (jumpAnimation) {
+                this.setBikeAnimation(
+                    GameUtils.getFrames(jumpAnimation.atlasPath, jumpAnimation.animationName),
+                    1 / jumpAnimation.interval,
+                    jumpAnimation.pos || Config.bikeCommonAnimationPos
+                );
+            } else {
+                this.bikeSelfContainer.rotation = Utils.angle2radius(Config.bikeJumpingRotation);
+            }
+            const config = this.jumpCount === 1 ? Config.playerEffect.ground : Config.playerEffect.air;
+            this.playPlayerEffect(config);
+        }
+    }
+
+    onFalling() {
+        if (this.isPressing()) {
+            if (!this.isSlowFalling && this.canBikeSlowFalling() && this.isBikeLatestJump()) {
+                this.enterSlowFalling();
+            }
+        } else {
+            if (this.isSlowFalling) {
+                this.leaveSlowFalling();
+            }
+        }
+    }
+
+    isPressing() {
+        return this._isPressing;
+    }
+
+    enterSlowFalling() {
+        const {frames, speed, pos} = this.getBikeAnimation("bikeFallingAnimation");
+        this.setBikeAnimation(frames, speed, pos);
+        this.isSlowFalling = true;
+    }
+
+    leaveSlowFalling() {
+        const {frames, pos} = this.getBikeCommonAnimation();
+        this.setBikeAnimation(frames, 1, pos);
+        this.isSlowFalling = false;
     }
 }
 
