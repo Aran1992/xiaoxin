@@ -1,4 +1,4 @@
-import {Container, Graphics} from "../libs/pixi-wrapper";
+import {Container, Graphics, Rectangle} from "../libs/pixi-wrapper";
 import SceneHelper from "../mgr/SceneHelper";
 import UIHelper from "../ui/UIHelper";
 import Animation from "../ui/Animation";
@@ -20,6 +20,7 @@ export default class UIGuidePanel {
             panel.addChildAt(this.guideMask, 0);
         }
         if (guideData.showUtilClick === "guidePanel") {
+            panel.hitArea = new Rectangle(0, 0, App.sceneWidth, App.sceneHeight);
             UIHelper.onClick(panel, this.onClickGuidePanel.bind(this), true);
             UIHelper.controlClick((button) => button === panel);
         } else if (guideData.showUtilClick !== "") {
