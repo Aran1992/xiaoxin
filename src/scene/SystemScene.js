@@ -8,6 +8,7 @@ export default class SystemScene extends Scene {
 
         this.onClick(this.ui.bgmButton, this.onClickBGMButton.bind(this));
         this.onClick(this.ui.soundButton, this.onClickSoundButton.bind(this));
+        this.onClick(this.ui.beginnerGuide, this.onClickBeginnerGuideBtn.bind(this));
     }
 
     onShow() {
@@ -34,6 +35,10 @@ export default class SystemScene extends Scene {
         this.ui.soundOnImage.visible = DataMgr.get(DataMgr.soundOn, true);
         this.ui.soundOffImage.visible = !DataMgr.get(DataMgr.soundOn, true);
         MusicMgr.muteSound(!DataMgr.get(DataMgr.soundOn, true));
+    }
+
+    onClickBeginnerGuideBtn() {
+        App.showScene("GuideGameScene");
     }
 }
 
