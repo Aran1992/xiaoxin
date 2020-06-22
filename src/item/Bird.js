@@ -160,7 +160,11 @@ export default class Bird {
                     Config.playerEffect.trampled.forEach(config => another.playPlayerEffect(config, this.sprite));
                 }
                 this.trampled = true;
-            } else if (this.isAbleToBeJacked() && anotherBody.getPosition().y <= this.body.getPosition().y - this.bodyHeight / 2) {
+            } else if (
+                this.isAbleToBeJacked()
+                && anotherBody.getPosition().y <= this.body.getPosition().y - this.bodyHeight / 2
+                && another.isBikeLanding && !another.isBikeLanding()
+            ) {
                 another.resetJumpStatus();
                 if (another.jack) {
                     another.jack(-this.itemConfig.contactBikeVelocity);

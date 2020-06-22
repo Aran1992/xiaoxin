@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":130,
-    "selecteID":184,
+    "selectedBox":95,
+    "selecteID":130,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
-    "maxID":263,
+    "maxID":265,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -101,40 +101,42 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image,advertButton",
-                    "props":{"var":"advertButton","skin":"images/button-start-2.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","centerX":0,"bottom":-70},
+                    "props":{"var":"advertButton","skin":"images/button-50.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","centerX":0,"bottom":-70},
                     "nodeParent":16,
                     "label":"advertButton",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":88,
                     "child":[
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"skin":"images/advert.png","left":30,"centerY":-8},
+                            "props":{"y":0,"x":0,"skin":"images/advert.png","scaleY":0.9,"scaleX":0.9,"left":20,"centerY":0},
                             "nodeParent":88,
                             "label":"Image",
                             "isOpen":true,
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":247,
+                            "compId":263,
                             "child":[
                                 ]
                         },
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"skin":"images/english/free.png","right":30,"centerY":-8},
+                            "props":{"y":0,"x":0,"skin":"images/english/free.png","scaleY":0.9,"scaleX":0.9,"right":25,"centerY":0},
                             "nodeParent":88,
                             "label":"Image",
                             "isOpen":true,
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":248,
+                            "compId":264,
                             "child":[
                                 ]
                         }]
@@ -159,13 +161,14 @@
                             "props":{"width":1200,"var":"list","height":270,"centerY":-90,"centerX":55},
                             "nodeParent":95,
                             "label":"list",
-                            "isOpen":false,
+                            "isOpen":true,
                             "isDirectory":true,
                             "isAniNode":true,
                             "hasChild":true,
                             "compId":189,
                             "child":[
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel",
                                     "props":{"width":205,"height":255,"centerY":0,"centerX":0},
@@ -178,6 +181,7 @@
                                     "compId":190,
                                     "child":[
                                         {
+                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,item",
                                             "props":{"width":200,"var":"item","skin":"images/bg-281.png","height":250,"centerY":0,"centerX":0},
@@ -190,9 +194,10 @@
                                             "compId":103,
                                             "child":[
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
-                                                    "props":{"width":180,"top":15,"height":40,"centerX":0},
+                                                    "props":{"width":180,"top":25,"height":40,"centerX":0},
                                                     "nodeParent":103,
                                                     "label":"Image",
                                                     "isOpen":true,
@@ -202,9 +207,10 @@
                                                     "compId":105,
                                                     "child":[
                                                         {
+                                                            "x":105,
                                                             "type":"Label",
                                                             "searchKey":"Label,title",
-                                                            "props":{"text":"${day1}","strokeColor":"#000000","stroke":5,"name":"title","fontSize":30,"color":"#ffffff","centerY":5,"centerX":0},
+                                                            "props":{"text":"${day1}","strokeColor":"#000000","stroke":5,"scaleY":1.1,"scaleX":1.1,"name":"title","fontSize":30,"font":"font_102","color":"#ffffff","centerY":0,"centerX":0},
                                                             "nodeParent":105,
                                                             "label":"title",
                                                             "isOpen":true,
@@ -218,6 +224,7 @@
                                                     "$HIDDEN":false
                                                 },
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"x":0,"width":175,"height":175,"centerX":0,"bottom":10},
@@ -230,6 +237,7 @@
                                                     "compId":121,
                                                     "child":[
                                                         {
+                                                            "x":105,
                                                             "type":"Panel",
                                                             "searchKey":"Panel,bikeSpritePanel",
                                                             "props":{"width":0,"name":"bikeSpritePanel","height":0,"centerY":20,"centerX":0},
@@ -243,6 +251,7 @@
                                                                 ]
                                                         },
                                                         {
+                                                            "x":105,
                                                             "type":"Panel",
                                                             "searchKey":"Panel,itemIcon",
                                                             "props":{"y":88,"x":88,"width":0,"scaleY":1,"scaleX":1,"name":"itemIcon","height":0,"centerY":0,"centerX":0},
@@ -256,9 +265,10 @@
                                                                 ]
                                                         },
                                                         {
+                                                            "x":105,
                                                             "type":"Label",
                                                             "searchKey":"Label,numberText",
-                                                            "props":{"y":145,"text":"999999","strokeColor":"#000000","stroke":5,"name":"numberText","fontSize":30,"color":"#ffffff","centerX":0,"bottom":5},
+                                                            "props":{"y":145,"text":"999999","strokeColor":"#000000","stroke":5,"name":"numberText","fontSize":30,"font":"font_901","color":"#ffffff","centerX":0,"bottom":5},
                                                             "nodeParent":121,
                                                             "label":"numberText",
                                                             "isDirectory":false,
@@ -271,6 +281,7 @@
                                                     "$HIDDEN":false
                                                 },
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image,lostImage",
                                                     "props":{"top":0,"right":0,"name":"lostImage","left":0,"bottom":0},
@@ -283,6 +294,7 @@
                                                     "compId":104,
                                                     "child":[
                                                         {
+                                                            "x":105,
                                                             "type":"Image",
                                                             "searchKey":"Image",
                                                             "props":{"skin":"images/key_lock-2.png","centerY":30,"centerX":0},
@@ -300,6 +312,7 @@
                                                     "$HIDDEN":true
                                                 },
                                                 {
+                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image,receivedImage",
                                                     "props":{"width":200,"name":"receivedImage","height":250,"centerY":30,"centerX":0},
@@ -312,6 +325,7 @@
                                                     "compId":171,
                                                     "child":[
                                                         {
+                                                            "x":105,
                                                             "type":"Image",
                                                             "searchKey":"Image",
                                                             "props":{"skin":"images/bg-291.png","scaleX":1.5,"centerY":0,"centerX":0},
@@ -327,6 +341,7 @@
                                                             "$HIDDEN":false
                                                         },
                                                         {
+                                                            "x":105,
                                                             "type":"Image",
                                                             "searchKey":"Image",
                                                             "props":{"skin":"images/bg-292.png","centerY":-20,"centerX":0},
@@ -342,6 +357,7 @@
                                                             "$HIDDEN":false
                                                         },
                                                         {
+                                                            "x":105,
                                                             "type":"Image",
                                                             "searchKey":"Image",
                                                             "props":{"skin":"images/english/receivedv.png","scaleY":0.5,"scaleX":0.5,"centerY":50,"centerX":0},
@@ -379,19 +395,20 @@
                                     "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
-                                    "props":{"width":580,"top":15,"height":40,"centerX":0},
+                                    "props":{"width":580,"top":25,"height":40,"centerX":0},
                                     "nodeParent":130,
                                     "label":"Image",
-                                    "isOpen":false,
+                                    "isOpen":true,
                                     "isDirectory":true,
                                     "isAniNode":true,
                                     "hasChild":true,
                                     "compId":132,
                                     "child":[
                                         {
+                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label",
-                                            "props":{"text":"${day7}","strokeColor":"#000000","stroke":5,"fontSize":30,"color":"#ffffff","centerY":5,"centerX":0},
+                                            "props":{"text":"${day7}","strokeColor":"#000000","stroke":5,"scaleY":1.1,"scaleX":1.1,"fontSize":30,"font":"font_102","color":"#ffffff","centerY":0,"centerX":0},
                                             "nodeParent":132,
                                             "label":"Label",
                                             "isOpen":true,
@@ -434,7 +451,7 @@
                                             "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,coinNumberText",
-                                            "props":{"var":"coinNumberText","text":"999999","strokeColor":"#000000","stroke":5,"fontSize":30,"color":"#ffffff","centerX":0,"bottom":5},
+                                            "props":{"var":"coinNumberText","text":"999999","strokeColor":"#000000","stroke":5,"fontSize":30,"font":"font_901","color":"#ffffff","centerX":0,"bottom":5},
                                             "nodeParent":134,
                                             "label":"coinNumberText",
                                             "isDirectory":false,
@@ -452,13 +469,14 @@
                                     "props":{"width":175,"var":"day7item1","height":175,"centerX":0,"bottom":10},
                                     "nodeParent":130,
                                     "label":"day7item1",
-                                    "isOpen":false,
+                                    "isOpen":true,
                                     "isDirectory":true,
                                     "isAniNode":true,
                                     "hasChild":true,
                                     "compId":180,
                                     "child":[
                                         {
+                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image",
                                             "props":{"skin":"images/icon-diamond.png","scaleY":1,"scaleX":1,"centerY":0,"centerX":0},
@@ -472,9 +490,10 @@
                                                 ]
                                         },
                                         {
+                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,diamondNumberText",
-                                            "props":{"var":"diamondNumberText","text":"999999","strokeColor":"#000000","stroke":5,"fontSize":30,"color":"#ffffff","centerX":0,"bottom":5},
+                                            "props":{"var":"diamondNumberText","text":"999999","strokeColor":"#000000","stroke":5,"fontSize":30,"font":"font_901","color":"#ffffff","centerX":0,"bottom":5},
                                             "nodeParent":180,
                                             "label":"diamondNumberText",
                                             "isDirectory":false,
@@ -492,13 +511,14 @@
                                     "props":{"width":175,"var":"day7item2","right":35,"height":175,"bottom":10},
                                     "nodeParent":130,
                                     "label":"day7item2",
-                                    "isOpen":false,
+                                    "isOpen":true,
                                     "isDirectory":true,
                                     "isAniNode":true,
                                     "hasChild":true,
                                     "compId":184,
                                     "child":[
                                         {
+                                            "x":75,
                                             "type":"Panel",
                                             "searchKey":"Panel,bikeSpritePanel",
                                             "props":{"width":0,"var":"bikeSpritePanel","height":0,"centerY":20,"centerX":0},

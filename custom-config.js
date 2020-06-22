@@ -2714,7 +2714,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -2733,6 +2733,8 @@ Config.bikeList = [
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
         // 结算金币倍率（不填的话就使用默认值）
         "coinPercent": [
             1,
@@ -2829,8 +2831,6 @@ Config.bikeList = [
             1.95,
             2
         ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -2918,7 +2918,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -2938,7 +2938,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3020,7 +3022,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3041,7 +3043,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3123,7 +3127,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3141,7 +3145,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3223,7 +3229,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3243,7 +3249,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3325,7 +3333,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3346,7 +3354,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3428,7 +3438,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3446,7 +3456,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3528,7 +3540,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3548,7 +3560,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3630,7 +3644,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3651,7 +3665,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3733,7 +3749,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3751,7 +3767,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.3,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3833,7 +3851,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3853,7 +3871,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -3935,7 +3955,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -3956,7 +3976,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4038,7 +4060,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4056,7 +4078,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4138,7 +4162,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4158,7 +4182,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4240,7 +4266,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4261,7 +4287,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4343,7 +4371,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4361,7 +4389,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4443,7 +4473,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4463,7 +4493,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4545,7 +4577,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4566,7 +4598,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4648,7 +4682,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4666,7 +4700,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4748,7 +4784,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4768,7 +4804,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4850,7 +4888,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4871,7 +4909,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -4953,7 +4993,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -4971,7 +5011,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.4,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5053,7 +5095,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5073,7 +5115,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5155,7 +5199,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5176,7 +5220,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5258,7 +5304,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5276,7 +5322,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5358,7 +5406,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5378,7 +5426,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5460,7 +5510,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5481,7 +5531,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5563,7 +5615,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5581,7 +5633,9 @@ Config.bikeList = [
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.4,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": []
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5663,7 +5717,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5683,7 +5737,9 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5765,7 +5821,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5786,7 +5842,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5868,7 +5926,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5889,7 +5947,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -5971,7 +6031,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -5992,7 +6052,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
     },
     {
         // 自行车ID 必须要和别的自行车不一样
@@ -6074,7 +6136,7 @@ Config.bikeList = [
             // 名称
             name: "xiaoxin_run",
             // 播放速度
-            speed: 0.2,
+            speed: 0.4,
             // 偏移
             pos: [0, -40],
         },
@@ -6095,7 +6157,9 @@ Config.bikeList = [
         "bikeJumpExtraCountdown": [
             2000,
             2000
-        ]
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
     }
 ];
 
@@ -6253,7 +6317,7 @@ Config.moneyList = [
         getCoin: 0,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 0,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum01.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum01.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6264,7 +6328,7 @@ Config.moneyList = [
         getCoin: 0,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 0,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum02.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum02.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6275,7 +6339,7 @@ Config.moneyList = [
         getCoin: 0,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 0,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum03.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum03.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6286,7 +6350,7 @@ Config.moneyList = [
         getCoin: 0,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 0,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum04.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum04.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6297,7 +6361,7 @@ Config.moneyList = [
         getCoin: 34500,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 300,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum05.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum05.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6308,7 +6372,7 @@ Config.moneyList = [
         getCoin: 13200,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 120,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum06.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum06.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6319,7 +6383,7 @@ Config.moneyList = [
         getCoin: 6300,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 60,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum07.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum07.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6330,7 +6394,7 @@ Config.moneyList = [
         getCoin: 1000,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 10,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum08.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum08.png"
     },
 ];
 
@@ -6344,7 +6408,7 @@ Config.presentList = [
         dsc: "UnlockAllBike",
         // 购买所需货币
         costMoney: 50,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum01.png",
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum01.png",
     },
     {
         // 礼包ID
@@ -6353,7 +6417,7 @@ Config.presentList = [
         dsc: "UnlockAllEndlessScene",
         // 购买所需货币
         costMoney: 200,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum02.png",
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum02.png",
     },
     {
         // 礼包ID
@@ -6366,7 +6430,7 @@ Config.presentList = [
         getDiamond: 50,
         // 购买礼包获得金币数量
         getCoin: 5000,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum03.png",
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum03.png",
     },
     {
         // 礼包ID
@@ -6379,7 +6443,7 @@ Config.presentList = [
         getDiamond: 150,
         // 购买礼包获得金币数量
         getCoin: 15000,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum04.png",
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum04.png",
     },
 ];
 
@@ -11645,9 +11709,9 @@ Config.lockSystems = {
         // 解锁描述
         dsc: "SystemUnlockDescribe7",
         // 解锁图片
-        image: "myLaya/laya/assets/images/button-skill.png",
+        image: "myLaya/laya/assets/images/english/NewContent-16.png",
         // 解锁图片缩放
-        imageScale: 2,
+        imageScale: 1,
     }
 };
 
@@ -12786,12 +12850,12 @@ Config.imageText = {
             ".": "myLaya/laya/assets/images/image-text/bonuspt/bonuspt_number_02_11.png",
             "x": "myLaya/laya/assets/images/image-text/bonuspt/bonuspt_number_02_12.png",
             "+": "myLaya/laya/assets/images/image-text/bonuspt/bonuspt_number_02_13.png",
-            ["额"]: "myLaya/laya/assets/images/image-text/bonuspt/bonuspt_number_02_13.png",
-            ["外"]: "myLaya/laya/assets/images/image-text/bonuspt/bonuspt_number_02_13.png",
-            ["经"]: "myLaya/laya/assets/images/image-text/bonuspt/bonuspt_number_02_13.png",
-            ["验"]: "myLaya/laya/assets/images/image-text/bonuspt/bonuspt_number_02_13.png",
-            ["钱"]: "myLaya/laya/assets/images/image-text/bonuspt/bonuspt_number_02_13.png",
-            ["币"]: "myLaya/laya/assets/images/image-text/bonuspt/bonuspt_number_02_13.png",
+            ["额"]: "myLaya/laya/assets/images/image-text/bonuspt/font_1002_1251.png",
+            ["外"]: "myLaya/laya/assets/images/image-text/bonuspt/font_1002_1252.png",
+            ["经"]: "myLaya/laya/assets/images/image-text/bonuspt/font_1002_1041.png",
+            ["验"]: "myLaya/laya/assets/images/image-text/bonuspt/font_1002_1042.png",
+            ["钱"]: "myLaya/laya/assets/images/image-text/bonuspt/font_1002_1011.png",
+            ["币"]: "myLaya/laya/assets/images/image-text/bonuspt/font_1002_1012.png",
         },
     },
     bonuspt3: {
@@ -12831,6 +12895,72 @@ Config.imageText = {
             ",": "myLaya/laya/assets/images/image-text/exp/exp_number_01_10.png",
         },
     },
+    font_3: {
+        charWidth: 14,
+        charHeight: 20,
+        charImgPathTable: {
+            "0": "myLaya/laya/assets/images/image-text/font_3/font_3_0.png",
+            "1": "myLaya/laya/assets/images/image-text/font_3/font_3_1.png",
+            "2": "myLaya/laya/assets/images/image-text/font_3/font_3_2.png",
+            "3": "myLaya/laya/assets/images/image-text/font_3/font_3_3.png",
+            "4": "myLaya/laya/assets/images/image-text/font_3/font_3_4.png",
+            "5": "myLaya/laya/assets/images/image-text/font_3/font_3_5.png",
+            "6": "myLaya/laya/assets/images/image-text/font_3/font_3_6.png",
+            "7": "myLaya/laya/assets/images/image-text/font_3/font_3_7.png",
+            "8": "myLaya/laya/assets/images/image-text/font_3/font_3_8.png",
+            "9": "myLaya/laya/assets/images/image-text/font_3/font_3_9.png",
+        },
+    },
+    font_4: {
+        charWidth: 15,
+        charHeight: 25,
+        charImgPathTable: {
+            "0": "myLaya/laya/assets/images/image-text/font_4/font_4_0.png",
+            "1": "myLaya/laya/assets/images/image-text/font_4/font_4_1.png",
+            "2": "myLaya/laya/assets/images/image-text/font_4/font_4_2.png",
+            "3": "myLaya/laya/assets/images/image-text/font_4/font_4_3.png",
+            "4": "myLaya/laya/assets/images/image-text/font_4/font_4_4.png",
+            "5": "myLaya/laya/assets/images/image-text/font_4/font_4_5.png",
+            "6": "myLaya/laya/assets/images/image-text/font_4/font_4_6.png",
+            "7": "myLaya/laya/assets/images/image-text/font_4/font_4_7.png",
+            "8": "myLaya/laya/assets/images/image-text/font_4/font_4_8.png",
+            "9": "myLaya/laya/assets/images/image-text/font_4/font_4_9.png",
+            ":": "myLaya/laya/assets/images/image-text/font_4/font_4_31.png",
+            "/": "myLaya/laya/assets/images/image-text/font_4/font_4_33.png",
+        },
+    },
+    font_5: {
+        charWidth: 15,
+        charHeight: 25,
+        charImgPathTable: {
+            "0": "myLaya/laya/assets/images/image-text/font_5/font_5_0.png",
+            "1": "myLaya/laya/assets/images/image-text/font_5/font_5_1.png",
+            "2": "myLaya/laya/assets/images/image-text/font_5/font_5_2.png",
+            "3": "myLaya/laya/assets/images/image-text/font_5/font_5_3.png",
+            "4": "myLaya/laya/assets/images/image-text/font_5/font_5_4.png",
+            "5": "myLaya/laya/assets/images/image-text/font_5/font_5_5.png",
+            "6": "myLaya/laya/assets/images/image-text/font_5/font_5_6.png",
+            "7": "myLaya/laya/assets/images/image-text/font_5/font_5_7.png",
+            "8": "myLaya/laya/assets/images/image-text/font_5/font_5_8.png",
+            "9": "myLaya/laya/assets/images/image-text/font_5/font_5_9.png",
+            ":": "myLaya/laya/assets/images/image-text/font_5/font_5_31.png",
+        },
+    },
+    font_102: {
+        charWidth: 34,
+        charHeight: 35,
+        charImgPathTable: {
+            "1": "myLaya/laya/assets/images/image-text/font_102/font_102_1.png",
+            "2": "myLaya/laya/assets/images/image-text/font_102/font_102_2.png",
+            "3": "myLaya/laya/assets/images/image-text/font_102/font_102_3.png",
+            "4": "myLaya/laya/assets/images/image-text/font_102/font_102_4.png",
+            "5": "myLaya/laya/assets/images/image-text/font_102/font_102_5.png",
+            "6": "myLaya/laya/assets/images/image-text/font_102/font_102_6.png",
+            "7": "myLaya/laya/assets/images/image-text/font_102/font_102_7.png",
+            ["第"]: "myLaya/laya/assets/images/image-text/font_102/font_102_1201.png",
+            ["天"]: "myLaya/laya/assets/images/image-text/font_102/font_102_1202.png",
+        },
+    },
     font_303: {
         charWidth: 30,
         charHeight: 26,
@@ -12847,6 +12977,60 @@ Config.imageText = {
             "9": "myLaya/laya/assets/images/image-text/font_303/font_303_9.png",
             "%": "myLaya/laya/assets/images/image-text/font_303/font_303_32.png",
             ">": "myLaya/laya/assets/images/image-text/font_303/font_303_40.png",
+        },
+    },
+    font_401: {
+        charWidth: 30,
+        charHeight: 24,
+        charImgPathTable: {
+            "0": "myLaya/laya/assets/images/image-text/font_401/font_401_0.png",
+            "1": "myLaya/laya/assets/images/image-text/font_401/font_401_1.png",
+            "2": "myLaya/laya/assets/images/image-text/font_401/font_401_2.png",
+            "3": "myLaya/laya/assets/images/image-text/font_401/font_401_3.png",
+            "4": "myLaya/laya/assets/images/image-text/font_401/font_401_4.png",
+            "5": "myLaya/laya/assets/images/image-text/font_401/font_401_5.png",
+            "6": "myLaya/laya/assets/images/image-text/font_401/font_401_6.png",
+            "7": "myLaya/laya/assets/images/image-text/font_401/font_401_7.png",
+            "8": "myLaya/laya/assets/images/image-text/font_401/font_401_8.png",
+            "9": "myLaya/laya/assets/images/image-text/font_401/font_401_9.png",
+            "/": "myLaya/laya/assets/images/image-text/font_401/font_401_33.png",
+            ".": "myLaya/laya/assets/images/image-text/font_401/font_401_35.png",
+            ["秒"]: "myLaya/laya/assets/images/image-text/font_401/font_401_1211.png",
+        },
+    },
+    font_603: {
+        charWidth: 22,
+        charHeight: 28,
+        charImgPathTable: {
+            "0": "myLaya/laya/assets/images/image-text/font_603/font_603_0.png",
+            "1": "myLaya/laya/assets/images/image-text/font_603/font_603_1.png",
+            "2": "myLaya/laya/assets/images/image-text/font_603/font_603_2.png",
+            "3": "myLaya/laya/assets/images/image-text/font_603/font_603_3.png",
+            "4": "myLaya/laya/assets/images/image-text/font_603/font_603_4.png",
+            "5": "myLaya/laya/assets/images/image-text/font_603/font_603_5.png",
+            "6": "myLaya/laya/assets/images/image-text/font_603/font_603_6.png",
+            "7": "myLaya/laya/assets/images/image-text/font_603/font_603_7.png",
+            "8": "myLaya/laya/assets/images/image-text/font_603/font_603_8.png",
+            "9": "myLaya/laya/assets/images/image-text/font_603/font_603_9.png",
+            ":": "myLaya/laya/assets/images/image-text/font_603/font_603_31.png",
+        },
+    },
+    font_901: {
+        charWidth: 22,
+        charHeight: 27,
+        charImgPathTable: {
+            "0": "myLaya/laya/assets/images/image-text/font_901/font_901_0.png",
+            "1": "myLaya/laya/assets/images/image-text/font_901/font_901_1.png",
+            "2": "myLaya/laya/assets/images/image-text/font_901/font_901_2.png",
+            "3": "myLaya/laya/assets/images/image-text/font_901/font_901_3.png",
+            "4": "myLaya/laya/assets/images/image-text/font_901/font_901_4.png",
+            "5": "myLaya/laya/assets/images/image-text/font_901/font_901_5.png",
+            "6": "myLaya/laya/assets/images/image-text/font_901/font_901_6.png",
+            "7": "myLaya/laya/assets/images/image-text/font_901/font_901_7.png",
+            "8": "myLaya/laya/assets/images/image-text/font_901/font_901_8.png",
+            "9": "myLaya/laya/assets/images/image-text/font_901/font_901_9.png",
+            "/": "myLaya/laya/assets/images/image-text/font_901/font_901_33.png",
+            "-": "myLaya/laya/assets/images/image-text/font_901/font_901_36.png",
         },
     },
     medal: {
@@ -13809,9 +13993,9 @@ Config.double = {
     // 金币
     coin: 1,
     // 子弹时间值
-    bulletTimeValue: 1,
+    bulletTimeValue: 0,
     // 奖励关卡值
-    rewardProgressValue: 1,
+    rewardProgressValue: 0,
 };
 
 // 翻倍数字动画
@@ -13819,7 +14003,7 @@ Config.doubleAnimation = {
     // 动画时长（单位：毫秒）
     duration: 750,
     // 弹起高度
-    yOffset: 200,
+    yOffset: 100,
     // 一开始的时候偏移中心点多少高度
     yStartOffset: -100,
     // 消失时候的透明度

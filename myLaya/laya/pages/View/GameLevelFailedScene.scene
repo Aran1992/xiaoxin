@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":71,
-    "selecteID":76,
+    "selectedBox":16,
+    "selecteID":72,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
-    "maxID":85,
+    "maxID":88,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -157,20 +157,6 @@
                         {
                             "x":45,
                             "type":"Label",
-                            "searchKey":"Label",
-                            "props":{"y":0,"text":"里程奖励","left":80,"fontSize":40,"color":"#000000","centerY":0},
-                            "nodeParent":70,
-                            "label":"Label",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":74,
-                            "child":[
-                                ]
-                        },
-                        {
-                            "x":45,
-                            "type":"Label",
                             "searchKey":"Label,distanceValueText",
                             "props":{"y":0,"x":0,"var":"distanceValueText","text":"123456","right":20,"fontSize":30,"font":"meter","color":"#000000","centerY":0},
                             "nodeParent":70,
@@ -193,6 +179,21 @@
                             "isAniNode":true,
                             "hasChild":false,
                             "compId":84,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"y":0,"x":0,"width":150,"skin":"images/english/reward-distance.png","left":80,"height":37,"centerY":0},
+                            "nodeParent":70,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":85,
                             "child":[
                                 ]
                         }]
@@ -228,20 +229,6 @@
                         {
                             "x":45,
                             "type":"Label",
-                            "searchKey":"Label",
-                            "props":{"y":0,"text":"经验奖励","left":80,"fontSize":40,"color":"#000000","centerY":0},
-                            "nodeParent":71,
-                            "label":"Label",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":77,
-                            "child":[
-                                ]
-                        },
-                        {
-                            "x":45,
-                            "type":"Label",
                             "searchKey":"Label,expValueText",
                             "props":{"y":0,"x":0,"var":"expValueText","text":"123456","right":20,"fontSize":30,"font":"exp","color":"#000000","centerY":0},
                             "nodeParent":71,
@@ -264,6 +251,21 @@
                             "isAniNode":true,
                             "hasChild":false,
                             "compId":83,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"y":0,"x":0,"width":150,"skin":"images/english/reward-exp.png","left":80,"height":38,"centerY":0},
+                            "nodeParent":71,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":86,
                             "child":[
                                 ]
                         }]
@@ -299,20 +301,6 @@
                         {
                             "x":45,
                             "type":"Label",
-                            "searchKey":"Label",
-                            "props":{"y":0,"text":"钱币奖励","left":80,"fontSize":40,"color":"#000000","centerY":0},
-                            "nodeParent":72,
-                            "label":"Label",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":80,
-                            "child":[
-                                ]
-                        },
-                        {
-                            "x":45,
-                            "type":"Label",
                             "searchKey":"Label,coinValueText",
                             "props":{"var":"coinValueText","text":"123456","right":20,"fontSize":30,"font":"medal","color":"#000000","centerY":0},
                             "nodeParent":72,
@@ -335,6 +323,21 @@
                             "isAniNode":true,
                             "hasChild":false,
                             "compId":82,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"y":0,"x":0,"width":150,"skin":"images/english/reward-gold.png","left":80,"height":38,"centerY":0},
+                            "nodeParent":72,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":87,
                             "child":[
                                 ]
                         }]

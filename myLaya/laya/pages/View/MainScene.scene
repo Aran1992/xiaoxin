@@ -1,14 +1,14 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":304,
-    "selecteID":308,
+    "selectedBox":231,
+    "selecteID":294,
     "searchKey":"Scene",
     "referenceLines":[
         ],
     "props":{"width":1280,"sceneColor":"#ffffff","height":720},
     "nodeParent":-1,
-    "maxID":309,
+    "maxID":312,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -128,13 +128,14 @@
             "props":{"width":770,"skin":"images/bg-201.png","left":60,"height":415,"bottom":70},
             "nodeParent":1,
             "label":"Image",
-            "isOpen":false,
+            "isOpen":true,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":231,
             "child":[
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":425,"skin":"images/bg-202.png","left":25,"height":265,"bottom":25},
@@ -163,6 +164,7 @@
                     "$HIDDEN":false
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,bikeButton",
                     "props":{"width":294,"var":"bikeButton","runtime":"../laya/assets/sounds/shinchan_097b.mp3","right":25,"height":274,"bottom":25},
@@ -230,6 +232,7 @@
                         }]
                 },
                 {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,addtionText",
                     "props":{"var":"addtionText","top":30,"text":"123456","strokeColor":"#000000","stroke":1,"scaleY":1.2,"scaleX":1.2,"left":-600,"fontSize":20,"color":"#000000","align":"left"},
@@ -244,9 +247,10 @@
                     "$HIDDEN":false
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"width":290,"top":40,"skin":"images/bg-231.png","sizeGrid":"20,20,20,20","right":25,"height":57},
+                    "props":{"top":30,"skin":"images/bg-361.png","centerX":0},
                     "nodeParent":231,
                     "label":"Image",
                     "isOpen":false,
@@ -258,7 +262,7 @@
                         {
                             "type":"Label",
                             "searchKey":"Label,userNameText",
-                            "props":{"x":-41,"var":"userNameText","text":"玩家名字八个中文","strokeColor":"#000000","stroke":5,"fontSize":30,"color":"#ffffff","centerY":0,"centerX":0},
+                            "props":{"var":"userNameText","text":"玩家名字八个中文","strokeColor":"#ffffff","stroke":1,"fontSize":25,"color":"#ffffff","centerY":0,"centerX":0},
                             "nodeParent":259,
                             "label":"userNameText",
                             "isDirectory":false,
@@ -271,9 +275,56 @@
                     "$HIDDEN":false
                 },
                 {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"top":80,"skin":"images/icon-11.png","left":250},
+                    "nodeParent":231,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":310,
+                    "child":[
+                        ],
+                    "$HIDDEN":false
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"top":83,"skin":"images/english/bullet-time-top.png","left":293},
+                    "nodeParent":231,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":311,
+                    "child":[
+                        ],
+                    "$HIDDEN":false
+                },
+                {
+                    "x":30,
+                    "type":"Label",
+                    "searchKey":"Label,bulletMaxValueAddText",
+                    "props":{"var":"bulletMaxValueAddText","top":85,"text":"+9999","strokeColor":"#000000","stroke":1,"left":450,"fontSize":25,"font":"font_3","color":"#000000","align":"left"},
+                    "nodeParent":231,
+                    "label":"bulletMaxValueAddText",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":294,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label",
-                    "props":{"top":30,"text":"里程总加成","strokeColor":"#000000","stroke":1,"left":25,"fontSize":25,"color":"#000000","align":"left"},
+                    "props":{"top":245,"text":"里程总加成","strokeColor":"#000000","stroke":1,"left":-683,"fontSize":25,"color":"#000000","align":"left"},
                     "nodeParent":231,
                     "label":"Label",
                     "isOpen":false,
@@ -285,9 +336,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,distancePercentText",
-                    "props":{"var":"distancePercentText","top":30,"text":"+999%","strokeColor":"#000000","stroke":1,"left":155,"fontSize":25,"color":"#000000","align":"left"},
+                    "props":{"var":"distancePercentText","top":238,"text":"+999%","strokeColor":"#000000","stroke":1,"left":-555,"fontSize":25,"color":"#000000","align":"left"},
                     "nodeParent":231,
                     "label":"distancePercentText",
                     "isDirectory":false,
@@ -298,9 +350,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label",
-                    "props":{"top":60,"text":"经验总加成","strokeColor":"#000000","stroke":1,"left":25,"fontSize":25,"color":"#000000","align":"left"},
+                    "props":{"top":268,"text":"经验总加成","strokeColor":"#000000","stroke":1,"left":-685,"fontSize":25,"color":"#000000","align":"left"},
                     "nodeParent":231,
                     "label":"Label",
                     "isOpen":true,
@@ -312,9 +365,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,expPercentText",
-                    "props":{"var":"expPercentText","top":60,"text":"+999%","strokeColor":"#000000","stroke":1,"left":155,"fontSize":25,"color":"#000000","align":"left"},
+                    "props":{"var":"expPercentText","top":268,"text":"+999%","strokeColor":"#000000","stroke":1,"left":-555,"fontSize":25,"color":"#000000","align":"left"},
                     "nodeParent":231,
                     "label":"expPercentText",
                     "isDirectory":false,
@@ -325,36 +379,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label",
-                    "props":{"top":90,"text":"子弹时间上限","strokeColor":"#000000","stroke":1,"left":25,"fontSize":25,"color":"#000000","align":"left"},
-                    "nodeParent":231,
-                    "label":"Label",
-                    "isOpen":false,
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":293,
-                    "child":[
-                        ]
-                },
-                {
-                    "type":"Label",
-                    "searchKey":"Label,bulletMaxValueAddText",
-                    "props":{"var":"bulletMaxValueAddText","top":90,"text":"+9999","strokeColor":"#000000","stroke":1,"left":190,"fontSize":25,"color":"#000000","align":"left"},
-                    "nodeParent":231,
-                    "label":"bulletMaxValueAddText",
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":294,
-                    "child":[
-                        ]
-                },
-                {
-                    "type":"Label",
-                    "searchKey":"Label",
-                    "props":{"top":30,"text":"积分总加成","strokeColor":"#000000","stroke":1,"left":240,"fontSize":25,"color":"#000000","align":"left"},
+                    "props":{"top":238,"text":"积分总加成","strokeColor":"#000000","stroke":1,"left":-470,"fontSize":25,"color":"#000000","align":"left"},
                     "nodeParent":231,
                     "label":"Label",
                     "isOpen":false,
@@ -366,9 +394,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,scorePercentText",
-                    "props":{"var":"scorePercentText","top":30,"text":"+999%","strokeColor":"#000000","stroke":1,"left":375,"fontSize":25,"color":"#000000","align":"left"},
+                    "props":{"var":"scorePercentText","top":238,"text":"+999%","strokeColor":"#000000","stroke":1,"left":-335,"fontSize":25,"color":"#000000","align":"left"},
                     "nodeParent":231,
                     "label":"scorePercentText",
                     "isDirectory":false,
@@ -379,9 +408,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label",
-                    "props":{"top":60,"text":"钱币总加成","strokeColor":"#000000","stroke":1,"left":240,"fontSize":25,"color":"#000000","align":"left"},
+                    "props":{"top":268,"text":"钱币总加成","strokeColor":"#000000","stroke":1,"left":-470,"fontSize":25,"color":"#000000","align":"left"},
                     "nodeParent":231,
                     "label":"Label",
                     "isOpen":true,
@@ -393,9 +423,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,coinPercentText",
-                    "props":{"var":"coinPercentText","top":60,"text":"+999%","strokeColor":"#000000","stroke":1,"left":375,"fontSize":25,"color":"#000000","align":"left"},
+                    "props":{"var":"coinPercentText","top":268,"text":"+999%","strokeColor":"#000000","stroke":1,"left":-335,"fontSize":25,"color":"#000000","align":"left"},
                     "nodeParent":231,
                     "label":"coinPercentText",
                     "isDirectory":false,
@@ -1226,7 +1257,7 @@
                 {
                     "type":"Label",
                     "searchKey":"Label,giftTimeText",
-                    "props":{"var":"giftTimeText","top":-10,"text":"00:00","strokeColor":"#000000","stroke":3,"fontSize":25,"color":"#ffffff","centerX":0},
+                    "props":{"var":"giftTimeText","top":-10,"text":"00:00","strokeColor":"#000000","stroke":3,"fontSize":25,"font":"font_5","color":"#ffffff","centerX":0},
                     "nodeParent":81,
                     "label":"giftTimeText",
                     "isDirectory":false,
@@ -1749,7 +1780,7 @@
                 {
                     "type":"Label",
                     "searchKey":"Label,expRate",
-                    "props":{"var":"expRate","text":"88888888 / 99999999","strokeColor":"#000000","fontSize":30,"color":"#ffffff","centerY":-2,"centerX":0,"align":"center"},
+                    "props":{"var":"expRate","top":8,"text":"88888888 / 99999999","strokeColor":"#000000","fontSize":30,"font":"font_901","color":"#ffffff","centerX":0,"align":"center"},
                     "nodeParent":167,
                     "label":"expRate",
                     "isDirectory":false,
@@ -1794,14 +1825,13 @@
             "props":{"visible":true,"var":"Guide0","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
             "label":"Guide0",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":268,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":520,"top":150,"skin":"images/bg-192.png","height":226,"centerX":0},
@@ -1814,7 +1844,6 @@
                     "compId":271,
                     "child":[
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label",
                             "props":{"text":"${Guide-1-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
@@ -1829,7 +1858,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"top":160,"skin":"images/show-191.png","centerX":-280},
@@ -1844,7 +1872,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,手指点击动画",
                     "props":{"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerY":145,"centerX":570},
@@ -1868,14 +1895,13 @@
             "props":{"visible":true,"var":"Guide1","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
             "label":"Guide1",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":304,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":520,"skin":"images/bg-192.png","height":226,"centerX":0,"bottom":100},
@@ -1888,7 +1914,6 @@
                     "compId":305,
                     "child":[
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label",
                             "props":{"text":"“抽奖”系统解锁啦","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
@@ -1903,7 +1928,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"skin":"images/show-191.png","centerX":-280,"bottom":180},
@@ -1918,7 +1942,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,手指点击动画",
                     "props":{"top":164,"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerX":214},

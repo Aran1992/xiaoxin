@@ -83,13 +83,12 @@ export default class ShopScene extends Scene {
 
     initGoldItem(item) {
         item.info = {coin: 1};
-        this.onClick(item, () => this.onClickItem(item), true);
+        this.onClick(item.ui.iconImage, () => this.onClickItem(item), true);
         this.onClick(item.ui.advertButton, this.onClickCoinAdvertButton.bind(this));
     }
 
     updateGoldItem(item, index) {
         clearInterval(item.timer);
-        item.ui.itemIcon.children[0].texture = Texture.from(`myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum0${index + 1}.png`);
         item.ui.onlineText.visible = false;
         item.ui.buyText.visible = false;
         item.ui.advertButton.visible = false;
@@ -146,13 +145,12 @@ export default class ShopScene extends Scene {
 
     initDiamondItem(item) {
         item.info = {diamond: 1};
-        this.onClick(item, () => this.onClickItem(item), true);
+        this.onClick(item.ui.iconImage, () => this.onClickItem(item), true);
         this.onClick(item.ui.advertButton, this.onClickDiamondAdvertButton.bind(this));
     }
 
     updateDiamondItem(item, index) {
         clearInterval(item.timer);
-        item.ui.itemIcon.children[0].texture = Texture.from(`myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum0${index + 1}.png`);
         item.ui.onlineText.visible = false;
         item.ui.buyText.visible = false;
         item.ui.advertButton.visible = false;

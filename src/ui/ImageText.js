@@ -1,4 +1,4 @@
-import {Container, Sprite} from "../libs/pixi-wrapper";
+import {Container, resources, Sprite} from "../libs/pixi-wrapper";
 import Config from "../config";
 
 export default class ImageText extends Sprite {
@@ -42,7 +42,7 @@ export default class ImageText extends Sprite {
             this.scale.y = data.scaleY;
         }
 
-        this.text = data.text;
+        this.text = (data.text || "").replace(/\${.*?}/g, id => resources[Config.i18nPath].data[id.substring(2, id.length - 1)]);
     }
 
     set text(text) {
