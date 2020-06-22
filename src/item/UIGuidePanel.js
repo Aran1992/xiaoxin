@@ -38,6 +38,7 @@ export default class UIGuidePanel {
                         this.guideMask.endHole();
                         this.guideMask.endFill();
                     }
+                    UIHelper.onClick(targetButton, () => 0, true);
                     UIHelper.controlClick((button) => targetButton === button, this.onClickGuidePanel.bind(this));
                 } else {
                     alert(`引导界面不存在要点击的控件：${controlID}`);
