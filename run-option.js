@@ -27,10 +27,14 @@ const RunOption = {
     forceShowUIGuide: 0,
     // 强制显示的引导列表（同时只可以测试一条）
 //    forceShowUIGuideList: ["抽奖"],
+//    forceShowUIGuideList: ["角色扮演"],
+//    forceShowUIGuideList: ["无尽旅程"],
 //    forceShowUIGuideList: ["无尽模式界面引导","排名模式界面引导"],
     forceShowUIGuideList: [],
     // 填写要测试的解锁系统引导，一旦填写了，那么进到GameLevelScene的时候就会马上开始这个引导，还要记得吧unlockAllSystem也打开
 //    testUnlockSystemGuide: "抽奖",
+//    testUnlockSystemGuide: "角色扮演",
+//    testUnlockSystemGuide: "无尽旅程",
     testUnlockSystemGuide: "",
 };
 export default RunOption;

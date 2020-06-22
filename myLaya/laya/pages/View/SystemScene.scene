@@ -300,7 +300,7 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image,beginnerGuide",
-                    "props":{"var":"beginnerGuide","skin":"images/bg-222.png","sizeGrid":"50,50,50,50","runtime":"../laya/assets/sounds/SoundSE001.mp3","right":30,"left":30,"height":85,"bottom":30},
+                    "props":{"var":"beginnerGuide","skin":"images/bg-222.png","sizeGrid":"50,50,50,50","runtime":"../laya/assets/sounds/shinchan_049.mp3","right":30,"left":30,"height":85,"bottom":30},
                     "nodeParent":15,
                     "label":"beginnerGuide",
                     "isOpen":true,

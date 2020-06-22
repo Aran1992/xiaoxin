@@ -14179,7 +14179,7 @@ Config.UIGuide = {
                 // 引导元素所在的场景
                 scene: "GameLevelScene",
                 // 引导元素的var属性 （var必须是Guide开头的）
-                panel: "Guide1",
+                panel: "Guide-11-1",
                 // 是否显示黑色蒙版
                 showMask: 1,
                 // 显示时长，如果为0则持续显示 （单位：秒）
@@ -14194,7 +14194,7 @@ Config.UIGuide = {
                 // 引导元素所在的场景
                 scene: "MainScene",
                 // 引导元素的var属性 （var必须是Guide开头的）
-                panel: "Guide1",
+                panel: "Guide-11-11",
                 // 是否显示黑色蒙版
                 showMask: 1,
                 // 显示时长，如果为0则持续显示 （单位：秒）
@@ -14209,7 +14209,7 @@ Config.UIGuide = {
                 // 引导元素所在的场景
                 scene: "DrawScene",
                 // 引导元素的var属性 （var必须是Guide开头的）
-                panel: "Guide0",
+                panel: "Guide-11-21",
                 // 是否显示黑色蒙版
                 showMask: 1,
                 // 显示时长，如果为0则持续显示 （单位：秒）
@@ -14224,7 +14224,7 @@ Config.UIGuide = {
                 // 引导元素所在的场景
                 scene: "DrawScene",
                 // 引导元素的var属性 （var必须是Guide开头的）
-                panel: "Guide1",
+                panel: "Guide-11-31",
                 // 是否显示黑色蒙版
                 showMask: 0,
                 // 显示时长，如果为0则持续显示 （单位：秒）
@@ -14239,7 +14239,61 @@ Config.UIGuide = {
                 // 引导元素所在的场景
                 scene: "DrawScene",
                 // 引导元素的var属性 （var必须是Guide开头的）
-                panel: "Guide2",
+                panel: "Guide-11-41",
+                // 是否显示黑色蒙版
+                showMask: 1,
+                // 显示时长，如果为0则持续显示 （单位：秒）
+                showDuration: 0,
+                // 需要点击什么控件才会消失，
+                // 为空的话则点击任何控件都不会消失，
+                // 填写某个控件的var属性的话，那么点击这个控件才会消失，同时这个控件会高亮显示
+                // 特别的，如果填写guidePanel，那么点击任意位置都会消失
+                showUtilClick: "guidePanel",
+            },
+        ]
+    },
+    ["角色扮演"]: {
+        // 在首次显示主界面的时候开始引导
+        startInFirstTimeShowMainScene: 0,
+        // 在指定系统开启的时候开始引导（填写Config.lockSystem里面的key，为空的话就不在这个时间点开启）
+        startInUnlockSystem: "bikeButton",
+        // 引导面板列表
+        guidePanelList: [
+            {
+                // 引导元素所在的场景
+                scene: "GameLevelScene",
+                // 引导元素的var属性 （var必须是Guide开头的）
+                panel: "Guide-21-1",
+                // 是否显示黑色蒙版
+                showMask: 1,
+                // 显示时长，如果为0则持续显示 （单位：秒）
+                showDuration: 0,
+                // 需要点击什么控件才会消失，
+                // 为空的话则点击任何控件都不会消失，
+                // 填写某个控件的var属性的话，那么点击这个控件才会消失，同时这个控件会高亮显示
+                // 特别的，如果填写guidePanel，那么点击任意位置都会消失
+                showUtilClick: "returnButton",
+            },
+            {
+                // 引导元素所在的场景
+                scene: "MainScene",
+                // 引导元素的var属性 （var必须是Guide开头的）
+                panel: "Guide-21-11",
+                // 是否显示黑色蒙版
+                showMask: 1,
+                // 显示时长，如果为0则持续显示 （单位：秒）
+                showDuration: 0,
+                // 需要点击什么控件才会消失，
+                // 为空的话则点击任何控件都不会消失，
+                // 填写某个控件的var属性的话，那么点击这个控件才会消失，同时这个控件会高亮显示
+                // 特别的，如果填写guidePanel，那么点击任意位置都会消失
+                showUtilClick: "bikeButton",
+            },
+            {
+                // 引导元素所在的场景
+                scene: "BikeScene",
+                // 引导元素的var属性 （var必须是Guide开头的）
+                panel: "Guide-21-21",
                 // 是否显示黑色蒙版
                 showMask: 0,
                 // 显示时长，如果为0则持续显示 （单位：秒）
@@ -14249,6 +14303,60 @@ Config.UIGuide = {
                 // 填写某个控件的var属性的话，那么点击这个控件才会消失，同时这个控件会高亮显示
                 // 特别的，如果填写guidePanel，那么点击任意位置都会消失
                 showUtilClick: "guidePanel",
+            },
+        ]
+    },
+    ["无尽旅程"]: {
+        // 在首次显示主界面的时候开始引导
+        startInFirstTimeShowMainScene: 0,
+        // 在指定系统开启的时候开始引导（填写Config.lockSystem里面的key，为空的话就不在这个时间点开启）
+        startInUnlockSystem: "endlessModeButton",
+        // 引导面板列表
+        guidePanelList: [
+            {
+                // 引导元素所在的场景
+                scene: "GameLevelScene",
+                // 引导元素的var属性 （var必须是Guide开头的）
+                panel: "Guide-31-1",
+                // 是否显示黑色蒙版
+                showMask: 1,
+                // 显示时长，如果为0则持续显示 （单位：秒）
+                showDuration: 0,
+                // 需要点击什么控件才会消失，
+                // 为空的话则点击任何控件都不会消失，
+                // 填写某个控件的var属性的话，那么点击这个控件才会消失，同时这个控件会高亮显示
+                // 特别的，如果填写guidePanel，那么点击任意位置都会消失
+                showUtilClick: "returnButton",
+            },
+            {
+                // 引导元素所在的场景
+                scene: "MainScene",
+                // 引导元素的var属性 （var必须是Guide开头的）
+                panel: "Guide-31-11",
+                // 是否显示黑色蒙版
+                showMask: 1,
+                // 显示时长，如果为0则持续显示 （单位：秒）
+                showDuration: 0,
+                // 需要点击什么控件才会消失，
+                // 为空的话则点击任何控件都不会消失，
+                // 填写某个控件的var属性的话，那么点击这个控件才会消失，同时这个控件会高亮显示
+                // 特别的，如果填写guidePanel，那么点击任意位置都会消失
+                showUtilClick: "endlessModeButton",
+            },
+            {
+                // 引导元素所在的场景
+                scene: "PreparationScene",
+                // 引导元素的var属性 （var必须是Guide开头的）
+                panel: "Guide-31-21",
+                // 是否显示黑色蒙版
+                showMask: 1,
+                // 显示时长，如果为0则持续显示 （单位：秒）
+                showDuration: 0,
+                // 需要点击什么控件才会消失，
+                // 为空的话则点击任何控件都不会消失，
+                // 填写某个控件的var属性的话，那么点击这个控件才会消失，同时这个控件会高亮显示
+                // 特别的，如果填写guidePanel，那么点击任意位置都会消失
+                showUtilClick: "startButton",
             },
         ]
     },
