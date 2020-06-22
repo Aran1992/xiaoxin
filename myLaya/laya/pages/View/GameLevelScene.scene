@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":153,
-    "selecteID":156,
+    "selectedBox":1,
+    "selecteID":270,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#ffffff","height":720},
     "nodeParent":-1,
-    "maxID":270,
+    "maxID":271,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -32,19 +32,33 @@
         },
         {
             "x":15,
+            "type":"Image",
+            "searchKey":"Image",
+            "props":{"top":0,"skin":"images/bg-312.png","right":0,"left":0,"bottom":0,"alpha":0.3},
+            "nodeParent":1,
+            "label":"Image",
+            "isOpen":true,
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":270,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
             "type":"Panel",
             "searchKey":"Panel,gameLevelPanel",
             "props":{"width":1000,"var":"gameLevelPanel","height":700,"centerY":0,"centerX":0},
             "nodeParent":1,
             "label":"gameLevelPanel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":98,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,glBtn1",
                     "props":{"visible":true,"var":"glBtn1","top":200,"skin":"images/icon_mapbtn.png","runtime":"../laya/assets/sounds/shinchan_168.mp3","centerX":-400},
@@ -113,7 +127,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,glBtn2",
                     "props":{"visible":true,"var":"glBtn2","top":200,"skin":"images/icon_mapbtn.png","runtime":"../laya/assets/sounds/shinchan_168.mp3","centerX":-200},
@@ -182,7 +195,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,glBtn3",
                     "props":{"visible":true,"var":"glBtn3","top":200,"skin":"images/icon_mapbtn.png","runtime":"../laya/assets/sounds/shinchan_168.mp3","centerX":0},
@@ -251,7 +263,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,glBtn4",
                     "props":{"visible":true,"var":"glBtn4","top":200,"skin":"images/icon_mapbtn.png","runtime":"../laya/assets/sounds/shinchan_168.mp3","centerX":200},
@@ -320,7 +331,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,glBtn5",
                     "props":{"visible":true,"var":"glBtn5","top":200,"skin":"images/icon_mapbtn.png","runtime":"../laya/assets/sounds/shinchan_168.mp3","centerX":400},
@@ -389,7 +399,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,gameLevelMapDsc",
                     "props":{"var":"gameLevelMapDsc","top":25,"text":"Map Description","strokeColor":"#000000","stroke":5,"fontSize":50,"color":"#ffffff","centerX":0},
@@ -403,7 +412,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,lastLevelButton",
                     "props":{"var":"lastLevelButton","skin":"images/button-lastBtn.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","centerX":-150,"bottom":50},
@@ -419,7 +427,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,nextLevelButton",
                     "props":{"var":"nextLevelButton","skin":"images/button-nextBtn.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","centerX":150,"bottom":50},
@@ -435,7 +442,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,gameLevelLocked",
                     "props":{"var":"gameLevelLocked","skin":"images/bg_lockmedal.png","scaleY":0.6,"scaleX":0.6,"runtime":"../laya/assets/sounds/SoundSE001.mp3","centerX":0,"bottom":150},
@@ -448,7 +454,6 @@
                     "compId":153,
                     "child":[
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,glUnlockStarCount",
                             "props":{"var":"glUnlockStarCount","top":118,"text":"999","scaleY":1.5,"scaleX":1.5,"left":100,"fontSize":25,"font":"font_4","color":"#000000","align":"center"},
@@ -464,7 +469,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"skin":"images/bg-23.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","centerX":0,"bottom":30},
@@ -477,7 +481,6 @@
                     "compId":157,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/balance_centerx4.png","scaleY":1.4,"scaleX":1.4,"left":50,"centerY":0},
@@ -492,7 +495,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,totalStarCount",
                             "props":{"var":"totalStarCount","text":"9999","left":120,"fontSize":30,"font":"font_4","color":"#000000","centerY":-1,"align":"center"},
