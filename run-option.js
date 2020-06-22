@@ -23,14 +23,14 @@ const RunOption = {
     openAllLevel: 0,
     // 强制显示新手引导 0表现不进行控制，1表示每次都会显示，2表现每次都不会显示
     forceShowBeginnerGuide: 0,
-    // 强制显示界面引导 0表现不进行控制，1表示每次都会显示，2表现每次都不会显示
+    // 强制显示界面引导 0表现不进行控制，1表示每次都会显示，2表现每次都不会显示（主界面引导闯关模式）
     forceShowUIGuide: 0,
     // 强制显示的引导列表（同时只可以测试一条）
-//    forceShowUIGuideList: ["闯关模式"],
 //    forceShowUIGuideList: ["抽奖"],
 //    forceShowUIGuideList: ["无尽模式界面引导","排名模式界面引导"],
     forceShowUIGuideList: [],
     // 填写要测试的解锁系统引导，一旦填写了，那么进到GameLevelScene的时候就会马上开始这个引导，还要记得吧unlockAllSystem也打开
+//    testUnlockSystemGuide: "抽奖",
     testUnlockSystemGuide: "",
 };
 export default RunOption;
