@@ -17,17 +17,17 @@ export default class LevelUpScene extends Scene {
         this.onClick(this.ui.returnButton, this.onClickReturnButton.bind(this));
 
         this.list = [];
-        this.list.push(this.ui.item);
-        for (let i = 0; i < 2; i++) {
-            let item = UIHelper.clone(this.ui.item);
+        for (let i = 0; i < 3; i++) {
+            let item = UIHelper.uiClone(this.ui.item, undefined, this.ui.list);
             this.ui.list.addChild(item);
             this.list.push(item);
         }
+        this.ui.item.visible = false;
         this.list.forEach(item => {
-            item.itemIcon = item.children[0].children[1].children[1].addChild(new Sprite());
+            item.itemIcon = item.ui.itemIcon.addChild(new Sprite());
             item.itemIcon.anchor.set(0.5, 0.5);
-            item.numberText = item.children[0].children[1].children[2];
-            item.bikePanel = item.children[0].children[1].children[3];
+            item.numberText = item.ui.numberText;
+            item.bikePanel = item.ui.bikePanel;
             item.bikeSprite = new BikeSprite(item.bikePanel);
             this.onClick(item, () => this.onClickItem(item), true);
         });

@@ -35,10 +35,10 @@ export default class UIHelper {
         displayObject.children.forEach(child => UIHelper.initUIRoot(child, root));
     }
 
-    static clone(displayObject) {
-        let displayObject_ = UIHelper.copy(displayObject);
+    static clone(displayObject, parent) {
+        let displayObject_ = UIHelper.copy(displayObject, parent);
         displayObject.children.forEach(child => {
-            displayObject_.addChild(UIHelper.clone(child));
+            displayObject_.addChild(UIHelper.clone(child, parent));
         });
         return displayObject_;
     }
