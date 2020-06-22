@@ -6317,7 +6317,7 @@ Config.moneyList = [
         getCoin: 0,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 0,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum01.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum01.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6328,7 +6328,7 @@ Config.moneyList = [
         getCoin: 0,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 0,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum02.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum02.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6339,7 +6339,7 @@ Config.moneyList = [
         getCoin: 0,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 0,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum03.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum03.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6350,7 +6350,7 @@ Config.moneyList = [
         getCoin: 0,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 0,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum04.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum04.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6361,7 +6361,7 @@ Config.moneyList = [
         getCoin: 34500,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 300,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum05.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum05.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6372,7 +6372,7 @@ Config.moneyList = [
         getCoin: 13200,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 120,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum06.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum06.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6383,7 +6383,7 @@ Config.moneyList = [
         getCoin: 6300,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 60,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum07.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum07.png"
     },
     {
         // 获得的钻石数量（金币物品此项设置为零或者去掉）
@@ -6394,7 +6394,7 @@ Config.moneyList = [
         getCoin: 1000,
         // 消耗的钻石数量（钻石物品此项设置为零或者去掉）
         costDiamond: 10,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum08.png"
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum08.png"
     },
 ];
 
@@ -6408,7 +6408,7 @@ Config.presentList = [
         dsc: "UnlockAllBike",
         // 购买所需货币
         costMoney: 50,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum01.png",
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum01.png",
     },
     {
         // 礼包ID
@@ -6417,7 +6417,7 @@ Config.presentList = [
         dsc: "UnlockAllEndlessScene",
         // 购买所需货币
         costMoney: 200,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum02.png",
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum02.png",
     },
     {
         // 礼包ID
@@ -6430,7 +6430,7 @@ Config.presentList = [
         getDiamond: 50,
         // 购买礼包获得金币数量
         getCoin: 5000,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum03.png",
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum03.png",
     },
     {
         // 礼包ID
@@ -6443,7 +6443,7 @@ Config.presentList = [
         getDiamond: 150,
         // 购买礼包获得金币数量
         getCoin: 15000,
-        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum04.png",
+//        imagePath: "myLaya/laya/assets/images/money-icon/MainMenuItemCourseNum04.png",
     },
 ];
 
@@ -12951,7 +12951,6 @@ Config.imageText = {
         charWidth: 34,
         charHeight: 35,
         charImgPathTable: {
-            "0": "myLaya/laya/assets/images/image-text/font_102/font_102_0.png",
             "1": "myLaya/laya/assets/images/image-text/font_102/font_102_1.png",
             "2": "myLaya/laya/assets/images/image-text/font_102/font_102_2.png",
             "3": "myLaya/laya/assets/images/image-text/font_102/font_102_3.png",
