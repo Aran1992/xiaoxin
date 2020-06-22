@@ -75,8 +75,10 @@ export default class DrawScene extends Scene {
         this.ui.costDiamondPanel.visible = false;
         let cur = new Date();
         let freeTime = DataMgr.get(DataMgr.nextFreeDrawTime);
+        this.ui.freeDrawText.text = "";
+        this.ui.drawTimeText.text = "";
         if (cur >= freeTime) {
-            this.ui.drawTimeText.text = App.getText("Free");
+            this.ui.freeDrawText.text = App.getText("Free");
             this.ui.costDiamondPanel.visible = false;
             this.ui.drawButton.visible = true;
         } else if (DataMgr.get(DataMgr.drawAdvertTimes, 0) < Config.advertDrawBikeTime) {
