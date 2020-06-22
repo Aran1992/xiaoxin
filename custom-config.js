@@ -9097,7 +9097,7 @@ Config.bike.expPercent = [
 // 敌人挣脱蜘蛛网每次跳跃之间的时间间隔（单位：帧数（每秒大概60帧））
 Config.enemy.spiderWebBreakIntervalFrame = 12;
 
-// 使用道具相关配置
+// 排名竞赛-使用道具信息相关配置
 Config.itemUseHistory = {
     // 使用道具提示消失的时间（单位：秒）
     duration: 5,
@@ -9118,7 +9118,7 @@ Config.itemUseHistory = {
     // 描边宽度
     strokeThickness: 3,
     // 图标缩放比例
-    iconSale: 0.5,
+    iconSale: 0.25,
 };
 
 // buff相关配置
@@ -13675,7 +13675,7 @@ Config.levelIconTable = {
 // 引导矩形圆角大小（相对于这个矩形最小边的百分比）
 Config.guideRectCornerRadius = 0.25;
 
-// 移动背景的移动速度
+// 各个系统界面中移动背景的移动速度
 Config.movingBackground = {
     x: 0.3,
     y: 0.3,
