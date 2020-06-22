@@ -14012,17 +14012,14 @@ Config.doubleAnimation = {
 
 // loading动画素材
 Config.loadingImagePathList = [
-    "images/loading/of_native_loader_progress_01.png",
-    "images/loading/of_native_loader_progress_02.png",
-    "images/loading/of_native_loader_progress_03.png",
-    "images/loading/of_native_loader_progress_04.png",
-    "images/loading/of_native_loader_progress_05.png",
-    "images/loading/of_native_loader_progress_06.png",
-    "images/loading/of_native_loader_progress_07.png",
-    "images/loading/of_native_loader_progress_08.png",
-    "images/loading/of_native_loader_progress_09.png",
-    "images/loading/of_native_loader_progress_11.png",
-    "images/loading/of_native_loader_progress_12.png",
+    "images/loading/anim_load01.png",
+    "images/loading/anim_load02.png",
+    "images/loading/anim_load03.png",
+    "images/loading/anim_load04.png",
+    "images/loading/anim_load05.png",
+    "images/loading/anim_load06.png",
+    "images/loading/anim_load07.png",
+    "images/loading/anim_load08.png",
 ];
 
 export default Config;
