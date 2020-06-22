@@ -11495,7 +11495,6 @@ Config.signRewardList = [
 
 // 每天广告扭蛋的次数
 Config.advertDrawBikeTime = 3;
-
 // 进入关卡的最短加载时间（单位：秒）
 Config.minLoadingTime = 3;
 
@@ -13826,5 +13825,20 @@ Config.doubleAnimation = {
     // 消失时候的透明度
     endAlpha: 0.5,
 };
+
+// loading动画素材
+Config.loadingImagePathList = [
+    "images/loading/of_native_loader_progress_01.png",
+    "images/loading/of_native_loader_progress_02.png",
+    "images/loading/of_native_loader_progress_03.png",
+    "images/loading/of_native_loader_progress_04.png",
+    "images/loading/of_native_loader_progress_05.png",
+    "images/loading/of_native_loader_progress_06.png",
+    "images/loading/of_native_loader_progress_07.png",
+    "images/loading/of_native_loader_progress_08.png",
+    "images/loading/of_native_loader_progress_09.png",
+    "images/loading/of_native_loader_progress_11.png",
+    "images/loading/of_native_loader_progress_12.png",
+];
 
 export default Config;

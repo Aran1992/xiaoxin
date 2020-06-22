@@ -242,20 +242,6 @@ Config.sceneItemImagePath = {
     groundStab: "images/ground_stab.json",
 };
 
-Config.loadingImagePathList = [
-    "images/loading/of_native_loader_progress_01.png",
-    "images/loading/of_native_loader_progress_02.png",
-    "images/loading/of_native_loader_progress_03.png",
-    "images/loading/of_native_loader_progress_04.png",
-    "images/loading/of_native_loader_progress_05.png",
-    "images/loading/of_native_loader_progress_06.png",
-    "images/loading/of_native_loader_progress_07.png",
-    "images/loading/of_native_loader_progress_08.png",
-    "images/loading/of_native_loader_progress_09.png",
-    "images/loading/of_native_loader_progress_11.png",
-    "images/loading/of_native_loader_progress_12.png",
-];
-
 Config.i18nPath = "dist/i18n.json";
 
 Config.starCount = 3;
