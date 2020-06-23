@@ -12292,7 +12292,7 @@ Config.gameLevelMode = {
         },
         {
             // 解锁需要的星星数
-            starCountUnlockNeeded: 20,
+            starCountUnlockNeeded: 999,
             // 地图描述
             dsc: "Select Map3",
             // 主页封面图
