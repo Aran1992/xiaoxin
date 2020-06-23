@@ -1,5 +1,5 @@
 import Scene from "./Scene";
-import {Graphics, resources} from "../libs/pixi-wrapper";
+import {Graphics, resources, Texture} from "../libs/pixi-wrapper";
 import BikeSprite from "../item/BikeSprite";
 import Config from "../config";
 import DataMgr from "../mgr/DataMgr";
@@ -19,6 +19,10 @@ export default class BikeDetailScene extends Scene {
         let detailPanel = this.ui.bikeSpritePanel;
         this.bikeSprite = new BikeSprite(detailPanel);
         this.bikeSprite.setPosition(detailPanel.mywidth / 2, Config.drawScene.bikeSprite.y);
+        for (let i = 0; i < 3; i++) {
+            const icon = this.ui[`specialIcon${i}`];
+            this.onClick(icon, this.onClickItem.bind(this), true);
+        }
     }
 
     onShow(id, levelUp, highestLevel, closeCallback) {
@@ -40,8 +44,17 @@ export default class BikeDetailScene extends Scene {
         this.ui.velocityLevelIcon.children[0].texture = resources[Config.levelIconTable[vLevel]].texture;
         const jLevel = DataMgr.getBikeJumpLevel(id);
         this.ui.jumpLevelIcon.children[0].texture = resources[Config.levelIconTable[jLevel]].texture;
+        const abilityList = Config.abilityList.filter(ability => DataMgr.isBikeHasAbility(id, ability.id));
         for (let i = 0; i < 3; i++) {
-            this.ui[`specialIcon${i}`].visible = i < config.quality;
+            const ability = abilityList[i];
+            const icon = this.ui[`specialIcon${i}`];
+            if (ability !== undefined) {
+                icon.visible = true;
+                icon.children[0].texture = Texture.from(ability.icon);
+                icon.info = {ability};
+            } else {
+                icon.visible = false;
+            }
         }
         const level = DataMgr.get(DataMgr.bikeLevelMap, {})[id];
         this.ui.levelText.text = level + 1;
@@ -51,6 +64,10 @@ export default class BikeDetailScene extends Scene {
             "coin",
             "score",
         ].forEach(type => this.setPercentText(type, levelUp, id, level));
+    }
+
+    onClickItem(item) {
+        App.showScene("InfoScene", item.info);
     }
 
     setPercentText(type, levelUp, id, level) {
@@ -77,4 +94,5 @@ export default class BikeDetailScene extends Scene {
 }
 
 BikeDetailScene.sceneFilePath = "myLaya/laya/pages/View/BikeDetailScene.scene.json";
-BikeDetailScene.resPathList = Utils.values(Config.levelIconTable);
+BikeDetailScene.resPathList = Utils.values(Config.levelIconTable)
+    .concat(Config.abilityList.map(config => config.icon));

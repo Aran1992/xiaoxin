@@ -615,6 +615,29 @@ class DataMgr_ {
             return DataMgr.set(DataMgr.hasDrawedFlag, true);
         }
     }
+
+    isBikeHasAbility(bikeID, abilityID) {
+        const bike = Config.bikeList.find(bike => bike.id === bikeID);
+        switch (abilityID) {
+            case "TripleJump": {
+                return this.getBikeJumpCount(bikeID) === 3;
+            }
+            case "FourJump": {
+                return this.getBikeJumpCount(bikeID) === 4;
+            }
+            case "Rotate": {
+                return bike.rotatable;
+            }
+            case "SlowFalling": {
+                return bike.slowFalling;
+            }
+        }
+    }
+
+    getBikeJumpCount(bikeID) {
+        const bike = Config.bikeList.find(bike => bike.id === bikeID);
+        return bike.bikeJumpExtraCountdown.length + Config.jumpCommonMaxCount;
+    }
 }
 
 const DataMgr = new DataMgr_();

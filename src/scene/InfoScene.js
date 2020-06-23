@@ -20,7 +20,13 @@ export default class InfoScene extends Scene {
     onShow(data) {
         this.parent.setChildIndex(this, this.parent.children.length - 1);
 
-        if (data.coin) {
+        if (data.ability) {
+            this.ui.bikePanel.visible = false;
+            this.ui.itemIcon.visible = true;
+            this.ui.itemIcon.children[0].texture = Texture.from(data.ability.icon);
+            this.ui.itemName.text = App.getText(data.ability.name);
+            this.ui.itemDsc.text = App.getText(data.ability.dsc);
+        } else if (data.coin) {
             this.ui.bikePanel.visible = false;
             this.ui.itemIcon.visible = true;
             const config = Config.infoScene.coin;
@@ -41,7 +47,7 @@ export default class InfoScene extends Scene {
             this.ui.itemIcon.children[0].texture = Texture.from(config.texture);
             this.ui.itemName.text = App.getText(config.name);
             this.ui.itemDsc.text = App.getText(config.dsc);
-        }  else if (data.bulletTimeMaxValue) {
+        } else if (data.bulletTimeMaxValue) {
             this.ui.bikePanel.visible = false;
             this.ui.itemIcon.visible = true;
             const config = Config.infoScene.bulletTimeMaxValue;

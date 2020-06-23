@@ -40,6 +40,10 @@ export default class BikeScene extends Scene {
             handler: this[`onClick${Utils.formatName(button.var)}`].bind(this),
         }));
         EventMgr.registerEvent("UpdatePoint", this.updatePoint.bind(this));
+        for (let i = 0; i < 3; i++) {
+            const icon = this.ui[`specialIcon${i}`];
+            this.onClick(icon, this.onClickAbilityItem.bind(this), true);
+        }
     }
 
     onShow() {
@@ -142,8 +146,17 @@ export default class BikeScene extends Scene {
         this.ui.velocityLevelIcon.children[0].texture = Texture.from(Config.levelIconTable[vLevel]);
         const jLevel = DataMgr.getBikeJumpLevel(id);
         this.ui.jumpLevelIcon.children[0].texture = Texture.from(Config.levelIconTable[jLevel]);
+        const abilityList = Config.abilityList.filter(ability => DataMgr.isBikeHasAbility(id, ability.id));
         for (let i = 0; i < 3; i++) {
-            this.ui[`specialIcon${i}`].visible = i < config.quality;
+            const ability = abilityList[i];
+            const icon = this.ui[`specialIcon${i}`];
+            if (ability !== undefined) {
+                icon.visible = true;
+                icon.children[0].texture = Texture.from(ability.icon);
+                icon.info = {ability: ability};
+            } else {
+                icon.visible = false;
+            }
         }
         const level = DataMgr.get(DataMgr.bikeLevelMap, {})[id] || 0;
         this.ui.levelText.text = level + 1;
@@ -153,6 +166,10 @@ export default class BikeScene extends Scene {
             "coin",
             "score",
         ].forEach(type => this.setPercentText(type, id, level));
+    }
+
+    onClickAbilityItem(item) {
+        App.showScene("InfoScene", item.info);
     }
 
     setPercentText(type, id, level) {
@@ -340,4 +357,6 @@ export default class BikeScene extends Scene {
 }
 
 BikeScene.sceneFilePath = "myLaya/laya/pages/View/BikeScene.scene.json";
-BikeScene.resPathList = BikeSprite.resPathList.concat(Utils.values(Config.bikeScene.res));
+BikeScene.resPathList = BikeSprite.resPathList
+    .concat(Utils.values(Config.bikeScene.res))
+    .concat(Config.abilityList.map(config => config.icon));

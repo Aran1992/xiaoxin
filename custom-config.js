@@ -14589,4 +14589,33 @@ Config.loadingImagePathList = [
 // 缓慢下落时下降速度是正常的几倍
 Config.slowFallingCoeffient = 0.75;
 
+// 自行车特殊能力
+// 显示顺序按照列表顺序
+Config.abilityList = [
+    {
+        id: "TripleJump",
+        name: "三段跳",
+        dsc: "三段跳",
+        icon: "images/loading/anim_load01.png",
+    },
+    {
+        id: "FourJump",
+        name: "四段跳",
+        dsc: "四段跳",
+        icon: "images/loading/anim_load02.png",
+    },
+    {
+        id: "Rotate",
+        name: "旋转",
+        dsc: "旋转",
+        icon: "images/loading/anim_load03.png",
+    },
+    {
+        id: "SlowFalling",
+        name: "缓降",
+        dsc: "缓降",
+        icon: "images/loading/anim_load04.png",
+    },
+];
+
 export default Config;
