@@ -2851,108 +2851,6 @@ Config.bikeList = [
             0
         ],
         // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns1020-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns1020-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1020-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1020-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1020-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1020-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns1020-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns1020-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns1020-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike2",
-        // 自行车描述
-        "dsc": "Info-bike-2",
-		// 序号（作用好像不大）
-        "index": 2,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Normal",
-        "size": "Small",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 0,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 4,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.4,
-            0.4
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.62,
-            0.73
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
         bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns1010-1.json",
         // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
         bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns1010-6.json",
@@ -3005,6 +2903,108 @@ Config.bikeList = [
         bikeFallingAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns1010-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike2",
+        // 自行车描述
+        "dsc": "Info-bike-2",
+		// 序号（作用好像不大）
+        "index": 2,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Normal",
+        "size": "Small",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 0,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 0,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 4,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.4,
+            0.4
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.62,
+            0.73
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5400-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5400-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5400-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5400-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5400-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5400-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5400-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5400-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5400-4.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3163,28 +3163,28 @@ Config.bikeList = [
             0
         ],
         // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns2010-1.json",
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns1020-1.json",
         // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns2010-6.json",
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns1020-6.json",
         // 跳跃动画路径 没有设置的话，使用默认的动画
         bikeJumpingAnimation: {
             "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2010-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1020-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2010-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1020-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2010-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1020-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2010-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1020-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
@@ -3192,7 +3192,7 @@ Config.bikeList = [
         // 自行车弹跳图集
         bikeSpringAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns2010-2.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns1020-2.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3203,7 +3203,7 @@ Config.bikeList = [
         // 自行车旋转动画
         bikeRotateAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns2010-5.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns1020-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3214,7 +3214,7 @@ Config.bikeList = [
         // 自行车缓降动画
         bikeFallingAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns2010-4.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns1020-4.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3258,6 +3258,210 @@ Config.bikeList = [
         "anchor": [
             0.5,
             0.8
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns1040-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns1040-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1040-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1040-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1040-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns1040-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns1040-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns1040-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns1040-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike6",
+        // 自行车描述
+        "dsc": "Info-bike-6",
+		// 序号（作用好像不大）
+        "index": 6,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Normal",
+        "size": "Small",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 0,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 0,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 0,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 2,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.63,
+            0.73
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns6480-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns6480-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6480-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6480-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6480-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6480-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns6480-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns6480-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns6480-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike7",
+        // 自行车描述
+        "dsc": "Info-bike-7",
+		// 序号（作用好像不大）
+        "index": 7,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Normal",
+        "size": "Small",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 1,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 0,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 5,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.63,
+            0.7
         ],
         // 图片在自行车内的位置 (0,0)就是在中心点
         "position": [
@@ -3325,16 +3529,16 @@ Config.bikeList = [
             pos: [0, -40],
         },
         // 自行车名
-        "name": "Select Bike6",
+        "name": "Select Bike8",
         // 自行车描述
-        "dsc": "Info-bike-6",
+        "dsc": "Info-bike-8",
 		// 序号（作用好像不大）
-        "index": 6,
+        "index": 8,
 		// 自行车说明（这边好像没用了）
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 0,
+        "quality": 1,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
         "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
@@ -3342,13 +3546,13 @@ Config.bikeList = [
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 2,
+        "id": 6,
         // 覆盖其上的图片路径
         "imagePath": "",
         // 缩放倍数
@@ -3359,7 +3563,7 @@ Config.bikeList = [
         // 图片的锚点
         "anchor": [
             0.63,
-            0.73
+            0.7
         ],
         // 图片在自行车内的位置 (0,0)就是在中心点
         "position": [
@@ -3427,11 +3631,11 @@ Config.bikeList = [
             pos: [0, -40],
         },
         // 自行车名
-        "name": "Select Bike7",
+        "name": "Select Bike9",
         // 自行车描述
-        "dsc": "Info-bike-7",
+        "dsc": "Info-bike-9",
 		// 序号（作用好像不大）
-        "index": 7,
+        "index": 9,
 		// 自行车说明（这边好像没用了）
         "highJump": "Normal",
         "size": "Small",
@@ -3450,7 +3654,7 @@ Config.bikeList = [
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 5,
+        "id": 20,
         // 覆盖其上的图片路径
         "imagePath": "",
         // 缩放倍数
@@ -3460,8 +3664,8 @@ Config.bikeList = [
         ],
         // 图片的锚点
         "anchor": [
-            0.63,
-            0.7
+            0.5,
+            0.6
         ],
         // 图片在自行车内的位置 (0,0)就是在中心点
         "position": [
@@ -3529,14 +3733,14 @@ Config.bikeList = [
             pos: [0, -40],
         },
         // 自行车名
-        "name": "Select Bike8",
+        "name": "Select Bike10",
         // 自行车描述
-        "dsc": "Info-bike-8",
+        "dsc": "Info-bike-10",
 		// 序号（作用好像不大）
-        "index": 8,
+        "index": 10,
 		// 自行车说明（这边好像没用了）
         "highJump": "Normal",
-        "size": "Small",
+        "size": "Middle",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
         "quality": 1,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
@@ -3552,18 +3756,18 @@ Config.bikeList = [
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 6,
+        "id": 8,
         // 覆盖其上的图片路径
         "imagePath": "",
         // 缩放倍数
         "scale": [
-            0.5,
-            0.5
+            0.45,
+            0.45
         ],
         // 图片的锚点
         "anchor": [
-            0.63,
-            0.7
+            0.5,
+            0.5
         ],
         // 图片在自行车内的位置 (0,0)就是在中心点
         "position": [
@@ -3623,210 +3827,6 @@ Config.bikeList = [
         bikeFallingAnimation: {
             // 路径
             path: "myLaya/laya/assets/animations/cosplay/sns2060-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike9",
-        // 自行车描述
-        "dsc": "Info-bike-9",
-		// 序号（作用好像不大）
-        "index": 9,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Normal",
-        "size": "Small",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 1,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 20,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.5,
-            0.6
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns2070-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns2070-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2070-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2070-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2070-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2070-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns2070-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns2070-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns2070-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike10",
-        // 自行车描述
-        "dsc": "Info-bike-10",
-		// 序号（作用好像不大）
-        "index": 10,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Normal",
-        "size": "Middle",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 1,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 8,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.45,
-            0.45
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.5,
-            0.5
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns2080-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns2080-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2080-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2080-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2080-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns2080-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns2080-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns2080-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns2080-4.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -3979,110 +3979,6 @@ Config.bikeList = [
             0
         ],
         // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns3000-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns3000-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3000-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3000-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3000-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3000-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns3000-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns3000-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns3000-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike13",
-        // 自行车描述
-        "dsc": "Info-bike-13",
-		// 序号（作用好像不大）
-        "index": 13,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Normal",
-        "size": "Small",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 22,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.48,
-            0.73
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
         bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns3010-1.json",
         // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
         bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns3010-6.json",
@@ -4143,6 +4039,110 @@ Config.bikeList = [
             pos: [0, -40],
         },
         // 自行车名
+        "name": "Select Bike13",
+        // 自行车描述
+        "dsc": "Info-bike-13",
+		// 序号（作用好像不大）
+        "index": 13,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Normal",
+        "size": "Small",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 2,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 0.9,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 0,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 22,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.48,
+            0.73
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5250-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5250-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5250-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5250-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5250-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5250-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5250-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5250-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5250-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
         "name": "Select Bike14",
         // 自行车描述
         "dsc": "Info-bike-14",
@@ -4180,630 +4180,6 @@ Config.bikeList = [
         "anchor": [
             0.77,
             0.7
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns3020-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns3020-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3020-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3020-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3020-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3020-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns3020-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns3020-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns3020-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike15",
-        // 自行车描述
-        "dsc": "Info-bike-15",
-		// 序号（作用好像不大）
-        "index": 15,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Normal",
-        "size": "Small",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 7,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.4,
-            0.4
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.63,
-            0.7
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns3030-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns3030-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3030-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3030-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3030-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3030-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns3030-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns3030-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns3030-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike16",
-        // 自行车描述
-        "dsc": "Info-bike-16",
-		// 序号（作用好像不大）
-        "index": 16,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Easy",
-        "size": "Small",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 42,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.28,
-            1.1
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5000-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5000-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5000-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5000-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5000-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5000-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5000-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5000-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5000-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike17",
-        // 自行车描述
-        "dsc": "Info-bike-17",
-		// 序号（作用好像不大）
-        "index": 17,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Easy",
-        "size": "Small",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 43,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.46,
-            0.73
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5010-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5010-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5010-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5010-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5010-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5010-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5010-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5010-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5010-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike18",
-        // 自行车描述
-        "dsc": "Info-bike-18",
-		// 序号（作用好像不大）
-        "index": 18,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Easy",
-        "size": "Middle",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 51,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.35,
-            0.35
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.71,
-            0.73
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5020-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5020-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5020-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5020-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5020-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5020-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5020-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5020-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5020-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike19",
-        // 自行车描述
-        "dsc": "Info-bike-19",
-		// 序号（作用好像不大）
-        "index": 19,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Hard",
-        "size": "Middle",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.1,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 53,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.35,
-            0.35
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.71,
-            0.73
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5030-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5030-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5030-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5030-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5030-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5030-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5030-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5030-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5030-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike20",
-        // 自行车描述
-        "dsc": "Info-bike-20",
-		// 序号（作用好像不大）
-        "index": 20,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Hard",
-        "size": "Middle",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.1,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 54,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.35,
-            0.35
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.71,
-            0.73
         ],
         // 图片在自行车内的位置 (0,0)就是在中心点
         "position": [
@@ -4871,18 +4247,18 @@ Config.bikeList = [
             pos: [0, -40],
         },
         // 自行车名
-        "name": "Select Bike21",
+        "name": "Select Bike15",
         // 自行车描述
-        "dsc": "Info-bike-21",
+        "dsc": "Info-bike-15",
 		// 序号（作用好像不大）
-        "index": 21,
+        "index": 15,
 		// 自行车说明（这边好像没用了）
-        "highJump": "Hard",
-        "size": "Middle",
+        "highJump": "Normal",
+        "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
         "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.1,
+        "velocityPercent": 0.9,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
@@ -4896,18 +4272,18 @@ Config.bikeList = [
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 19,
+        "id": 7,
         // 覆盖其上的图片路径
         "imagePath": "",
         // 缩放倍数
         "scale": [
-            0.5,
-            0.5
+            0.4,
+            0.4
         ],
         // 图片的锚点
         "anchor": [
-            0.5,
-            1.25
+            0.63,
+            0.7
         ],
         // 图片在自行车内的位置 (0,0)就是在中心点
         "position": [
@@ -4915,28 +4291,28 @@ Config.bikeList = [
             0
         ],
         // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5050-1.json",
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5020-1.json",
         // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5050-6.json",
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5020-6.json",
         // 跳跃动画路径 没有设置的话，使用默认的动画
         bikeJumpingAnimation: {
             "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5050-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5020-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5050-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5020-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5050-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5020-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5050-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5020-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
@@ -4944,7 +4320,7 @@ Config.bikeList = [
         // 自行车弹跳图集
         bikeSpringAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5050-2.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5020-2.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4955,7 +4331,7 @@ Config.bikeList = [
         // 自行车旋转动画
         bikeRotateAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5050-5.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5020-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4966,7 +4342,7 @@ Config.bikeList = [
         // 自行车缓降动画
         bikeFallingAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5050-4.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5020-4.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -4975,33 +4351,32 @@ Config.bikeList = [
             pos: [0, -40],
         },
         // 自行车名
-        "name": "Select Bike22",
+        "name": "Select Bike16",
         // 自行车描述
-        "dsc": "Info-bike-22",
+        "dsc": "Info-bike-16",
 		// 序号（作用好像不大）
-        "index": 22,
+        "index": 16,
 		// 自行车说明（这边好像没用了）
         "highJump": "Easy",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 3,
+        "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.8,
+        "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
-            2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
         "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 1,
+        "slowFalling": 0,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 10,
+        "id": 42,
         // 覆盖其上的图片路径
         "imagePath": "",
         // 缩放倍数
@@ -5011,113 +4386,8 @@ Config.bikeList = [
         ],
         // 图片的锚点
         "anchor": [
-            0.71,
-            0.65
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5060-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5060-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5060-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5060-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5060-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5060-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5060-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5060-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5060-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike23",
-        // 自行车描述
-        "dsc": "Info-bike-23",
-		// 序号（作用好像不大）
-        "index": 23,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Easy",
-        "size": "Small",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 3,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.8,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.1,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 1,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 12,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.71,
-            0.6
+            0.28,
+            1.1
         ],
         // 图片在自行车内的位置 (0,0)就是在中心点
         "position": [
@@ -5185,453 +4455,32 @@ Config.bikeList = [
             pos: [0, -40],
         },
         // 自行车名
-        "name": "Select Bike24",
+        "name": "Select Bike17",
         // 自行车描述
-        "dsc": "Info-bike-24",
+        "dsc": "Info-bike-17",
 		// 序号（作用好像不大）
-        "index": 24,
+        "index": 17,
 		// 自行车说明（这边好像没用了）
         "highJump": "Easy",
-        "size": "Middle",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 3,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.8,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 1,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 9,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.45,
-            0.35
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5080-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5080-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5080-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5080-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5080-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5080-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5080-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5080-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5080-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike25",
-        // 自行车描述
-        "dsc": "Info-bike-25",
-		// 序号（作用好像不大）
-        "index": 25,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Hard",
-        "size": "Middle",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 3,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 1,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 24,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.55,
-            0.3
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5090-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5090-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5090-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5090-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5090-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5090-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5090-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5090-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5090-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike26",
-        // 自行车描述
-        "dsc": "Info-bike-26",
-		// 序号（作用好像不大）
-        "index": 26,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Hard",
-        "size": "Middle",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 3,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.1,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 1,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 18,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.5,
-            0.6
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5100-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5100-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5100-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5100-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5100-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5100-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5100-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5100-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5100-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike27",
-        // 自行车描述
-        "dsc": "Info-bike-27",
-		// 序号（作用好像不大）
-        "index": 27,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Hard",
-        "size": "Middle",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 3,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 1,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 14,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            1.05,
-            1.08
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5110-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5110-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5110-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5110-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5110-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5110-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5110-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5110-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5110-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike28",
-        // 自行车描述
-        "dsc": "Info-bike-28",
-		// 序号（作用好像不大）
-        "index": 28,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 3,
+        "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
         "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
-            2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
         "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 1,
+        "slowFalling": 0,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 16,
+        "id": 43,
         // 覆盖其上的图片路径
         "imagePath": "",
         // 缩放倍数
@@ -5641,217 +4490,7 @@ Config.bikeList = [
         ],
         // 图片的锚点
         "anchor": [
-            0.59,
-            0.71
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5120-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5120-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5120-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5120-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5120-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5120-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5120-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5120-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5120-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike29",
-        // 自行车描述
-        "dsc": "Info-bike-29",
-		// 序号（作用好像不大）
-        "index": 29,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Normal",
-        "size": "Big",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 3,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.1,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 1,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 17,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.69,
-            0.8
-        ],
-        // 图片在自行车内的位置 (0,0)就是在中心点
-        "position": [
-            0,
-            0
-        ],
-        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5130-1.json",
-        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5130-6.json",
-        // 跳跃动画路径 没有设置的话，使用默认的动画
-        bikeJumpingAnimation: {
-            "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5130-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5130-2.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5130-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-            "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5130-3.json",
-                animationName: "xiaoxin_run",
-                interval: 5
-            },
-        },
-        // 自行车弹跳图集
-        bikeSpringAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5130-2.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.2,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车旋转动画
-        bikeRotateAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5130-5.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车缓降动画
-        bikeFallingAnimation: {
-            // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5130-4.json",
-            // 名称
-            name: "xiaoxin_run",
-            // 播放速度
-            speed: 0.4,
-            // 偏移
-            pos: [0, -40],
-        },
-        // 自行车名
-        "name": "Select Bike30",
-        // 自行车描述
-        "dsc": "Info-bike-30",
-		// 序号（作用好像不大）
-        "index": 30,
-		// 自行车说明（这边好像没用了）
-        "highJump": "Normal",
-        "size": "Small",
-        // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 3,
-        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1,
-        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1,
-        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
-        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 1,
-        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 1,
-    },
-    {
-        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 3,
-        // 覆盖其上的图片路径
-        "imagePath": "",
-        // 缩放倍数
-        "scale": [
-            0.5,
-            0.5
-        ],
-        // 图片的锚点
-        "anchor": [
-            0.52,
+            0.46,
             0.73
         ],
         // 图片在自行车内的位置 (0,0)就是在中心点
@@ -5920,18 +4559,434 @@ Config.bikeList = [
             pos: [0, -40],
         },
         // 自行车名
-        "name": "Select Bike31",
+        "name": "Select Bike18",
         // 自行车描述
-        "dsc": "Info-bike-31",
+        "dsc": "Info-bike-18",
 		// 序号（作用好像不大）
-        "index": 31,
+        "index": 18,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Easy",
+        "size": "Middle",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 2,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 0,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 51,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.35,
+            0.35
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.71,
+            0.73
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5130-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5130-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5130-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5130-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5130-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5130-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5130-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5130-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5130-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike19",
+        // 自行车描述
+        "dsc": "Info-bike-19",
+		// 序号（作用好像不大）
+        "index": 19,
 		// 自行车说明（这边好像没用了）
         "highJump": "Hard",
-        "size": "Big",
+        "size": "Middle",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 2,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1.1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 0,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 53,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.35,
+            0.35
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.71,
+            0.73
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns3030-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns3030-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3030-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3030-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3030-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns3030-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns3030-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns3030-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns3030-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike20",
+        // 自行车描述
+        "dsc": "Info-bike-20",
+		// 序号（作用好像不大）
+        "index": 20,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Hard",
+        "size": "Middle",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 2,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1.1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 0,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 54,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.35,
+            0.35
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.71,
+            0.73
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5490-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5490-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5490-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5490-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5490-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5490-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5490-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5490-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5490-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike21",
+        // 自行车描述
+        "dsc": "Info-bike-21",
+		// 序号（作用好像不大）
+        "index": 21,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Hard",
+        "size": "Middle",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 2,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1.1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 0,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 19,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.5,
+            1.25
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5310-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5310-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5310-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5310-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5310-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5310-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5310-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5310-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5310-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike22",
+        // 自行车描述
+        "dsc": "Info-bike-22",
+		// 序号（作用好像不大）
+        "index": 22,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Easy",
+        "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
         "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.1,
+        "velocityPercent": 0.8,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
@@ -5946,17 +5001,857 @@ Config.bikeList = [
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
-        "id": 52,
+        "id": 10,
         // 覆盖其上的图片路径
         "imagePath": "",
         // 缩放倍数
         "scale": [
-            0.35,
-            0.35
+            0.5,
+            0.5
         ],
         // 图片的锚点
         "anchor": [
             0.71,
+            0.65
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5530-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5530-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5530-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5530-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5530-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5530-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5530-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5530-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5530-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike23",
+        // 自行车描述
+        "dsc": "Info-bike-23",
+		// 序号（作用好像不大）
+        "index": 23,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Easy",
+        "size": "Small",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 0.8,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.1,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 12,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.71,
+            0.6
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5160-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5160-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5160-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5160-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5160-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5160-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5160-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5160-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5160-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike24",
+        // 自行车描述
+        "dsc": "Info-bike-24",
+		// 序号（作用好像不大）
+        "index": 24,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Easy",
+        "size": "Middle",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 0.8,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 9,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.45,
+            0.35
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5620-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5620-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5620-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5620-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5620-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5620-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5620-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5620-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5620-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike25",
+        // 自行车描述
+        "dsc": "Info-bike-25",
+		// 序号（作用好像不大）
+        "index": 25,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Hard",
+        "size": "Middle",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 0.9,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 24,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.55,
+            0.3
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5220-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5220-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5220-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5220-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5220-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5220-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5220-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5220-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5220-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike26",
+        // 自行车描述
+        "dsc": "Info-bike-26",
+		// 序号（作用好像不大）
+        "index": 26,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Hard",
+        "size": "Middle",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 0.9,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.1,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 18,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.5,
+            0.6
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5280-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5280-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5280-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5280-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5280-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5280-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5280-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5280-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5280-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike27",
+        // 自行车描述
+        "dsc": "Info-bike-27",
+		// 序号（作用好像不大）
+        "index": 27,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Hard",
+        "size": "Middle",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 0.9,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 14,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            1.05,
+            1.08
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5260-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5260-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5260-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5260-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5260-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5260-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5260-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5260-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5260-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike28",
+        // 自行车描述
+        "dsc": "Info-bike-28",
+		// 序号（作用好像不大）
+        "index": 28,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Normal",
+        "size": "Small",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 16,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.59,
+            0.71
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns6180-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns6180-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6180-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6180-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6180-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6180-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns6180-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns6180-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns6180-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike29",
+        // 自行车描述
+        "dsc": "Info-bike-29",
+		// 序号（作用好像不大）
+        "index": 29,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Normal",
+        "size": "Big",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.1,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 17,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.69,
+            0.8
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5460-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5460-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5460-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5460-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5460-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5460-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5460-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5460-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5460-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike30",
+        // 自行车描述
+        "dsc": "Info-bike-30",
+		// 序号（作用好像不大）
+        "index": 30,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Normal",
+        "size": "Small",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 3,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.52,
             0.73
         ],
         // 图片在自行车内的位置 (0,0)就是在中心点
@@ -6025,6 +5920,111 @@ Config.bikeList = [
             pos: [0, -40],
         },
         // 自行车名
+        "name": "Select Bike31",
+        // 自行车描述
+        "dsc": "Info-bike-31",
+		// 序号（作用好像不大）
+        "index": 31,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Hard",
+        "size": "Big",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1.1,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 52,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.35,
+            0.35
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.71,
+            0.73
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5570-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5570-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5570-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5570-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5570-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5570-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5570-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5570-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5570-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
         "name": "Select Bike32",
         // 自行车描述
         "dsc": "Info-bike-32",
@@ -6070,28 +6070,28 @@ Config.bikeList = [
             0
         ],
         // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-1.json",
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns6120-1.json",
         // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-6.json",
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns6120-6.json",
         // 跳跃动画路径 没有设置的话，使用默认的动画
         bikeJumpingAnimation: {
             "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6120-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6120-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6120-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns6120-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
@@ -6099,7 +6099,7 @@ Config.bikeList = [
         // 自行车弹跳图集
         bikeSpringAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns6120-2.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6110,7 +6110,7 @@ Config.bikeList = [
         // 自行车旋转动画
         bikeRotateAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-5.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns6120-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6121,7 +6121,7 @@ Config.bikeList = [
         // 自行车缓降动画
         bikeFallingAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-4.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns6120-4.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6175,28 +6175,28 @@ Config.bikeList = [
             0
         ],
         // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-1.json",
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5050-1.json",
         // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-6.json",
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5050-6.json",
         // 跳跃动画路径 没有设置的话，使用默认的动画
         bikeJumpingAnimation: {
             "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5050-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5050-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5050-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5050-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
@@ -6204,7 +6204,7 @@ Config.bikeList = [
         // 自行车弹跳图集
         bikeSpringAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5050-2.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6215,7 +6215,7 @@ Config.bikeList = [
         // 自行车旋转动画
         bikeRotateAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-5.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5050-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6226,7 +6226,7 @@ Config.bikeList = [
         // 自行车缓降动画
         bikeFallingAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-4.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5050-4.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6280,28 +6280,28 @@ Config.bikeList = [
             0
         ],
         // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-1.json",
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5180-1.json",
         // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-6.json",
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5180-6.json",
         // 跳跃动画路径 没有设置的话，使用默认的动画
         bikeJumpingAnimation: {
             "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5180-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5180-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5180-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5180-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
@@ -6309,7 +6309,7 @@ Config.bikeList = [
         // 自行车弹跳图集
         bikeSpringAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5180-2.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6320,7 +6320,7 @@ Config.bikeList = [
         // 自行车旋转动画
         bikeRotateAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-5.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5180-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6331,7 +6331,7 @@ Config.bikeList = [
         // 自行车缓降动画
         bikeFallingAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-4.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5180-4.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6385,28 +6385,28 @@ Config.bikeList = [
             0
         ],
         // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
-        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-1.json",
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5600-1.json",
         // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
-        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-6.json",
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5600-6.json",
         // 跳跃动画路径 没有设置的话，使用默认的动画
         bikeJumpingAnimation: {
             "1": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5600-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "2": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5600-2.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "3": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5600-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
             "4": {
-                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5600-3.json",
                 animationName: "xiaoxin_run",
                 interval: 5
             },
@@ -6414,7 +6414,7 @@ Config.bikeList = [
         // 自行车弹跳图集
         bikeSpringAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5600-2.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6425,7 +6425,7 @@ Config.bikeList = [
         // 自行车旋转动画
         bikeRotateAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-5.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5600-5.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -6436,7 +6436,7 @@ Config.bikeList = [
         // 自行车缓降动画
         bikeFallingAnimation: {
             // 路径
-            path: "myLaya/laya/assets/animations/cosplay/sns5630-4.json",
+            path: "myLaya/laya/assets/animations/cosplay/sns5600-4.json",
             // 名称
             name: "xiaoxin_run",
             // 播放速度
@@ -12819,157 +12819,172 @@ Config.drawWeightList = [
     {
         "type": "bike",
         "id": 1,
-        "weight": 8
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 4,
-        "weight": 8
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 11,
-        "weight": 8
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 13,
-        "weight": 8
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 15,
-        "weight": 8
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 2,
-        "weight": 3
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 5,
-        "weight": 3
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 6,
-        "weight": 3
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 20,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 8,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 41,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 21,
-        "weight": 2
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 22,
-        "weight": 2
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 23,
-        "weight": 2
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 7,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 42,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 43,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 51,
-        "weight": 3
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 53,
-        "weight": 3
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 54,
-        "weight": 3
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 19,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 10,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 12,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 9,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 24,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 18,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 14,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 16,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 17,
-        "weight": 4
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 3,
-        "weight": 2
+        "weight": 10
     },
     {
         "type": "bike",
         "id": 52,
-        "weight": 2
+        "weight": 10
+    },
+    {
+        "type": "bike",
+        "id": 34,
+        "weight": 10
+    },
+    {
+        "type": "bike",
+        "id": 35,
+        "weight": 10
+    },
+    {
+        "type": "bike",
+        "id": 36,
+        "weight": 10
     },
     {
         // 自行车奖励
@@ -12977,7 +12992,7 @@ Config.drawWeightList = [
         // 自行车ID
         "id": 25,
         // 随机权重
-        "weight": 2
+        "weight": 10
     },
     {
         // 金币奖励
@@ -12985,7 +13000,7 @@ Config.drawWeightList = [
         // 数量
         "number": 5000,
         // 随机权重
-        "weight": 20
+        "weight": 10
     },
     {
         // 钻石奖励
@@ -12993,7 +13008,7 @@ Config.drawWeightList = [
         // 数量
         "number": 75,
         // 随机权重
-        "weight": 60
+        "weight": 10
     },
 ];
 
