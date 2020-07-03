@@ -1,71 +1,68 @@
 ﻿ID,备注【排版要把字体改为黑体】,对应界面（策划内部看的）,简中,英语,日语
-id,comments,scene,sc,en,jp
+id,comments,,sc,en,jp
 ExtraExp,,,额外经验+${value},,
 ExtraCoin,,,额外钱币+${value},,
 NetworkBusy,,,网络繁忙，请稍后重试。,The network is busy. Please try again later.,ネットワークがビジー状態で、少し時間をおいて再度お試しください。
-Unlocked,,"BikeScene.scene.json
-HomeScene.scene.json",未解锁,Unlocked,アンロックしていません。
-Enable,,"HomeScene.scene.json
-ShopScene.scene.json",可选择,Enable,選択可能
-Select,,BikeScene.scene.json,可选择,Select,選択可能
-Selected,,HomeScene.scene.json,已选择,Selected,選択済み
-LV,,BikeScene.scene.json,等级,LV,レベル
-UpgradeItemDsc,,BikeScene.scene.json,${cur}秒/${max}秒,,
-已升级${times}次,,BikeScene.scene.json,已升级${times}次,,
+Unlocked,,,未解锁,Unlocked,アンロックしていません。
+Enable,,,可选择,Enable,選択可能
+Select,,,可选择,Select,選択可能
+Selected,,,已选择,Selected,選択済み
+LV,,,等级,LV,レベル
+UpgradeItemDsc,,,${cur}秒/${max}秒,,
+已升级${times}次,,,已升级${times}次,,
 Exp,,,经验,Exp,
 LevelDsc,,,${level},Lv. ${level},
 Count,,,• 结算 •,Count,
-Unlock,,DrawScene.scene.json,• 恭喜玩家大人解锁新造型 •,Unlock,アンロックしていました。
-LvUp,,DrawScene.scene.json,• 恭喜玩家大人等级提升 •,LV UP,レベル　アップ
-Free,,"DrawScene.scene.json
-GameOverScene.scene.json",免费,Free,無料
-Draw,,DrawScene.scene.json,幸运抽奖,Draw,くじ引き
-Reborn,,GameOverScene.scene.json,复活,Reborn,復活
-ResurrectionPosition,,GameScene.scene.json,可上下移动，选择复活位置哦,Sliding Up and Down to Adjust Resurrection Position,上や下に移動して復活の位置を調整することができます。
-ShowUI,,HomeScene.scene.json,显示界面,ShowUI,画面が表示されます。
-HideUI,,HomeScene.scene.json,隐藏界面,HideUI,画面が隠されます。
-StartRemove,,HomeScene.scene.json,开启删除模式,StartRemove,「削除」モード　オン
-EndRemove,,HomeScene.scene.json,关闭删除模式,EndRemove,「削除」モード　オフ
-RemoveAll,,HomeScene.scene.json,清空数据,RemoveAll,全部リセット
-骑士大人，战力品摆放已经超过总上限${count}个了哟！,,HomeScene.scene.json,"玩家大人，
+Unlock,,,• 恭喜玩家大人解锁新造型 •,Unlock,アンロックしていました。
+LvUp,,,• 恭喜玩家大人等级提升 •,LV UP,レベル　アップ
+Free,,,免费,Free,無料
+Draw,,,幸运抽奖,Draw,くじ引き
+Reborn,,,复活,Reborn,復活
+ResurrectionPosition,,,可上下移动，选择复活位置哦,Sliding Up and Down to Adjust Resurrection Position,上や下に移動して復活の位置を調整することができます。
+ShowUI,,,显示界面,ShowUI,画面が表示されます。
+HideUI,,,隐藏界面,HideUI,画面が隠されます。
+StartRemove,,,开启删除模式,StartRemove,「削除」モード　オン
+EndRemove,,,关闭删除模式,EndRemove,「削除」モード　オフ
+RemoveAll,,,清空数据,RemoveAll,全部リセット
+骑士大人，战力品摆放已经超过总上限${count}个了哟！,,,"玩家大人，
 战力品摆放已经超过总上限${count}个了哟！",,
-骑士大人，宠物摆放已经超过总上限${count}个了哟！,,HomeScene.scene.json,"玩家大人，
+骑士大人，宠物摆放已经超过总上限${count}个了哟！,,,"玩家大人，
 宠物摆放已经超过总上限${count}个了哟！",,
-骑士大人，这个宠物最多只能放出${count}个哟！,,HomeScene.scene.json,"玩家大人，
+骑士大人，这个宠物最多只能放出${count}个哟！,,,"玩家大人，
 每种宠物最多只能放出${count}个哟！",,
-主页加成,,MainScene.scene.json,"钱币：${Coin}  积分：${Score}
+主页加成,,,"钱币：${Coin}  积分：${Score}
 里程：${Distance}  经验：${Exp}",,
-TotalDistance,,RankScene.scene.json,累计里程,Total Distance,累計のマイレージ
-FarthestDistance,,RankScene.scene.json,最远里程,Farthest Distance,最長の距離
-Score,,RankScene.scene.json,积分,Score,ポイント
-Now,,RankScene.scene.json,当前排行,Now,現在のランキング
-LastTime,,RankScene.scene.json,上次排行,Last Time,前回のランキング
-MyRank,,RankScene.scene.json,【玩家大人当前的排行】,My Rank,自分のランク
-Purchased,,ShopScene.scene.json,已拥有,Purchased,持っているもの
-Confirm,,TipScene.scene.json,确认,Confirm,確認
-RequestingRankData,,RankScene.scene.json,排行榜数据加载中,Requesting rank data,
-NotListed,,RankScene.scene.json,榜外名单,Not Listed,
-RestartAfterTime,,RankScene.scene.json,${time} ,Restart after ${time},
-UnlockAllBike,,ShopScene.scene.json,解锁所有的造型,Unlock All Bike,
-UnlockAllEndlessScene,,ShopScene.scene.json,解锁所有的无尽旅程地图,Unlock All Endless Scene,
-Money2DCPresentDsc,,ShopScene.scene.json,"${money} 钱
+TotalDistance,,,累计里程,Total Distance,累計のマイレージ
+FarthestDistance,,,最远里程,Farthest Distance,最長の距離
+Score,,,积分,Score,ポイント
+Now,,,当前排行,Now,現在のランキング
+LastTime,,,上次排行,Last Time,前回のランキング
+MyRank,,,【玩家大人当前的排行】,My Rank,自分のランク
+Purchased,,,已拥有,Purchased,持っているもの
+Confirm,,,确认,Confirm,確認
+RequestingRankData,,,排行榜数据加载中,Requesting rank data,
+NotListed,,,榜外名单,Not Listed,
+RestartAfterTime,,,${time} ,Restart after ${time},
+UnlockAllBike,,,解锁所有的造型,Unlock All Bike,
+UnlockAllEndlessScene,,,解锁所有的无尽旅程地图,Unlock All Endless Scene,
+Money2DCPresentDsc,,,"${money} 钱
 = ${diamond} 金玉 + ${coin} 钱币","${money} Money
 = ${diamond} Diamond + ${coin} Gold Coins",
-Present,,ShopScene.scene.json,礼物,Present,
-Money,,ShopScene.scene.json,财宝,Money,
-Map,,ShopScene.scene.json,地图,Map,
+Present,,,礼物,Present,
+Money,,,财宝,Money,
+Map,,,地图,Map,
 Diamond,,,金玉,Diamond,
 Coin,,,钱币,Gold Coin,
-DiamondIsNotEnough,,ShopScene.scene.json,金玉不足！,Diamond is not enough!,
-TotalDistanceReach,,ShopScene.scene.json,总里程达到 ${distance}m 可免费解锁哟,Total distance reached ${distance}m,
-Backgrounds,,HomeScene.scene.json,背景,Backgrounds,
-Floors,,HomeScene.scene.json,地面,Floors,
-Spoils,,HomeScene.scene.json,战利品,Spoils,
-Pets,,HomeScene.scene.json,宠物,Pets,
+DiamondIsNotEnough,,,金玉不足！,Diamond is not enough!,
+TotalDistanceReach,,,总里程达到 ${distance}m 可免费解锁哟,Total distance reached ${distance}m,
+Backgrounds,,,背景,Backgrounds,
+Floors,,,地面,Floors,
+Spoils,,,战利品,Spoils,
+Pets,,,宠物,Pets,
 Distance,,,里程,Distance,
-ConfirmDeleteHomeItem,,HomeScene.scene.json,您确定要删除该装饰吗？,Are you sure you want to delete this item?,
-ConfirmDeleteAllHomeItem,,HomeScene.scene.json,您确定要删除所有装饰吗？,Are you sure you want to delete all items?,
-ConfirmDeleteAllHomeItemAgain,,HomeScene.scene.json,确实要删除所有装饰吗？,Are you really sure you want to DELETE ALL ITEMS?,
+ConfirmDeleteHomeItem,,,您确定要删除该装饰吗？,Are you sure you want to delete this item?,
+ConfirmDeleteAllHomeItem,,,您确定要删除所有装饰吗？,Are you sure you want to delete all items?,
+ConfirmDeleteAllHomeItemAgain,,,确实要删除所有装饰吗？,Are you really sure you want to DELETE ALL ITEMS?,
 ItemIsAbleToUnlock,,,报告玩家大人，您可以解锁新物品啦！,This item is able to unlock.,
 UnlockConditions,,,【解锁条件】,Unlock condition(s):,
 UnlockRewards,,,【解锁奖励】,Unlock Reward(s):,

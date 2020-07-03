@@ -2920,15 +2920,13 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 1,
+        "quality": 0,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
         "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
+        "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
         "rotatable": 0,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
@@ -3024,16 +3022,13 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
+        "quality": 0,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
         "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
+        "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
         "rotatable": 0,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
@@ -3237,15 +3232,13 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 1,
+        "quality": 0,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
         "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
+        "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
         "rotatable": 0,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
@@ -3341,16 +3334,13 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
+        "quality": 0,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
         "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
+        "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
         "rotatable": 0,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
@@ -3446,15 +3436,15 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 0,
+        "quality": 1,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
         "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.1,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -3552,13 +3542,11 @@ Config.bikeList = [
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
         "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.1,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
+        "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -3652,18 +3640,15 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
+        "quality": 1,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
         "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.1,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
+        "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -3757,15 +3742,15 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Middle",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 0,
+        "quality": 1,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.2,
+        "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.3,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -3861,15 +3846,13 @@ Config.bikeList = [
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
         "quality": 1,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.2,
+        "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.3,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000
-        ],
+        "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -3963,18 +3946,15 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Middle",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
+        "quality": 1,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.2,
+        "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.3,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [
-            2000,
-            2000
-        ],
+        "bikeJumpExtraCountdown": [],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -4068,15 +4048,17 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 0,
+        "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.8,
+        "velocityPercent": 0.9,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [],
+        "bikeJumpExtraCountdown": [
+            2000
+        ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -4170,17 +4152,17 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 1,
+        "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.8,
+        "velocityPercent": 0.9,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -4276,16 +4258,15 @@ Config.bikeList = [
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
         "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.8,
+        "velocityPercent": 0.9,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
-            2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -4379,15 +4360,17 @@ Config.bikeList = [
         "highJump": "Easy",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 0,
+        "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.8,
+        "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [],
+        "bikeJumpExtraCountdown": [
+            2000
+        ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -4481,9 +4464,9 @@ Config.bikeList = [
         "highJump": "Easy",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 1,
+        "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.8,
+        "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
@@ -4491,7 +4474,7 @@ Config.bikeList = [
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -4587,16 +4570,15 @@ Config.bikeList = [
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
         "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.8,
+        "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
-            2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -4690,15 +4672,17 @@ Config.bikeList = [
         "highJump": "Hard",
         "size": "Middle",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 0,
+        "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
+        "velocityPercent": 1.1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [],
+        "bikeJumpExtraCountdown": [
+            2000
+        ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -4792,17 +4776,17 @@ Config.bikeList = [
         "highJump": "Hard",
         "size": "Middle",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 1,
+        "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
+        "velocityPercent": 1.1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -4898,16 +4882,15 @@ Config.bikeList = [
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
         "quality": 2,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
+        "velocityPercent": 1.1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
-            2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 0,
     },
@@ -5001,17 +4984,20 @@ Config.bikeList = [
         "highJump": "Easy",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 0,
+        "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
+        "velocityPercent": 0.8,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.4,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [],
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
+        "slowFalling": 1,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
@@ -5103,19 +5089,20 @@ Config.bikeList = [
         "highJump": "Easy",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 1,
+        "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
+        "velocityPercent": 0.8,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.4,
+        "densityPercent": 1.1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
+            2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
+        "slowFalling": 1,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
@@ -5207,20 +5194,20 @@ Config.bikeList = [
         "highJump": "Easy",
         "size": "Middle",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
+        "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 0.9,
+        "velocityPercent": 0.8,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.4,
+        "densityPercent": 1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
+        "slowFalling": 1,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
@@ -5312,17 +5299,20 @@ Config.bikeList = [
         "highJump": "Hard",
         "size": "Middle",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 0,
+        "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.1,
+        "velocityPercent": 0.9,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
         "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [],
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
+        "slowFalling": 1,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
@@ -5414,19 +5404,20 @@ Config.bikeList = [
         "highJump": "Hard",
         "size": "Middle",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 1,
+        "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.1,
+        "velocityPercent": 0.9,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
+        "densityPercent": 1.1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
+            2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
+        "slowFalling": 1,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
@@ -5518,20 +5509,20 @@ Config.bikeList = [
         "highJump": "Hard",
         "size": "Middle",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
+        "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.1,
+        "velocityPercent": 0.9,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.2,
+        "densityPercent": 1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
+        "slowFalling": 1,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
@@ -5623,17 +5614,20 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 0,
+        "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.1,
+        "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.4,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
-        "bikeJumpExtraCountdown": [],
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
+        "slowFalling": 1,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
@@ -5725,19 +5719,20 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Big",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 1,
+        "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.1,
+        "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.4,
+        "densityPercent": 1.1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
+            2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
+        "slowFalling": 1,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
@@ -5829,20 +5824,20 @@ Config.bikeList = [
         "highJump": "Normal",
         "size": "Small",
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
-        "quality": 2,
+        "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.1,
+        "velocityPercent": 1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.4,
+        "densityPercent": 1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000,
             2000
         ],
         // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
-        "rotatable": 0,
+        "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
-        "slowFalling": 0,
+        "slowFalling": 1,
     },
     {
         // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
@@ -5936,9 +5931,9 @@ Config.bikeList = [
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
         "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.2,
+        "velocityPercent": 1.1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.4,
+        "densityPercent": 1.2,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000,
@@ -6041,9 +6036,9 @@ Config.bikeList = [
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
         "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.2,
+        "velocityPercent": 1.1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.4,
+        "densityPercent": 1.1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000,
@@ -6146,9 +6141,9 @@ Config.bikeList = [
         // 自行车品质（0是n，1是r，2是sr，3是ssr）
         "quality": 3,
         // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
-        "velocityPercent": 1.2,
+        "velocityPercent": 1.1,
         // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
-        "densityPercent": 1.4,
+        "densityPercent": 1,
         // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
         "bikeJumpExtraCountdown": [
             2000,
@@ -6158,7 +6153,322 @@ Config.bikeList = [
         "rotatable": 1,
         // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
         "slowFalling": 1,
-    }
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 34,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.6,
+            0.73
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5630-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5630-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike34",
+        // 自行车描述
+        "dsc": "Info-bike-34",
+		// 序号（作用好像不大）
+        "index": 34,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Hard",
+        "size": "Big",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1.2,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.2,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 35,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.6,
+            0.73
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5630-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5630-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike35",
+        // 自行车描述
+        "dsc": "Info-bike-35",
+		// 序号（作用好像不大）
+        "index": 35,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Hard",
+        "size": "Big",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1.2,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1.1,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
+    {
+        // 自行车ID必须唯一ID，也是获得自行车记录ID（调整位置也需要对应，不然玩家已获得自行车会变）
+        "id": 36,
+        // 覆盖其上的图片路径
+        "imagePath": "",
+        // 缩放倍数
+        "scale": [
+            0.5,
+            0.5
+        ],
+        // 图片的锚点
+        "anchor": [
+            0.6,
+            0.73
+        ],
+        // 图片在自行车内的位置 (0,0)就是在中心点
+        "position": [
+            0,
+            0
+        ],
+        // 移动动画路径 json文件中动画名为“bike”，没有设置的话，使用默认的动画
+        bikeCommonAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-1.json",
+        // 自行车冲刺动画，json文件中动画名为“sprint”，没有设置的话，使用默认的动画
+        bikeSprintAnimation: "myLaya/laya/assets/animations/cosplay/sns5630-6.json",
+        // 跳跃动画路径 没有设置的话，使用默认的动画
+        bikeJumpingAnimation: {
+            "1": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "2": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "3": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+            "4": {
+                atlasPath: "myLaya/laya/assets/animations/cosplay/sns5630-3.json",
+                animationName: "xiaoxin_run",
+                interval: 5
+            },
+        },
+        // 自行车弹跳图集
+        bikeSpringAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5630-2.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.2,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车旋转动画
+        bikeRotateAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5630-5.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车缓降动画
+        bikeFallingAnimation: {
+            // 路径
+            path: "myLaya/laya/assets/animations/cosplay/sns5630-4.json",
+            // 名称
+            name: "xiaoxin_run",
+            // 播放速度
+            speed: 0.4,
+            // 偏移
+            pos: [0, -40],
+        },
+        // 自行车名
+        "name": "Select Bike36",
+        // 自行车描述
+        "dsc": "Info-bike-36",
+		// 序号（作用好像不大）
+        "index": 36,
+		// 自行车说明（这边好像没用了）
+        "highJump": "Hard",
+        "size": "Big",
+        // 自行车品质（0是n，1是r，2是sr，3是ssr）
+        "quality": 3,
+        // 自行车的速度倍率（普通速度和加速速度都会乘于这个值）（范围区间：快 ~ 慢 ：2 ~ 0.8）(小新：基准1、最低0.8、最快1.2)
+        "velocityPercent": 1.2,
+        // 自行车的密度倍率（密度越大，车子越重，跳起来的高度越低）（范围区间：高 ~ 低 ：0.8 ~ 1.2）(小新：基准1.2、最低1.4、最高1)
+        "densityPercent": 1,
+        // 自行车每次额外跳跃距离上次跳跃的帧数限制（不填的话就是用默认的配置）
+        "bikeJumpExtraCountdown": [
+            2000,
+            2000
+        ],
+        // 是否具有旋转能力（1就是有，0或者没有这项配置就是没有）
+        "rotatable": 1,
+        // 是否具有缓降能力（1就是有，0或者没有这项配置就是没有）
+        "slowFalling": 1,
+    },
 ];
 
 // 抽奖重置时间间隔（单位：秒）（可用乘法计算）
