@@ -1,908 +1,914 @@
-ID,��ע���Ű�Ҫ�������Ϊ���塿,��Ӧ���棨�߻��ڲ����ģ�,����,Ӣ��,����
+﻿ID,备注【排版要把字体改为黑体】,对应界面（策划内部看的）,简中,英语,日语
 id,comments,scene,sc,en,jp
-ExtraExp,,,���⾭��+${value},,
-ExtraCoin,,,����Ǯ��+${value},,
-NetworkBusy,,,���緱æ�����Ժ����ԡ�,The network is busy. Please try again later.,�ͥåȥ�`�����ӥ��`״�B�ǡ��٤��r�g�򤪤����ٶȤ�ԇ������������
+ExtraExp,,,额外经验+${value},,
+ExtraCoin,,,额外钱币+${value},,
+NetworkBusy,,,网络繁忙，请稍后重试。,The network is busy. Please try again later.,ネットワークがビジー状態で、少し時間をおいて再度お試しください。
 Unlocked,,"BikeScene.scene.json
-HomeScene.scene.json",δ����,Unlocked,������å����Ƥ��ޤ���
+HomeScene.scene.json",未解锁,Unlocked,アンロックしていません。
 Enable,,"HomeScene.scene.json
-ShopScene.scene.json",��ѡ��,Enable,�x�k����
-Select,,BikeScene.scene.json,��ѡ��,Select,�x�k����
-Selected,,HomeScene.scene.json,��ѡ��,Selected,�x�k�g��
-LV,,BikeScene.scene.json,�ȼ�,LV,��٥�
-UpgradeItemDsc,,BikeScene.scene.json,${cur}��/${max}��,,
-������${times}��,,BikeScene.scene.json,������${times}��,,
-Exp,,,����,Exp,
+ShopScene.scene.json",可选择,Enable,選択可能
+Select,,BikeScene.scene.json,可选择,Select,選択可能
+Selected,,HomeScene.scene.json,已选择,Selected,選択済み
+LV,,BikeScene.scene.json,等级,LV,レベル
+UpgradeItemDsc,,BikeScene.scene.json,${cur}秒/${max}秒,,
+已升级${times}次,,BikeScene.scene.json,已升级${times}次,,
+Exp,,,经验,Exp,
 LevelDsc,,,${level},Lv. ${level},
-Count,,,����,Count,
-Unlock,,DrawScene.scene.json,��ϲ��Ҵ��˽���������,Unlock,������å����Ƥ��ޤ�����
-LvUp,,DrawScene.scene.json,��ϲ��Ҵ��˵ȼ�����,LV UP,��٥롡���å�
+Count,,,• 结算 •,Count,
+Unlock,,DrawScene.scene.json,• 恭喜玩家大人解锁新造型 •,Unlock,アンロックしていました。
+LvUp,,DrawScene.scene.json,• 恭喜玩家大人等级提升 •,LV UP,レベル　アップ
 Free,,"DrawScene.scene.json
-GameOverScene.scene.json",���,Free,�o��
-Draw,,DrawScene.scene.json,���˳齱,Draw,��������
-Reborn,,GameOverScene.scene.json,����,Reborn,�ͻ�
-ResurrectionPosition,,GameScene.scene.json,�������ƶ���ѡ�񸴻�λ��Ŷ,Sliding Up and Down to Adjust Resurrection Position,�Ϥ��¤��ƄӤ��Əͻ��λ�ä��{�����뤳�Ȥ��Ǥ��ޤ���
-ShowUI,,HomeScene.scene.json,��ʾ����,ShowUI,���椬��ʾ����ޤ���
-HideUI,,HomeScene.scene.json,���ؽ���,HideUI,���椬�L����ޤ���
-StartRemove,,HomeScene.scene.json,����ɾ��ģʽ,StartRemove,����������`�ɡ�����
-EndRemove,,HomeScene.scene.json,�ر�ɾ��ģʽ,EndRemove,����������`�ɡ�����
-RemoveAll,,HomeScene.scene.json,�������,RemoveAll,ȫ���ꥻ�å�
-��ʿ���ˣ�ս��Ʒ�ڷ��Ѿ�����������${count}����Ӵ��,,HomeScene.scene.json,"��Ҵ��ˣ�
-ս��Ʒ�ڷ��Ѿ�����������${count}����Ӵ��",,
-��ʿ���ˣ�����ڷ��Ѿ�����������${count}����Ӵ��,,HomeScene.scene.json,"��Ҵ��ˣ�
-����ڷ��Ѿ�����������${count}����Ӵ��",,
-��ʿ���ˣ�����������ֻ�ܷų�${count}��Ӵ��,,HomeScene.scene.json,"��Ҵ��ˣ�
-ÿ�ֳ������ֻ�ܷų�${count}��Ӵ��",,
-��ҳ�ӳ�,,MainScene.scene.json,"Ǯ�ң�${Coin}  ���֣�${Score}
-��̣�${Distance}  ���飺${Exp}",,
-TotalDistance,,RankScene.scene.json,�ۼ����,Total Distance,��Ӌ�Υޥ���`��
-FarthestDistance,,RankScene.scene.json,��Զ���,Farthest Distance,���L�ξ��x
-Score,,RankScene.scene.json,����,Score,�ݥ����
-Now,,RankScene.scene.json,��ǰ����,Now,�F�ڤΥ�󥭥�
-LastTime,,RankScene.scene.json,�ϴ�����,Last Time,ǰ�ؤΥ�󥭥�
-MyRank,,RankScene.scene.json,����Ҵ��˵�ǰ�����С�,My Rank,�Է֤Υ��
-Purchased,,ShopScene.scene.json,��ӵ��,Purchased,�֤äƤ�����
-Confirm,,TipScene.scene.json,ȷ��,Confirm,�_�J
-RequestingRankData,,RankScene.scene.json,���а����ݼ�����,Requesting rank data,
-NotListed,,RankScene.scene.json,��������,Not Listed,
+GameOverScene.scene.json",免费,Free,無料
+Draw,,DrawScene.scene.json,幸运抽奖,Draw,くじ引き
+Reborn,,GameOverScene.scene.json,复活,Reborn,復活
+ResurrectionPosition,,GameScene.scene.json,可上下移动，选择复活位置哦,Sliding Up and Down to Adjust Resurrection Position,上や下に移動して復活の位置を調整することができます。
+ShowUI,,HomeScene.scene.json,显示界面,ShowUI,画面が表示されます。
+HideUI,,HomeScene.scene.json,隐藏界面,HideUI,画面が隠されます。
+StartRemove,,HomeScene.scene.json,开启删除模式,StartRemove,「削除」モード　オン
+EndRemove,,HomeScene.scene.json,关闭删除模式,EndRemove,「削除」モード　オフ
+RemoveAll,,HomeScene.scene.json,清空数据,RemoveAll,全部リセット
+骑士大人，战力品摆放已经超过总上限${count}个了哟！,,HomeScene.scene.json,"玩家大人，
+战力品摆放已经超过总上限${count}个了哟！",,
+骑士大人，宠物摆放已经超过总上限${count}个了哟！,,HomeScene.scene.json,"玩家大人，
+宠物摆放已经超过总上限${count}个了哟！",,
+骑士大人，这个宠物最多只能放出${count}个哟！,,HomeScene.scene.json,"玩家大人，
+每种宠物最多只能放出${count}个哟！",,
+主页加成,,MainScene.scene.json,"钱币：${Coin}  积分：${Score}
+里程：${Distance}  经验：${Exp}",,
+TotalDistance,,RankScene.scene.json,累计里程,Total Distance,累計のマイレージ
+FarthestDistance,,RankScene.scene.json,最远里程,Farthest Distance,最長の距離
+Score,,RankScene.scene.json,积分,Score,ポイント
+Now,,RankScene.scene.json,当前排行,Now,現在のランキング
+LastTime,,RankScene.scene.json,上次排行,Last Time,前回のランキング
+MyRank,,RankScene.scene.json,【玩家大人当前的排行】,My Rank,自分のランク
+Purchased,,ShopScene.scene.json,已拥有,Purchased,持っているもの
+Confirm,,TipScene.scene.json,确认,Confirm,確認
+RequestingRankData,,RankScene.scene.json,排行榜数据加载中,Requesting rank data,
+NotListed,,RankScene.scene.json,榜外名单,Not Listed,
 RestartAfterTime,,RankScene.scene.json,${time} ,Restart after ${time},
-UnlockAllBike,,ShopScene.scene.json,�������е�����,Unlock All Bike,
-UnlockAllEndlessScene,,ShopScene.scene.json,�������е��޾��ó̵�ͼ,Unlock All Endless Scene,
-Money2DCPresentDsc,,ShopScene.scene.json,"${money} Ǯ
-= ${diamond} ���� + ${coin} Ǯ��","${money} Money
+UnlockAllBike,,ShopScene.scene.json,解锁所有的造型,Unlock All Bike,
+UnlockAllEndlessScene,,ShopScene.scene.json,解锁所有的无尽旅程地图,Unlock All Endless Scene,
+Money2DCPresentDsc,,ShopScene.scene.json,"${money} 钱
+= ${diamond} 金玉 + ${coin} 钱币","${money} Money
 = ${diamond} Diamond + ${coin} Gold Coins",
-Present,,ShopScene.scene.json,����,Present,
-Money,,ShopScene.scene.json,�Ʊ�,Money,
-Map,,ShopScene.scene.json,��ͼ,Map,
-Diamond,,,����,Diamond,
-Coin,,,Ǯ��,Gold Coin,
-DiamondIsNotEnough,,ShopScene.scene.json,�����㣡,Diamond is not enough!,
-TotalDistanceReach,,ShopScene.scene.json,����̴ﵽ ${distance}m ����ѽ���Ӵ,Total distance reached ${distance}m,
-Backgrounds,,HomeScene.scene.json,����,Backgrounds,
-Floors,,HomeScene.scene.json,����,Floors,
-Spoils,,HomeScene.scene.json,ս��Ʒ,Spoils,
-Pets,,HomeScene.scene.json,����,Pets,
-Distance,,,���,Distance,
-ConfirmDeleteHomeItem,,HomeScene.scene.json,��ȷ��Ҫɾ����װ����,Are you sure you want to delete this item?,
-ConfirmDeleteAllHomeItem,,HomeScene.scene.json,��ȷ��Ҫɾ������װ����,Are you sure you want to delete all items?,
-ConfirmDeleteAllHomeItemAgain,,HomeScene.scene.json,ȷʵҪɾ������װ����,Are you really sure you want to DELETE ALL ITEMS?,
-ItemIsAbleToUnlock,,,������Ҵ��ˣ������Խ�������Ʒ����,This item is able to unlock.,
-UnlockConditions,,,������������,Unlock condition(s):,
-UnlockRewards,,,������������,Unlock Reward(s):,
-Would you like to cost the following items to unlock this item?,,,���Ƿ��뻨��������Щ����������Ʒ��,Would you like to cost the following items to unlock this item?,
-Cost is not enough!,,,û���㹻��Ǯ�һ����,Cost is not enough!,
-This item is locked.,,,����Ʒδ������,This item is locked.,
-�����г�δ����,,,������δ����,,
-û���㹻�����ǽ����õ�ͼ,,,û���㹻�����ǽ����õ�ͼ,,
-${0} Gold Coins,,,${0} Ǯ��,${0} Gold Coins,
-${0} Diamonds,,,${0} ����,${0} Diamonds,
-Need to unlock Map: ${0},              ,                                               ,��Ҫ������ͼ��${0}                                                                        ,Need to unlock Map: ${0},
-Total distance required to reach ${0}m,,,�������� ${0}m,Total distance required to reach ${0}m,
-Total farthest distance required to reach ${0}m,,,��ʷ��������� ${0}m,Total farthest distance required to reach ${0}m,
-Score required to reach ${0},,,��ʷ������� ${0},Score required to reach ${0},
-Need to rank ${0}st in total distance,,,�贳����ʷ�ۼ�������е�${0}��,Need to rank ${0}st in total distance,
-Need to rank ${0}st in farthest distance,,,�贳����ʷ���������е�${0}��,Need to rank ${0}st in farthest distance,
-Need to rank ${0}st in score,,,�贳����ʷ�������е�${0}��,Need to rank ${0}st in score,
-Need to takes ${0} times map game,,,��Ҫ����${0}����������,,
-Need to reach level ${0},,,��Ҫ�ȼ��ﵽ ${0},Need to reach level ${0},
-Need to get through level ${0}-${1},,,��Ҫ��ͨ�ؿ�${0}-${1},Need to get through level ${0}-${1},
-Need to get ${0} game level stars,,,��Ҫ�������������ﵽ${0}��,Need to get ${0} game level stars,
-Highest Level,,,��ߵȼ�,Highest Level,
-You have ridden ${distance} meters,,,������Ҵ��ˣ���������${distance}m��,You have ridden ${distance} meters,
-Air,,,����,Air,
-${player} Record: ${record}m,,,����${player}��ң�����ǰ��¼��${record}m,${player} Record: ${record}m,
-Leveling with the highest record,,,��������߼�¼��ƽ,Leveling with the highest record,
-${player} New Record: ${distance}m,,,��ϲ${player}��ң����Ѵ����¼�¼��${distance}m,${player} New Record: ${distance}m,
-${diff} meters more to go beyond yourself,,,����${diff}m���ܳ�Խ�Լ��ļ�¼��,${diff} meters more to go beyond yourself,
-${player} current rank total score: ${score},,,��ϲ${player}��ң�����ǰ�ܻ��֣�${score},${player} current rank total score: ${score},
-"You only get the last prize after surrender, are you sure?",,,"�����˳���
-����ֻ�ܻ�����һ���Ľ�����
-ȷ��Ҫ�˳���Ϸ��","You only get the last prize after surrender, are you sure?",
-Are you sure you want to quit the game?  The current game data will be saved automatically after exit.,,,"��ȷ��Ҫ�˳���Ϸ��
-�˳��󣬵�ǰ��Ϸ���ݽ��Զ����档",Are you sure you want to quit the game?  The current game data will be saved automatically after exit.,
-Are you sure to restart the game? The current game data will be saved automatically after exit.,,,"��ȷ��Ҫ���¿�ʼ��Ϸ��
-���ģ���ǰ����Ϸ���ݻ��Զ����档",Are you sure to restart the game? The current game data will be saved automatically after exit.,
-Do you want log out?,,,��ȷ���˳���ǰ�˺���,Do you want log out?,
-double reward no Reborn,,,"ȷ������˫������������
-�������޷��ٸ�����Ӵ��",,
-quit the game no double reward,,,"ȷ���˳���Ϸ��
-˫��������û��ȡӴ��",,
-restart the game no double reward,,,"ȷ�����¿�ʼ��Ϸ��
-˫��������û��ȡӴ��",,
-Gold Coin is not enough!,,,Ǯ�Ҳ��㣡,Gold Coin is not enough!,
-BikeDsc,,,"�� No.${index}  ${name} ��
-�ٶ�          ${speed}%
-��Ծ��      ${jump}%
-������Ծ   ${highJump}
-","��No.${index} bike��
+Present,,ShopScene.scene.json,礼物,Present,
+Money,,ShopScene.scene.json,财宝,Money,
+Map,,ShopScene.scene.json,地图,Map,
+Diamond,,,金玉,Diamond,
+Coin,,,钱币,Gold Coin,
+DiamondIsNotEnough,,ShopScene.scene.json,金玉不足！,Diamond is not enough!,
+TotalDistanceReach,,ShopScene.scene.json,总里程达到 ${distance}m 可免费解锁哟,Total distance reached ${distance}m,
+Backgrounds,,HomeScene.scene.json,背景,Backgrounds,
+Floors,,HomeScene.scene.json,地面,Floors,
+Spoils,,HomeScene.scene.json,战利品,Spoils,
+Pets,,HomeScene.scene.json,宠物,Pets,
+Distance,,,里程,Distance,
+ConfirmDeleteHomeItem,,HomeScene.scene.json,您确定要删除该装饰吗？,Are you sure you want to delete this item?,
+ConfirmDeleteAllHomeItem,,HomeScene.scene.json,您确定要删除所有装饰吗？,Are you sure you want to delete all items?,
+ConfirmDeleteAllHomeItemAgain,,HomeScene.scene.json,确实要删除所有装饰吗？,Are you really sure you want to DELETE ALL ITEMS?,
+ItemIsAbleToUnlock,,,报告玩家大人，您可以解锁新物品啦！,This item is able to unlock.,
+UnlockConditions,,,【解锁条件】,Unlock condition(s):,
+UnlockRewards,,,【解锁奖励】,Unlock Reward(s):,
+Would you like to cost the following items to unlock this item?,,,您是否想花费以下这些来解锁该物品？,Would you like to cost the following items to unlock this item?,
+Cost is not enough!,,,没有足够的钱币或金玉！,Cost is not enough!,
+This item is locked.,,,该物品未解锁。,This item is locked.,
+该自行车未解锁,,,该造型未解锁,,
+没有足够的星星解锁该地图,,,没有足够的星星解锁该地图,,
+${0} Gold Coins,,,${0} 钱币,${0} Gold Coins,
+${0} Diamonds,,,${0} 金玉,${0} Diamonds,
+Need to unlock Map: ${0},              ,                                               ,需要解锁地图：${0}                                                                        ,Need to unlock Map: ${0},
+Total distance required to reach ${0}m,,,总里程需达 ${0}m,Total distance required to reach ${0}m,
+Total farthest distance required to reach ${0}m,,,历史最大里程需达 ${0}m,Total farthest distance required to reach ${0}m,
+Score required to reach ${0},,,历史积分需达 ${0},Score required to reach ${0},
+Need to rank ${0}st in total distance,,,需闯入历史累计里程排行第${0}名,Need to rank ${0}st in total distance,
+Need to rank ${0}st in farthest distance,,,需闯入历史最大里程排行第${0}名,Need to rank ${0}st in farthest distance,
+Need to rank ${0}st in score,,,需闯入历史积分排行第${0}名,Need to rank ${0}st in score,
+Need to takes ${0} times map game,,,需要进行${0}次排名竞赛,,
+Need to reach level ${0},,,需要等级达到 ${0},Need to reach level ${0},
+Need to get through level ${0}-${1},,,需要闯通关卡${0}-${1},Need to get through level ${0}-${1},
+Need to get ${0} game level stars,,,需要闯关星星总数达到${0}个,Need to get ${0} game level stars,
+Highest Level,,,最高等级,Highest Level,
+You have ridden ${distance} meters,,,报告玩家大人，您已跑了${distance}m啦,You have ridden ${distance} meters,
+Air,,,空气,Air,
+${player} Record: ${record}m,,,报告${player}玩家，您当前纪录：${record}m,${player} Record: ${record}m,
+Leveling with the highest record,,,与您的最高纪录持平,Leveling with the highest record,
+${player} New Record: ${distance}m,,,恭喜${player}玩家，您已创造新纪录：${distance}m,${player} New Record: ${distance}m,
+${diff} meters more to go beyond yourself,,,还差${diff}m就能超越自己的纪录啦,${diff} meters more to go beyond yourself,
+${player} current rank total score: ${score},,,恭喜${player}玩家，您当前总积分：${score},${player} current rank total score: ${score},
+"You only get the last prize after surrender, are you sure?",,,"现在退出，
+您将只能获得最后一名的奖励，
+确定要退出游戏吗？","You only get the last prize after surrender, are you sure?",
+Are you sure you want to quit the game?  The current game data will be saved automatically after exit.,,,"您确定要退出游戏吗？
+退出后，当前游戏数据将自动保存。",Are you sure you want to quit the game?  The current game data will be saved automatically after exit.,
+Are you sure to restart the game? The current game data will be saved automatically after exit.,,,"您确定要重新开始游戏吗？
+放心，当前的游戏数据会自动保存。",Are you sure to restart the game? The current game data will be saved automatically after exit.,
+Do you want log out?,,,您确定退出当前账号吗？,Do you want log out?,
+double reward no Reborn,,,"确定进行双倍奖励结算吗？
+这样就无法再复活了哟！",,
+quit the game no double reward,,,"确定退出游戏吗？
+双倍奖励还没领取哟！",,
+restart the game no double reward,,,"确定重新开始游戏吗？
+双倍奖励还没领取哟！",,
+Gold Coin is not enough!,,,钱币不足！,Gold Coin is not enough!,
+BikeDsc,,,"【 No.${index}  ${name} 】
+速度          ${speed}%
+跳跃力      ${jump}%
+连续跳跃   ${highJump}
+","【No.${index} bike】
 Speed     ${speed}%
 Jump      ${jump}%
 HighJump  ${highJump}
 Size      ${size}",
-LevelDsc2,,,�ȼ�          ${level},LV        ${level},
-BonusDsc,,,"Ǯ��          ${coin}
-���          ${distance}
-����          ${score}
-����          ${exp}","Gold Coin ${coin}
+LevelDsc2,,,等级          ${level},LV        ${level},
+BonusDsc,,,"钱币          ${coin}
+里程          ${distance}
+积分          ${score}
+经验          ${exp}","Gold Coin ${coin}
 Distance  ${distance}
 Score     ${score}
 Exp     ${exp}",
-Easy,,,��,Easy,
-Normal,,,��ͨ,Normal,
-Hard,,,����,Hard,
-Small,,,С,Small,
-Middle,,,��,Middle,
-Big,,,��,Big,
-Loading,,,������ ...,Loading ...,
-LearnJump,,,���������Խ�����Ծ,,
-LearnItem,,,"����������������
-����ʹ�õ���",,
-NewContent,,,�µ������ѽ���,,
-GiftTitle,,,����Ƶ�����,,
-GiftContent,,,�ۿ���Ƶ����ó�ֵ����,,
-SignTitle,,,ǩ������Ƶ�콱��,,
-PrizeTitle,,,��ϲ���,,
-PlayerInfoTitle,,,��ҳɾ�����,,
-PreparationTitle,,,��սǰ����׼��,,
-FreeCollection,,,�����ȡ,,
-DoubleReward,,,˫������,,
-AddGame,,,��Ѿ���,,
-PreparationItem1,,,�������,,
-PreparationItem2,,,�������,,
-PreparationItem3,,,�������,,
-PreparationItemContent1,,,��õ���,,
-PreparationItemContent2,,,��õ���,,
-PreparationItemContent3,,,������������,,
-PreparationDone,,,׼�����,,
-day1,,,��1��,,
-day2,,,��2��,,
-day3,,,��3��,,
-day4,,,��4��,,
-day5,,,��5��,,
-day6,,,��6��,,
-day7,,,��7��,,
-GamelevelHelp1,,,����ģʽ���ḻ�����Ĺؿ���ս����������һ·ͻ�ưɣ�,,
-GamelevelHelp2,,,�λð�������������ĳ�������������ʹ�ÿ����Լ�Ӵ��,,
-GamelevelHelp3,,,�������ߣ��Զ����������ޱȣ�,,
-GamelevelHelp4,,,���ٵ��ߣ�׷�Ϻͳ�Խ���ֵĺð��֣�,,
-GamelevelHelp5,,,ǿ����Ծ��ʹ�ù�����Ҷ�˵����ԾЧ���ǳ��á�,,
-GamelevelHelp6,,,������Ծ����������ɽ�ٸߡ�·�ٶ���Ҳ���²�����~,,
-GamelevelHelp7,,,�޵е��ߣ��������޾��˺���,,
-GamelevelHelp8,,,���˵��ߣ��Զ����У�����������Զ������޾��˺���,,
-EndlessHelp1,,,�޾�ģʽ���޾��ọ́�����������˭���޷���ֹ����ǵĴ�����,,
-EndlessHelp2,,,�λð�������������ĳ�������������ʹ�ÿ����Լ�Ӵ��,,
-EndlessHelp3,,,�������ߣ��Զ����������ޱȣ�,,
-EndlessHelp4,,,���ٵ��ߣ�׷�Ϻͳ�Խ���ֵĺð��֣�,,
-EndlessHelp5,,,ǿ����Ծ��ʹ�ù�����Ҷ�˵����ԾЧ���ǳ��á�,,
-EndlessHelp6,,,������Ծ����������ɽ�ٸߡ�·�ٶ���Ҳ���²�����~,,
-EndlessHelp7,,,�޵е��ߣ��������޾��˺���,,
-EndlessHelp8,,,���˵��ߣ��Զ����У�����������Զ������޾��˺���,,
-MatchHelp1,,,����ģʽ������ƥ�俪�֣��������������ͷ��������,,
-MatchHelp2,,,�λð�������������ĳ�������������ʹ�ÿ����Լ�Ӵ��,,
-MatchHelp3,,,���ٵ��ߣ�׷�Ϻͳ�Խ���ֵĺð��֣�,,
-MatchHelp4,,,ǿ����Ծ��ʹ�ù�����Ҷ�˵����ԾЧ���ǳ��á�,,
-MatchHelp5,,,������Ծ����������ɽ�ٸߡ�·�ٶ���Ҳ���²�����~,,
-MatchHelp6,,,��ţ���ߣ�����ǰһ�������ܵñ��ڹ껹����������Ͷ�����,,
-MatchHelp7,,,������Ծ������ʱ����ǰһ�����֡������Q���Ļ�ë��Ӵ��,,
-MatchHelp8,,,�������ߣ�����Һ��µ�����ħ����ֻ����ǰһ������ʹ�ã�,,
-MatchHelp9,,,��ӡ���ߣ���������ǰһ�����֣���ʱ�޷�ʹ���κε���Ŷ��,,
-MatchHelp10,,,ī����ߣ�����˭ͻȻ���˵ƣ��������һ��������ʱʧ����,,
-MatchHelp11,,,���׵��ߣ���������С�Ĵ���ѽ~��̬Ⱥ�������׻����ж��֡�,,
-MatchHelp12,,,ը�����ߣ����ʹ�ã�ը������ǰ���䣬˭����˭��ùӴ��,,
-HomeHelp1,,,"��Ҵ��˵ļ�԰��
-��4����װ�ο�������Ʋ��֡�",,
-HomeHelp2,,,"ս��Ʒ�����������
-���϶�������������ڷ�Ӵ��",,
-HomeHelp3,,,"���������棬������
-��ѡ����Ҫ����չ��Ӵ��",,
-Select Map1,,,��ͼ1,Map1,
-Select Map2,,,��ͼ2,Map2,
-Select Map3,,,��ͼ3,Map3,
-Select Map4,,,��ͼ4,Map4,
-Select Map5,,,��ͼ5,Map5,
-Select Map6,,,��ͼ6,Map6,
-Select Map7,,,��ͼ7,Map7,
-Select Map8,,,��ͼ8,Map8,
-Select Map9,,,��ͼ9,Map9,
-Select Map10,,,��ͼ10,Map10,
-Select Map11,,,��ͼ11,Map11,
-Select Map12,,,��ͼ12,Map12,
-Select Bike1,,,1������,Bike1,
-Select Bike2,,,2������,Bike2,
-Select Bike3,,,3������,Bike3,
-Select Bike4,,,4������,Bike4,
-Select Bike5,,,5������,Bike5,
-Select Bike6,,,6������,Bike6,
-Select Bike7,,,7������,Bike7,
-Select Bike8,,,8������,Bike8,
-Select Bike9,,,9������,Bike9,
-Select Bike10,,,10������,Bike10,
-Select Bike11,,,11������,Bike11,
-Select Bike12,,,12������,Bike12,
-Select Bike13,,,13������,Bike13,
-Select Bike14,,,14������,Bike14,
-Select Bike15,,,15������,Bike15,
-Select Bike16,,,16������,Bike16,
-Select Bike17,,,17������,Bike17,
-Select Bike18,,,18������,Bike18,
-Select Bike19,,,19������,Bike19,
-Select Bike20,,,20������,Bike20,
-Select Bike21,,,21������,Bike21,
-Select Bike22,,,22������,Bike22,
-Select Bike23,,,23������,Bike23,
-Select Bike24,,,24������,Bike24,
-Select Bike25,,,25������,Bike25,
-Select Bike26,,,26������,Bike26,
-Select Bike27,,,27������,Bike27,
-Select Bike28,,,28������,Bike28,
-Select Bike29,,,29������,Bike29,
-Select Bike30,,,30������,Bike30,
-Select Bike31,,,31������,Bike31,
-Select Bike32,,,32������,Bike32,
-Select Bike33,,,33������,Bike33,
-Select Item1,,,���ٵ���,,
-Select Item2,,,������Ծ����,,
-Select Item3,,,�ڵ����ߵ���,,
-Select Item4,,,��������,,
-Select Item5,,,��ӡ����,,
-Select Item6,,,���׵���,,
-Select Item7,,,ը������,,
-Select Item101,,,���ٵ���,,
-Select Item102,,,ǿ����Ծ����,,
-Select Item103,,,������Ծ����,,
-Select Item104,,,��������,,
-Select Item105,,,�޵е���,,
-Select Item106,,,�����޵г�̵���,,
-Random role1,,,�����϶����,NPC1,
-Random role2,,,o����ñ��,NPC2,
-Random role3,,,������ҵˮ��������,NPC3,
-Random role4,,,���ɽֵ��ñ�������,NPC4,
-Random role5,,,���Ǹ�����,NPC5,
-Random role6,,,СС�Ļ�ǹ��������,NPC6,
-Random role7,,,���ޡ�,NPC7,
-Random role8,,,�ɹ����СĢ��,NPC8,
-Random role9,,,��������Ӳ���ֵ���,NPC9,
-Random role10,,,��塢����,NPC10,
-Random role11,,,���ҵ粻����ؼ,NPC11,
-Random role12,,,�nƶɮ������椵�,NPC12,
-Random role13,,,������ͷ�㷢,NPC13,
-Random role14,,,���ķ�����ʥ,NPC14,
-Random role15,,,ֱͦ����,NPC15,
-Random role16,,,���ӻᷢ��i,NPC16,
-Random role17,,,�ڴ�������@,NPC17,
-Random role18,,,Ѽ��ɽ��,NPC18,
-Random role19,,,��ɴ�Ȼ����˻�,NPC19,
-Random role20,,,������ɧ�겻���˨q,NPC20,
-Random role21,,,������yw11.com,NPC21,
-Random role22,,,��������������,NPC22,
-Random role23,,,�����ҵ�װ����i,NPC23,
-Random role24,,,��������i,NPC24,
-Random role25,,,�ٷ���֤¹����,NPC25,
-Random role26,,,������������,NPC26,
-Random role27,,,������һ�����ա�,NPC27,
-Random role28,,,����������ʹ,NPC28,
-Random role29,,,˼Ǯ���,NPC29,
-Random role30,,,���û�̫����û�������,NPC30,
-Tip1,,,��Ծ��δ���ʱ���ٴε�����棬�ɽ��ж�����Ŷ��,,
-Tip2,,,�����ٸ���󣬿������ƶ�ѡ�񸴻�λ��Ŷ��,,
-Tip3,,,�뼰ʱ�ڿյ�����Ŷ�������޷���װ������������,,
-Tip4,,,�����߲˹ֱ��£�����ȥ����ȥ�Ͷ�����,,
-Tip5,,,������Ҵ��ˣ�����״̬�µ����������޵�Ŷ��,,
-Tip6,,,��Ծ��δ���ʱ���ٴε�����棬�ɽ��ж�����Ŷ��,,
-Tip7,,,�����ٸ���󣬿������ƶ�ѡ�񸴻�λ��Ŷ��,,
-Tip8,,,�뼰ʱ�ڿյ�����Ŷ�������޷���װ������������,,
-Tip9,,,�����߲˹ֱ��£�����ȥ����ȥ�Ͷ�����,,
-say2,,,��1��ʹ�� 2������,,
-say3,,,��1��ʹ�� 3������,,
-say4,,,��1��ʹ�� 4������,,
-say5,,,��1��ʹ�� 5������,,
-say6,,,��1��ʹ�� 6������,,
-say7,,,��1��ʹ�� 7������,,
-say8,,,��1��ʹ�� 8������,,
-say9,,,��1��ʹ�� 9������,,
-say10,,,��1��ʹ�� 10������,,
-say11,,,��1��ʹ�� 11������,,
-say12,,,��1��ʹ�� 12������,,
-say13,,,��1��ʹ�� 13������,,
-say14,,,��1��ʹ�� 14������,,
-say15,,,��1��ʹ�� 15������,,
-say16,,,��1��ʹ�� 16������,,
-say17,,,��1��ʹ�� 17������,,
-say18,,,��1��ʹ�� 18������,,
-say19,,,��1��ʹ�� 19������,,
-say20,,,��1��ʹ�� 20������,,
-say21,,,��1��ʹ�� 21������,,
-say22,,,��1��ʹ�� 22������,,
-say23,,,��1��ʹ�� 23������,,
-say24,,,��1��ʹ�� 24������,,
-say25,,,��1��ʹ�� 25������,,
-say26,,,��1��ʹ�� 26������,,
-say27,,,��1��ʹ�� 27������,,
-say28,,,��1��ʹ�� 28������,,
-say29,,,��1��ʹ�� 29������,,
-say30,,,��1��ʹ�� 30������,,
-say31,,,��1��ʹ�� 31������,,
-say32,,,��1��ʹ�� 32������,,
-say33,,,��1��ʹ�� 33������,,
-say1001,,,��1��  �����޾�ģʽ�ؿ�,,
-say1002,,,��2��  �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ�,,
-say1003,,,��3��  �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ�,,
-say1004,,,��4��  �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ�,,
-say1005,,,��5��  �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ�,,
-say1006,,,��6��  �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ�,,
-say1007,,,��7��  �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ�,,
-say1008,,,��8��  �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ�,,
-say1009,,,��9��  �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ�,,
-say1010,,,��10�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ�,,
-say1011,,,��11�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ�,,
-say2001,,,��1��  �������������ؿ�,,
-say2002,,,��2��  �������������ؿ�,,
-say2003,,,��3��  �������������ؿ�,,
-say2004,,,��4��  �������������ؿ�,,
-say2005,,,��5��  �������������ؿ�,,
-say2006,,,��6��  �������������ؿ�,,
-say2007,,,��7��  �������������ؿ�,,
-say2008,,,��8��  �������������ؿ�,,
-say2009,,,��9��  �������������ؿ�,,
-say2010,,,��10�� �������������ؿ�,,
-say2011,,,��11�� �������������ؿ�,,
-say3001,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���1,,
-say3002,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���2,,
-say3003,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���3,,
-say3004,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���4,,
-say3005,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���5,,
-say3006,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���6,,
-say3007,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���7,,
-say3008,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���8,,
-say3009,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���9,,
-say3010,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���10,,
-say3011,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ���û�й�600M������ӳɣ� ���11,,
-say4001,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���1,,
-say4002,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���2,,
-say4003,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���3,,
-say4004,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���4,,
-say4005,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���5,,
-say4006,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���6,,
-say4007,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���7,,
-say4008,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���8,,
-say4009,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���9,,
-say4010,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���10,,
-say4011,,,����ѭ�� �����޾�ģʽ�ؿ� ֮ǰ�޾�ģʽ��̳���600M������ӳɣ� ���11,,
-say5001,,,����ѭ�� �������������ؿ� ���1,,
-say5002,,,����ѭ�� �������������ؿ� ���2,,
-say5003,,,����ѭ�� �������������ؿ� ���3,,
-say5004,,,����ѭ�� �������������ؿ� ���4,,
-say5005,,,����ѭ�� �������������ؿ� ���5,,
-say5006,,,����ѭ�� �������������ؿ� ���6,,
-say5007,,,����ѭ�� �������������ؿ� ���7,,
-say5008,,,����ѭ�� �������������ؿ� ���8,,
-say5009,,,����ѭ�� �������������ؿ� ���9,,
-say5010,,,����ѭ�� �������������ؿ� ���10,,
-say5011,,,����ѭ�� �������������ؿ� ���11,,
-ThereIsNoGiftToday,,,���ϧ������������������,,
-��ȡ�����ʱ�仹û��,,,��Ǹ��Ҵ��ˣ���δ�������ȡʱ��Ŷ,,
-OnlineSay,,,${time} �����ȡ,,
-GotToday,,,��������ȡ,,
-HasDoubleReward,,,�Ѿ������˫������,,
-HasNoRebornTimes,,,�Ѿ�û�и��������,,
-��,,,��,,
-ʹ����,,,ʹ����,,
-LockNotice,,,"�������δ����
-����������
+Easy,,,简单,Easy,
+Normal,,,普通,Normal,
+Hard,,,困难,Hard,
+Small,,,小,Small,
+Middle,,,中,Middle,
+Big,,,大,Big,
+Loading,,,加载中 ...,Loading ...,
+LearnJump,,,点击画面可以进行跳跃,,
+LearnItem,,,"点击左边两个道具栏
+可以使用道具",,
+NewContent,,,新的内容已解锁,,
+GiftTitle,,,• 看视频领礼包 •,,
+GiftContent,,,观看视频，获得超值奖励,,
+SignTitle,,,• 签到看视频领奖励 •,,
+PrizeTitle,,,恭喜获得,,
+PlayerInfoTitle,,,玩家成就内容,,
+PreparationTitle,,,• 开战前额外准备 •,,
+FreeCollection,,,免费领取,,
+DoubleReward,,,双倍奖励,,
+AddGame,,,免费竞赛,,
+PreparationItem1,,,随机道具,,
+PreparationItem2,,,随机道具,,
+PreparationItem3,,,随机造型,,
+PreparationItemContent1,,,获得道具,,
+PreparationItemContent2,,,获得道具,,
+PreparationItemContent3,,,体验特殊造型,,
+PreparationDone,,,准备完成,,
+day1,,,第1天,,
+day2,,,第2天,,
+day3,,,第3天,,
+day4,,,第4天,,
+day5,,,第5天,,
+day6,,,第6天,,
+day7,,,第7天,,
+GamelevelHelp1,,,闯关模式：丰富多样的关卡挑战，提升能力一路突破吧！,,
+GamelevelHelp2,,,梦幻包裹：可随机获得某种助力，但如何使用看您自己哟！,,
+GamelevelHelp3,,,磁铁道具：自动吸金，威力无比！,,
+GamelevelHelp4,,,加速道具：追赶和超越对手的好帮手！,,
+GamelevelHelp5,,,强化跳跃：使用过的玩家都说，跳跃效果非常好。,,
+GamelevelHelp6,,,无限跳跃：有了它，山再高、路再陡，也不怕不怕啦~,,
+GamelevelHelp7,,,无敌道具：身体变大，无惧伤害！,,
+GamelevelHelp8,,,超人道具：自动飞行，无需操作，自动吸金，无惧伤害！,,
+EndlessHelp1,,,无尽模式：无尽旅程，除了死亡，谁都无法阻止玩家们的闯荡！,,
+EndlessHelp2,,,梦幻包裹：可随机获得某种助力，但如何使用看您自己哟！,,
+EndlessHelp3,,,磁铁道具：自动吸金，威力无比！,,
+EndlessHelp4,,,加速道具：追赶和超越对手的好帮手！,,
+EndlessHelp5,,,强化跳跃：使用过的玩家都说，跳跃效果非常好。,,
+EndlessHelp6,,,无限跳跃：有了它，山再高、路再陡，也不怕不怕啦~,,
+EndlessHelp7,,,无敌道具：身体变大，无惧伤害！,,
+EndlessHelp8,,,超人道具：自动飞行，无需操作，自动吸金，无惧伤害！,,
+MatchHelp1,,,竞技模式：快速匹配开局，与其他玩家争夺头名奖励。,,
+MatchHelp2,,,梦幻包裹：可随机获得某种助力，但如何使用看您自己哟！,,
+MatchHelp3,,,加速道具：追赶和超越对手的好帮手！,,
+MatchHelp4,,,强化跳跃：使用过的玩家都说，跳跃效果非常好。,,
+MatchHelp5,,,无限跳跃：有了它，山再高、路再陡，也不怕不怕啦~,,
+MatchHelp6,,,蜗牛道具：想让前一名对手跑得比乌龟还慢？用这个就对啦！,,
+MatchHelp7,,,削弱跳跃：可暂时减弱前一名对手“爱蹦跶”的坏毛病哟。,,
+MatchHelp8,,,蛛网道具：令玩家害怕的束缚魔法，只能向前一名对手使用！,,
+MatchHelp9,,,封印道具：可让您的前一名对手，暂时无法使用任何道具哦。,,
+MatchHelp10,,,墨鱼道具：啊！谁突然关了灯？可随机让一名对手暂时失明。,,
+MatchHelp11,,,落雷道具：打雷啦！小心触电呀~变态群攻，可雷击所有对手。,,
+MatchHelp12,,,炸弹道具：点击使用，炸弹将向前抛射，谁碰到谁倒霉哟。,,
+HomeHelp1,,,"玩家大人的家园，
+有4大类装饰可自由设计布局。",,
+HomeHelp2,,,"战力品、宠物，解锁后，
+可拖动到地面上随意摆放哟。",,
+HomeHelp3,,,"背景、地面，解锁后，
+可选择想要的来展现哟。",,
+Select Map1,,,地图1,Map1,
+Select Map2,,,地图2,Map2,
+Select Map3,,,地图3,Map3,
+Select Map4,,,地图4,Map4,
+Select Map5,,,地图5,Map5,
+Select Map6,,,地图6,Map6,
+Select Map7,,,地图7,Map7,
+Select Map8,,,地图8,Map8,
+Select Map9,,,地图9,Map9,
+Select Map10,,,地图10,Map10,
+Select Map11,,,地图11,Map11,
+Select Map12,,,地图12,Map12,
+Select Bike1,,,1号造型,Bike1,
+Select Bike2,,,2号造型,Bike2,
+Select Bike3,,,3号造型,Bike3,
+Select Bike4,,,4号造型,Bike4,
+Select Bike5,,,5号造型,Bike5,
+Select Bike6,,,6号造型,Bike6,
+Select Bike7,,,7号造型,Bike7,
+Select Bike8,,,8号造型,Bike8,
+Select Bike9,,,9号造型,Bike9,
+Select Bike10,,,10号造型,Bike10,
+Select Bike11,,,11号造型,Bike11,
+Select Bike12,,,12号造型,Bike12,
+Select Bike13,,,13号造型,Bike13,
+Select Bike14,,,14号造型,Bike14,
+Select Bike15,,,15号造型,Bike15,
+Select Bike16,,,16号造型,Bike16,
+Select Bike17,,,17号造型,Bike17,
+Select Bike18,,,18号造型,Bike18,
+Select Bike19,,,19号造型,Bike19,
+Select Bike20,,,20号造型,Bike20,
+Select Bike21,,,21号造型,Bike21,
+Select Bike22,,,22号造型,Bike22,
+Select Bike23,,,23号造型,Bike23,
+Select Bike24,,,24号造型,Bike24,
+Select Bike25,,,25号造型,Bike25,
+Select Bike26,,,26号造型,Bike26,
+Select Bike27,,,27号造型,Bike27,
+Select Bike28,,,28号造型,Bike28,
+Select Bike29,,,29号造型,Bike29,
+Select Bike30,,,30号造型,Bike30,
+Select Bike31,,,31号造型,Bike31,
+Select Bike32,,,32号造型,Bike32,
+Select Bike33,,,33号造型,Bike33,
+Select Bike34,,,34号造型,Bike34,
+Select Bike35,,,35号造型,Bike35,
+Select Bike36,,,36号造型,Bike36,
+Select Item1,,,减速道具,,
+Select Item2,,,削弱跳跃道具,,
+Select Item3,,,遮挡视线道具,,
+Select Item4,,,束缚道具,,
+Select Item5,,,封印道具,,
+Select Item6,,,落雷道具,,
+Select Item7,,,炸弹道具,,
+Select Item101,,,加速道具,,
+Select Item102,,,强化跳跃道具,,
+Select Item103,,,无限跳跃道具,,
+Select Item104,,,磁铁道具,,
+Select Item105,,,无敌道具,,
+Select Item106,,,超级无敌冲刺道具,,
+Random role1,,,淡淡紫丁香へ,NPC1,
+Random role2,,,oО绿帽侠,NPC2,
+Random role3,,,姐与作业水土不服づ,NPC3,
+Random role4,,,薄荷街的兔比先生。,NPC4,
+Random role5,,,初吻给了烟,NPC5,
+Random role6,,,小小的机枪·哒哒哒,NPC6,
+Random role7,,,情兽。,NPC7,
+Random role8,,,采姑娘的小蘑菇,NPC8,
+Random role9,,,铁打的身子不锈钢的心,NPC9,
+Random role10,,,囧囧、开心,NPC10,
+Random role11,,,看我电不死你丶,NPC11,
+Random role12,,,﹏贫僧是来化妞滴,NPC12,
+Random role13,,,老衲满头秀发,NPC13,
+Random role14,,,老衲法号情圣,NPC14,
+Random role15,,,挺直腰杆,NPC15,
+Random role16,,,条子会发光i,NPC16,
+Random role17,,,口袋里有糖@,NPC17,
+Random role18,,,鸭梨山大,NPC18,
+Random role19,,,紫纱魅惑妖人魂,NPC19,
+Random role20,,,犯二的骚年不忧伤╭,NPC20,
+Random role21,,,起名网yw11.com,NPC21,
+Random role22,,,孟婆来杯优乐美,NPC22,
+Random role23,,,我有我的装逼梦i,NPC23,
+Random role24,,,懒癌晚期i,NPC24,
+Random role25,,,官方认证鹿夫人,NPC25,
+Random role26,,,你与氧气共存,NPC26,
+Random role27,,,划出那一道晗颜°,NPC27,
+Random role28,,,带护翼的天使,NPC28,
+Random role29,,,思钱想厚,NPC29,
+Random role30,,,该用户太懒还没想好网名,NPC30,
+Tip1,,,跳跃后未落地时，再次点击画面，可进行二段跳哦！,,
+Tip2,,,死亡再复活后，可上下移动选择复活位置哦！,,
+Tip3,,,请及时腾空道具栏哦，否则无法再装其他道具啦！,,
+Tip4,,,遇到蔬菜怪别怕，踩上去顶上去就对啦！,,
+Tip5,,,报告玩家大人，泡泡状态下的您，防御无敌哦！,,
+Tip6,,,跳跃后未落地时，再次点击画面，可进行二段跳哦！,,
+Tip7,,,死亡再复活后，可上下移动选择复活位置哦！,,
+Tip8,,,请及时腾空道具栏哦，否则无法再装其他道具啦！,,
+Tip9,,,遇到蔬菜怪别怕，踩上去顶上去就对啦！,,
+say2,,,第1次使用 2号造型,,
+say3,,,第1次使用 3号造型,,
+say4,,,第1次使用 4号造型,,
+say5,,,第1次使用 5号造型,,
+say6,,,第1次使用 6号造型,,
+say7,,,第1次使用 7号造型,,
+say8,,,第1次使用 8号造型,,
+say9,,,第1次使用 9号造型,,
+say10,,,第1次使用 10号造型,,
+say11,,,第1次使用 11号造型,,
+say12,,,第1次使用 12号造型,,
+say13,,,第1次使用 13号造型,,
+say14,,,第1次使用 14号造型,,
+say15,,,第1次使用 15号造型,,
+say16,,,第1次使用 16号造型,,
+say17,,,第1次使用 17号造型,,
+say18,,,第1次使用 18号造型,,
+say19,,,第1次使用 19号造型,,
+say20,,,第1次使用 20号造型,,
+say21,,,第1次使用 21号造型,,
+say22,,,第1次使用 22号造型,,
+say23,,,第1次使用 23号造型,,
+say24,,,第1次使用 24号造型,,
+say25,,,第1次使用 25号造型,,
+say26,,,第1次使用 26号造型,,
+say27,,,第1次使用 27号造型,,
+say28,,,第1次使用 28号造型,,
+say29,,,第1次使用 29号造型,,
+say30,,,第1次使用 30号造型,,
+say31,,,第1次使用 31号造型,,
+say32,,,第1次使用 32号造型,,
+say33,,,第1次使用 33号造型,,
+say1001,,,第1次  进入无尽模式关卡,,
+say1002,,,第2次  进入无尽模式关卡 之前无尽模式里程超过600M（不算加成）,,
+say1003,,,第3次  进入无尽模式关卡 之前无尽模式里程超过600M（不算加成）,,
+say1004,,,第4次  进入无尽模式关卡 之前无尽模式里程超过600M（不算加成）,,
+say1005,,,第5次  进入无尽模式关卡 之前无尽模式里程超过600M（不算加成）,,
+say1006,,,第6次  进入无尽模式关卡 之前无尽模式里程超过600M（不算加成）,,
+say1007,,,第7次  进入无尽模式关卡 之前无尽模式里程超过600M（不算加成）,,
+say1008,,,第8次  进入无尽模式关卡 之前无尽模式里程超过600M（不算加成）,,
+say1009,,,第9次  进入无尽模式关卡 之前无尽模式里程超过600M（不算加成）,,
+say1010,,,第10次 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成）,,
+say1011,,,第11次 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成）,,
+say2001,,,第1次  进入排名竞赛关卡,,
+say2002,,,第2次  进入排名竞赛关卡,,
+say2003,,,第3次  进入排名竞赛关卡,,
+say2004,,,第4次  进入排名竞赛关卡,,
+say2005,,,第5次  进入排名竞赛关卡,,
+say2006,,,第6次  进入排名竞赛关卡,,
+say2007,,,第7次  进入排名竞赛关卡,,
+say2008,,,第8次  进入排名竞赛关卡,,
+say2009,,,第9次  进入排名竞赛关卡,,
+say2010,,,第10次 进入排名竞赛关卡,,
+say2011,,,第11次 进入排名竞赛关卡,,
+say3001,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机1,,
+say3002,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机2,,
+say3003,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机3,,
+say3004,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机4,,
+say3005,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机5,,
+say3006,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机6,,
+say3007,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机7,,
+say3008,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机8,,
+say3009,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机9,,
+say3010,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机10,,
+say3011,,,无限循环 进入无尽模式关卡 之前无尽模式里程没有过600M（不算加成） 随机11,,
+say4001,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机1,,
+say4002,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机2,,
+say4003,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机3,,
+say4004,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机4,,
+say4005,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机5,,
+say4006,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机6,,
+say4007,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机7,,
+say4008,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机8,,
+say4009,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机9,,
+say4010,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机10,,
+say4011,,,无限循环 进入无尽模式关卡 之前无尽模式里程超过600M（不算加成） 随机11,,
+say5001,,,无限循环 进入排名竞赛关卡 随机1,,
+say5002,,,无限循环 进入排名竞赛关卡 随机2,,
+say5003,,,无限循环 进入排名竞赛关卡 随机3,,
+say5004,,,无限循环 进入排名竞赛关卡 随机4,,
+say5005,,,无限循环 进入排名竞赛关卡 随机5,,
+say5006,,,无限循环 进入排名竞赛关卡 随机6,,
+say5007,,,无限循环 进入排名竞赛关卡 随机7,,
+say5008,,,无限循环 进入排名竞赛关卡 随机8,,
+say5009,,,无限循环 进入排名竞赛关卡 随机9,,
+say5010,,,无限循环 进入排名竞赛关卡 随机10,,
+say5011,,,无限循环 进入排名竞赛关卡 随机11,,
+ThereIsNoGiftToday,,,真可惜，今天的礼包领完了呢,,
+领取礼包的时间还没到,,,抱歉玩家大人，还未到礼包领取时间哦,,
+OnlineSay,,,${time} 后可领取,,
+GotToday,,,今天已领取,,
+HasDoubleReward,,,已经获得了双倍奖励,,
+HasNoRebornTimes,,,已经没有复活次数了,,
+对,,,对,,
+使用了,,,使用了,,
+LockNotice,,,"这个内容未解锁
+解锁条件：
 ${condition}",,
-SystemUnlockTitle1,,,�齱 ����,,
-SystemUnlockTitle2,,,�������� ����,,
-SystemUnlockTitle3,,,���� ����,,
-SystemUnlockTitle4,,,��԰ ����,,
-SystemUnlockTitle5,,,�޾��ó� ����,,
-SystemUnlockTitle6,,,��ɫ���� ����,,
-SystemUnlockTitle7,,,���� ����,,
-SystemUnlockTitle11,,,ǩ�� ����,,
-SystemUnlockTitle12,,,��� ����,,
-SystemUnlockTitle13,,,���� ����,,
-SystemUnlockDescribe1,,,"��ϲ��Ҵ���
-���齱������",,
-SystemUnlockDescribe2,,,"��ϲ��Ҵ���
-����������������",,
-SystemUnlockDescribe3,,,"��ϲ��Ҵ���
-�����н�����",,
-SystemUnlockDescribe4,,,"��ϲ��Ҵ���
-����԰������",,
-SystemUnlockDescribe5,,,"��ϲ��Ҵ���
-���޾��ó̽�����",,
-SystemUnlockDescribe6,,,"��ϲ��Ҵ���
-����ɫ���ݽ�����",,
-SystemUnlockDescribe7,,,"��ϲ��Ҵ���
-������������",,
-SystemUnlockDescribe11,,,"��ϲ��Ҵ���
-��ǩ��������",,
-SystemUnlockDescribe12,,,"��ϲ��Ҵ���
-�����������",,
-SystemUnlockDescribe13,,,"��ϲ��Ҵ���
-������������",,
-MapUnlockTitle2,,,��ͼ2 ����,,
-MapUnlockTitle3,,,��ͼ3 ����,,
-MapUnlockTitle4,,,��ͼ4 ����,,
-MapUnlockTitle5,,,��ͼ5 ����,,
-MapUnlockTitle6,,,��ͼ6 ����,,
-MapUnlockTitle7,,,��ͼ7 ����,,
-MapUnlockTitle8,,,��ͼ8 ����,,
-MapUnlockTitle9,,,��ͼ9 ����,,
-MapUnlockTitle10,,,��ͼ10 ����,,
-MapUnlockTitle11,,,��ͼ11 ����,,
-MapUnlockTitle12,,,��ͼ12 ����,,
-MapUnlockDescribe2,,,"��ϲ��Ҵ���
-����ͼ2������",,
-MapUnlockDescribe3,,,"��ϲ��Ҵ���
-����ͼ3������",,
-MapUnlockDescribe4,,,"��ϲ��Ҵ���
-����ͼ4������",,
-MapUnlockDescribe5,,,"��ϲ��Ҵ���
-����ͼ5������",,
-MapUnlockDescribe6,,,"��ϲ��Ҵ���
-����ͼ6������",,
-MapUnlockDescribe7,,,"��ϲ��Ҵ���
-����ͼ7������",,
-MapUnlockDescribe8,,,"��ϲ��Ҵ���
-����ͼ8������",,
-MapUnlockDescribe9,,,"��ϲ��Ҵ���
-����ͼ9������",,
-MapUnlockDescribe10,,,"��ϲ��Ҵ���
-����ͼ10������",,
-MapUnlockDescribe11,,,"��ϲ��Ҵ���
-����ͼ11������",,
-MapUnlockDescribe12,,,"��ϲ��Ҵ���
-����ͼ12������",,
-BackgroundUnlockTitle2,,,����2 ����,,
-BackgroundUnlockTitle3,,,����3 ����,,
-BackgroundUnlockTitle4,,,����4 ����,,
-BackgroundUnlockTitle5,,,����5 ����,,
-BackgroundUnlockTitle6,,,����6 ����,,
-BackgroundUnlockTitle7,,,����7 ����,,
-BackgroundUnlockTitle8,,,����8 ����,,
-BackgroundUnlockTitle9,,,����9 ����,,
-BackgroundUnlockTitle10,,,����10 ����,,
-BackgroundUnlockTitle11,,,����11 ����,,
-BackgroundUnlockTitle12,,,����12 ����,,
-BackgroundUnlockDescribe2,,,"��ϲ��Ҵ���
-������2������",,
-BackgroundUnlockDescribe3,,,"��ϲ��Ҵ���
-������3������",,
-BackgroundUnlockDescribe4,,,"��ϲ��Ҵ���
-������4������",,
-BackgroundUnlockDescribe5,,,"��ϲ��Ҵ���
-������5������",,
-BackgroundUnlockDescribe6,,,"��ϲ��Ҵ���
-������6������",,
-BackgroundUnlockDescribe7,,,"��ϲ��Ҵ���
-������7������",,
-BackgroundUnlockDescribe8,,,"��ϲ��Ҵ���
-������8������",,
-BackgroundUnlockDescribe9,,,"��ϲ��Ҵ���
-������9������",,
-BackgroundUnlockDescribe10,,,"��ϲ��Ҵ���
-������10������",,
-BackgroundUnlockDescribe11,,,"��ϲ��Ҵ���
-������11������",,
-BackgroundUnlockDescribe12,,,"��ϲ��Ҵ���
-������12������",,
-FloorUnlockTitle2,,,����2 ����,,
-FloorUnlockTitle3,,,����3 ����,,
-FloorUnlockTitle4,,,����4 ����,,
-FloorUnlockTitle5,,,����5 ����,,
-FloorUnlockTitle6,,,����6 ����,,
-FloorUnlockTitle7,,,����7 ����,,
-FloorUnlockDescribe2,,,"��ϲ��Ҵ���
-������2������",,
-FloorUnlockDescribe3,,,"��ϲ��Ҵ���
-������3������",,
-FloorUnlockDescribe4,,,"��ϲ��Ҵ���
-������4������",,
-FloorUnlockDescribe5,,,"��ϲ��Ҵ���
-������5������",,
-FloorUnlockDescribe6,,,"��ϲ��Ҵ���
-������6������",,
-FloorUnlockDescribe7,,,"��ϲ��Ҵ���
-������7������",,
-SpoilUnlockTitle1,,,ս��Ʒ1 ����,,
-SpoilUnlockTitle2,,,ս��Ʒ2 ����,,
-SpoilUnlockTitle3,,,ս��Ʒ3 ����,,
-SpoilUnlockTitle4,,,ս��Ʒ4 ����,,
-SpoilUnlockTitle5,,,ս��Ʒ5 ����,,
-SpoilUnlockTitle6,,,ս��Ʒ6 ����,,
-SpoilUnlockTitle7,,,ս��Ʒ7 ����,,
-SpoilUnlockTitle8,,,ս��Ʒ8 ����,,
-SpoilUnlockTitle9,,,ս��Ʒ9 ����,,
-SpoilUnlockTitle10,,,ս��Ʒ10 ����,,
-SpoilUnlockTitle11,,,ս��Ʒ11 ����,,
-SpoilUnlockTitle12,,,ս��Ʒ12 ����,,
-SpoilUnlockTitle13,,,ս��Ʒ13 ����,,
-SpoilUnlockTitle14,,,ս��Ʒ14 ����,,
-SpoilUnlockTitle15,,,ս��Ʒ15 ����,,
-SpoilUnlockTitle16,,,ս��Ʒ16 ����,,
-SpoilUnlockTitle17,,,ս��Ʒ17 ����,,
-SpoilUnlockTitle18,,,ս��Ʒ18 ����,,
-SpoilUnlockTitle19,,,ս��Ʒ19 ����,,
-SpoilUnlockTitle20,,,ս��Ʒ20 ����,,
-SpoilUnlockTitle21,,,ս��Ʒ21 ����,,
-SpoilUnlockTitle22,,,ս��Ʒ22 ����,,
-SpoilUnlockTitle23,,,ս��Ʒ23 ����,,
-SpoilUnlockTitle24,,,ս��Ʒ24 ����,,
-SpoilUnlockTitle25,,,ս��Ʒ25 ����,,
-SpoilUnlockTitle26,,,ս��Ʒ26 ����,,
-SpoilUnlockTitle27,,,ս��Ʒ27 ����,,
-SpoilUnlockTitle28,,,ս��Ʒ28 ����,,
-SpoilUnlockDescribe1,,,"��ϲ��Ҵ���
-��ս��Ʒ1������",,
-SpoilUnlockDescribe2,,,"��ϲ��Ҵ���
-��ս��Ʒ2������",,
-SpoilUnlockDescribe3,,,"��ϲ��Ҵ���
-��ս��Ʒ3������",,
-SpoilUnlockDescribe4,,,"��ϲ��Ҵ���
-��ս��Ʒ4������",,
-SpoilUnlockDescribe5,,,"��ϲ��Ҵ���
-��ս��Ʒ5������",,
-SpoilUnlockDescribe6,,,"��ϲ��Ҵ���
-��ս��Ʒ6������",,
-SpoilUnlockDescribe7,,,"��ϲ��Ҵ���
-��ս��Ʒ7������",,
-SpoilUnlockDescribe8,,,"��ϲ��Ҵ���
-��ս��Ʒ8������",,
-SpoilUnlockDescribe9,,,"��ϲ��Ҵ���
-��ս��Ʒ9������",,
-SpoilUnlockDescribe10,,,"��ϲ��Ҵ���
-��ս��Ʒ10������",,
-SpoilUnlockDescribe11,,,"��ϲ��Ҵ���
-��ս��Ʒ11������",,
-SpoilUnlockDescribe12,,,"��ϲ��Ҵ���
-��ս��Ʒ12������",,
-SpoilUnlockDescribe13,,,"��ϲ��Ҵ���
-��ս��Ʒ13������",,
-SpoilUnlockDescribe14,,,"��ϲ��Ҵ���
-��ս��Ʒ14������",,
-SpoilUnlockDescribe15,,,"��ϲ��Ҵ���
-��ս��Ʒ15������",,
-SpoilUnlockDescribe16,,,"��ϲ��Ҵ���
-��ս��Ʒ16������",,
-SpoilUnlockDescribe17,,,"��ϲ��Ҵ���
-��ս��Ʒ17������",,
-SpoilUnlockDescribe18,,,"��ϲ��Ҵ���
-��ս��Ʒ18������",,
-SpoilUnlockDescribe19,,,"��ϲ��Ҵ���
-��ս��Ʒ19������",,
-SpoilUnlockDescribe20,,,"��ϲ��Ҵ���
-��ս��Ʒ20������",,
-SpoilUnlockDescribe21,,,"��ϲ��Ҵ���
-��ս��Ʒ21������",,
-SpoilUnlockDescribe22,,,"��ϲ��Ҵ���
-��ս��Ʒ22������",,
-SpoilUnlockDescribe23,,,"��ϲ��Ҵ���
-��ս��Ʒ23������",,
-SpoilUnlockDescribe24,,,"��ϲ��Ҵ���
-��ս��Ʒ24������",,
-SpoilUnlockDescribe25,,,"��ϲ��Ҵ���
-��ս��Ʒ25������",,
-SpoilUnlockDescribe26,,,"��ϲ��Ҵ���
-��ս��Ʒ26������",,
-SpoilUnlockDescribe27,,,"��ϲ��Ҵ���
-��ս��Ʒ27������",,
-SpoilUnlockDescribe28,,,"��ϲ��Ҵ���
-��ս��Ʒ28������",,
-PetUnlockTitle1,,,����1 ����,,
-PetUnlockTitle2,,,����2 ����,,
-PetUnlockTitle3,,,����3 ����,,
-PetUnlockTitle4,,,����4 ����,,
-PetUnlockTitle5,,,����5 ����,,
-PetUnlockTitle6,,,����6 ����,,
-PetUnlockTitle7,,,����7 ����,,
-PetUnlockTitle8,,,����8 ����,,
-PetUnlockTitle9,,,����9 ����,,
-PetUnlockTitle10,,,����10 ����,,
-PetUnlockTitle11,,,����11 ����,,
-PetUnlockTitle12,,,����12 ����,,
-PetUnlockTitle13,,,����13 ����,,
-PetUnlockTitle14,,,����14 ����,,
-PetUnlockTitle15,,,����15 ����,,
-PetUnlockTitle16,,,����16 ����,,
-PetUnlockDescribe1,,,"��ϲ��Ҵ���
-������1������",,
-PetUnlockDescribe2,,,"��ϲ��Ҵ���
-������2������",,
-PetUnlockDescribe3,,,"��ϲ��Ҵ���
-������3������",,
-PetUnlockDescribe4,,,"��ϲ��Ҵ���
-������4������",,
-PetUnlockDescribe5,,,"��ϲ��Ҵ���
-������5������",,
-PetUnlockDescribe6,,,"��ϲ��Ҵ���
-������6������",,
-PetUnlockDescribe7,,,"��ϲ��Ҵ���
-������7������",,
-PetUnlockDescribe8,,,"��ϲ��Ҵ���
-������8������",,
-PetUnlockDescribe9,,,"��ϲ��Ҵ���
-������9������",,
-PetUnlockDescribe10,,,"��ϲ��Ҵ���
-������10������",,
-PetUnlockDescribe11,,,"��ϲ��Ҵ���
-������11������",,
-PetUnlockDescribe12,,,"��ϲ��Ҵ���
-������12������",,
-PetUnlockDescribe13,,,"��ϲ��Ҵ���
-������13������",,
-PetUnlockDescribe14,,,"��ϲ��Ҵ���
-������14������",,
-PetUnlockDescribe15,,,"��ϲ��Ҵ���
-������15������",,
-PetUnlockDescribe16,,,"��ϲ��Ҵ���
-������16������",,
-TextMap-1-1-1,,,"��ӭ��������ģʽ
-����ÿ���ؿ�������ȤӴ",,
-TextMap-1-1-6,,,"�����ǵ�ǰ���
-�ۼ���̿������ɾ�Ӵ",,
-TextMap-1-1-11,,,"�����ǵ�ǰ����
-�ۼƾ���ɽ�������Ӵ",,
-TextMap-1-1-21,,,"�����ǵ�ǰǮ��
-�ۼ�Ǯ�ҿ���������Ӵ",,
-TextMap-1-1-31,,,"ǰ������������
-�ǵ�ȥ�ռ�����Ӵ",,
-TextMap-1-1-41,,,"�������ѻ�õ�����
-ÿ����3�����ǿ��ռ�Ӵ",,
-TextMap-1-1-51,,,"�ռ�һ��������ƷǮ��
-���ܻ��˫���Ľ���Ӵ",,
-TextMap-1-1-61,,,"�����ǹؿ�·��ͼ
-���Կ�����ɵ�����Ӵ",,
-TextMap-1-1-71,,,"�������ܾ͵�����
-ʣ�µĿ�����������Ӵ",,
-TextMap-1-2-1,,,��Ҵ��ˣ�ʰȡ����ľ��飬���ܿ���������Ϸ�ȼ�Ŷ ��,,
-TextMap-1-3-1,,,��Ҵ��ˣ�ѧ���Ǯ�ң��Ϳ��Կ�ʼ�����ս֮���ˡ� ,,
-TextMap-1-4-1,,,��Ҵ��ˣ���������2����Ծ��ϰ���ڴ���ı��ݡ� ,,
-TextMap-1-5-1,,,��Ҵ��ˣ��������������7������Ŷ���������԰ɣ� ,,
-TextMap-2-1-1,,,��Ҵ��ˣ�����ؿ���ʼ�����ݽ����֣��Ϳ���ı����ˡ� ,,
-TextMap-2-2-1,,,��Ҵ��ˣ���������һ�¼��ٵ��ߴ����Ŀ�а� ��,,
-TextMap-2-3-1,,,���ڿ�ʼ�ݽ��ѶȼӴ���Ŷ�����Գ���ʹ��2����������Ŷ��,,
-TextMap-2-4-1,,,�뿴׼ʱ��������һ��һͷ�����յ�Ŀ�аɣ�,,
-TextMap-2-5-1,,,��Ҵ��ˣ���ʱ���ȵ�������Ծ����һ�ָ߼�����Ŷ��,,
-TextMap-3-1-1,,,ʹ�õ������ߣ��ܹ��������ø߸ߵ�Ŷ��,,
-TextMap-3-2-1,,,��Ҵ��ˣ������ο��Գ�������ȥŶ��,,
-TextMap-3-3-1,,,��Ҵ��ˣ������������������ְɣ�����һ����ĵ���������,,
-TextMap-3-4-1,,,����Ķ����ξ����Թ�����׼������ս����,,
-TextMap-3-5-1,,,��Ҵ��ˣ�����һ��Ҳ��һ��������ϣ������һֱ���ˡ�,,
-TextMap-4-1-1,,,�����������֣��ؿ����������С�,,
-TextMap-4-2-1,,,��Ҵ��ˣ�����ǰ����С����о�ϲŶ��,,
-TextMap-4-3-1,,,����һ�Ѵ���������������ģ�,,
-TextMap-4-4-1,,,ǰ��һ����Ⱥ���֣�ף����ˣ�,,
-TextMap-4-5-1,,,�����Щ�óԣ���Щ���óԣ�Ҳ��һ���ǻ�Ŷ��,,
-TextMap-5-1-1,,,������Ծ���߼ǵó�Ŷ���������������ͨ���ѶȽϴ���ݽ�Ŷ��,,
-TextMap-5-2-1,,,��Ҵ��ˣ��������֩�������ܶ�Ͷ㣬����������ֻҪ����Ծ���ξ�������Ŷ��,,
-TextMap-5-3-1,,,��Ҵ��ˣ��뾡�����ɣ����ܷ�һ���ʱ�̡�,,
-TextMap-5-4-1,,,��Ҵ��ˣ�ǰ��·�浽������֩��������С����·��,,
-TextMap-5-5-1,,,ǰ������Ԥ�������鼼����ʱ�̵���Ŷ��,,
-RandomMap-1,,,"��ӭ�����޾��ó�
-����Ĺؿ�·�߶��������Ӵ",,
-RandomMap-11,,,"�����ǵ�ǰ�ƶ��ٶ�
-�ƶ��ٶȻ�Խ��Խ��Ӵ",,
-RandomMap-21,,,"������ȼ��������
-�ﵽ100%����뽱��·��Ӵ",,
-RandomMap-31,,,"�������ܾ͵�����
-ʣ�µĿ�����������Ӵ",,
-PkMap-1,,,"��ӭ������������
-��������������ɫ�����Կ�Ӵ",,
-PkMap-11,,,"�����ǹؿ�·��ͼ
-���Կ������н�ɫ������Ӵ",,
-PkMap-21,,,"�����ǵ���ʹ����Ϣ
-����֪������Ǳ�˭�ݺ���Ӵ",,
-PkMap-31,,,"�������ܾ͵�����
-ʣ�µĿ�����������Ӵ",,
-Help-1,,,������棬������Ծ�����ǡ�,,
-Help-2,,,�������������ǡ�,,
-Help-10,,,��ϲ��Ҵ��ˣ�ͨ����һ����ѧ�ؿ���,,
-Help-11,,,���������Ծ��顣,,
-Help-12,,,�����ǳ�����Ŷ��,,
-Help-13,,,�������ܾ��ܳԵ������ˣ�����Ҫ�߿���ԾŶ��,,
-Help-20,,,��ϲ��Ҵ��ˣ�ͨ���ڶ�����ѧ�ؿ���,,
-Help-21,,,������棬������Ծ��Ǯ�ҡ�,,
-Help-30,,,��ϲ��Ҵ��ˣ�ͨ����������ѧ�ؿ���,,
-Help-31,,,����2���������ܳԵ�����Ŷ��,,
-Help-32,,,һֱ������Ծ���ܳԹ�Ǯ��Ŷ��,,
-Help-33,,,����2�����������ܻ���յ�ǰ���һ�����Ľ���Ŷ��,,
-Help-41,,,����ж�����������ͨ��ǰ���һ���������,,
-Help-42,,,���ͨ�أ��Ϳ����Լ������ˡ�,,
-Help-51,,,��һ���ݽ������ˣ��ɱ����ȥˤ����Ŷ��,,
-Help-52,,,��ɫ��Ǯ������ͨǮ�ҵ�5����Ŷ��,,
-Help-61,,,���ٵ��ߣ����������ö��ݼ��ٵ�Ч��Ŷ��,,
-Help-71,,,��һ���ݽ������ˣ��ɱ����ȥˤ����Ŷ��,,
-Help-81,,,����ƽ̨�������ȥ������Ծ�ĺܸߡ�,,
-Help-91,,,�����Σ����Դ��´�͸��Ծ���ߴ��ġ�,,
-Help-101,,,�������ߣ����Ի�ö����Զ���ȡ����Ǯ�ҵ�Ч����,,
-Help-111,,,����С����������ǲ���ȥ���Զ������ԾЧ����,,
-Help-121,,,������Ծ�����Ի�ö���������Ծ��Ч����,,
-Help-131,,,����֩��������Ծ3�ξ�������Ŷ��,,
-Help-141,,,ǿ����Ծ�����Ի�ö��ݸ���Ծ��Ч����,,
-Help-151,,,�޵е��ߣ����Ի�ö��ݱ���޵е�Ч����,,
-Help-161,,,���˵��ߣ����Ի�ö��ݷ������������Ч��Ŷ��,,
-Help-171,,,�õ��λð�������������1�����ߡ�,,
-Practice-1,,,"�۹�������������
-С��ͬ־������ѽ��",,
-Practice-2,,,"�����㾫�񲻴���
-�������ǿ�ʼ���������ɣ�",,
-Practice-11,,,"ǰ�����С��ͬ־�������㣡
+SystemUnlockTitle1,,,抽奖 解锁,,
+SystemUnlockTitle2,,,排名竞赛 解锁,,
+SystemUnlockTitle3,,,排行 解锁,,
+SystemUnlockTitle4,,,家园 解锁,,
+SystemUnlockTitle5,,,无尽旅程 解锁,,
+SystemUnlockTitle6,,,角色扮演 解锁,,
+SystemUnlockTitle7,,,能力 解锁,,
+SystemUnlockTitle11,,,签到 解锁,,
+SystemUnlockTitle12,,,礼包 解锁,,
+SystemUnlockTitle13,,,福利 解锁,,
+SystemUnlockDescribe1,,,"恭喜玩家大人
+将抽奖解锁了",,
+SystemUnlockDescribe2,,,"恭喜玩家大人
+将排名竞赛解锁了",,
+SystemUnlockDescribe3,,,"恭喜玩家大人
+将排行解锁了",,
+SystemUnlockDescribe4,,,"恭喜玩家大人
+将家园解锁了",,
+SystemUnlockDescribe5,,,"恭喜玩家大人
+将无尽旅程解锁了",,
+SystemUnlockDescribe6,,,"恭喜玩家大人
+将角色扮演解锁了",,
+SystemUnlockDescribe7,,,"恭喜玩家大人
+将能力解锁了",,
+SystemUnlockDescribe11,,,"恭喜玩家大人
+将签到解锁了",,
+SystemUnlockDescribe12,,,"恭喜玩家大人
+将礼包解锁了",,
+SystemUnlockDescribe13,,,"恭喜玩家大人
+将福利解锁了",,
+MapUnlockTitle2,,,地图2 解锁,,
+MapUnlockTitle3,,,地图3 解锁,,
+MapUnlockTitle4,,,地图4 解锁,,
+MapUnlockTitle5,,,地图5 解锁,,
+MapUnlockTitle6,,,地图6 解锁,,
+MapUnlockTitle7,,,地图7 解锁,,
+MapUnlockTitle8,,,地图8 解锁,,
+MapUnlockTitle9,,,地图9 解锁,,
+MapUnlockTitle10,,,地图10 解锁,,
+MapUnlockTitle11,,,地图11 解锁,,
+MapUnlockTitle12,,,地图12 解锁,,
+MapUnlockDescribe2,,,"恭喜玩家大人
+将地图2解锁了",,
+MapUnlockDescribe3,,,"恭喜玩家大人
+将地图3解锁了",,
+MapUnlockDescribe4,,,"恭喜玩家大人
+将地图4解锁了",,
+MapUnlockDescribe5,,,"恭喜玩家大人
+将地图5解锁了",,
+MapUnlockDescribe6,,,"恭喜玩家大人
+将地图6解锁了",,
+MapUnlockDescribe7,,,"恭喜玩家大人
+将地图7解锁了",,
+MapUnlockDescribe8,,,"恭喜玩家大人
+将地图8解锁了",,
+MapUnlockDescribe9,,,"恭喜玩家大人
+将地图9解锁了",,
+MapUnlockDescribe10,,,"恭喜玩家大人
+将地图10解锁了",,
+MapUnlockDescribe11,,,"恭喜玩家大人
+将地图11解锁了",,
+MapUnlockDescribe12,,,"恭喜玩家大人
+将地图12解锁了",,
+BackgroundUnlockTitle2,,,背景2 解锁,,
+BackgroundUnlockTitle3,,,背景3 解锁,,
+BackgroundUnlockTitle4,,,背景4 解锁,,
+BackgroundUnlockTitle5,,,背景5 解锁,,
+BackgroundUnlockTitle6,,,背景6 解锁,,
+BackgroundUnlockTitle7,,,背景7 解锁,,
+BackgroundUnlockTitle8,,,背景8 解锁,,
+BackgroundUnlockTitle9,,,背景9 解锁,,
+BackgroundUnlockTitle10,,,背景10 解锁,,
+BackgroundUnlockTitle11,,,背景11 解锁,,
+BackgroundUnlockTitle12,,,背景12 解锁,,
+BackgroundUnlockDescribe2,,,"恭喜玩家大人
+将背景2解锁了",,
+BackgroundUnlockDescribe3,,,"恭喜玩家大人
+将背景3解锁了",,
+BackgroundUnlockDescribe4,,,"恭喜玩家大人
+将背景4解锁了",,
+BackgroundUnlockDescribe5,,,"恭喜玩家大人
+将背景5解锁了",,
+BackgroundUnlockDescribe6,,,"恭喜玩家大人
+将背景6解锁了",,
+BackgroundUnlockDescribe7,,,"恭喜玩家大人
+将背景7解锁了",,
+BackgroundUnlockDescribe8,,,"恭喜玩家大人
+将背景8解锁了",,
+BackgroundUnlockDescribe9,,,"恭喜玩家大人
+将背景9解锁了",,
+BackgroundUnlockDescribe10,,,"恭喜玩家大人
+将背景10解锁了",,
+BackgroundUnlockDescribe11,,,"恭喜玩家大人
+将背景11解锁了",,
+BackgroundUnlockDescribe12,,,"恭喜玩家大人
+将背景12解锁了",,
+FloorUnlockTitle2,,,地面2 解锁,,
+FloorUnlockTitle3,,,地面3 解锁,,
+FloorUnlockTitle4,,,地面4 解锁,,
+FloorUnlockTitle5,,,地面5 解锁,,
+FloorUnlockTitle6,,,地面6 解锁,,
+FloorUnlockTitle7,,,地面7 解锁,,
+FloorUnlockDescribe2,,,"恭喜玩家大人
+将地面2解锁了",,
+FloorUnlockDescribe3,,,"恭喜玩家大人
+将地面3解锁了",,
+FloorUnlockDescribe4,,,"恭喜玩家大人
+将地面4解锁了",,
+FloorUnlockDescribe5,,,"恭喜玩家大人
+将地面5解锁了",,
+FloorUnlockDescribe6,,,"恭喜玩家大人
+将地面6解锁了",,
+FloorUnlockDescribe7,,,"恭喜玩家大人
+将地面7解锁了",,
+SpoilUnlockTitle1,,,战力品1 解锁,,
+SpoilUnlockTitle2,,,战力品2 解锁,,
+SpoilUnlockTitle3,,,战力品3 解锁,,
+SpoilUnlockTitle4,,,战力品4 解锁,,
+SpoilUnlockTitle5,,,战力品5 解锁,,
+SpoilUnlockTitle6,,,战力品6 解锁,,
+SpoilUnlockTitle7,,,战力品7 解锁,,
+SpoilUnlockTitle8,,,战力品8 解锁,,
+SpoilUnlockTitle9,,,战力品9 解锁,,
+SpoilUnlockTitle10,,,战力品10 解锁,,
+SpoilUnlockTitle11,,,战力品11 解锁,,
+SpoilUnlockTitle12,,,战力品12 解锁,,
+SpoilUnlockTitle13,,,战力品13 解锁,,
+SpoilUnlockTitle14,,,战力品14 解锁,,
+SpoilUnlockTitle15,,,战力品15 解锁,,
+SpoilUnlockTitle16,,,战力品16 解锁,,
+SpoilUnlockTitle17,,,战力品17 解锁,,
+SpoilUnlockTitle18,,,战力品18 解锁,,
+SpoilUnlockTitle19,,,战力品19 解锁,,
+SpoilUnlockTitle20,,,战力品20 解锁,,
+SpoilUnlockTitle21,,,战力品21 解锁,,
+SpoilUnlockTitle22,,,战力品22 解锁,,
+SpoilUnlockTitle23,,,战力品23 解锁,,
+SpoilUnlockTitle24,,,战力品24 解锁,,
+SpoilUnlockTitle25,,,战力品25 解锁,,
+SpoilUnlockTitle26,,,战力品26 解锁,,
+SpoilUnlockTitle27,,,战力品27 解锁,,
+SpoilUnlockTitle28,,,战力品28 解锁,,
+SpoilUnlockDescribe1,,,"恭喜玩家大人
+将战力品1解锁了",,
+SpoilUnlockDescribe2,,,"恭喜玩家大人
+将战力品2解锁了",,
+SpoilUnlockDescribe3,,,"恭喜玩家大人
+将战力品3解锁了",,
+SpoilUnlockDescribe4,,,"恭喜玩家大人
+将战力品4解锁了",,
+SpoilUnlockDescribe5,,,"恭喜玩家大人
+将战力品5解锁了",,
+SpoilUnlockDescribe6,,,"恭喜玩家大人
+将战力品6解锁了",,
+SpoilUnlockDescribe7,,,"恭喜玩家大人
+将战力品7解锁了",,
+SpoilUnlockDescribe8,,,"恭喜玩家大人
+将战力品8解锁了",,
+SpoilUnlockDescribe9,,,"恭喜玩家大人
+将战力品9解锁了",,
+SpoilUnlockDescribe10,,,"恭喜玩家大人
+将战力品10解锁了",,
+SpoilUnlockDescribe11,,,"恭喜玩家大人
+将战力品11解锁了",,
+SpoilUnlockDescribe12,,,"恭喜玩家大人
+将战力品12解锁了",,
+SpoilUnlockDescribe13,,,"恭喜玩家大人
+将战力品13解锁了",,
+SpoilUnlockDescribe14,,,"恭喜玩家大人
+将战力品14解锁了",,
+SpoilUnlockDescribe15,,,"恭喜玩家大人
+将战力品15解锁了",,
+SpoilUnlockDescribe16,,,"恭喜玩家大人
+将战力品16解锁了",,
+SpoilUnlockDescribe17,,,"恭喜玩家大人
+将战力品17解锁了",,
+SpoilUnlockDescribe18,,,"恭喜玩家大人
+将战力品18解锁了",,
+SpoilUnlockDescribe19,,,"恭喜玩家大人
+将战力品19解锁了",,
+SpoilUnlockDescribe20,,,"恭喜玩家大人
+将战力品20解锁了",,
+SpoilUnlockDescribe21,,,"恭喜玩家大人
+将战力品21解锁了",,
+SpoilUnlockDescribe22,,,"恭喜玩家大人
+将战力品22解锁了",,
+SpoilUnlockDescribe23,,,"恭喜玩家大人
+将战力品23解锁了",,
+SpoilUnlockDescribe24,,,"恭喜玩家大人
+将战力品24解锁了",,
+SpoilUnlockDescribe25,,,"恭喜玩家大人
+将战力品25解锁了",,
+SpoilUnlockDescribe26,,,"恭喜玩家大人
+将战力品26解锁了",,
+SpoilUnlockDescribe27,,,"恭喜玩家大人
+将战力品27解锁了",,
+SpoilUnlockDescribe28,,,"恭喜玩家大人
+将战力品28解锁了",,
+PetUnlockTitle1,,,宠物1 解锁,,
+PetUnlockTitle2,,,宠物2 解锁,,
+PetUnlockTitle3,,,宠物3 解锁,,
+PetUnlockTitle4,,,宠物4 解锁,,
+PetUnlockTitle5,,,宠物5 解锁,,
+PetUnlockTitle6,,,宠物6 解锁,,
+PetUnlockTitle7,,,宠物7 解锁,,
+PetUnlockTitle8,,,宠物8 解锁,,
+PetUnlockTitle9,,,宠物9 解锁,,
+PetUnlockTitle10,,,宠物10 解锁,,
+PetUnlockTitle11,,,宠物11 解锁,,
+PetUnlockTitle12,,,宠物12 解锁,,
+PetUnlockTitle13,,,宠物13 解锁,,
+PetUnlockTitle14,,,宠物14 解锁,,
+PetUnlockTitle15,,,宠物15 解锁,,
+PetUnlockTitle16,,,宠物16 解锁,,
+PetUnlockDescribe1,,,"恭喜玩家大人
+将宠物1解锁了",,
+PetUnlockDescribe2,,,"恭喜玩家大人
+将宠物2解锁了",,
+PetUnlockDescribe3,,,"恭喜玩家大人
+将宠物3解锁了",,
+PetUnlockDescribe4,,,"恭喜玩家大人
+将宠物4解锁了",,
+PetUnlockDescribe5,,,"恭喜玩家大人
+将宠物5解锁了",,
+PetUnlockDescribe6,,,"恭喜玩家大人
+将宠物6解锁了",,
+PetUnlockDescribe7,,,"恭喜玩家大人
+将宠物7解锁了",,
+PetUnlockDescribe8,,,"恭喜玩家大人
+将宠物8解锁了",,
+PetUnlockDescribe9,,,"恭喜玩家大人
+将宠物9解锁了",,
+PetUnlockDescribe10,,,"恭喜玩家大人
+将宠物10解锁了",,
+PetUnlockDescribe11,,,"恭喜玩家大人
+将宠物11解锁了",,
+PetUnlockDescribe12,,,"恭喜玩家大人
+将宠物12解锁了",,
+PetUnlockDescribe13,,,"恭喜玩家大人
+将宠物13解锁了",,
+PetUnlockDescribe14,,,"恭喜玩家大人
+将宠物14解锁了",,
+PetUnlockDescribe15,,,"恭喜玩家大人
+将宠物15解锁了",,
+PetUnlockDescribe16,,,"恭喜玩家大人
+将宠物16解锁了",,
+TextMap-1-1-1,,,"欢迎来到闯关模式
+这里每个关卡都很有趣哟",,
+TextMap-1-1-6,,,"这里是当前里程
+累计里程可提升成就哟",,
+TextMap-1-1-11,,,"这里是当前经验
+累计经验可进行升级哟",,
+TextMap-1-1-21,,,"这里是当前钱币
+累计钱币可提升能力哟",,
+TextMap-1-1-31,,,"前方将出现星星
+记得去收集它们哟",,
+TextMap-1-1-41,,,"这里是已获得的星星
+每关有3颗星星可收集哟",,
+TextMap-1-1-51,,,"收集一连串的甜品钱币
+就能获得双倍的奖励哟",,
+TextMap-1-1-61,,,"这里是关卡路线图
+可以看已完成到哪里哟",,
+TextMap-1-1-71,,,"基本介绍就到此了
+剩下的靠玩家自行体会哟",,
+TextMap-1-2-1,,,玩家大人，拾取更多的经验，就能快速提升游戏等级哦 。,,
+TextMap-1-3-1,,,玩家大人，学完吃钱币，就可以开始你的挑战之旅了。 ,,
+TextMap-1-4-1,,,玩家大人，接下来是2段跳跃练习，期待你的表演。 ,,
+TextMap-1-5-1,,,玩家大人，连续点击最多可以7段连跳哦，快来试试吧！ ,,
+TextMap-2-1-1,,,玩家大人，这个关卡开始会有陷进出现，就看你的表现了。 ,,
+TextMap-2-2-1,,,玩家大人，快来尝试一下加速道具带来的快感吧 。,,
+TextMap-2-3-1,,,现在开始陷进难度加大了哦，可以尝试使用2段连跳闯关哦。,,
+TextMap-2-4-1,,,请看准时机，感受一下一头冲向终点的快感吧！,,
+TextMap-2-5-1,,,玩家大人，有时候先掉落再跳跃，是一种高级技巧哦！,,
+TextMap-3-1-1,,,使用弹跳道具，能够轻松跳得高高的哦。,,
+TextMap-3-2-1,,,玩家大人，多层地形可以尝试跳上去哦。,,
+TextMap-3-3-1,,,玩家大人，快来尽情享受跳跳乐吧，测试一下你的弹跳能力！,,
+TextMap-3-4-1,,,错落的多层地形就像迷宫，你准备好挑战了吗？,,
+TextMap-3-5-1,,,玩家大人，再来一次也是一种勇气，希望你能一直幸运。,,
+TextMap-4-1-1,,,磁铁道具在手，关卡奖励轻松有。,,
+TextMap-4-2-1,,,玩家大人，跳踩前方的小鸟会有惊喜哦！,,
+TextMap-4-3-1,,,送你一堆磁铁，接下来看你的！,,
+TextMap-4-4-1,,,前方一大波鸟群出现，祝你好运！,,
+TextMap-4-5-1,,,辨别哪些该吃，哪些不该吃，也是一种智慧哦。,,
+TextMap-5-1-1,,,无限跳跃道具记得吃哦，这样你就能轻松通过难度较大的陷进哦。,,
+TextMap-5-2-1,,,玩家大人，如果遇到蜘蛛网，能躲就躲，就算碰到了只要多跳跃几次就能挣脱哦！,,
+TextMap-5-3-1,,,玩家大人，请尽情飞翔吧，感受非一般的时刻。,,
+TextMap-5-4-1,,,玩家大人，前方路面到处都是蜘蛛网，请小心上路！,,
+TextMap-5-5-1,,,前方高能预警，考验技术的时刻到了哦。,,
+RandomMap-1,,,"欢迎来到无尽旅程
+这里的关卡路线都是随机的哟",,
+RandomMap-11,,,"这里是当前移动速度
+移动速度会越来越快哟",,
+RandomMap-21,,,"这里是燃爆进度条
+达到100%会进入奖励路线哟",,
+RandomMap-31,,,"基本介绍就到此了
+剩下的靠玩家自行体会哟",,
+PkMap-1,,,"欢迎来到排名竞赛
+在这里与其他角色竞技对抗哟",,
+PkMap-11,,,"这里是关卡路线图
+可以看到所有角色在哪里哟",,
+PkMap-21,,,"这里是道具使用信息
+可以知道玩家是被谁陷害的哟",,
+PkMap-31,,,"基本介绍就到此了
+剩下的靠玩家自行体会哟",,
+Help-1,,,点击画面，就能跳跃吃星星。,,
+Help-2,,,继续跑跳吃星星。,,
+Help-10,,,恭喜玩家大人，通过第一个教学关卡。,,
+Help-11,,,继续跑跳吃经验。,,
+Help-12,,,别忘记吃星星哦。,,
+Help-13,,,正常奔跑就能吃到经验了，不需要高空跳跃哦。,,
+Help-20,,,恭喜玩家大人，通过第二个教学关卡。,,
+Help-21,,,点击画面，就能跳跃吃钱币。,,
+Help-30,,,恭喜玩家大人，通过第三个教学关卡。,,
+Help-31,,,进行2段连跳才能吃到奖励哦。,,
+Help-32,,,一直连续跳跃才能吃光钱币哦。,,
+Help-33,,,进行2段连跳，就能获得终点前最后一波丰厚的奖励哦。,,
+Help-41,,,请进行多段连跳，获得通关前最后一波丰厚奖励。,,
+Help-42,,,如何通关，就靠你自己领悟了。,,
+Help-51,,,第一个陷进出现了，可别掉下去摔死了哦。,,
+Help-52,,,橙色的钱币是普通钱币的5倍数哦。,,
+Help-61,,,加速道具，可以让你获得短暂加速的效果哦。,,
+Help-71,,,第一个陷进出现了，可别掉下去摔死了哦。,,
+Help-81,,,弹跳平台，你踩上去可以跳跃的很高。,,
+Help-91,,,多层地形，可以从下穿透跳跃到高处的。,,
+Help-101,,,磁铁道具，可以获得短暂自动吸取经验钱币的效果。,,
+Help-111,,,碰到小鸟会死，但是踩上去能自动获得跳跃效果。,,
+Help-121,,,无限跳跃，可以获得短暂无限跳跃的效果。,,
+Help-131,,,碰到蜘蛛网，跳跃3次就能挣脱哦。,,
+Help-141,,,强化跳跃，可以获得短暂高跳跃的效果。,,
+Help-151,,,无敌道具，可以获得短暂变大无敌的效果。,,
+Help-161,,,超人道具，可以获得短暂飞行吸金的增益效果哦。,,
+Help-171,,,得到梦幻包裹，会随机获得1个道具。,,
+Practice-1,,,"哇哈哈哈哈哈哈！
+小新同志你来了呀！",,
+Practice-2,,,"看来你精神不错！
+就让我们开始基础引导吧！",,
+Practice-11,,,"前面就是小新同志你最爱的甜点！
 
-                ���������ȥ�����ǳԵ��ɡ�",,
-Practice-12,,,���ĺã�����,,
-Practice-13,,,�����С��ͬ־��ǰ��Ķ�����,,
-Practice-14,,,���Խ�󣡽���Խ��Ӵ��,,
-Practice-15,,,"��Խ��Խ�óԵ���㣡
-            Ҳ�����׳���Ӵ��",,
-Practice-16,,,���Ǽ����¸����ݰɣ�,,
-Practice-21,,,"ǰ��Ҳ��С��ͬ־�����Ǯ�ң�
+                【点击画面去将它们吃掉吧】",,
+Practice-12,,,做的好！！！,,
+Practice-13,,,甜点是小新同志向前冲的动力！,,
+Practice-14,,,甜点越大！奖励越好哟！,,
+Practice-15,,,"但越大越好吃的甜点！
+            也不容易出现哟！",,
+Practice-16,,,我们继续下个内容吧！,,
+Practice-21,,,"前面也是小新同志你最爱的钱币！
 
-                ���������ȥ�����ǳԵ��ɡ�",,
-Practice-22,,,���Ĳ���������,,
-Practice-23,,,Ǯ��Ҳ��Խ�󣡽���Խ��Ӵ��,,
-Practice-24,,,����������һ�����ݰɣ�,,
-Practice-31,,,"ǰ��·��Ͽ��ˣ�
-��������1��������ȥ�ɣ�
+                【点击画面去将它们吃掉吧】",,
+Practice-22,,,做的不错！！！,,
+Practice-23,,,钱币也是越大！奖励越好哟！,,
+Practice-24,,,我们再来下一个内容吧！,,
+Practice-31,,,"前面路面断开了！
+让我们用1段跳跳过去吧！
 
-                �����������1������",,
-Practice-32,,,���ĺã�����,,
-Practice-33,,,�����Ǽ����¸���ս�ɣ�,,
-Practice-41,,,"ǰ�����߲˹ֳ��֣�
-��������2��������ȥ�ɣ�
+                【点击画面用1段跳】",,
+Practice-32,,,跳的好！！！,,
+Practice-33,,,让我们继续下个挑战吧！,,
+Practice-41,,,"前面有蔬菜怪出现！
+让我们用2段跳跳过去吧！
 
-                �������������1������",,
-Practice-42,,,"�߲˹ֳ���ͦ�ߵ�Ӵ��
+                【点击画面先用1段跳】",,
+Practice-42,,,"蔬菜怪长的挺高的哟！
 
-                �������������2������",,
-Practice-43,,,���ĺ�Ӵ������,,
-Practice-44,,,�����������¸���ս�ɣ�,,
-Practice-51,,,"�߲˹֣����Ա����ȣ����Ա�������
-���������Կ��ɣ�����
+                【点击画面再用2段跳】",,
+Practice-43,,,跳的好哟！！！,,
+Practice-44,,,我们再试试下个挑战吧！,,
+Practice-51,,,"蔬菜怪！可以被跳踩！可以被跳顶！
+让我们试试看吧！！！
 
-                �����������1������",,
-Practice-52,,,�ȵĺã����ĺã�,,
-Practice-53,,,զ�Ǽ����¸���ս�ɣ�,,
-Practice-61,,,"�߲˹֣������ȣ�����ⵯ����
-���������Կ��ɣ�����
+                【点击画面用1段跳】",,
+Practice-52,,,踩的好！顶的好！,,
+Practice-53,,,咋们继续下个挑战吧！,,
+Practice-61,,,"蔬菜怪！被跳踩！会额外弹跳！
+让我们试试看吧！！！
 
-                �����������1������",,
-Practice-62,,,"���������˰ɣ�
-���ǿ�������������Ӵ��
+                【点击画面用1段跳】",,
+Practice-62,,,"被弹起来了吧！
+我们可以重新起跳了哟！
 
-                �����������1������",,
-Practice-63,,,"�����ǿ�Խ��Щ�ϰ��ɣ�
-������һ�£�
+                【点击画面用1段跳】",,
+Practice-63,,,"让我们跨越这些障碍吧！
+再来跳一下！
 
-                �����������2������",,
-Practice-64,,,���ĺã�����,,
-Practice-65,,,"���棡����Ҫ�ɳ����ˣ�
-�������£��Ҷ����ź���Ӵ��",,
-Practice-71,,,"���г�����������ߣ�
-���������õ��ɵ��������Ե��ɣ�
+                【点击画面用2段跳】",,
+Practice-64,,,跳的好！！！,,
+Practice-65,,,"警告！火球将要飞出来了！
+但不用怕！我都安排好了哟！",,
+Practice-71,,,"空中出现了随机道具！
+让我们利用弹簧弹跳把它吃掉吧！
 
-                ���������ȥ�����Ե��ɡ�",,
-Practice-72,,,���ĺã�����,,
-Practice-73,,,�Ƿ�о�Խ��Խ�ѵ�����Ӵ��,,
-Practice-81,,,"ǰ�濴���������أ�
-�������ӵ�ʱ���������ѶȰɣ�
+                【点击画面去将它吃掉吧】",,
+Practice-72,,,跳的好！！！,,
+Practice-73,,,是否感觉越来越难的样子哟！,,
+Practice-81,,,"前面看来困难重重！
+试试用子弹时间来缓解难度吧！
 
-              ������ӵ�ʱ�䰴ť�������硿",,
-Practice-82,,,�����գ�����,,
-Practice-83,,,"�Ƿ���ܵ����綼�仺���˰ɣ�
-�����и���ʱ��ȥ����Ӧ��Ӵ��",,
-Practice-84,,,�ӵ�ʱ����Ȥ�ɣ�����,,
-Practice-91,,,"ǰ������в�������Ǯ�ң�
-ʹ�ô����������Զ���ȡ�ɣ�
+              【点击子弹时间按钮缓慢世界】",,
+Practice-82,,,棒棒哒！！！,,
+Practice-83,,,"是否感受到世界都变缓慢了吧！
+可以有更多时间去做反应了哟！",,
+Practice-84,,,子弹时间有趣吧！！！,,
+Practice-91,,,"前面空中有不少甜点和钱币！
+使用磁铁道具来自动吸取吧！
 
-                �����������ʹ�õ��ߡ�",,
-Practice-92,,,�����գ�����,,
-Practice-93,,,"�ǵã���
-��Ʒ��Ǯ�ҿ��������ӵ�ʱ��Ӵ��",,
-Practice-94,,,�ӵ�ʱ���ֳ�����Ӵ��,,
-Practice-101,,,"���һ�����Ѷȵ���ս��
-�������ٴ�ʹ���ӵ�ʱ��ɣ�
+                【点击道具栏使用道具】",,
+Practice-92,,,棒棒哒！！！,,
+Practice-93,,,"记得！！
+甜品、钱币可以增加子弹时间哟！",,
+Practice-94,,,子弹时间又充满了哟！,,
+Practice-101,,,"最后一波有难度的挑战！
+让我们再次使用子弹时间吧！
 
-              ������ӵ�ʱ�䰴ť�������硿",,
-Practice-102,,,�����գ�����,,
-Practice-111,,,"��⣡����ָ��С��ͬ־������ȥ�ˣ�
-���£��Ͻ�����ӵ�ʱ�䣡��ö����޵У�
+              【点击子弹时间按钮缓慢世界】",,
+Practice-102,,,棒棒哒！！！,,
+Practice-111,,,"糟糕！忘了指引小新同志你跳过去了！
+不怕！赶紧解除子弹时间！获得短暂无敌！
 
-                ������ӵ�ʱ�䰴ť�ָ�������",,
-Practice-112,,,���ã����ǰ�ȫͨ����Ӵ��,,
-Practice-121,,,"С��ͬ־��
-���������͵��˽�����Ӵ��",,
-Practice-122,,,"�����ٸ�ϰ�Ļ���
-����ȥϵͳ����������Ӵ��
-                      ���ͣ����ͣ����ͣ�",,
-Guide-1-1,,,"С��ͬ־��
-��ϲ������˻���������
-����������ȥ�洳��ģʽ�ɣ�",,
-Guide-1-11,,,"����ģʽ�и��ַ��ĳ�����
-ÿ����������5���ؿ�Ӵ��
-�����Ƚ�1-1�ؿ���Ϥһ�°ɣ�",,
-Guide-1-21,,,"������Ҫ���ռ�3�����ǣ�
-����ɻ������ͨ�ؽ���Ӵ��",,
-Guide-1-31,,,"��սǰ�ɶ���׼����
-����������ݲ���Ҫ��
-ֱ�ӱ��ܰ�С��ͬ־Ӵ��",,
-Guide-11-1,,,"С��ͬ־��
-��ϲ������˳齱ϵͳ��
-����������ȥ���Գ齱��
-�������ȷ���������ȥ�ɣ�",,
-Guide-11-11,,,"�齱ϵͳ�����ѿ����ˣ�
-�����ǵ����ȥ���Կ����ɣ�",,
-Guide-11-21,,,"���ڿ��Խ��г齱�ˣ�
-�������������ܳ鵽ʲô��
-�½�ɫ �� ���� �� Ǯ�� ��",,
-Guide-11-41,,,"��ϲС��ͬ־����½�ɫӴ��
-��Ȼ��ɫ����ϵͳ��û���ţ�
-�����ǿ��������Գ齱�أ�
-����ͼ�������ģʽ�ɣ�",,
-Guide-21-1,,,"С��ͬ־��
-��ϲ������˽�ɫ����ϵͳ��
-�����������滻�½�ɫ�ˣ�
-�������ȷ���������ȥ�ɣ�",,
-Guide-21-11,,,"��ɫ����ϵͳ�����ѿ����ˣ�
-�����ǵ����ȥ������ɶ�ɣ�",,
-Guide-21-21,,,"���ڿ���ѡ���½�ɫ�ˣ�
-������ѡ���½�ɫ��ս��
-Ȼ��������ر��ܰɣ�",,
-Guide-31-1,,,"С��ͬ־��
-��ϲ��������޾��ọ́�
-�����������������淨�ˣ�
-�������ȷ���������ȥ�ɣ�",,
-Guide-31-11,,,"�޾��ó�ϵͳ�����ѿ����ˣ�
-�����ǵ����ȥ����һ�°ɣ�",,
-Guide-31-21,,,"�޾��ó̿������ޱ��ܣ�
-�����������δ֪����ս��
-��Ȼ����ģʽ���ǻ�δ��Ϥ�꣡
-�����ǿ���������һ�µ�Ӵ��",,
-Info-diamond,,,����Ķ�Ӧ������˵��,,
-Info-coin,,,Ǯ�ҵĶ�Ӧ������˵��,,
-Info-exp,,,����Ķ�Ӧ������˵��,,
-Info-bike-1,,,��ɫ1�Ķ�Ӧ������˵��,,
-Info-bike-2,,,��ɫ2�Ķ�Ӧ������˵��,,
-Info-bike-3,,,��ɫ3�Ķ�Ӧ������˵��,,
-Info-bike-4,,,��ɫ4�Ķ�Ӧ������˵��,,
-Info-bike-5,,,��ɫ5�Ķ�Ӧ������˵��,,
-Info-bike-6,,,��ɫ6�Ķ�Ӧ������˵��,,
-Info-bike-7,,,��ɫ7�Ķ�Ӧ������˵��,,
-Info-bike-8,,,��ɫ8�Ķ�Ӧ������˵��,,
-Info-bike-9,,,��ɫ9�Ķ�Ӧ������˵��,,
-Info-bike-10,,,��ɫ10�Ķ�Ӧ������˵��,,
-Info-bike-11,,,��ɫ11�Ķ�Ӧ������˵��,,
-Info-bike-12,,,��ɫ12�Ķ�Ӧ������˵��,,
-Info-bike-13,,,��ɫ13�Ķ�Ӧ������˵��,,
-Info-bike-14,,,��ɫ14�Ķ�Ӧ������˵��,,
-Info-bike-15,,,��ɫ15�Ķ�Ӧ������˵��,,
-Info-bike-16,,,��ɫ16�Ķ�Ӧ������˵��,,
-Info-bike-17,,,��ɫ17�Ķ�Ӧ������˵��,,
-Info-bike-18,,,��ɫ18�Ķ�Ӧ������˵��,,
-Info-bike-19,,,��ɫ19�Ķ�Ӧ������˵��,,
-Info-bike-20,,,��ɫ20�Ķ�Ӧ������˵��,,
-Info-bike-21,,,��ɫ21�Ķ�Ӧ������˵��,,
-Info-bike-22,,,��ɫ22�Ķ�Ӧ������˵��,,
-Info-bike-23,,,��ɫ23�Ķ�Ӧ������˵��,,
-Info-bike-24,,,��ɫ24�Ķ�Ӧ������˵��,,
-Info-bike-25,,,��ɫ25�Ķ�Ӧ������˵��,,
-Info-bike-26,,,��ɫ26�Ķ�Ӧ������˵��,,
-Info-bike-27,,,��ɫ27�Ķ�Ӧ������˵��,,
-Info-bike-28,,,��ɫ28�Ķ�Ӧ������˵��,,
-Info-bike-29,,,��ɫ29�Ķ�Ӧ������˵��,,
-Info-bike-30,,,��ɫ30�Ķ�Ӧ������˵��,,
-Info-bike-31,,,��ɫ31�Ķ�Ӧ������˵��,,
-Info-bike-32,,,��ɫ32�Ķ�Ӧ������˵��,,
-Info-bike-33,,,��ɫ33�Ķ�Ӧ������˵��,,
-Info-item-1,,,���ٵ��ߵ�����˵��,,
-Info-item-2,,,������Ծ���ߵ�����˵��,,
-Info-item-3,,,�ڵ����ߵ��ߵ�����˵��,,
-Info-item-4,,,�������ߵ�����˵��,,
-Info-item-5,,,��ӡ���ߵ�����˵��,,
-Info-item-6,,,���׵��ߵ�����˵��,,
-Info-item-7,,,ը�����ߵ�����˵��,,
-Info-item-101,,,���ٵ��ߵ�����˵��,,
-Info-item-102,,,ǿ����Ծ���ߵ�����˵��,,
-Info-item-103,,,������Ծ���ߵ�����˵��,,
-Info-item-104,,,�������ߵ�����˵��,,
-Info-item-105,,,�޵е��ߵ�����˵��,,
-Info-item-106,,,�����޵г�̵��ߵ�����˵��,,
+                【点击子弹时间按钮恢复正常】",,
+Practice-112,,,还好！我们安全通过了哟！,,
+Practice-121,,,"小新同志！
+基础引导就到此结束了哟！",,
+Practice-122,,,"还想再复习的话！
+可以去系统界面来找我哟！
+                      加油！加油！加油！",,
+Guide-1-1,,,"小新同志！
+恭喜你完成了基础引导！
+接下来我们去玩闯关模式吧！",,
+Guide-1-11,,,"闯关模式有各种风格的场景！
+每个场景各有5个关卡哟！
+我们先进1-1关卡熟悉一下吧！",,
+Guide-1-21,,,"闯关主要是收集3个星星！
+集齐可获得三星通关奖励哟！",,
+Guide-1-31,,,"开战前可额外准备！
+但这次我们暂不需要！
+直接奔跑吧小新同志哟！",,
+Guide-11-1,,,"小新同志！
+恭喜你解锁了抽奖系统！
+接下来我们去试试抽奖！
+让我们先返回主界面去吧！",,
+Guide-11-11,,,"抽奖系统界面已开启了！
+让我们点击进去尝试看看吧！",,
+Guide-11-21,,,"现在可以进行抽奖了！
+让我们来看看能抽到什么！
+新角色 ？ 金玉 ？ 钱币 ？",,
+Guide-11-41,,,"恭喜小新同志获得新角色哟！
+虽然角色扮演系统还没开放！
+但我们可以再试试抽奖呢！
+抽完就继续闯关模式吧！",,
+Guide-21-1,,,"小新同志！
+恭喜你解锁了角色扮演系统！
+接下来可以替换新角色了！
+让我们先返回主界面去吧！",,
+Guide-21-11,,,"角色扮演系统界面已开启了！
+让我们点击进去看看有啥吧！",,
+Guide-21-21,,,"现在可以选择新角色了！
+让我们选择新角色出战！
+然后继续闯关奔跑吧！",,
+Guide-31-1,,,"小新同志！
+恭喜你解锁了无尽旅程！
+接下来可以体验新玩法了！
+让我们先返回主界面去吧！",,
+Guide-31-11,,,"无尽旅程系统界面已开启了！
+让我们点击进去体验一下吧！",,
+Guide-31-21,,,"无尽旅程可以无限奔跑！
+里面充满许多未知的挑战！
+虽然闯关模式我们还未熟悉完！
+但还是可以先体验一下的哟！",,
+Info-diamond,,,金玉的对应的内容说明,,
+Info-coin,,,钱币的对应的内容说明,,
+Info-exp,,,经验的对应的内容说明,,
+Info-bike-1,,,角色1的对应的内容说明,,
+Info-bike-2,,,角色2的对应的内容说明,,
+Info-bike-3,,,角色3的对应的内容说明,,
+Info-bike-4,,,角色4的对应的内容说明,,
+Info-bike-5,,,角色5的对应的内容说明,,
+Info-bike-6,,,角色6的对应的内容说明,,
+Info-bike-7,,,角色7的对应的内容说明,,
+Info-bike-8,,,角色8的对应的内容说明,,
+Info-bike-9,,,角色9的对应的内容说明,,
+Info-bike-10,,,角色10的对应的内容说明,,
+Info-bike-11,,,角色11的对应的内容说明,,
+Info-bike-12,,,角色12的对应的内容说明,,
+Info-bike-13,,,角色13的对应的内容说明,,
+Info-bike-14,,,角色14的对应的内容说明,,
+Info-bike-15,,,角色15的对应的内容说明,,
+Info-bike-16,,,角色16的对应的内容说明,,
+Info-bike-17,,,角色17的对应的内容说明,,
+Info-bike-18,,,角色18的对应的内容说明,,
+Info-bike-19,,,角色19的对应的内容说明,,
+Info-bike-20,,,角色20的对应的内容说明,,
+Info-bike-21,,,角色21的对应的内容说明,,
+Info-bike-22,,,角色22的对应的内容说明,,
+Info-bike-23,,,角色23的对应的内容说明,,
+Info-bike-24,,,角色24的对应的内容说明,,
+Info-bike-25,,,角色25的对应的内容说明,,
+Info-bike-26,,,角色26的对应的内容说明,,
+Info-bike-27,,,角色27的对应的内容说明,,
+Info-bike-28,,,角色28的对应的内容说明,,
+Info-bike-29,,,角色29的对应的内容说明,,
+Info-bike-30,,,角色30的对应的内容说明,,
+Info-bike-31,,,角色31的对应的内容说明,,
+Info-bike-32,,,角色32的对应的内容说明,,
+Info-bike-33,,,角色33的对应的内容说明,,
+Info-bike-34,,,角色34的对应的内容说明,,
+Info-bike-35,,,角色35的对应的内容说明,,
+Info-bike-36,,,角色36的对应的内容说明,,
+Info-item-1,,,减速道具的内容说明,,
+Info-item-2,,,削弱跳跃道具的内容说明,,
+Info-item-3,,,遮挡视线道具的内容说明,,
+Info-item-4,,,束缚道具的内容说明,,
+Info-item-5,,,封印道具的内容说明,,
+Info-item-6,,,落雷道具的内容说明,,
+Info-item-7,,,炸弹道具的内容说明,,
+Info-item-101,,,加速道具的内容说明,,
+Info-item-102,,,强化跳跃道具的内容说明,,
+Info-item-103,,,无限跳跃道具的内容说明,,
+Info-item-104,,,磁铁道具的内容说明,,
+Info-item-105,,,无敌道具的内容说明,,
+Info-item-106,,,超级无敌冲刺道具的内容说明,,
