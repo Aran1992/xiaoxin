@@ -14476,27 +14476,27 @@ Config.slowFallingCoeffient = 0.75;
 Config.abilityList = [
     {
         id: "TripleJump",
-        name: "三段跳",
-        dsc: "三段跳",
-        icon: "images/loading/anim_load01.png",
+        name: "name-TripleJump",
+        dsc: "dsc-TripleJump",
+        icon: "images/special_skill/special_skill-1.png",
     },
     {
         id: "FourJump",
-        name: "四段跳",
-        dsc: "四段跳",
-        icon: "images/loading/anim_load02.png",
+        name: "name-FourJump",
+        dsc: "dsc-FourJump",
+        icon: "images/special_skill/special_skill-2.png",
     },
     {
         id: "Rotate",
-        name: "旋转",
-        dsc: "旋转",
-        icon: "images/loading/anim_load03.png",
+        name: "name-Rotate",
+        dsc: "dsc-Rotate",
+        icon: "images/special_skill/special_skill-11.png",
     },
     {
         id: "SlowFalling",
-        name: "缓降",
-        dsc: "缓降",
-        icon: "images/loading/anim_load04.png",
+        name: "name-SlowFalling",
+        dsc: "dsc-SlowFalling",
+        icon: "images/special_skill/special_skill-21.png",
     },
 ];
 
