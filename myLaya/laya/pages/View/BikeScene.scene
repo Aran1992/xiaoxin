@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":375,
-    "selecteID":380,
+    "selectedBox":364,
+    "selecteID":365,
     "searchKey":"Scene",
     "referenceLines":[
         ],
@@ -382,7 +382,7 @@
                     "x":30,
                     "type":"Label",
                     "searchKey":"Label,bikeNameText",
-                    "props":{"var":"bikeNameText","top":40,"text":"角色名称","strokeColor":"#000000","stroke":1,"leading":5,"fontSize":30,"color":"#000000","centerX":0},
+                    "props":{"var":"bikeNameText","valign":"top","top":30,"text":"角色名称","strokeColor":"#6a2a0c","stroke":1,"leading":5,"fontSize":30,"color":"#6a2a0c","centerX":0},
                     "nodeParent":364,
                     "label":"bikeNameText",
                     "isDirectory":false,
@@ -395,10 +395,10 @@
                 {
                     "x":30,
                     "type":"Label",
-                    "searchKey":"Label",
-                    "props":{"text":"角色形象介绍说明","strokeColor":"#000000","stroke":1,"leading":5,"fontSize":30,"color":"#000000","centerX":0,"bottom":40},
+                    "searchKey":"Label,bikeDscText",
+                    "props":{"var":"bikeDscText","text":"角色形象介绍说明","strokeColor":"#6a2a0c","stroke":1,"leading":5,"fontSize":30,"color":"#6a2a0c","centerX":0,"bottom":40},
                     "nodeParent":364,
-                    "label":"Label",
+                    "label":"bikeDscText",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
@@ -410,17 +410,16 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"width":430,"top":100,"skin":"images/bg-431.png","left":20},
+                    "props":{"width":430,"top":80,"skin":"images/bg-431.png","left":20},
                     "nodeParent":364,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":367,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-speed.png","left":20,"centerY":0},
@@ -436,7 +435,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/speed-21.png","left":70,"centerY":0},
@@ -452,7 +450,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,velocityLevelIcon",
                             "props":{"y":0,"var":"velocityLevelIcon","skin":"images/skill-star-1.png","right":20,"centerY":0},
@@ -473,17 +470,16 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"x":0,"width":430,"top":155,"skin":"images/bg-431.png","left":20},
+                    "props":{"width":430,"top":135,"skin":"images/bg-431.png","left":20},
                     "nodeParent":364,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":371,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-jump.png","left":20,"centerY":0},
@@ -499,7 +495,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/jump-21.png","left":70,"centerY":0},
@@ -515,7 +510,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,jumpLevelIcon",
                             "props":{"y":0,"var":"jumpLevelIcon","skin":"images/skill-star-1.png","right":20,"centerY":0},
@@ -536,17 +530,16 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"x":0,"width":430,"top":210,"skin":"images/bg-432.png","left":20},
+                    "props":{"width":430,"top":190,"skin":"images/bg-432.png","left":20},
                     "nodeParent":364,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":375,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-skill.png","left":20,"centerY":0},
@@ -562,7 +555,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/skill-21.png","left":70,"centerY":0},
@@ -578,7 +570,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,specialIcon0",
                             "props":{"var":"specialIcon0","skin":"images/icon-skill.png","left":230,"centerY":2},
@@ -594,7 +585,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,specialIcon1",
                             "props":{"var":"specialIcon1","skin":"images/icon-skill.png","left":300,"centerY":2},
@@ -610,7 +600,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,specialIcon2",
                             "props":{"var":"specialIcon2","skin":"images/icon-skill.png","left":370,"centerY":2},
@@ -631,17 +620,16 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"x":0,"width":430,"top":265,"skin":"images/bg-432.png","left":20},
+                    "props":{"width":430,"top":245,"skin":"images/bg-432.png","left":20},
                     "nodeParent":364,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":381,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-level.png","scaleY":0.65,"scaleX":0.65,"left":20,"centerY":0},
@@ -657,7 +645,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/level-21.png","left":70,"centerY":0},
@@ -673,7 +660,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -686,7 +672,6 @@
                             "compId":384,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Label",
                                     "searchKey":"Label,levelText",
                                     "props":{"var":"levelText","text":"999","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -707,17 +692,16 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"x":0,"width":430,"top":320,"skin":"images/bg-432.png","left":20},
+                    "props":{"width":430,"top":300,"skin":"images/bg-432.png","left":20},
                     "nodeParent":364,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":386,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-metre.png","scaleY":0.5,"scaleX":0.5,"left":15,"centerY":0},
@@ -733,7 +717,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/distance-21.png","left":70,"centerY":0},
@@ -749,7 +732,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -762,7 +744,6 @@
                             "compId":389,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Label",
                                     "searchKey":"Label,distancePercentText",
                                     "props":{"y":0,"x":0,"var":"distancePercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -783,17 +764,16 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"x":0,"width":430,"top":375,"skin":"images/bg-432.png","left":20},
+                    "props":{"width":430,"top":355,"skin":"images/bg-432.png","left":20},
                     "nodeParent":364,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":391,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/levelbg_s.png","scaleY":0.2,"scaleX":0.2,"left":20,"centerY":0},
@@ -809,7 +789,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/exp-21.png","left":70,"centerY":0},
@@ -825,7 +804,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -838,7 +816,6 @@
                             "compId":394,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Label",
                                     "searchKey":"Label,expPercentText",
                                     "props":{"y":0,"x":0,"var":"expPercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -859,17 +836,16 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"x":0,"width":430,"top":430,"skin":"images/bg-432.png","left":20},
+                    "props":{"width":430,"top":410,"skin":"images/bg-432.png","left":20},
                     "nodeParent":364,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":396,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-coin.png","scaleY":0.25,"scaleX":0.25,"left":20,"centerY":0},
@@ -885,7 +861,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/coin-21.png","left":70,"centerY":0},
@@ -901,7 +876,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -914,7 +888,6 @@
                             "compId":399,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Label",
                                     "searchKey":"Label,coinPercentText",
                                     "props":{"y":0,"x":0,"var":"coinPercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -935,17 +908,16 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"x":0,"width":430,"top":485,"skin":"images/bg-432.png","left":20},
+                    "props":{"width":430,"top":465,"skin":"images/bg-432.png","left":20},
                     "nodeParent":364,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":401,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-mark.png","scaleY":0.5,"scaleX":0.5,"left":20,"centerY":0},
@@ -961,7 +933,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/english/totalScore-21.png","left":70,"centerY":0},
@@ -977,7 +948,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -990,7 +960,6 @@
                             "compId":404,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Label",
                                     "searchKey":"Label,scorePercentText",
                                     "props":{"y":0,"x":0,"var":"scorePercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -1016,13 +985,14 @@
             "props":{"visible":true,"var":"upgradePanel","skin":"images/bg-461.png","left":65,"bottom":28},
             "nodeParent":1,
             "label":"upgradePanel",
-            "isOpen":false,
+            "isOpen":true,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":68,
             "child":[
                 {
+                    "x":30,
                     "type":"Panel",
                     "searchKey":"Panel,upgradeList",
                     "props":{"width":570,"var":"upgradeList","top":10,"scaleY":0.79,"scaleX":0.79,"left":10,"height":480},
@@ -1575,6 +1545,7 @@
                         }]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,lvLimitPanel",
                     "props":{"width":360,"visible":false,"var":"lvLimitPanel","top":496,"skin":"images/button-42.png","sizeGrid":"50,50,50,50","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":55,"height":85},
@@ -1603,6 +1574,7 @@
                     "$HIDDEN":false
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,upgradeButton",
                     "props":{"width":220,"var":"upgradeButton","top":496,"skin":"images/button-41.png","sizeGrid":"50,50,50,50","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":125,"height":120},
@@ -1686,6 +1658,7 @@
                     "$HIDDEN":false
                 },
                 {
+                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,upgradeTimesLabel",
                     "props":{"var":"upgradeTimesLabel","top":436,"text":"已升级99次","strokeColor":"#6a2a0c","stroke":8,"left":133,"fontSize":40,"color":"#ffffff"},
@@ -1933,20 +1906,6 @@
                     "$HIDDEN":false
                 }],
             "$HIDDEN":false
-        },
-        {
-            "x":15,
-            "type":"Label",
-            "searchKey":"Label,bikeDscText",
-            "props":{"y":1100,"x":-55,"var":"bikeDscText","text":"12345678901234567890","leading":5,"fontSize":25,"color":"#000000","centerX":-556,"bottom":-410},
-            "nodeParent":1,
-            "label":"bikeDscText",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":51,
-            "child":[
-                ]
         },
         {
             "x":15,

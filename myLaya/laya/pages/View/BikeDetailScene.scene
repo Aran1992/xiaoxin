@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":60,
-    "selecteID":65,
+    "selectedBox":49,
+    "selecteID":51,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
@@ -74,7 +74,7 @@
                             "x":45,
                             "type":"Label",
                             "searchKey":"Label,bikeNameText",
-                            "props":{"var":"bikeNameText","top":40,"text":"角色名称","strokeColor":"#000000","stroke":1,"leading":5,"fontSize":30,"color":"#000000","centerX":0},
+                            "props":{"var":"bikeNameText","top":40,"text":"角色名称","strokeColor":"#6a2a0c","stroke":1,"leading":5,"fontSize":30,"color":"#6a2a0c","centerX":0},
                             "nodeParent":49,
                             "label":"bikeNameText",
                             "isDirectory":false,
@@ -88,7 +88,7 @@
                             "x":45,
                             "type":"Label",
                             "searchKey":"Label,bikeDscText",
-                            "props":{"var":"bikeDscText","text":"角色形象介绍说明","strokeColor":"#000000","stroke":1,"leading":5,"fontSize":30,"color":"#000000","centerX":0,"bottom":40},
+                            "props":{"var":"bikeDscText","text":"角色形象介绍说明","strokeColor":"#6a2a0c","stroke":1,"leading":5,"fontSize":30,"color":"#6a2a0c","centerX":0,"bottom":35},
                             "nodeParent":49,
                             "label":"bikeDscText",
                             "isDirectory":false,
@@ -102,17 +102,16 @@
                             "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"width":430,"top":100,"skin":"images/bg-431.png","left":20},
+                            "props":{"width":430,"top":90,"skin":"images/bg-431.png","left":20},
                             "nodeParent":49,
                             "label":"Image",
-                            "isOpen":true,
+                            "isOpen":false,
                             "isDirectory":true,
                             "isAniNode":true,
                             "hasChild":true,
                             "compId":52,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/icon-speed.png","left":20,"centerY":0},
@@ -128,7 +127,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/english/speed-21.png","left":70,"centerY":0},
@@ -144,7 +142,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,velocityLevelIcon",
                                     "props":{"y":0,"var":"velocityLevelIcon","skin":"images/skill-star-1.png","right":20,"centerY":0},
@@ -165,17 +162,16 @@
                             "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"x":0,"width":430,"top":155,"skin":"images/bg-431.png","left":20},
+                            "props":{"width":430,"top":145,"skin":"images/bg-431.png","left":20},
                             "nodeParent":49,
                             "label":"Image",
-                            "isOpen":true,
+                            "isOpen":false,
                             "isDirectory":true,
                             "isAniNode":true,
                             "hasChild":true,
                             "compId":56,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/icon-jump.png","left":20,"centerY":0},
@@ -191,7 +187,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/english/jump-21.png","left":70,"centerY":0},
@@ -207,7 +202,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,jumpLevelIcon",
                                     "props":{"y":0,"var":"jumpLevelIcon","skin":"images/skill-star-1.png","right":20,"centerY":0},
@@ -228,17 +222,16 @@
                             "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"x":0,"width":430,"top":210,"skin":"images/bg-432.png","left":20},
+                            "props":{"width":430,"top":200,"skin":"images/bg-432.png","left":20},
                             "nodeParent":49,
                             "label":"Image",
-                            "isOpen":true,
+                            "isOpen":false,
                             "isDirectory":true,
                             "isAniNode":true,
                             "hasChild":true,
                             "compId":60,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/icon-skill.png","left":20,"centerY":0},
@@ -254,7 +247,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/english/skill-21.png","left":70,"centerY":0},
@@ -270,7 +262,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,specialIcon0",
                                     "props":{"var":"specialIcon0","skin":"images/icon-skill.png","left":230,"centerY":2},
@@ -286,7 +277,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,specialIcon1",
                                     "props":{"var":"specialIcon1","skin":"images/icon-skill.png","left":300,"centerY":2},
@@ -302,7 +292,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,specialIcon2",
                                     "props":{"var":"specialIcon2","skin":"images/icon-skill.png","left":370,"centerY":2},
@@ -323,17 +312,16 @@
                             "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"x":0,"width":430,"top":265,"skin":"images/bg-432.png","left":20},
+                            "props":{"width":430,"top":255,"skin":"images/bg-432.png","left":20},
                             "nodeParent":49,
                             "label":"Image",
-                            "isOpen":true,
+                            "isOpen":false,
                             "isDirectory":true,
                             "isAniNode":true,
                             "hasChild":true,
                             "compId":66,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/icon-level.png","scaleY":0.65,"scaleX":0.65,"left":16,"centerY":0},
@@ -349,7 +337,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/english/level-21.png","left":70,"centerY":0},
@@ -365,7 +352,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -378,7 +364,6 @@
                                     "compId":69,
                                     "child":[
                                         {
-                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,levelText",
                                             "props":{"var":"levelText","text":"999","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -399,17 +384,16 @@
                             "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"x":0,"width":430,"top":320,"skin":"images/bg-432.png","left":20},
+                            "props":{"width":430,"top":310,"skin":"images/bg-432.png","left":20},
                             "nodeParent":49,
                             "label":"Image",
-                            "isOpen":true,
+                            "isOpen":false,
                             "isDirectory":true,
                             "isAniNode":true,
                             "hasChild":true,
                             "compId":71,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/icon-metre.png","scaleY":0.5,"scaleX":0.5,"left":15,"centerY":0},
@@ -425,7 +409,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/english/distance-21.png","left":70,"centerY":0},
@@ -441,7 +424,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -454,7 +436,6 @@
                                     "compId":74,
                                     "child":[
                                         {
-                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,distancePercentText",
                                             "props":{"y":0,"x":0,"var":"distancePercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -475,17 +456,16 @@
                             "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"x":0,"width":430,"top":375,"skin":"images/bg-432.png","left":20},
+                            "props":{"width":430,"top":365,"skin":"images/bg-432.png","left":20},
                             "nodeParent":49,
                             "label":"Image",
-                            "isOpen":true,
+                            "isOpen":false,
                             "isDirectory":true,
                             "isAniNode":true,
                             "hasChild":true,
                             "compId":76,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/levelbg_s.png","scaleY":0.2,"scaleX":0.2,"left":20,"centerY":0},
@@ -501,7 +481,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/english/exp-21.png","left":70,"centerY":0},
@@ -517,7 +496,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -530,7 +508,6 @@
                                     "compId":79,
                                     "child":[
                                         {
-                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,expPercentText",
                                             "props":{"y":0,"x":0,"var":"expPercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -551,17 +528,16 @@
                             "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"x":0,"width":430,"top":430,"skin":"images/bg-432.png","left":20},
+                            "props":{"width":430,"top":420,"skin":"images/bg-432.png","left":20},
                             "nodeParent":49,
                             "label":"Image",
-                            "isOpen":true,
+                            "isOpen":false,
                             "isDirectory":true,
                             "isAniNode":true,
                             "hasChild":true,
                             "compId":81,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/icon-coin.png","scaleY":0.25,"scaleX":0.25,"left":20,"centerY":0},
@@ -577,7 +553,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/english/coin-21.png","left":70,"centerY":0},
@@ -593,7 +568,6 @@
                                     "$HIDDEN":false
                                 },
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"skin":"images/bg-372.png","right":20,"centerY":1},
@@ -606,7 +580,6 @@
                                     "compId":84,
                                     "child":[
                                         {
-                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,coinPercentText",
                                             "props":{"y":0,"x":0,"var":"coinPercentText","text":"999% > 999%","leading":5,"fontSize":30,"font":"font_303","color":"#000000","centerY":0,"centerX":0},
@@ -627,10 +600,10 @@
                             "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"x":0,"width":430,"top":485,"skin":"images/bg-432.png","left":20},
+                            "props":{"width":430,"top":475,"skin":"images/bg-432.png","left":20},
                             "nodeParent":49,
                             "label":"Image",
-                            "isOpen":true,
+                            "isOpen":false,
                             "isDirectory":true,
                             "isAniNode":true,
                             "hasChild":true,
