@@ -11751,7 +11751,6 @@ Config.guideAction = {
 Config.preparationRandomEffectList = {
     // 无尽模式
     endless: [
-        "Accelerate",
         "PowerJump",
         "UnlimitedJump",
         "Magnet",
@@ -11780,7 +11779,6 @@ Config.preparationRandomEffectList = {
         "UnlimitedJump",
         "Magnet",
         "Invincible",
-        "Sprint",
     ]
 };
 
@@ -11788,21 +11786,48 @@ Config.preparationRandomEffectList = {
 Config.preparationRandomBikeList = {
     // 无尽模式
     endless: [
-        21, 22, 23,
-        7, 42, 43,
-        3, 52, 25
+		21, 22, 23,
+		 7, 42, 43,
+		51, 53, 54,
+		21, 22, 23,
+		 7, 42, 43,
+		51, 53, 54,
+
+        19, 10, 12,
+         9, 24, 18,
+        14, 16, 17,
+         3, 52, 25,
+        34, 35, 36
     ],
     // 排名模式
     map: [
-        9, 24, 18,
+		21, 22, 23,
+		 7, 42, 43,
+		51, 53, 54,
+		21, 22, 23,
+		 7, 42, 43,
+		51, 53, 54,
+
+        19, 10, 12,
+         9, 24, 18,
         14, 16, 17,
-        3, 52, 25
+         3, 52, 25,
+        34, 35, 36
     ],
     // 闯关模式
     gameLevel: [
-        21, 22, 23,
-        7, 42, 43,
-        3, 52, 25
+		21, 22, 23,
+		 7, 42, 43,
+		51, 53, 54,
+		21, 22, 23,
+		 7, 42, 43,
+		51, 53, 54,
+
+        19, 10, 12,
+         9, 24, 18,
+        14, 16, 17,
+         3, 52, 25,
+        34, 35, 36
     ]
 };
 
@@ -12814,185 +12839,185 @@ Config.drawWeightList = [
     {
         "type": "bike",
         "id": 0,
-        "weight": 10
+        "weight": 8000
     },
     {
         "type": "bike",
         "id": 1,
-        "weight": 10
+        "weight": 8000
     },
     {
         "type": "bike",
         "id": 4,
-        "weight": 10
+        "weight": 8000
     },
     {
         "type": "bike",
         "id": 11,
-        "weight": 10
+        "weight": 8000
     },
     {
         "type": "bike",
         "id": 13,
-        "weight": 10
+        "weight": 8000
     },
     {
         "type": "bike",
         "id": 15,
-        "weight": 10
+        "weight": 8000
     },
     {
         "type": "bike",
         "id": 2,
-        "weight": 10
+        "weight": 5000
     },
     {
         "type": "bike",
         "id": 5,
-        "weight": 10
+        "weight": 5000
     },
     {
         "type": "bike",
         "id": 6,
-        "weight": 10
+        "weight": 5000
     },
     {
         "type": "bike",
         "id": 20,
-        "weight": 10
+        "weight": 5000
     },
     {
         "type": "bike",
         "id": 8,
-        "weight": 10
+        "weight": 5000
     },
     {
         "type": "bike",
         "id": 41,
-        "weight": 10
+        "weight": 5000
     },
     {
         "type": "bike",
         "id": 21,
-        "weight": 10
+        "weight": 2223
     },
     {
         "type": "bike",
         "id": 22,
-        "weight": 10
+        "weight": 2223
     },
     {
         "type": "bike",
         "id": 23,
-        "weight": 10
+        "weight": 2222
     },
     {
         "type": "bike",
         "id": 7,
-        "weight": 10
+        "weight": 2222
     },
     {
         "type": "bike",
         "id": 42,
-        "weight": 10
+        "weight": 2222
     },
     {
         "type": "bike",
         "id": 43,
-        "weight": 10
+        "weight": 2222
     },
     {
         "type": "bike",
         "id": 51,
-        "weight": 10
+        "weight": 2222
     },
     {
         "type": "bike",
         "id": 53,
-        "weight": 10
+        "weight": 2222
     },
     {
         "type": "bike",
         "id": 54,
-        "weight": 10
+        "weight": 2222
     },
     {
         "type": "bike",
         "id": 19,
-        "weight": 10
+        "weight": 134
     },
     {
         "type": "bike",
         "id": 10,
-        "weight": 10
+        "weight": 134
     },
     {
         "type": "bike",
         "id": 12,
-        "weight": 10
+        "weight": 134
     },
     {
         "type": "bike",
         "id": 9,
-        "weight": 10
+        "weight": 134
     },
     {
         "type": "bike",
         "id": 24,
-        "weight": 10
+        "weight": 134
     },
     {
         "type": "bike",
         "id": 18,
-        "weight": 10
+        "weight": 133
     },
     {
         "type": "bike",
         "id": 14,
-        "weight": 10
+        "weight": 133
     },
     {
         "type": "bike",
         "id": 16,
-        "weight": 10
+        "weight": 133
     },
     {
         "type": "bike",
         "id": 17,
-        "weight": 10
+        "weight": 133
     },
     {
         "type": "bike",
         "id": 3,
-        "weight": 10
+        "weight": 133
     },
     {
         "type": "bike",
         "id": 52,
-        "weight": 10
+        "weight": 133
+    },
+    {
+        "type": "bike",
+        "id": 25,
+        "weight": 133
     },
     {
         "type": "bike",
         "id": 34,
-        "weight": 10
+        "weight": 133
     },
     {
         "type": "bike",
         "id": 35,
-        "weight": 10
-    },
-    {
-        "type": "bike",
-        "id": 36,
-        "weight": 10
+        "weight": 133
     },
     {
         // 自行车奖励
         "type": "bike",
         // 自行车ID
-        "id": 25,
+        "id": 36,
         // 随机权重
-        "weight": 10
+        "weight": 133
     },
     {
         // 金币奖励
@@ -13000,7 +13025,7 @@ Config.drawWeightList = [
         // 数量
         "number": 5000,
         // 随机权重
-        "weight": 10
+        "weight": 20000
     },
     {
         // 钻石奖励
@@ -13008,7 +13033,7 @@ Config.drawWeightList = [
         // 数量
         "number": 75,
         // 随机权重
-        "weight": 10
+        "weight": 5000
     },
 ];
 
