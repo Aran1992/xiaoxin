@@ -6592,25 +6592,25 @@ Config.infoScene = {
         // 名称
         name: "Coin",
         // 描述
-        dsc: "Coin"
+        dsc: "dsc-Coin"
     },
     // 钻石
     diamond: {
         texture: "myLaya/laya/assets/images/icon-diamond.png",
         name: "Diamond",
-        dsc: "Diamond"
+        dsc: "dsc-Diamond"
     },
     // 经验
     exp: {
         texture: "myLaya/laya/assets/images/icon-exp.png",
         name: "Exp",
-        dsc: "Exp"
+        dsc: "dsc-Exp"
     },
     // 子弹时间最大值
     bulletTimeMaxValue: {
         texture: "myLaya/laya/assets/images/bullet-time-slot.png",
-        name: "Exp",
-        dsc: "Exp"
+        name: "bulletTime",
+        dsc: "dsc-bulletTime"
     },
 };
 
