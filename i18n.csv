@@ -396,7 +396,7 @@ SystemUnlockTitle3,,,排行 解锁,,
 SystemUnlockTitle4,,,家园 解锁,,
 SystemUnlockTitle5,,,无尽旅程 解锁,,
 SystemUnlockTitle6,,,角色扮演 解锁,,
-SystemUnlockTitle7,,,能力 解锁,,
+SystemUnlockTitle7,,,角色能力 解锁,,
 SystemUnlockTitle11,,,签到 解锁,,
 SystemUnlockTitle12,,,礼包 解锁,,
 SystemUnlockTitle13,,,福利 解锁,,
@@ -413,7 +413,7 @@ SystemUnlockDescribe5,,,"恭喜玩家大人
 SystemUnlockDescribe6,,,"恭喜玩家大人
 将角色扮演解锁了",,
 SystemUnlockDescribe7,,,"恭喜玩家大人
-将能力解锁了",,
+将角色能力解锁了",,
 SystemUnlockDescribe11,,,"恭喜玩家大人
 将签到解锁了",,
 SystemUnlockDescribe12,,,"恭喜玩家大人
@@ -892,6 +892,17 @@ Guide-61-21,,,"现在可以领取礼包了！
 Guide-61-31,,,"小新同志！
 点击免费领取就可以了！
 走过路过可不要错过哟！",,
+Guide-71-1,,,"小新同志！
+恭喜你解锁角色能力系统！
+接下来可以提升角色能力了！
+让我们先返回主界面去吧！",,
+Guide-71-16,,,"角色能力系统界面已开启了！
+让我们点击进去提升看看吧！",,
+Guide-71-21,,,"角色能力在这里点击！
+就能从属性切换到能力哟！",,
+Guide-71-31,,,"角色能力主要进行道具加时！
+每次会随机选取一种道具加时！
+升级越高所需消耗钱币越多哟！",,
 Info-diamond,,,金玉的对应的内容说明,,
 Info-coin,,,钱币的对应的内容说明,,
 Info-exp,,,经验的对应的内容说明,,
