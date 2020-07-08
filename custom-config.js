@@ -11885,9 +11885,9 @@ Config.signRewardList = [
     {bike: 2},
     {coin: 10000},
     {diamond: 300},
-    {bike: 51},
+    {bike: 20},
     {coin: 15000},
-    {bike: 3, coin: 20000, diamond: 400},
+    {bike: 7, coin: 20000, diamond: 400},
 ];
 
 // 每天广告扭蛋的次数
@@ -12110,6 +12110,7 @@ Config.gameLevelMode = {
                 "myLaya/laya/pages/Map/Map-1-4.scene.json",
                 "myLaya/laya/pages/Map/Map-1-5.scene.json",
             ],
+            // 每一关的三星通关奖励
             rewardList: [
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
@@ -12174,12 +12175,13 @@ Config.gameLevelMode = {
                 "myLaya/laya/pages/Map/Map-2-4.scene.json",
                 "myLaya/laya/pages/Map/Map-2-5.scene.json",
             ],
+            // 每一关的三星通关奖励
             rewardList: [
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
-                {bike: 2, diamond: 20},
+                {bike: 13, diamond: 20},
             ],
         },
         {
@@ -12238,12 +12240,13 @@ Config.gameLevelMode = {
                 "myLaya/laya/pages/Map/Map-3-4.scene.json",
                 "myLaya/laya/pages/Map/Map-3-5.scene.json",
             ],
+            // 每一关的三星通关奖励
             rewardList: [
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
-                {bike: 20, diamond: 20},
+                {bike: 15, diamond: 20},
             ],
         },
         {
@@ -12302,12 +12305,13 @@ Config.gameLevelMode = {
                 "myLaya/laya/pages/Map/Map-4-4.scene.json",
                 "myLaya/laya/pages/Map/Map-4-5.scene.json",
             ],
+            // 每一关的三星通关奖励
             rewardList: [
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
-                {bike: 21, diamond: 20},
+                {bike: 5, diamond: 20},
             ],
         },
         {
@@ -12366,12 +12370,13 @@ Config.gameLevelMode = {
                 "myLaya/laya/pages/Map/Map-5-4.scene.json",
                 "myLaya/laya/pages/Map/Map-5-5.scene.json",
             ],
+            // 每一关的三星通关奖励
             rewardList: [
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
                 {coin: 1000, diamond: 20},
-                {bike: 7, diamond: 20},
+                {bike: 6, diamond: 20},
             ],
         },
 //卡6        {
@@ -12431,6 +12436,7 @@ Config.gameLevelMode = {
 //卡6                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡6                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡6            ],
+//卡6            // 每一关的三星通关奖励
 //卡6            rewardList: [
 //卡6                {coin: 1000, 	diamond: 20},
 //卡6                {coin: 1000, 	diamond: 20},
@@ -12496,6 +12502,7 @@ Config.gameLevelMode = {
 //卡7                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡7                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡7            ],
+//卡7            // 每一关的三星通关奖励
 //卡7            rewardList: [
 //卡7                {coin: 1000, 	diamond: 20},
 //卡7                {coin: 1000, 	diamond: 20},
@@ -12561,6 +12568,7 @@ Config.gameLevelMode = {
 //卡8                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡8                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡8            ],
+//卡8            // 每一关的三星通关奖励
 //卡8            rewardList: [
 //卡8                {coin: 1000, 	diamond: 20},
 //卡8                {coin: 1000, 	diamond: 20},
@@ -12626,6 +12634,7 @@ Config.gameLevelMode = {
 //卡9                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡9                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡9            ],
+//卡9            // 每一关的三星通关奖励
 //卡9            rewardList: [
 //卡9                {coin: 1000, 	diamond: 20},
 //卡9                {coin: 1000, 	diamond: 20},
@@ -12691,6 +12700,7 @@ Config.gameLevelMode = {
 //卡10                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡10                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡10            ],
+//卡10            // 每一关的三星通关奖励
 //卡10            rewardList: [
 //卡10                {coin: 1000, 	diamond: 20},
 //卡10                {coin: 1000, 	diamond: 20},
@@ -12756,6 +12766,7 @@ Config.gameLevelMode = {
 //卡11                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡11                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡11            ],
+//卡11            // 每一关的三星通关奖励
 //卡11            rewardList: [
 //卡11                {coin: 1000, 	diamond: 20},
 //卡11                {coin: 1000, 	diamond: 20},
@@ -12821,6 +12832,7 @@ Config.gameLevelMode = {
 //卡12                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡12                "myLaya/laya/pages/Map/Map-1-3.scene.json",
 //卡12            ],
+//卡12            // 每一关的三星通关奖励
 //卡12            rewardList: [
 //卡12                {coin: 1000, 	diamond: 20},
 //卡12                {coin: 1000, 	diamond: 20},
@@ -12832,9 +12844,10 @@ Config.gameLevelMode = {
     ],
 };
 
-Config.firstDrawBikeID = 1;
+// 首次抽奖引导送固定自行车
+Config.firstDrawBikeID = 11;
 
-// 抽奖相关配置
+// 抽奖的奖励内容、数量、几率配置
 Config.drawWeightList = [
     {
         "type": "bike",
@@ -13987,6 +14000,7 @@ Config.resolveAnimation = {
     },
 };
 
+// 角色能力星星表现（速度、跳跃力）
 Config.levelIconTable = {
     0: "myLaya/laya/assets/images/skill-star-1.png",
     1: "myLaya/laya/assets/images/skill-star-2.png",
