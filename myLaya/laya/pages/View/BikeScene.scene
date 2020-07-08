@@ -1,14 +1,14 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":364,
-    "selecteID":365,
+    "selectedBox":415,
+    "selecteID":418,
     "searchKey":"Scene",
     "referenceLines":[
         ],
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
-    "maxID":420,
+    "maxID":421,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -372,14 +372,13 @@
             "props":{"var":"propPanel","skin":"images/bg-461.png","left":65,"bottom":28},
             "nodeParent":1,
             "label":"propPanel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":364,
             "child":[
                 {
-                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,bikeNameText",
                     "props":{"var":"bikeNameText","valign":"top","top":30,"text":"角色名称","strokeColor":"#6a2a0c","stroke":1,"leading":5,"fontSize":30,"color":"#6a2a0c","centerX":0},
@@ -393,7 +392,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,bikeDscText",
                     "props":{"var":"bikeDscText","text":"角色形象介绍说明","strokeColor":"#6a2a0c","stroke":1,"leading":5,"fontSize":30,"color":"#6a2a0c","centerX":0,"bottom":40},
@@ -407,7 +405,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":430,"top":80,"skin":"images/bg-431.png","left":20},
@@ -467,7 +464,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":430,"top":135,"skin":"images/bg-431.png","left":20},
@@ -527,7 +523,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":430,"top":190,"skin":"images/bg-432.png","left":20},
@@ -617,7 +612,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":430,"top":245,"skin":"images/bg-432.png","left":20},
@@ -689,7 +683,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":430,"top":300,"skin":"images/bg-432.png","left":20},
@@ -761,7 +754,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":430,"top":355,"skin":"images/bg-432.png","left":20},
@@ -833,7 +825,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":430,"top":410,"skin":"images/bg-432.png","left":20},
@@ -905,7 +896,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":430,"top":465,"skin":"images/bg-432.png","left":20},
@@ -985,14 +975,13 @@
             "props":{"visible":true,"var":"upgradePanel","skin":"images/bg-461.png","left":65,"bottom":28},
             "nodeParent":1,
             "label":"upgradePanel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":68,
             "child":[
                 {
-                    "x":30,
                     "type":"Panel",
                     "searchKey":"Panel,upgradeList",
                     "props":{"width":570,"var":"upgradeList","top":10,"scaleY":0.79,"scaleX":0.79,"left":10,"height":480},
@@ -1545,7 +1534,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,lvLimitPanel",
                     "props":{"width":360,"visible":false,"var":"lvLimitPanel","top":496,"skin":"images/button-42.png","sizeGrid":"50,50,50,50","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":55,"height":85},
@@ -1574,7 +1562,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,upgradeButton",
                     "props":{"width":220,"var":"upgradeButton","top":496,"skin":"images/button-41.png","sizeGrid":"50,50,50,50","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":125,"height":120},
@@ -1658,7 +1645,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Label",
                     "searchKey":"Label,upgradeTimesLabel",
                     "props":{"var":"upgradeTimesLabel","top":436,"text":"已升级99次","strokeColor":"#6a2a0c","stroke":8,"left":133,"fontSize":40,"color":"#ffffff"},
@@ -1952,7 +1938,7 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image",
-                    "props":{"skin":"images/show-191.png","centerY":0,"centerX":-280},
+                    "props":{"skin":"images/show-191.png","centerY":-10,"centerX":-280},
                     "nodeParent":415,
                     "label":"Image",
                     "isOpen":true,
@@ -1967,7 +1953,7 @@
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image,手指点击动画",
-                    "props":{"top":155,"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerX":355},
+                    "props":{"top":155,"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerX":390},
                     "nodeParent":415,
                     "label":"手指点击动画",
                     "isOpen":true,
@@ -1975,6 +1961,21 @@
                     "isAniNode":true,
                     "hasChild":false,
                     "compId":419,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,手指点击动画",
+                    "props":{"width":140,"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"rotation":-45,"name":"手指点击动画","height":144,"centerX":410,"bottom":-60},
+                    "nodeParent":415,
+                    "label":"手指点击动画",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":420,
                     "child":[
                         ]
                 }],
