@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":131,
-    "selecteID":168,
+    "selectedBox":284,
+    "selecteID":293,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
-    "maxID":284,
+    "maxID":296,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -89,14 +89,13 @@
             "props":{"width":540,"var":"tab","top":170,"height":60,"centerX":0},
             "nodeParent":1,
             "label":"tab",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":24,
             "child":[
                 {
-                    "x":30,
                     "type":"Panel",
                     "searchKey":"Panel,radio",
                     "props":{"width":256,"var":"radio","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":0,"height":60,"centerY":0},
@@ -109,7 +108,6 @@
                     "compId":13,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,common",
                             "props":{"width":256,"skin":"images/button-52.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"common","height":60},
@@ -123,7 +121,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,selected",
                             "props":{"width":256,"visible":false,"skin":"images/button-51.png","name":"selected","height":60},
@@ -138,7 +135,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,tab1Image",
                             "props":{"skin":"images/english/Diamond.png","name":"tab1Image","centerY":-2,"centerX":0},
@@ -153,7 +149,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,tab2Image",
                             "props":{"skin":"images/english/Gold.png","name":"tab2Image","centerY":-2,"centerX":0},
@@ -168,7 +163,6 @@
                             "$HIDDEN":false
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image,redPoint",
                             "props":{"top":-20,"skin":"images/redPoint.png","scaleY":1.5,"scaleX":1.5,"right":-15,"name":"redPoint"},
@@ -193,14 +187,13 @@
             "props":{"var":"goldPanel","top":240,"right":0,"left":0,"bottom":10},
             "nodeParent":1,
             "label":"goldPanel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":128,
             "child":[
                 {
-                    "x":30,
                     "type":"Panel",
                     "searchKey":"Panel,goldList",
                     "props":{"width":1090,"var":"goldList","top":30,"height":300,"centerX":0},
@@ -213,7 +206,6 @@
                     "compId":129,
                     "child":[
                         {
-                            "x":45,
                             "type":"Panel",
                             "searchKey":"Panel",
                             "props":{"width":280,"top":0,"left":0,"height":315},
@@ -226,7 +218,6 @@
                             "compId":130,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,goldItem",
                                     "props":{"width":255,"var":"goldItem","skin":"images/bg-222.png","sizeGrid":"50,50,50,50","height":305},
@@ -239,7 +230,6 @@
                                     "compId":131,
                                     "child":[
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image",
                                             "props":{"skin":"images/bg-371.png","centerX":0,"bottom":100},
@@ -252,7 +242,6 @@
                                             "compId":207,
                                             "child":[
                                                 {
-                                                    "x":90,
                                                     "type":"Label",
                                                     "searchKey":"Label,dsc",
                                                     "props":{"text":"somethingsomething","strokeColor":"#743617","stroke":1,"name":"dsc","fontSize":30,"color":"#743617","centerY":0,"centerX":0},
@@ -267,7 +256,6 @@
                                                 }]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,iconImage",
                                             "props":{"top":20,"skin":"images/icon-coin.png","scaleY":0.9,"scaleX":0.9,"name":"iconImage","centerX":0},
@@ -282,7 +270,6 @@
                                                 ]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,buyText",
                                             "props":{"width":195,"skin":"images/button-82.png","name":"buyText","height":60,"centerX":0,"bottom":20},
@@ -295,7 +282,6 @@
                                             "compId":140,
                                             "child":[
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"y":0,"x":0,"skin":"images/english/received-today.png","centerY":0,"centerX":0},
@@ -312,7 +298,6 @@
                                             "$HIDDEN":false
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,advertButton",
                                             "props":{"width":195,"skin":"images/button-81.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"advertButton","height":60,"centerX":0,"bottom":20},
@@ -325,7 +310,6 @@
                                             "compId":142,
                                             "child":[
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/advert.png","scaleY":0.5,"scaleX":0.5,"left":20,"centerY":0},
@@ -340,7 +324,6 @@
                                                         ]
                                                 },
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"y":0,"skin":"images/english/free-2.png","left":70,"centerY":0},
@@ -356,7 +339,6 @@
                                                 }]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,onlineText",
                                             "props":{"text":"on-line time","strokeColor":"#743617","stroke":1,"name":"onlineText","fontSize":25,"color":"#743617","centerX":0,"bottom":40},
@@ -383,14 +365,13 @@
             "props":{"var":"diamondPanel","top":240,"right":0,"left":0,"bottom":10},
             "nodeParent":1,
             "label":"diamondPanel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":145,
             "child":[
                 {
-                    "x":30,
                     "type":"Panel",
                     "searchKey":"Panel,diamondList",
                     "props":{"width":1090,"var":"diamondList","top":30,"height":300,"centerX":0},
@@ -403,7 +384,6 @@
                     "compId":146,
                     "child":[
                         {
-                            "x":45,
                             "type":"Panel",
                             "searchKey":"Panel",
                             "props":{"width":280,"top":0,"left":0,"height":315},
@@ -416,7 +396,6 @@
                             "compId":147,
                             "child":[
                                 {
-                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image,diamondItem",
                                     "props":{"width":255,"var":"diamondItem","skin":"images/bg-222.png","sizeGrid":"50,50,50,50","height":305},
@@ -429,7 +408,6 @@
                                     "compId":148,
                                     "child":[
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image",
                                             "props":{"skin":"images/bg-371.png","centerX":0,"bottom":100},
@@ -442,7 +420,6 @@
                                             "compId":202,
                                             "child":[
                                                 {
-                                                    "x":90,
                                                     "type":"Label",
                                                     "searchKey":"Label,dsc",
                                                     "props":{"text":"somethingsomething","strokeColor":"#743617","stroke":1,"name":"dsc","fontSize":30,"color":"#743617","centerY":0,"centerX":0},
@@ -457,7 +434,6 @@
                                                 }]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,iconImage",
                                             "props":{"top":20,"skin":"images/icon-diamond.png","scaleY":0.9,"scaleX":0.9,"name":"iconImage","centerX":0},
@@ -472,7 +448,6 @@
                                                 ]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,buyText",
                                             "props":{"width":195,"visible":true,"skin":"images/button-82.png","name":"buyText","height":60,"centerX":0,"bottom":20},
@@ -485,7 +460,6 @@
                                             "compId":151,
                                             "child":[
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/english/received-today.png","centerY":0,"centerX":0},
@@ -502,7 +476,6 @@
                                             "$HIDDEN":false
                                         },
                                         {
-                                            "x":75,
                                             "type":"Image",
                                             "searchKey":"Image,advertButton",
                                             "props":{"width":195,"skin":"images/button-81.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"advertButton","height":60,"centerX":0,"bottom":20},
@@ -515,7 +488,6 @@
                                             "compId":153,
                                             "child":[
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"skin":"images/advert.png","scaleY":0.5,"scaleX":0.5,"left":20,"centerY":0},
@@ -530,7 +502,6 @@
                                                         ]
                                                 },
                                                 {
-                                                    "x":90,
                                                     "type":"Image",
                                                     "searchKey":"Image",
                                                     "props":{"y":0,"x":0,"skin":"images/english/free-2.png","left":70,"centerY":0},
@@ -546,7 +517,6 @@
                                                 }]
                                         },
                                         {
-                                            "x":75,
                                             "type":"Label",
                                             "searchKey":"Label,onlineText",
                                             "props":{"text":"on-line time","strokeColor":"#743617","stroke":1,"name":"onlineText","fontSize":25,"color":"#743617","centerX":0,"bottom":40,"bold":true,"align":"center"},
@@ -1344,6 +1314,154 @@
                     "child":[
                         ]
                 }]
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide-81-21",
+            "props":{"y":0,"x":0,"visible":true,"var":"Guide-81-21","top":0,"right":0,"left":0,"bottom":0},
+            "nodeParent":1,
+            "label":"Guide-81-21",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":284,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":520,"skin":"images/bg-192.png","height":226,"centerY":0,"centerX":0},
+                    "nodeParent":284,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":286,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Label",
+                            "searchKey":"Label",
+                            "props":{"text":"${Guide-81-21}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":286,
+                            "label":"Label",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":287,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Image",
+                            "searchKey":"Image",
+                            "props":{"y":0,"x":0,"skin":"images/show-171.png","centerY":-10,"centerX":-300},
+                            "nodeParent":286,
+                            "label":"Image",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":295,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,手指点击动画",
+                    "props":{"width":140,"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"rotation":-45,"name":"手指点击动画","height":144,"centerY":-100,"centerX":355},
+                    "nodeParent":284,
+                    "label":"手指点击动画",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":293,
+                    "child":[
+                        ]
+                }],
+            "$LOCKED":false,
+            "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide-81-31",
+            "props":{"y":0,"x":0,"visible":true,"var":"Guide-81-31","top":0,"right":0,"left":0,"bottom":0},
+            "nodeParent":1,
+            "label":"Guide-81-31",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":285,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":520,"skin":"images/bg-192.png","height":226,"centerY":0,"centerX":0},
+                    "nodeParent":285,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":289,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Label",
+                            "searchKey":"Label",
+                            "props":{"text":"${Guide-81-31}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":289,
+                            "label":"Label",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":290,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"y":262,"x":859,"skin":"images/show-181.png","centerY":-10,"centerX":300},
+                    "nodeParent":285,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":294,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,手指点击动画",
+                    "props":{"width":140,"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","height":144,"centerY":240,"centerX":-260},
+                    "nodeParent":285,
+                    "label":"手指点击动画",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":292,
+                    "child":[
+                        ]
+                }],
+            "$LOCKED":false,
+            "$HIDDEN":true
         }],
     "animations":[
         {

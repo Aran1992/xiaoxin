@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":297,
-    "selecteID":298,
+    "selectedBox":302,
+    "selecteID":303,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#ffffff","height":720},
     "nodeParent":-1,
-    "maxID":301,
+    "maxID":306,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -1052,14 +1052,13 @@
             "props":{"y":0,"x":0,"visible":true,"var":"Guide-71-1","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
             "label":"Guide-71-1",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":296,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":520,"top":150,"skin":"images/bg-192.png","height":226,"centerX":0},
@@ -1072,7 +1071,6 @@
                     "compId":297,
                     "child":[
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label",
                             "props":{"text":"${Guide-71-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
@@ -1087,7 +1085,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"top":160,"skin":"images/show-181.png","centerX":300},
@@ -1102,7 +1099,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,手指点击动画",
                     "props":{"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerY":-220,"centerX":-500},
@@ -1113,6 +1109,80 @@
                     "isAniNode":true,
                     "hasChild":false,
                     "compId":300,
+                    "child":[
+                        ]
+                }],
+            "$LOCKED":false,
+            "$HIDDEN":false
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide-81-1",
+            "props":{"y":0,"x":0,"visible":true,"var":"Guide-81-1","top":0,"right":0,"left":0,"bottom":0},
+            "nodeParent":1,
+            "label":"Guide-81-1",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":301,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":520,"top":150,"skin":"images/bg-192.png","height":226,"centerX":0},
+                    "nodeParent":301,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":302,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Label",
+                            "searchKey":"Label",
+                            "props":{"text":"${Guide-81-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":302,
+                            "label":"Label",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":303,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"top":160,"skin":"images/show-181.png","centerX":300},
+                    "nodeParent":301,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":304,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,手指点击动画",
+                    "props":{"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerY":-220,"centerX":-500},
+                    "nodeParent":301,
+                    "label":"手指点击动画",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":305,
                     "child":[
                         ]
                 }],
