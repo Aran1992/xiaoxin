@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":276,
-    "selecteID":277,
+    "selectedBox":1,
+    "selecteID":285,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#ffffff","height":720},
     "nodeParent":-1,
-    "maxID":281,
+    "maxID":286,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -562,14 +562,13 @@
             "props":{"visible":true,"var":"Guide-1-11","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
             "label":"Guide-1-11",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":256,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":520,"top":150,"skin":"images/bg-192.png","height":226,"centerX":0},
@@ -582,7 +581,6 @@
                     "compId":259,
                     "child":[
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label",
                             "props":{"text":"${Guide-1-11}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
@@ -597,7 +595,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"top":160,"skin":"images/show-181.png","centerX":300},
@@ -612,7 +609,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,手指点击动画",
                     "props":{"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerY":0,"centerX":-300},
@@ -636,14 +632,13 @@
             "props":{"y":0,"x":0,"visible":true,"var":"Guide-11-1","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
             "label":"Guide-11-1",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":265,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":520,"top":150,"skin":"images/bg-192.png","height":226,"centerX":0},
@@ -656,7 +651,6 @@
                     "compId":266,
                     "child":[
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label",
                             "props":{"text":"${Guide-11-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
@@ -671,7 +665,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"top":160,"skin":"images/show-181.png","centerX":300},
@@ -686,7 +679,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,手指点击动画",
                     "props":{"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerY":-220,"centerX":-500},
@@ -710,14 +702,13 @@
             "props":{"y":0,"x":0,"visible":true,"var":"Guide-21-1","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
             "label":"Guide-21-1",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":271,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":520,"top":150,"skin":"images/bg-192.png","height":226,"centerX":0},
@@ -730,7 +721,6 @@
                     "compId":272,
                     "child":[
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label",
                             "props":{"text":"${Guide-21-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
@@ -745,7 +735,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"top":160,"skin":"images/show-181.png","centerX":300},
@@ -760,7 +749,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,手指点击动画",
                     "props":{"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerY":-220,"centerX":-500},
@@ -784,14 +772,13 @@
             "props":{"y":0,"x":0,"visible":true,"var":"Guide-31-1","top":0,"right":0,"left":0,"bottom":0},
             "nodeParent":1,
             "label":"Guide-31-1",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":276,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"width":520,"top":150,"skin":"images/bg-192.png","height":226,"centerX":0},
@@ -804,7 +791,6 @@
                     "compId":277,
                     "child":[
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label",
                             "props":{"text":"${Guide-31-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
@@ -819,7 +805,6 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"top":160,"skin":"images/show-181.png","centerX":300},
@@ -834,7 +819,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,手指点击动画",
                     "props":{"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerY":-220,"centerX":-500},
@@ -845,6 +829,80 @@
                     "isAniNode":true,
                     "hasChild":false,
                     "compId":280,
+                    "child":[
+                        ]
+                }],
+            "$LOCKED":false,
+            "$HIDDEN":false
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "searchKey":"Panel,Guide-41-1",
+            "props":{"y":0,"x":0,"visible":true,"var":"Guide-41-1","top":0,"right":0,"left":0,"bottom":0},
+            "nodeParent":1,
+            "label":"Guide-41-1",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":281,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"width":520,"top":150,"skin":"images/bg-192.png","height":226,"centerX":0},
+                    "nodeParent":281,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":282,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Label",
+                            "searchKey":"Label",
+                            "props":{"text":"${Guide-41-1}","strokeColor":"#000000","stroke":1,"fontSize":30,"color":"#000000","centerY":0,"centerX":0},
+                            "nodeParent":282,
+                            "label":"Label",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":283,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image",
+                    "props":{"top":160,"skin":"images/show-181.png","centerX":300},
+                    "nodeParent":281,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":284,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,手指点击动画",
+                    "props":{"skin":"images/tutrial_hand.png","scaleY":1,"scaleX":1,"name":"手指点击动画","centerY":-220,"centerX":-500},
+                    "nodeParent":281,
+                    "label":"手指点击动画",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":285,
                     "child":[
                         ]
                 }],
