@@ -11912,7 +11912,7 @@ Config.lockSystems = {
     // 扭蛋
     drawButton: {
         // 解锁条件
-        condition: [12, 1, 1],
+        condition: [12, 1, 2],
         // 解锁内容标题
         title: "SystemUnlockTitle1",
         // 解锁描述
@@ -11925,7 +11925,7 @@ Config.lockSystems = {
     // 签到
     signButton: {
         // 解锁条件
-        condition: [12, 1, 4],
+        condition: [12, 2, 1],
         // 解锁内容标题
         title: "SystemUnlockTitle11",
         // 解锁描述
@@ -11938,7 +11938,7 @@ Config.lockSystems = {
     // 礼包
     giftButton: {
         // 解锁条件
-        condition: [12, 2, 1],
+        condition: [12, 2, 3],
         // 解锁内容标题
         title: "SystemUnlockTitle12",
         // 解锁描述
@@ -11951,10 +11951,10 @@ Config.lockSystems = {
     // 商店（福利）
     shopButton: {
         // 解锁条件
-        condition: [12, 2, 3],
+        condition: [12, 2, 5],
         // 解锁内容标题
         title: "SystemUnlockTitle13",
-        // 解锁描述
+        // 解锁描述s
         dsc: "SystemUnlockDescribe13",
         // 解锁图片
         image: "myLaya/laya/assets/images/english/NewContent-23.png",
@@ -11965,7 +11965,7 @@ Config.lockSystems = {
     mapModeButton: {
         // 解锁条件
 //        condition: [11, 5],
-        condition: [12, 1, 5],
+        condition: [12, 2, 2],
         // 解锁内容标题
         title: "SystemUnlockTitle2",
         // 解锁描述
@@ -11979,7 +11979,7 @@ Config.lockSystems = {
     rankButton: {
         // 解锁条件
 //        condition: [10, 1],
-        condition: [12, 2, 4],
+        condition: [12, 3, 1],
         // 解锁内容标题
         title: "SystemUnlockTitle3",
         // 解锁描述
@@ -12010,7 +12010,7 @@ Config.lockSystems = {
     // 车库
     bikeButton: {
         // 解锁条件
-        condition: [12, 1, 2],
+        condition: [12, 1, 3],
         // 解锁内容标题
         title: "SystemUnlockTitle6",
         // 解锁描述
@@ -12023,7 +12023,7 @@ Config.lockSystems = {
     // 无尽模式
     endlessModeButton: {
         // 解锁条件
-        condition: [12, 1, 3],
+        condition: [12, 1, 4],
         // 解锁内容标题
         title: "SystemUnlockTitle5",
         // 解锁描述
@@ -12036,7 +12036,7 @@ Config.lockSystems = {
     // 自行车能力
     upgradePanelButton: {
         // 解锁条件
-        condition: [12, 2, 2],
+        condition: [12, 2, 4],
         // 解锁内容标题
         title: "SystemUnlockTitle7",
         // 解锁描述
