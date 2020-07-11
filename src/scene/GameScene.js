@@ -2070,14 +2070,12 @@ export default class GameScene extends Scene {
                     this.setBikeScale(2, true);
                     this.bikeBody.setKinematic();
                     this.resetJumpStatus();
-                    this.bikeFrame = -1;
                     const {frames, pos} = this.getBikeSprintAnimation();
                     this.setBikeAnimation(frames, 1, pos);
                 },
                 end: () => {
                     this.setBikeScale(1, true);
                     this.bikeBody.setDynamic();
-                    this.bikeFrame = -1;
                     this.enterInvincible(Config.effect.Sprint.endInvincibleDuration);
                     const {frames, pos} = this.getBikeCommonAnimation();
                     this.setBikeAnimation(frames, 1, pos);
@@ -2687,7 +2685,6 @@ export default class GameScene extends Scene {
     jack(velocity) {
         this.resetJumpStatus();
         this.isJacking = true;
-        this.bikeFrame = 0;
         this.bikeBody.setLinearVelocity(Vec2(this.bikeBody.getLinearVelocity().x, velocity));
     }
 

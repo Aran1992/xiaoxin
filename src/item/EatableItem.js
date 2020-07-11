@@ -6,7 +6,6 @@ import EventMgr from "../mgr/EventMgr";
 import Utils from "../mgr/Utils";
 import MusicMgr from "../mgr/MusicMgr";
 import TWEEN from "@tweenjs/tween.js";
-import ImageText from "../ui/ImageText";
 
 export default class EatableItem extends EditorItem {
     constructor(gameMgr, parent, world, config, chainData) {
@@ -45,7 +44,7 @@ export default class EatableItem extends EditorItem {
                 if (this.sprite.visible && !this.animation) {
                     MusicMgr.playSound(Config.soundPath.eatRandomItem, undefined, this.gameMgr.stepSpeed);
                     if (this.config.effect === "Random") {
-                        EventMgr.dispatchEvent("AteItem", "Random");
+                        EventMgr.dispatchEvent("AteItem", "Random", undefined, undefined, this.config);
                     } else {
                         EventMgr.dispatchEvent("AteItem", "PortableItem", this.config.effect, this.sprite.texture, this.config);
                     }
