@@ -139,9 +139,8 @@ Config.bikeJumpingRotation = 0;
 // 禁止摄像头在垂直方向移动（允许移动：true：0）（禁止移动：false：1）
 Config.forbidenCameraVerticalMove = 1;
 
-// 默认的道具随机权重表
+// 默认的道具随机权重表（基本没用，用于保险）
 Config.defaultItemRandomTable = {
-    Accelerate: 1,
     PowerJump: 1,
     UnlimitedJump: 1,
 };
@@ -185,51 +184,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -269,51 +325,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -353,51 +466,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -437,51 +607,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -521,51 +748,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -605,51 +889,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -689,51 +1030,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -773,51 +1171,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -857,51 +1312,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -941,51 +1453,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -1025,51 +1594,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
     {
@@ -1109,51 +1735,108 @@ Config.mapList = [
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-        // 根据排名的道具随机表 有配置这个的话 就有先用这个 没有的话就用itemRandomTable 再没有就用默认的itemRandomTable
+        // 排名竞赛的道具随机权重表，有配置这个的话 就有先用这个，没有的话就用itemRandomTable，再没有就用默认的itemRandomTable
         itemRandomTableList: {
             1: {
-                BlockSight: 1,
-                BananaPeel: 4,
+				// 减速
+				// 削弱跳跃
+				// 遮挡视线
+                BlockSight: 100,
+				// 束缚
+				// 封印
+				// 落雷
+                Thunder: 1,
+				// 炸弹
+                BananaPeel: 400,
+				// 加速
                 Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
+				// 强化跳跃
+                PowerJump: 100,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 100,
+				// 无敌
+				Invincible: 20,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             2: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 2,
-                BananaPeel: 80,
-                Accelerate: 10,
+				// 落雷
+                Thunder: 5,
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 5,
+				// 强化跳跃
                 PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
                 UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
             },
             3: {
-                Decelerate: 10,
-                WeakenJump: 10,
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
                 BlockSight: 10,
+				// 束缚
                 SpiderWeb: 10,
+				// 封印
                 Seal: 10,
-                Thunder: 6,
-                BananaPeel: 80,
-                Accelerate: 10,
-                PowerJump: 10,
-                UnlimitedJump: 10,
-            },
-            4: {
-                Decelerate: 10,
-                WeakenJump: 10,
-                BlockSight: 1,
-                SpiderWeb: 10,
-                Seal: 10,
+				// 落雷
                 Thunder: 20,
-                BananaPeel: 10,
-                Accelerate: 10,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-            },
+				// 炸弹
+                BananaPeel: 200,
+				// 加速
+                Accelerate: 20,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 50,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
+            4: {
+				// 减速
+                Decelerate: 100,
+				// 削弱跳跃
+                WeakenJump: 100,
+				// 遮挡视线
+                BlockSight: 10,
+				// 束缚
+                SpiderWeb: 10,
+				// 封印
+                Seal: 10,
+				// 落雷
+                Thunder: 200,
+				// 炸弹
+                BananaPeel: 100,
+				// 加速
+                Accelerate: 200,
+				// 强化跳跃
+                PowerJump: 10,
+				// 磁铁（排名竞赛，会有问题不准用）
+				// 无限跳跃
+                UnlimitedJump: 10,
+				// 无敌
+				Invincible: 100,
+				// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
+			},
         }
     },
 ];
@@ -12109,7 +12792,7 @@ Config.gameLevelMode = {
             jumpForce: 250,
             // BGM路径
             bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-            // 道具随机表
+            // 道具随机权重表（闯关模式）
             itemRandomTableList: {
                 Accelerate: 1,
                 PowerJump: 1,
@@ -12174,7 +12857,7 @@ Config.gameLevelMode = {
             jumpForce: 250,
             // BGM路径
             bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-            // 道具随机表
+            // 道具随机权重表（闯关模式）
             itemRandomTableList: {
                 Accelerate: 1,
                 PowerJump: 1,
@@ -12239,7 +12922,7 @@ Config.gameLevelMode = {
             jumpForce: 250,
             // BGM路径
             bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-            // 道具随机表
+            // 道具随机权重表（闯关模式）
             itemRandomTableList: {
                 Accelerate: 1,
                 PowerJump: 1,
@@ -12304,7 +12987,7 @@ Config.gameLevelMode = {
             jumpForce: 250,
             // BGM路径
             bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-            // 道具随机表
+            // 道具随机权重表（闯关模式）
             itemRandomTableList: {
                 Accelerate: 1,
                 PowerJump: 1,
@@ -12369,7 +13052,7 @@ Config.gameLevelMode = {
             jumpForce: 250,
             // BGM路径
             bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
-            // 道具随机表
+            // 道具随机权重表（闯关模式）
             itemRandomTableList: {
                 Accelerate: 1,
                 PowerJump: 1,
@@ -12435,7 +13118,7 @@ Config.gameLevelMode = {
 //卡6            jumpForce: 250,
 //卡6            // BGM路径
 //卡6            bgmPath: "myLaya/laya/assets/sounds/10_uoza.mp3",
-//卡6            // 道具随机表
+//卡6            // 道具随机权重表（闯关模式）
 //卡6            itemRandomTableList: {
 //卡6                Accelerate: 1,
 //卡6                PowerJump: 1,
@@ -12501,7 +13184,7 @@ Config.gameLevelMode = {
 //卡7            jumpForce: 250,
 //卡7            // BGM路径
 //卡7            bgmPath: "myLaya/laya/assets/sounds/08_sengoku.mp3",
-//卡7            // 道具随机表
+//卡7            // 道具随机权重表（闯关模式）
 //卡7            itemRandomTableList: {
 //卡7                Accelerate: 1,
 //卡7                PowerJump: 1,
@@ -12567,7 +13250,7 @@ Config.gameLevelMode = {
 //卡8            jumpForce: 250,
 //卡8            // BGM路径
 //卡8            bgmPath: "myLaya/laya/assets/sounds/BGM_103.mp3",
-//卡8            // 道具随机表
+//卡8            // 道具随机权重表（闯关模式）
 //卡8            itemRandomTableList: {
 //卡8                Accelerate: 1,
 //卡8                PowerJump: 1,
@@ -12633,7 +13316,7 @@ Config.gameLevelMode = {
 //卡9            jumpForce: 250,
 //卡9            // BGM路径
 //卡9            bgmPath: "myLaya/laya/assets/sounds/BGM_105.mp3",
-//卡9            // 道具随机表
+//卡9            // 道具随机权重表（闯关模式）
 //卡9            itemRandomTableList: {
 //卡9                Accelerate: 1,
 //卡9                PowerJump: 1,
@@ -12699,7 +13382,7 @@ Config.gameLevelMode = {
 //卡10            jumpForce: 250,
 //卡10            // BGM路径
 //卡10            bgmPath: "myLaya/laya/assets/sounds/BGM_101.mp3",
-//卡10            // 道具随机表
+//卡10            // 道具随机权重表（闯关模式）
 //卡10            itemRandomTableList: {
 //卡10                Accelerate: 1,
 //卡10                PowerJump: 1,
@@ -12765,7 +13448,7 @@ Config.gameLevelMode = {
 //卡11            jumpForce: 250,
 //卡11            // BGM路径
 //卡11            bgmPath: "myLaya/laya/assets/sounds/02_jurassic.mp3",
-//卡11            // 道具随机表
+//卡11            // 道具随机权重表（闯关模式）
 //卡11            itemRandomTableList: {
 //卡11                Accelerate: 1,
 //卡11                PowerJump: 1,
@@ -12831,7 +13514,7 @@ Config.gameLevelMode = {
 //卡12            jumpForce: 250,
 //卡12            // BGM路径
 //卡12            bgmPath: "myLaya/laya/assets/sounds/01_middle.mp3",
-//卡12            // 道具随机表
+//卡12            // 道具随机权重表（闯关模式）
 //卡12            itemRandomTableList: {
 //卡12                Accelerate: 1,
 //卡12                PowerJump: 1,
@@ -13786,6 +14469,7 @@ Config.guideMode = {
         jumpForce: 250,
         // BGM路径
         bgmPath: "myLaya/laya/assets/sounds/BGM003.mp3",
+        // 道具随机权重表（引导模式）
         itemRandomTable: {
             Magnet: 1,
         }
