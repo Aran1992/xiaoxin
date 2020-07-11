@@ -8313,7 +8313,7 @@ Config.item = {
                 effect: "Star",
                 value: 1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 3,
+                bulletTimeValue: 100,
             },
             // 经验：自行车用
             444: {
@@ -8703,7 +8703,7 @@ Config.item = {
                 // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
                 animationSpeed: 0.1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 增益：强化跳跃
             106: {
@@ -8720,7 +8720,7 @@ Config.item = {
                 // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
                 animationSpeed: 0.1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 增益：无限跳跃
             111: {
@@ -8737,7 +8737,7 @@ Config.item = {
                 // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
                 animationSpeed: 0.1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 增益：磁铁（排名竞赛用会当机）
             121: {
@@ -8754,7 +8754,7 @@ Config.item = {
                 // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
                 animationSpeed: 0.1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 增益：棒棒糖磁铁（排名竞赛用会当机）
             126: {
@@ -8790,7 +8790,7 @@ Config.item = {
                 // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
                 animationSpeed: 0.1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 增益：超级无敌冲刺
             141: {
@@ -8807,7 +8807,7 @@ Config.item = {
                 // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
                 animationSpeed: 0.1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 随机效果（机会命运）（还需要程序支持）（现在不能用用了会出错）
             9999: {
@@ -8817,6 +8817,8 @@ Config.item = {
                 attractedByMagnet: 0,
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
+                // 吃到这个道具的时候玩家增加的子弹时间值
+                bulletTimeValue: 100,
             },
             // 害人道具：减速
             10: {
@@ -8826,6 +8828,8 @@ Config.item = {
                 attractedByMagnet: 0,
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
+                // 吃到这个道具的时候玩家增加的子弹时间值
+                bulletTimeValue: 100,
             },
             // 害人道具：削弱跳跃
             60: {
@@ -8835,6 +8839,8 @@ Config.item = {
                 attractedByMagnet: 0,
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
+                // 吃到这个道具的时候玩家增加的子弹时间值
+                bulletTimeValue: 100,
             },
             // 害人道具：遮挡视线
             210: {
@@ -8844,6 +8850,8 @@ Config.item = {
                 attractedByMagnet: 0,
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
+                // 吃到这个道具的时候玩家增加的子弹时间值
+                bulletTimeValue: 100,
             },
             // 害人道具：束缚
             260: {
@@ -8853,6 +8861,8 @@ Config.item = {
                 attractedByMagnet: 0,
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
+                // 吃到这个道具的时候玩家增加的子弹时间值
+                bulletTimeValue: 100,
             },
             // 害人道具：封印
             1031: {
@@ -8862,6 +8872,8 @@ Config.item = {
                 attractedByMagnet: 0,
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
+                // 吃到这个道具的时候玩家增加的子弹时间值
+                bulletTimeValue: 100,
             },
             // 害人道具：落雷
             1036: {
@@ -8871,6 +8883,8 @@ Config.item = {
                 attractedByMagnet: 0,
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
+                // 吃到这个道具的时候玩家增加的子弹时间值
+                bulletTimeValue: 100,
             },
             // 害人道具：香蕉皮炸弹
             1041: {
@@ -8880,6 +8894,8 @@ Config.item = {
                 attractedByMagnet: 0,
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
+                // 吃到这个道具的时候玩家增加的子弹时间值
+                bulletTimeValue: 100,
             },
             // 增益道具：加速
             1010: {
@@ -8890,7 +8906,7 @@ Config.item = {
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 增益道具：强化跳跃
             1060: {
@@ -8901,7 +8917,7 @@ Config.item = {
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 增益道具：无限跳跃
             1110: {
@@ -8912,7 +8928,7 @@ Config.item = {
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 增益道具：磁铁（排名竞赛用会当机）
             1210: {
@@ -8923,7 +8939,7 @@ Config.item = {
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 增益道具：无敌
             1310: {
@@ -8934,7 +8950,7 @@ Config.item = {
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 增益道具：超级无敌冲刺
             1410: {
@@ -8945,7 +8961,7 @@ Config.item = {
                 // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
                 attractedBySprint: 1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
             // 随机道具
             99990: {
@@ -8962,7 +8978,7 @@ Config.item = {
                 // 动画帧率（1的话就是，游戏刷新一帧，动画就刷新一帧，0.5的话就是，游戏刷新两帧，动画就刷新一帧）
                 animationSpeed: 0.1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
-                bulletTimeValue: 10,
+                bulletTimeValue: 100,
             },
         }
     },
@@ -13674,7 +13690,7 @@ Config.bulletTimeTargetVelocity = 10;
 // 每帧进行几次物理计算
 // 次数越多，进入子弹时间之后就能够更精确的限制速度，但是相对的性能消耗越大，建议不超过10次
 // 修改该配置后，自行车的跳跃高度可能会发生变化，请进行检查，并且调整jumpForce为合适的值
-Config.stepTimesEachFrame = 10;
+Config.stepTimesEachFrame = 2;
 
 // 子弹时间相关配置
 Config.bulletTime = {
