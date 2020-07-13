@@ -1844,12 +1844,22 @@ Config.mapList = [
 // 路段配置
 Config.roadSections = {
 
-    // 随机关卡
+    // 随机关卡（难度1：不跳也死不了）
     "111-1": [
         // 关卡（每个路段为2000像素）
-        "Random/Random111-00000101",
+//        "Random/Random111-00000101",
+        "Random/Random111-00000102",
+    ],
+    // 随机关卡（难度2：不跳会死，但只需要1跳）
+    "111-11": [
+        // 关卡（每个路段为2000像素）
         "Random/Random111-00010101",
     ],
+
+
+
+
+
 
     // 固定关卡（Normal）(第1阶段)
     "101-1": [
@@ -3230,7 +3240,7 @@ Config.endlessMode.rewardRoad = {
     // 地图路径
     roadPath: [
         "myLaya/laya/pages/RoadSection/Special/Special111-00000101.scene.json",
-        "myLaya/laya/pages/RoadSection/Special/Special111-00000111.scene.json",
+//        "myLaya/laya/pages/RoadSection/Special/Special111-00000111.scene.json",
     ],
     // 吃满多少能够进入奖励路段
     maxValue: 100,
@@ -9919,7 +9929,7 @@ Config.effect = {
         // 是否有益（1为有益，0为陷阱/害人）
         isHelpful: 1,
         // 吸取速度（单位：像素/秒）
-        velocity: 1000,
+        velocity: 1500,
         // 道具栏显示的道具图标
         imagePath: "myLaya/laya/assets/images/crystal_dragon_09.png",
         // 使用者使用特效路径（只能是动画）（因为平台关系需加上.json）
