@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":3325,
-    "selecteID":3330,
+    "selectedBox":3144,
+    "selecteID":3159,
     "searchKey":"Scene",
     "props":{"width":720,"sceneColor":"#000000","height":1280},
     "nodeParent":-1,
-    "maxID":3361,
+    "maxID":3362,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -3129,6 +3129,20 @@
                     "isAniNode":true,
                     "hasChild":false,
                     "compId":3160,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "searchKey":"Image,EatableItem//立即生效物品//经验//ID:2001",
+                    "props":{"y":-180,"x":23050,"skin":"images/logo-2.png","scaleY":1,"scaleX":1,"name":"EatableItem//立即生效物品//经验//ID:2001","anchorY":0.5,"anchorX":0.5},
+                    "nodeParent":3144,
+                    "label":"EatableItem//立即生效物品//经验//ID:2001",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":3361,
                     "child":[
                         ]
                 }]

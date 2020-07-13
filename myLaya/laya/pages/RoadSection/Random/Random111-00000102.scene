@@ -2,7 +2,7 @@
     "x":0,
     "type":"Scene",
     "selectedBox":1,
-    "selecteID":678,
+    "selecteID":677,
     "searchKey":"Scene",
     "props":{"width":2000,"sceneColor":"#000000","height":0},
     "nodeParent":-1,
@@ -280,34 +280,6 @@
                     "child":[
                         ]
                 }]
-        },
-        {
-            "x":15,
-            "type":"Image",
-            "searchKey":"Image,EatableItem//可携带物品//ID:1210",
-            "props":{"y":-65.25,"x":1072,"skin":"images/crystal_dragon_09.png","scaleY":1,"scaleX":1,"name":"EatableItem//可携带物品//ID:1210","anchorY":0.5,"anchorX":0.5},
-            "nodeParent":1,
-            "label":"EatableItem//可携带物品//ID:1210",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":677,
-            "child":[
-                ]
-        },
-        {
-            "x":15,
-            "type":"Image",
-            "searchKey":"Image,EatableItem//可携带物品//ID:1410",
-            "props":{"y":-70.5,"x":940,"skin":"images/crystal_super_09.png","scaleY":1,"scaleX":1,"name":"EatableItem//可携带物品//ID:1410","anchorY":0.5,"anchorX":0.5},
-            "nodeParent":1,
-            "label":"EatableItem//可携带物品//ID:1410",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":678,
-            "child":[
-                ]
         }],
     "animations":[
         {

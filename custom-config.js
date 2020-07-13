@@ -1844,13 +1844,33 @@ Config.mapList = [
 // 路段配置
 Config.roadSections = {
 
-    // 随机关卡（难度1：不跳也死不了）
+    // 随机关卡（难度1：不跳也死不了：刺激玩家使用起始有超级无敌冲刺状态）
     "111-1": [
         // 关卡（每个路段为2000像素）
-//        "Random/Random111-00000101",
-        "Random/Random111-00000102",
+//        "Random/Random111-00110101",
+//        "Random/Random111-00110102",
+        "Random/Random111-00110103",
     ],
-    // 随机关卡（难度2：不跳会死，但只需要1跳）
+    // 随机关卡（难度2：不跳也死不了）
+    "111-10": [
+        // 关卡（每个路段为2000像素）
+        "Random/Random111-00000101",
+        "Random/Random111-00000102",
+        "Random/Random111-00000103",
+        "Random/Random111-00000104",
+        "Random/Random111-00000105",
+        "Random/Random111-00000106",
+        "Random/Random111-00000107",
+        "Random/Random111-00000108",
+        "Random/Random111-00000109",
+        "Random/Random111-00000110",
+        "Random/Random111-00000111",
+        "Random/Random111-00000112",
+        "Random/Random111-00000113",
+        "Random/Random111-00000114",
+        "Random/Random111-00000115",
+    ],
+    // 随机关卡（难度3：不跳会死，但不会太难）
     "111-11": [
         // 关卡（每个路段为2000像素）
         "Random/Random111-00010101",
