@@ -1454,9 +1454,10 @@ export default class GameScene extends Scene {
     }
 
     isBikeLanded() {
-        return this.contactRoadList.length !== 0
-            || this.contactRoad2List.some(fixture => !fixture.getBody().getUserData().obj.isPlayerInside)
-            || this.contactUpdownPlatformList.some(fixture => this.bikeBody.getPosition().y > fixture.getBody().getPosition().y);
+        return !this.hasEffect("Sprint")
+            && (this.contactRoadList.length !== 0
+                || this.contactRoad2List.some(fixture => !fixture.getBody().getUserData().obj.isPlayerInside)
+                || this.contactUpdownPlatformList.some(fixture => this.bikeBody.getPosition().y > fixture.getBody().getPosition().y));
     }
 
     judgeGameLose(velocity, bikePhysicsPos) {
@@ -1617,6 +1618,8 @@ export default class GameScene extends Scene {
                 let v = Config.effect.Sprint.velocity * Config.pixel2meter;
                 const vy = Math.tan(angle) * v;
                 this.bikeBody.setLinearVelocity(Vec2(v, vy));
+                const antiGravity = Vec2(0, this.world.getGravity().y * this.bikeBody.getMass() * -1);
+                this.bikeBody.applyForceToCenter(antiGravity);
             } else if (this.startFloat) {
                 if (this.bikeFloatFrame === 0) {
                     this.startFloat = false;
@@ -2068,14 +2071,12 @@ export default class GameScene extends Scene {
                     this.leaveInvincible();
                     this.removeAllEffects(true);
                     this.setBikeScale(2, true);
-                    this.bikeBody.setKinematic();
                     this.resetJumpStatus();
                     const {frames, pos} = this.getBikeSprintAnimation();
                     this.setBikeAnimation(frames, 1, pos);
                 },
                 end: () => {
                     this.setBikeScale(1, true);
-                    this.bikeBody.setDynamic();
                     this.enterInvincible(Config.effect.Sprint.endInvincibleDuration);
                     const {frames, pos} = this.getBikeCommonAnimation();
                     this.setBikeAnimation(frames, 1, pos);
