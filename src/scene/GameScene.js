@@ -1922,7 +1922,7 @@ export default class GameScene extends Scene {
         if (this.isSlowFalling) {
             this.leaveSlowFalling();
         }
-        if (!this.rotating) {
+        if (!this.rotating && !this.hasEffect("Sprint")) {
             const {frames, pos} = this.getBikeCommonAnimation();
             this.setBikeAnimation(frames, 1, pos);
         }
