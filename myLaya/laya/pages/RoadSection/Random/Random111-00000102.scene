@@ -2,11 +2,11 @@
     "x":0,
     "type":"Scene",
     "selectedBox":1,
-    "selecteID":677,
+    "selecteID":679,
     "searchKey":"Scene",
     "props":{"width":2000,"sceneColor":"#000000","height":0},
     "nodeParent":-1,
-    "maxID":679,
+    "maxID":690,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -50,14 +50,13 @@
             "props":{"y":0,"x":-5500,"name":"Chain//链"},
             "nodeParent":1,
             "label":"Chain//链",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":654,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,EatableItem//立即生效物品//经验//ID:2002",
                     "props":{"y":-430,"x":5890,"skin":"images/logo-3.png","scaleY":1,"scaleX":1,"name":"EatableItem//立即生效物品//经验//ID:2002","anchorY":0.5,"anchorX":0.5},
@@ -71,7 +70,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,EatableItem//立即生效物品//经验//ID:2002",
                     "props":{"y":-430,"x":5750,"skin":"images/logo-3.png","scaleY":1,"scaleX":1,"name":"EatableItem//立即生效物品//经验//ID:2002","anchorY":0.5,"anchorX":0.5},
@@ -85,7 +83,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,EatableItem//立即生效物品//经验//ID:2020",
                     "props":{"y":-400,"x":5820,"skin":"images/itm_swe03_1.png","scaleY":1,"scaleX":1,"name":"EatableItem//立即生效物品//经验//ID:2020","anchorY":0.5,"anchorX":0.5},
@@ -99,7 +96,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,EatableItem//立即生效物品//经验//ID:2002",
                     "props":{"y":-370,"x":5890,"skin":"images/logo-3.png","scaleY":1,"scaleX":1,"name":"EatableItem//立即生效物品//经验//ID:2002","anchorY":0.5,"anchorX":0.5},
@@ -113,7 +109,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,EatableItem//立即生效物品//经验//ID:2002",
                     "props":{"y":-370,"x":5750,"skin":"images/logo-3.png","scaleY":1,"scaleX":1,"name":"EatableItem//立即生效物品//经验//ID:2002","anchorY":0.5,"anchorX":0.5},
@@ -134,7 +129,7 @@
             "props":{"y":0,"x":-5500,"name":"Chain//链"},
             "nodeParent":1,
             "label":"Chain//链",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
@@ -251,18 +246,32 @@
                     "compId":669,
                     "child":[
                         ]
-                },
+                }]
+        },
+        {
+            "x":15,
+            "type":"Sprite",
+            "searchKey":"Sprite,Chain//链",
+            "props":{"y":0,"x":-5500,"name":"Chain//链"},
+            "nodeParent":1,
+            "label":"Chain//链",
+            "isOpen":false,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":679,
+            "child":[
                 {
                     "x":30,
                     "type":"Image",
                     "searchKey":"Image,EatableItem//立即生效物品//金币//ID:55555",
                     "props":{"y":-50,"x":7220,"skin":"images/medal-2.png","scaleY":1,"scaleX":1,"name":"EatableItem//立即生效物品//金币//ID:55555","anchorY":0.5,"anchorX":0.5},
-                    "nodeParent":655,
+                    "nodeParent":679,
                     "label":"EatableItem//立即生效物品//金币//ID:55555",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":670,
+                    "compId":688,
                     "child":[
                         ]
                 },
@@ -271,12 +280,12 @@
                     "type":"Image",
                     "searchKey":"Image,EatableItem//立即生效物品//金币//ID:66666",
                     "props":{"y":-60,"x":7340,"skin":"images/medal-3.png","scaleY":1,"scaleX":1,"name":"EatableItem//立即生效物品//金币//ID:66666","anchorY":0.5,"anchorX":0.5},
-                    "nodeParent":655,
+                    "nodeParent":679,
                     "label":"EatableItem//立即生效物品//金币//ID:66666",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":671,
+                    "compId":689,
                     "child":[
                         ]
                 }]
