@@ -1582,7 +1582,13 @@ export default class GameScene extends Scene {
                 break;
             }
         }
-        return {highestY: highestPoint.y, distance: Config.designWidth};
+        let highestY;
+        if (highestPoint) {
+            highestY = highestPoint.y;
+        } else {
+            highestY = this.getBikeYInCurrentView();
+        }
+        return {highestY: highestY, distance: Config.designWidth};
     }
 
     findAdjustHeight(viewLeft) {
@@ -1597,6 +1603,11 @@ export default class GameScene extends Scene {
                 }
             }
         }
+    }
+
+    // 自行车在当前视窗下的标准位置
+    getBikeYInCurrentView() {
+        return GameUtils.renderY2PhysicsY(-this.cameraContainer.y + (Config.bikeCameraMaxY + Config.bikeCameraMinY) / 2);
     }
 
     scrollBg() {
@@ -1789,8 +1800,14 @@ export default class GameScene extends Scene {
         this.gameStatus = "end";
         let pos = this.bikeBody.getPosition();
         let rp = this.findAdjustHeight(this.bikeOutterContainer.x);
-        let pp = GameUtils.renderPos2PhysicsPos(rp);
-        this.dragBackPos = {x: pos.x, y: pp.y + Config.bikeRadius - Config.rebornPosOffsetHeight * Config.pixel2meter};
+        let y;
+        if (rp) {
+            let pp = GameUtils.renderPos2PhysicsPos(rp);
+            y = pp.y + Config.bikeRadius - Config.rebornPosOffsetHeight * Config.pixel2meter;
+        } else {
+            y = this.getBikeYInCurrentView();
+        }
+        this.dragBackPos = {x: pos.x, y: y};
         this.deadPos = {x: pos.x, y: pos.y};
         this.targetCameraPos = {x: pos.x, y: pos.y};
         this.moveCameraVelocity = {
@@ -2675,7 +2692,7 @@ export default class GameScene extends Scene {
     spring(velocity) {
         this.resetJumpStatus();
         this.isSpring = true;
-        if (!this.rotating) {
+        if (!this.rotating && !this.hasEffect("Sprint")) {
             const animationConfig = Config.bikeList.find(bike => bike.id === this.getBikeID()).bikeSpringAnimation || Config.bikeSpringAnimation;
             const frames = GameUtils.getFrames(animationConfig.path, animationConfig.name);
             this.setBikeAnimation(frames, animationConfig.speed, animationConfig.pos, {once: true});
