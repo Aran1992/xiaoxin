@@ -48,6 +48,11 @@ export default class GameLevelRebornScene extends Scene {
         App.showMask(this.onClickMask.bind(this));
 
         this.playNumberAnimation(() => this.onClickMask());
+
+        let a = this.args.gameScene.rebornTimes < Config.gameLevelMode.rebornTimes;
+        this.ui.advertRebornButton.visible = a;
+        this.ui.diamondRebornButton.visible = a;
+        this.ui.hasNoRebornTimesText.visible = !a;
     }
 
     playNumberAnimation(callback) {
