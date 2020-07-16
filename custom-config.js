@@ -1844,16 +1844,12 @@ Config.mapList = [
 // 路段配置
 Config.roadSections = {
 
-
     // 测试用
     "111-1": [
 
-        "Random/Random111-00214103",
-
+        "Random/Random111-00214102",
 
     ],
-
-
 
     // 随机关卡（难度1：不跳也死不了：刺激玩家起始有超级无敌冲刺状态）（每个路段为2000像素）
     "111-11": [
@@ -1866,6 +1862,7 @@ Config.roadSections = {
         "Random/Random111-00110105",
 
     ],
+
     // 随机关卡（难度2：不跳也死不了）（每个路段为2000像素）
     "111-21": [
 
@@ -1904,6 +1901,7 @@ Config.roadSections = {
 
 
     ],
+
     // 随机关卡（难度3：不跳会死：但不会太难）（每个路段为2000像素）
     "111-31": [
         // 关卡元素：有坑路线
@@ -1933,8 +1931,6 @@ Config.roadSections = {
 
     ],
 
-
-
     // 随机关卡（难度4：不跳会死：会有点难）
 
 
@@ -1946,50 +1942,247 @@ Config.roadSections = {
 
 
 
+
+    // 随机关卡（难度2 + 难度3）
+    "111-123": [
+
+		// 随机关卡（难度2：不跳也死不了）（每个路段为2000像素）
+
+        // 关卡元素：平坦路线
+        "Random/Random111-00000101",
+        "Random/Random111-00000102",
+        "Random/Random111-00000103",
+        "Random/Random111-00000104",
+        "Random/Random111-00000105",
+        "Random/Random111-00000106",
+        "Random/Random111-00000107",
+        "Random/Random111-00000108",
+        "Random/Random111-00000109",
+        "Random/Random111-00000110",
+        "Random/Random111-00000111",
+        "Random/Random111-00000112",
+        "Random/Random111-00000113",
+        "Random/Random111-00000114",
+        "Random/Random111-00000115",
+
+
+
+
+        // 关卡元素：有坑路线
+        "Random/Random111-00001101",
+        "Random/Random111-00001102",
+
+
+
+
+        // 关卡元素：蔬菜
+        "Random/Random111-00002101",
+        "Random/Random111-00002102",
+        "Random/Random111-00002103",
+
+
+
+
+
+
+
+		// 随机关卡（难度3：不跳会死：但不会太难）（每个路段为2000像素）
+
+        // 关卡元素：有坑路线
+        "Random/Random111-00211101",
+        "Random/Random111-00211102",
+        "Random/Random111-00211103",
+        "Random/Random111-00211104",
+        "Random/Random111-00211105",
+
+
+
+        // 关卡元素：蔬菜
+        "Random/Random111-00212101",
+        "Random/Random111-00212102",
+        "Random/Random111-00212103",
+
+
+
+		// 关卡元素：有坑路线/蔬菜
+        "Random/Random111-00214101",
+        "Random/Random111-00214102",
+        "Random/Random111-00214103",
+
+
+
+
+
+
+
+
+	],
+
+    // 随机道具（Item）（每个路段为500像素）
+    "999-1": [
+
+        // 道具：什么道具都没有（目前不出现道具几率为1/3）
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+        "Item/Item111-00000101",
+
+
+        // 道具高度400（一般需要2跳）
+
+        // 道具：随机道具
+        "Item/Item111-00001101",
+
+        // 道具：超人
+        "Item/Item111-00002101",
+
+        // 道具：无敌
+        "Item/Item111-00003101",
+        "Item/Item111-00003101",
+        "Item/Item111-00003101",
+
+        // 道具：磁铁
+        "Item/Item111-00004101",
+        "Item/Item111-00004101",
+        "Item/Item111-00004101",
+
+        // 道具：无限跳跃
+        "Item/Item111-00005101",
+        "Item/Item111-00005101",
+        "Item/Item111-00005101",
+
+        // 道具：强化跳跃
+        "Item/Item111-00006101",
+        "Item/Item111-00006101",
+        "Item/Item111-00006101",
+
+        // 道具：加速（无尽模式不出）
+
+
+        // 道具高度200（一般需要1跳）
+
+        // 道具：随机道具
+        "Item/Item111-00001111",
+
+        // 道具：超人
+        "Item/Item111-00002111",
+
+        // 道具：无敌
+        "Item/Item111-00003111",
+        "Item/Item111-00003111",
+        "Item/Item111-00003111",
+
+        // 道具：磁铁
+        "Item/Item111-00004111",
+        "Item/Item111-00004111",
+        "Item/Item111-00004111",
+
+        // 道具：无限跳跃
+        "Item/Item111-00005111",
+        "Item/Item111-00005111",
+        "Item/Item111-00005111",
+
+        // 道具：强化跳跃
+        "Item/Item111-00006111",
+        "Item/Item111-00006111",
+        "Item/Item111-00006111",
+
+        // 道具：加速（无尽模式不出）
+
+        // 道具高度70（一般不用跳）
+
+        // 道具：随机道具
+        "Item/Item111-00001121",
+
+        // 道具：超人
+        "Item/Item111-00002121",
+
+        // 道具：无敌
+        "Item/Item111-00003121",
+        "Item/Item111-00003121",
+        "Item/Item111-00003121",
+
+        // 道具：磁铁
+        "Item/Item111-00004121",
+        "Item/Item111-00004121",
+        "Item/Item111-00004121",
+
+        // 道具：无限跳跃
+        "Item/Item111-00005121",
+        "Item/Item111-00005121",
+        "Item/Item111-00005121",
+
+        // 道具：强化跳跃
+        "Item/Item111-00006121",
+        "Item/Item111-00006121",
+        "Item/Item111-00006121",
+
+        // 道具：加速（无尽模式不出）
+
+    ],
+
+
     // 固定关卡（Normal）(第1阶段)
     "101-1": [
         // 关卡（每个路段为1000像素）
-        "Normal/Normal011-00000101",
+//        "Normal/Normal011-00000101",
     ],
     "101-11": [
         // 关卡（每个路段为3000像素）
-        "Normal/Normal011-00000111",
+//        "Normal/Normal011-00000111",
     ],
     "101-21": [
         // 关卡（每个路段为2000像素）
-        "Normal/Normal011-00000121",
+//        "Normal/Normal011-00000121",
     ],
     "101-31": [
         // 关卡（每个路段为2000像素）
-        "Normal/Normal011-00000131",
+//        "Normal/Normal011-00000131",
     ],
     "101-41": [
         // 关卡（每个路段为2000像素）
-        "Normal/Normal011-00000141",
+//        "Normal/Normal011-00000141",
     ],
     "101-51": [
         // 关卡（每个路段为2000像素）
-        "Normal/Normal011-00000151",
+//        "Normal/Normal011-00000151",
     ],
     "101-61": [
         // 关卡（每个路段为4000像素）
-        "Normal/Normal011-00000161",
+//        "Normal/Normal011-00000161",
     ],
     "101-71": [
         // 关卡（每个路段为2000像素）
-        "Normal/Normal011-00000171",
+//        "Normal/Normal011-00000171",
     ],
     "101-81": [
         // 关卡（每个路段为3000像素）
-        "Normal/Normal011-00000181",
+//        "Normal/Normal011-00000181",
     ],
     "101-91": [
         // 关卡（每个路段为9000像素）
-        "Normal/Normal011-00000191",
+//        "Normal/Normal011-00000191",
     ],
     "101-101": [
         // 关卡（每个路段为3000像素）
-        "Normal/Normal011-00000201",
+//        "Normal/Normal011-00000201",
     ],
 
     // 随机关卡（Random）(第2阶段)（休息关卡）
@@ -1997,11 +2190,11 @@ Config.roadSections = {
         // 关卡（每个路段为3000像素）
 
         // 关卡元素：纯路线
-        "Random/Random021-00000101",
-        "Random/Random021-00010101",
-        "Random/Random021-00020101",
+//        "Random/Random021-00000101",
+//        "Random/Random021-00010101",
+//        "Random/Random021-00020101",
 
-        "Random/Random021-00100101",
+//        "Random/Random021-00100101",
 //        "Random/Random021-00110101",
 //        "Random/Random021-00120101",
 
@@ -2014,11 +2207,11 @@ Config.roadSections = {
 //        "Random/Random021-02020101",
 
         // 关卡元素：移动平台
-        "Random/Random021-10000101",
+//        "Random/Random021-10000101",
 //        "Random/Random021-10010101",
 //        "Random/Random021-10020101",
 //        "Random/Random021-10030101",
-        "Random/Random021-10040101",
+//        "Random/Random021-10040101",
 
     ],
 
@@ -2027,11 +2220,11 @@ Config.roadSections = {
         // 关卡（每个路段为3000像素）
 
         // 关卡元素：蜘蛛网
-        "Random/Random021-00000201",
-        "Random/Random021-00010201",
-        "Random/Random021-00020201",
+//        "Random/Random021-00000201",
+//        "Random/Random021-00010201",
+//        "Random/Random021-00020201",
 
-        "Random/Random021-00100201",
+//        "Random/Random021-00100201",
 //        "Random/Random021-00110201",
 //        "Random/Random021-00120201",
 
@@ -2050,11 +2243,11 @@ Config.roadSections = {
         "Random/Random021-10040201",
 
         // 关卡元素：地刺-固定
-        "Random/Random021-00000301",
-        "Random/Random021-00010301",
-        "Random/Random021-00020301",
+//        "Random/Random021-00000301",
+//        "Random/Random021-00010301",
+//        "Random/Random021-00020301",
 
-        "Random/Random021-00100301",
+//        "Random/Random021-00100301",
 //        "Random/Random021-00110301",
 //        "Random/Random021-00120301",
 
@@ -2168,95 +2361,6 @@ Config.roadSections = {
         // 关卡元素：多层地形
 
     ],
-
-    // 随机道具（Item）
-    "9999-1": [
-        // 关卡（每个路段为500像素）
-
-        // 道具高度200
-
-        // 道具：超人
-        "Item/Item011-00000101",
-
-        // 道具：无敌
-        "Item/Item011-00000111",
-        "Item/Item011-00000111",
-        "Item/Item011-00000111",
-
-        // 道具：磁铁
-        "Item/Item011-00000121",
-        "Item/Item011-00000121",
-        "Item/Item011-00000121",
-
-        // 道具：无限跳跃
-        "Item/Item011-00000131",
-        "Item/Item011-00000131",
-        "Item/Item011-00000131",
-
-        // 道具：强化跳跃
-        "Item/Item011-00000141",
-        "Item/Item011-00000141",
-        "Item/Item011-00000141",
-
-        // 道具：加速
-        "Item/Item011-00000151",
-
-        // 道具高度100
-
-        // 道具：超人
-        "Item/Item011-00001101",
-
-        // 道具：无敌
-        "Item/Item011-00001111",
-        "Item/Item011-00001111",
-        "Item/Item011-00001111",
-
-        // 道具：磁铁
-        "Item/Item011-00001121",
-        "Item/Item011-00001121",
-        "Item/Item011-00001121",
-
-        // 道具：无限跳跃
-        "Item/Item011-00001131",
-        "Item/Item011-00001131",
-        "Item/Item011-00001131",
-
-        // 道具：强化跳跃
-        "Item/Item011-00001141",
-        "Item/Item011-00001141",
-        "Item/Item011-00001141",
-
-        // 道具：加速
-        "Item/Item011-00001151",
-
-        // 道具高度0
-
-        // 道具：超人
-        "Item/Item011-00002101",
-
-        // 道具：无敌
-        "Item/Item011-00002111",
-        "Item/Item011-00002111",
-        "Item/Item011-00002111",
-
-        // 道具：磁铁
-        "Item/Item011-00002121",
-        "Item/Item011-00002121",
-        "Item/Item011-00002121",
-
-        // 道具：无限跳跃
-        "Item/Item011-00002131",
-        "Item/Item011-00002131",
-        "Item/Item011-00002131",
-
-        // 道具：强化跳跃
-        "Item/Item011-00002141",
-        "Item/Item011-00002141",
-        "Item/Item011-00002141",
-
-        // 道具：加速
-        "Item/Item011-00002151",
-    ],
 };
 
 // 无尽模式默认配置
@@ -2269,188 +2373,331 @@ Config.endlessMode.default = {
         // 第1阶段（随机路线）
         //路段1（注意：第1个速度要为1不然会出错）
         {
-            list: ["111-1",],
+            list: ["111-11",],
             length: 2000,
             velocity: 1,
         },
         //路段2
         {
-            list: ["111-1",],
+            list: ["111-21",],
             length: 2000,
             velocity: 1,
         },
         //路段3
         {
-            list: ["111-1",],
+            list: ["111-21",],
             length: 2000,
             velocity: 1,
         },
-        //路段4
-        {
-            list: ["111-1",],
-            length: 2000,
-            velocity: 1,
-        },
-        //路段5
-        {
-            list: ["111-1",],
-            length: 2000,
-            velocity: 1,
-        },
+
         // 第2阶段（随机路线）
         //路段1
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.2,
         },
         //路段2
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
+            velocity: 1.2,
+        },
+        //随机道具
+        {
+            list: ["999-1",],
+            length: 500,
             velocity: 1.2,
         },
         //路段3
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.2,
         },
         //路段4
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.2,
         },
         //路段5
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.2,
         },
+
         // 第3阶段（随机路线）
         //路段1
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.4,
         },
         //路段2
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.4,
         },
         //路段3
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
+            velocity: 1.4,
+        },
+        //随机道具
+        {
+            list: ["999-1",],
+            length: 500,
             velocity: 1.4,
         },
         //路段4
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.4,
         },
         //路段5
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.4,
         },
+        //路段6
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.4,
+        },
+        //路段7
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.4,
+        },
+        //路段8
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.4,
+        },
+        //路段9
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.4,
+        },
+        //路段10
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.4,
+        },
+        //随机道具
+        {
+            list: ["999-1",],
+            length: 500,
+            velocity: 1.4,
+        },
+
         // 第4阶段（随机路线）
         //路段1
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.6,
         },
         //路段2
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.6,
         },
         //路段3
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.6,
         },
         //路段4
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.6,
         },
         //路段5
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.6,
         },
+        //路段6
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.6,
+        },
+        //路段7
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.6,
+        },
+        //随机道具
+        {
+            list: ["999-1",],
+            length: 500,
+            velocity: 1.6,
+        },
+        //路段8
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.6,
+        },
+        //路段9
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.6,
+        },
+        //路段10
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.6,
+        },
+        //路段11
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.6,
+        },
+
         // 第5阶段（随机路线）
         //路段1
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.8,
         },
         //路段2
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.8,
         },
         //路段3
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
             velocity: 1.8,
         },
         //路段4
         {
-            list: ["111-1",],
+            list: ["111-123",],
             length: 2000,
+            velocity: 1.8,
+        },
+        //随机道具
+        {
+            list: ["999-1",],
+            length: 500,
             velocity: 1.8,
         },
         //路段5
         {
-            list: ["111-1",],
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.8,
+        },
+        //路段6
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.8,
+        },
+        //路段7
+        {
+            list: ["111-123",],
+            length: 2000,
+            velocity: 1.8,
+        },
+        //路段8
+        {
+            list: ["111-123",],
             length: 2000,
             velocity: 1.8,
         },
     ],
+
     // 无限循环旅程
     infiniteRoadSectionList: [
         //路段1
         {
-            list: ["111-1",],
+            list: ["111-31",],
             length: 2000,
             velocity: 2,
         },
         //路段2
         {
-            list: ["111-1",],
+            list: ["111-31",],
             length: 2000,
             velocity: 2,
         },
         //路段3
         {
-            list: ["111-1",],
+            list: ["111-31",],
             length: 2000,
             velocity: 2,
         },
         //路段4
         {
-            list: ["111-1",],
+            list: ["111-31",],
             length: 2000,
+            velocity: 2,
+        },
+        //随机道具
+        {
+            list: ["999-1",],
+            length: 500,
             velocity: 2,
         },
         //路段5
         {
-            list: ["111-1",],
+            list: ["111-31",],
+            length: 2000,
+            velocity: 2,
+        },
+        //路段6
+        {
+            list: ["111-31",],
+            length: 2000,
+            velocity: 2,
+        },
+        //路段7
+        {
+            list: ["111-31",],
+            length: 2000,
+            velocity: 2,
+        },
+        //路段8
+        {
+            list: ["111-31",],
+            length: 2000,
+            velocity: 2,
+        },
+        //路段9
+        {
+            list: ["111-31",],
+            length: 2000,
+            velocity: 2,
+        },
+        //路段10
+        {
+            list: ["111-31",],
             length: 2000,
             velocity: 2,
         },
@@ -3315,7 +3562,7 @@ Config.endlessMode.sceneList = [
 ];
 
 // 无尽模式复活次数
-Config.endlessMode.rebornTimes = 333;
+Config.endlessMode.rebornTimes = 3;
 
 // 无尽模式开始路段长度（单位：像素）
 Config.startRoadLength = 3500;
@@ -3325,10 +3572,10 @@ Config.endlessMode.rewardRoad = {
     // 地图路径
     roadPath: [
         "myLaya/laya/pages/RoadSection/Special/Special111-00000101.scene.json",
-//        "myLaya/laya/pages/RoadSection/Special/Special111-00000111.scene.json",
+        "myLaya/laya/pages/RoadSection/Special/Special111-00000111.scene.json",
     ],
-    // 吃满多少能够进入奖励路段
-    maxValue: 100,
+    // 吃满多少能够进入无尽模式特殊奖励路段
+    maxValue: 500,
     // 结束时的无敌时间（秒）
     endInvincibleDuration: 5,
     // 闪光动画的时长（毫秒）
@@ -12845,7 +13092,7 @@ Config.lockSystems = {
 // 闯关模式地图配置
 Config.gameLevelMode = {
     // 闯关模式复活次数
-    rebornTimes: 111,
+    rebornTimes: 1,
     // 大地图列表
     mapList: [
         {
@@ -12980,7 +13227,7 @@ Config.gameLevelMode = {
         },
         {
             // 解锁需要的星星数
-            starCountUnlockNeeded: 999,
+            starCountUnlockNeeded: 25,
             // 地图描述
             dsc: "Select Map3",
             // 主页封面图
