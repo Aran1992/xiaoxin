@@ -3572,7 +3572,15 @@ Config.endlessMode.rewardRoad = {
     // 地图路径
     roadPath: [
         "myLaya/laya/pages/RoadSection/Special/Special111-00000101.scene.json",
+        "myLaya/laya/pages/RoadSection/Special/Special111-00000101.scene.json",
+        "myLaya/laya/pages/RoadSection/Special/Special111-00001101.scene.json",
+        "myLaya/laya/pages/RoadSection/Special/Special111-00001101.scene.json",
+
         "myLaya/laya/pages/RoadSection/Special/Special111-00000111.scene.json",
+        "myLaya/laya/pages/RoadSection/Special/Special111-00001111.scene.json",
+
+        "myLaya/laya/pages/RoadSection/Special/Special111-00000121.scene.json",
+        "myLaya/laya/pages/RoadSection/Special/Special111-00001121.scene.json",
     ],
     // 吃满多少能够进入无尽模式特殊奖励路段
     maxValue: 500,
