@@ -2,11 +2,11 @@
     "x":0,
     "type":"Scene",
     "selectedBox":1,
-    "selecteID":896,
+    "selecteID":931,
     "searchKey":"Scene",
     "props":{"width":2000,"sceneColor":"#000000","height":0},
     "nodeParent":-1,
-    "maxID":928,
+    "maxID":932,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -234,6 +234,34 @@
                     "child":[
                         ]
                 }]
+        },
+        {
+            "x":15,
+            "type":"Image",
+            "searchKey":"Image,BlackBird//黑鸟//ID:10000",
+            "props":{"y":-45,"x":935,"skin":"images/edit/enm01.png","scaleY":1,"scaleX":1,"name":"BlackBird//黑鸟//ID:10000","anchorY":0.5,"anchorX":0.5},
+            "nodeParent":1,
+            "label":"BlackBird//黑鸟//ID:10000",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":930,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Image",
+            "searchKey":"Image,BlackBird//黑鸟//ID:10000",
+            "props":{"y":-45,"x":1565,"skin":"images/edit/enm01.png","scaleY":1,"scaleX":1,"name":"BlackBird//黑鸟//ID:10000","anchorY":0.5,"anchorX":0.5},
+            "nodeParent":1,
+            "label":"BlackBird//黑鸟//ID:10000",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":931,
+            "child":[
+                ]
         }],
     "animations":[
         {
