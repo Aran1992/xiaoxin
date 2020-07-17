@@ -2582,11 +2582,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -2654,11 +2659,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -2726,11 +2736,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -2798,11 +2813,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -2870,11 +2890,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -2942,11 +2967,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -3014,11 +3044,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -3086,11 +3121,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -3158,11 +3198,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -3230,11 +3275,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -3302,11 +3352,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -3374,11 +3429,16 @@ Config.endlessMode.sceneList = [
         infiniteRoadSectionList: [],
         // 道具随机权重表（无尽模式-随机道具）
         itemRandomTable: {
-            Accelerate: 2,
+			// 加速（无尽模式，加速等于找死，所以不上）
+			// 强化跳跃
             PowerJump: 2,
+			// 无限跳跃
             UnlimitedJump: 2,
+			// 磁铁
             Magnet: 2,
+			// 无敌
             Invincible: 2,
+			// 超级无敌冲刺
             Sprint: 1,
         },
     },
@@ -9168,6 +9228,10 @@ Config.item = {
                 portable: 0,
                 effect: "Star",
                 value: 1,
+                // 是否会被磁铁吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
+                attractedByMagnet: 0,
+                // 是否会被超级无敌冲刺吸附 1代表可以 0代表不可以 没有这项配置的话 默认是不会被吸附的
+                attractedBySprint: 1,
                 // 吃到这个道具的时候玩家增加的子弹时间值
                 bulletTimeValue: 100,
             },
@@ -12623,34 +12687,74 @@ Config.guideAction = {
 Config.preparationRandomEffectList = {
     // 无尽模式
     endless: [
+		// 加速（无尽模式，加速等于找死，所以不上）
+		// 强化跳跃
         "PowerJump",
+        "PowerJump",
+		// 无限跳跃
         "UnlimitedJump",
+        "UnlimitedJump",
+		// 磁铁
         "Magnet",
+        "Magnet",
+		// 无敌
         "Invincible",
+        "Invincible",
+		// 超级无敌冲刺
         "Sprint",
     ],
     // 排名模式
     map: [
+		// 减速
         "Decelerate",
+		// 削弱跳跃
         "WeakenJump",
+		// 遮挡视线
         "BlockSight",
+		// 束缚
         "SpiderWeb",
+		// 封印
         "Seal",
+		// 落雷
         "Thunder",
+		// 炸弹
         "BananaPeel",
+		// 加速
         "Accelerate",
+		// 强化跳跃
         "PowerJump",
+		// 磁铁（排名竞赛，会有问题不准用）
+		// 无限跳跃
         "UnlimitedJump",
+		// 无敌
         "Invincible",
+		// 超级无敌冲刺（排名竞赛，NPC还有问题不能用，但玩家可用）
         "Sprint",
     ],
     // 闯关模式
     gameLevel: [
+		// 加速
         "Accelerate",
+        "Accelerate",
+        "Accelerate",
+		// 强化跳跃
         "PowerJump",
+        "PowerJump",
+        "PowerJump",
+		// 无限跳跃
         "UnlimitedJump",
+        "UnlimitedJump",
+        "UnlimitedJump",
+		// 磁铁
         "Magnet",
+        "Magnet",
+        "Magnet",
+		// 无敌
         "Invincible",
+        "Invincible",
+        "Invincible",
+		// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
+        "Sprint",
     ]
 };
 
@@ -12967,11 +13071,17 @@ Config.gameLevelMode = {
             bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
             // 道具随机权重表（闯关模式）
             itemRandomTableList: {
-                Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-                Magnet: 1,
-                Invincible: 1,
+				// 加速
+                Accelerate: 3,
+				// 强化跳跃
+                PowerJump: 3,
+				// 无限跳跃
+                UnlimitedJump: 3,
+				// 磁铁
+                Magnet: 3,
+				// 无敌
+                Invincible: 3,
+				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
                 Sprint: 1,
             },
             // 每一关的地图配置
@@ -13032,11 +13142,17 @@ Config.gameLevelMode = {
             bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
             // 道具随机权重表（闯关模式）
             itemRandomTableList: {
-                Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-                Magnet: 1,
-                Invincible: 1,
+				// 加速
+                Accelerate: 3,
+				// 强化跳跃
+                PowerJump: 3,
+				// 无限跳跃
+                UnlimitedJump: 3,
+				// 磁铁
+                Magnet: 3,
+				// 无敌
+                Invincible: 3,
+				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
                 Sprint: 1,
             },
             // 每一关的地图配置
@@ -13097,11 +13213,17 @@ Config.gameLevelMode = {
             bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
             // 道具随机权重表（闯关模式）
             itemRandomTableList: {
-                Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-                Magnet: 1,
-                Invincible: 1,
+				// 加速
+                Accelerate: 3,
+				// 强化跳跃
+                PowerJump: 3,
+				// 无限跳跃
+                UnlimitedJump: 3,
+				// 磁铁
+                Magnet: 3,
+				// 无敌
+                Invincible: 3,
+				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
                 Sprint: 1,
             },
             // 每一关的地图配置
@@ -13162,11 +13284,17 @@ Config.gameLevelMode = {
             bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
             // 道具随机权重表（闯关模式）
             itemRandomTableList: {
-                Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-                Magnet: 1,
-                Invincible: 1,
+				// 加速
+                Accelerate: 3,
+				// 强化跳跃
+                PowerJump: 3,
+				// 无限跳跃
+                UnlimitedJump: 3,
+				// 磁铁
+                Magnet: 3,
+				// 无敌
+                Invincible: 3,
+				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
                 Sprint: 1,
             },
             // 每一关的地图配置
@@ -13227,11 +13355,17 @@ Config.gameLevelMode = {
             bgmPath: "myLaya/laya/assets/sounds/BGM002.mp3",
             // 道具随机权重表（闯关模式）
             itemRandomTableList: {
-                Accelerate: 1,
-                PowerJump: 1,
-                UnlimitedJump: 1,
-                Magnet: 1,
-                Invincible: 1,
+				// 加速
+                Accelerate: 3,
+				// 强化跳跃
+                PowerJump: 3,
+				// 无限跳跃
+                UnlimitedJump: 3,
+				// 磁铁
+                Magnet: 3,
+				// 无敌
+                Invincible: 3,
+				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
                 Sprint: 1,
             },
             // 每一关的地图配置
@@ -13293,11 +13427,17 @@ Config.gameLevelMode = {
 //卡6            bgmPath: "myLaya/laya/assets/sounds/10_uoza.mp3",
 //卡6            // 道具随机权重表（闯关模式）
 //卡6            itemRandomTableList: {
-//卡6                Accelerate: 1,
-//卡6                PowerJump: 1,
-//卡6                UnlimitedJump: 1,
-//卡6                Magnet: 1,
-//卡6                Invincible: 1,
+//卡6				// 加速
+//卡6                Accelerate: 3,
+//卡6				// 强化跳跃
+//卡6                PowerJump: 3,
+//卡6				// 无限跳跃
+//卡6                UnlimitedJump: 3,
+//卡6				// 磁铁
+//卡6                Magnet: 3,
+//卡6				// 无敌
+//卡6                Invincible: 3,
+//卡6				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
 //卡6                Sprint: 1,
 //卡6            },
 //卡6            // 每一关的地图配置
@@ -13359,11 +13499,17 @@ Config.gameLevelMode = {
 //卡7            bgmPath: "myLaya/laya/assets/sounds/08_sengoku.mp3",
 //卡7            // 道具随机权重表（闯关模式）
 //卡7            itemRandomTableList: {
-//卡7                Accelerate: 1,
-//卡7                PowerJump: 1,
-//卡7                UnlimitedJump: 1,
-//卡7                Magnet: 1,
-//卡7                Invincible: 1,
+//卡7				// 加速
+//卡7                Accelerate: 3,
+//卡7				// 强化跳跃
+//卡7                PowerJump: 3,
+//卡7				// 无限跳跃
+//卡7                UnlimitedJump: 3,
+//卡7				// 磁铁
+//卡7                Magnet: 3,
+//卡7				// 无敌
+//卡7                Invincible: 3,
+//卡7				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
 //卡7                Sprint: 1,
 //卡7            },
 //卡7            // 每一关的地图配置
@@ -13425,11 +13571,17 @@ Config.gameLevelMode = {
 //卡8            bgmPath: "myLaya/laya/assets/sounds/BGM_103.mp3",
 //卡8            // 道具随机权重表（闯关模式）
 //卡8            itemRandomTableList: {
-//卡8                Accelerate: 1,
-//卡8                PowerJump: 1,
-//卡8                UnlimitedJump: 1,
-//卡8                Magnet: 1,
-//卡8                Invincible: 1,
+//卡8				// 加速
+//卡8                Accelerate: 3,
+//卡8				// 强化跳跃
+//卡8                PowerJump: 3,
+//卡8				// 无限跳跃
+//卡8                UnlimitedJump: 3,
+//卡8				// 磁铁
+//卡8                Magnet: 3,
+//卡8				// 无敌
+//卡8                Invincible: 3,
+//卡8				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
 //卡8                Sprint: 1,
 //卡8            },
 //卡8            // 每一关的地图配置
@@ -13491,11 +13643,17 @@ Config.gameLevelMode = {
 //卡9            bgmPath: "myLaya/laya/assets/sounds/BGM_105.mp3",
 //卡9            // 道具随机权重表（闯关模式）
 //卡9            itemRandomTableList: {
-//卡9                Accelerate: 1,
-//卡9                PowerJump: 1,
-//卡9                UnlimitedJump: 1,
-//卡9                Magnet: 1,
-//卡9                Invincible: 1,
+//卡9				// 加速
+//卡9                Accelerate: 3,
+//卡9				// 强化跳跃
+//卡9                PowerJump: 3,
+//卡9				// 无限跳跃
+//卡9                UnlimitedJump: 3,
+//卡9				// 磁铁
+//卡9                Magnet: 3,
+//卡9				// 无敌
+//卡9                Invincible: 3,
+//卡9				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
 //卡9                Sprint: 1,
 //卡9            },
 //卡9            // 每一关的地图配置
@@ -13557,11 +13715,17 @@ Config.gameLevelMode = {
 //卡10            bgmPath: "myLaya/laya/assets/sounds/BGM_101.mp3",
 //卡10            // 道具随机权重表（闯关模式）
 //卡10            itemRandomTableList: {
-//卡10                Accelerate: 1,
-//卡10                PowerJump: 1,
-//卡10                UnlimitedJump: 1,
-//卡10                Magnet: 1,
-//卡10                Invincible: 1,
+//卡10				// 加速
+//卡10                Accelerate: 3,
+//卡10				// 强化跳跃
+//卡10                PowerJump: 3,
+//卡10				// 无限跳跃
+//卡10                UnlimitedJump: 3,
+//卡10				// 磁铁
+//卡10                Magnet: 3,
+//卡10				// 无敌
+//卡10                Invincible: 3,
+//卡10				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
 //卡10                Sprint: 1,
 //卡10            },
 //卡10            // 每一关的地图配置
@@ -13623,11 +13787,17 @@ Config.gameLevelMode = {
 //卡11            bgmPath: "myLaya/laya/assets/sounds/02_jurassic.mp3",
 //卡11            // 道具随机权重表（闯关模式）
 //卡11            itemRandomTableList: {
-//卡11                Accelerate: 1,
-//卡11                PowerJump: 1,
-//卡11                UnlimitedJump: 1,
-//卡11                Magnet: 1,
-//卡11                Invincible: 1,
+//卡11				// 加速
+//卡11                Accelerate: 3,
+//卡11				// 强化跳跃
+//卡11                PowerJump: 3,
+//卡11				// 无限跳跃
+//卡11                UnlimitedJump: 3,
+//卡11				// 磁铁
+//卡11                Magnet: 3,
+//卡11				// 无敌
+//卡11                Invincible: 3,
+//卡11				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
 //卡11                Sprint: 1,
 //卡11            },
 //卡11            // 每一关的地图配置
@@ -13689,11 +13859,17 @@ Config.gameLevelMode = {
 //卡12            bgmPath: "myLaya/laya/assets/sounds/01_middle.mp3",
 //卡12            // 道具随机权重表（闯关模式）
 //卡12            itemRandomTableList: {
-//卡12                Accelerate: 1,
-//卡12                PowerJump: 1,
-//卡12                UnlimitedJump: 1,
-//卡12                Magnet: 1,
-//卡12                Invincible: 1,
+//卡12				// 加速
+//卡12                Accelerate: 3,
+//卡12				// 强化跳跃
+//卡12                PowerJump: 3,
+//卡12				// 无限跳跃
+//卡12                UnlimitedJump: 3,
+//卡12				// 磁铁
+//卡12                Magnet: 3,
+//卡12				// 无敌
+//卡12                Invincible: 3,
+//卡12				// 超级无敌冲刺（闯关模式，出现几率要低，吃星星太好用了）
 //卡12                Sprint: 1,
 //卡12            },
 //卡12            // 每一关的地图配置

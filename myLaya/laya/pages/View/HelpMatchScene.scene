@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":194,
-    "selecteID":196,
+    "selectedBox":42,
+    "selecteID":77,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
-    "maxID":202,
+    "maxID":209,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -36,13 +36,14 @@
             "props":{"width":1000,"top":50,"skin":"images/bg-200.png","sizeGrid":"50,50,50,50","name":"Panel","height":650,"centerX":0},
             "nodeParent":1,
             "label":"Panel",
-            "isOpen":false,
+            "isOpen":true,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":16,
             "child":[
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image",
                     "props":{"y":50,"x":20,"top":50,"skin":"images/bg-231.png","sizeGrid":"50,50,50,50","right":20,"left":20,"bottom":20},
@@ -57,6 +58,7 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "searchKey":"Image,returnButton",
                     "props":{"var":"returnButton","top":-25,"skin":"images/ButtonClose_Gray.png","runtime":"../laya/assets/sounds/SoundSE002.mp3","right":-25},
@@ -70,6 +72,7 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Panel",
                     "searchKey":"Panel,list",
                     "props":{"top":70,"right":40,"name":"list","left":40,"layoutEnabled":false,"bottom":40},
@@ -82,9 +85,10 @@
                     "compId":151,
                     "child":[
                         {
+                            "x":45,
                             "type":"Panel",
                             "searchKey":"Panel,list",
-                            "props":{"width":900,"name":"list","height":980,"centerX":0},
+                            "props":{"width":900,"name":"list","height":1150,"centerX":0},
                             "nodeParent":151,
                             "label":"list",
                             "isOpen":true,
@@ -94,6 +98,7 @@
                             "compId":42,
                             "child":[
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help1",
                                     "props":{"width":900,"top":0,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help1","height":100,"centerX":0},
@@ -121,9 +126,10 @@
                                         }]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
-                                    "props":{"y":100,"x":-30,"width":1000,"top":100,"skin":"images/line-1.png","scaleY":1,"scaleX":1,"centerX":20},
+                                    "props":{"width":1000,"top":100,"skin":"images/line-1.png","scaleY":1,"scaleX":1,"centerX":20},
                                     "nodeParent":42,
                                     "label":"Image",
                                     "isDirectory":false,
@@ -134,6 +140,7 @@
                                         ]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help2",
                                     "props":{"width":900,"top":100,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help2","height":100,"centerX":0},
@@ -174,6 +181,7 @@
                                         }]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
                                     "props":{"width":1000,"top":200,"skin":"images/line-1.png","scaleY":1,"scaleX":1,"centerX":20},
@@ -187,9 +195,151 @@
                                         ]
                                 },
                                 {
+                                    "x":60,
+                                    "type":"Panel",
+                                    "searchKey":"Panel,Help5",
+                                    "props":{"width":900,"top":215,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help5","height":70,"centerX":0},
+                                    "nodeParent":42,
+                                    "label":"Help5",
+                                    "isOpen":false,
+                                    "isDirectory":true,
+                                    "isAniNode":true,
+                                    "hasChild":true,
+                                    "compId":77,
+                                    "child":[
+                                        {
+                                            "x":75,
+                                            "type":"Image",
+                                            "searchKey":"Image",
+                                            "props":{"skin":"images/crystal_wing_09.png","scaleY":0.5,"scaleX":0.5,"left":10,"centerY":0},
+                                            "nodeParent":77,
+                                            "label":"Image",
+                                            "isDirectory":false,
+                                            "isAniNode":true,
+                                            "hasChild":false,
+                                            "compId":78,
+                                            "child":[
+                                                ]
+                                        },
+                                        {
+                                            "x":75,
+                                            "type":"Label",
+                                            "searchKey":"Label",
+                                            "props":{"text":"${MatchHelp5}","strokeColor":"#ffffff","left":100,"fontSize":30,"color":"#ffffff","centerY":0},
+                                            "nodeParent":77,
+                                            "label":"Label",
+                                            "isOpen":true,
+                                            "isDirectory":false,
+                                            "isAniNode":true,
+                                            "hasChild":false,
+                                            "compId":79,
+                                            "child":[
+                                                ]
+                                        }]
+                                },
+                                {
+                                    "x":60,
+                                    "type":"Panel",
+                                    "searchKey":"Panel,Help13",
+                                    "props":{"width":900,"top":285,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help13","height":70,"centerX":0},
+                                    "nodeParent":42,
+                                    "label":"Help13",
+                                    "isOpen":false,
+                                    "isDirectory":true,
+                                    "isAniNode":true,
+                                    "hasChild":true,
+                                    "compId":202,
+                                    "child":[
+                                        {
+                                            "x":75,
+                                            "type":"Image",
+                                            "searchKey":"Image",
+                                            "props":{"skin":"images/crystal_invincible_09.png","scaleY":0.5,"scaleX":0.5,"left":10,"centerY":0},
+                                            "nodeParent":202,
+                                            "label":"Image",
+                                            "isDirectory":false,
+                                            "isAniNode":true,
+                                            "hasChild":false,
+                                            "compId":204,
+                                            "child":[
+                                                ]
+                                        },
+                                        {
+                                            "x":75,
+                                            "type":"Label",
+                                            "searchKey":"Label",
+                                            "props":{"text":"${MatchHelp13}","strokeColor":"#ffffff","left":100,"fontSize":30,"color":"#ffffff","centerY":0},
+                                            "nodeParent":202,
+                                            "label":"Label",
+                                            "isOpen":true,
+                                            "isDirectory":false,
+                                            "isAniNode":true,
+                                            "hasChild":false,
+                                            "compId":205,
+                                            "child":[
+                                                ]
+                                        }]
+                                },
+                                {
+                                    "x":60,
+                                    "type":"Panel",
+                                    "searchKey":"Panel,Help14",
+                                    "props":{"width":900,"top":355,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help14","height":70,"centerX":0},
+                                    "nodeParent":42,
+                                    "label":"Help14",
+                                    "isOpen":false,
+                                    "isDirectory":true,
+                                    "isAniNode":true,
+                                    "hasChild":true,
+                                    "compId":203,
+                                    "child":[
+                                        {
+                                            "type":"Image",
+                                            "searchKey":"Image",
+                                            "props":{"skin":"images/crystal_super_09.png","scaleY":0.5,"scaleX":0.5,"left":10,"centerY":0},
+                                            "nodeParent":203,
+                                            "label":"Image",
+                                            "isDirectory":false,
+                                            "isAniNode":true,
+                                            "hasChild":false,
+                                            "compId":206,
+                                            "child":[
+                                                ]
+                                        },
+                                        {
+                                            "type":"Label",
+                                            "searchKey":"Label",
+                                            "props":{"text":"${MatchHelp14}","strokeColor":"#ffffff","left":100,"fontSize":30,"color":"#ffffff","centerY":0},
+                                            "nodeParent":203,
+                                            "label":"Label",
+                                            "isOpen":true,
+                                            "isDirectory":false,
+                                            "isAniNode":true,
+                                            "hasChild":false,
+                                            "compId":207,
+                                            "child":[
+                                                ]
+                                        }]
+                                },
+                                {
+                                    "x":60,
+                                    "type":"Image",
+                                    "searchKey":"Image",
+                                    "props":{"width":1000,"top":440,"skin":"images/line-1.png","scaleY":1,"scaleX":1,"centerX":20},
+                                    "nodeParent":42,
+                                    "label":"Image",
+                                    "isDirectory":false,
+                                    "isAniNode":true,
+                                    "hasChild":false,
+                                    "compId":200,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help3",
-                                    "props":{"width":900,"top":215,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help3","height":70,"centerX":0},
+                                    "props":{"width":900,"top":455,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help3","height":70,"centerX":0},
                                     "nodeParent":42,
                                     "label":"Help3",
                                     "isOpen":false,
@@ -227,9 +377,10 @@
                                         }]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help4",
-                                    "props":{"width":900,"top":285,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help4","height":90,"centerX":0},
+                                    "props":{"width":900,"top":525,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help4","height":70,"centerX":0},
                                     "nodeParent":42,
                                     "label":"Help4",
                                     "isOpen":false,
@@ -267,62 +418,24 @@
                                         }]
                                 },
                                 {
-                                    "type":"Panel",
-                                    "searchKey":"Panel,Help5",
-                                    "props":{"width":900,"top":355,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help5","height":90,"centerX":0},
-                                    "nodeParent":42,
-                                    "label":"Help5",
-                                    "isOpen":false,
-                                    "isDirectory":true,
-                                    "isAniNode":true,
-                                    "hasChild":true,
-                                    "compId":77,
-                                    "child":[
-                                        {
-                                            "type":"Image",
-                                            "searchKey":"Image",
-                                            "props":{"skin":"images/crystal_wing_09.png","scaleY":0.5,"scaleX":0.5,"left":10,"centerY":0},
-                                            "nodeParent":77,
-                                            "label":"Image",
-                                            "isDirectory":false,
-                                            "isAniNode":true,
-                                            "hasChild":false,
-                                            "compId":78,
-                                            "child":[
-                                                ]
-                                        },
-                                        {
-                                            "type":"Label",
-                                            "searchKey":"Label",
-                                            "props":{"text":"${MatchHelp5}","strokeColor":"#ffffff","left":100,"fontSize":30,"color":"#ffffff","centerY":0},
-                                            "nodeParent":77,
-                                            "label":"Label",
-                                            "isOpen":true,
-                                            "isDirectory":false,
-                                            "isAniNode":true,
-                                            "hasChild":false,
-                                            "compId":79,
-                                            "child":[
-                                                ]
-                                        }]
-                                },
-                                {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
-                                    "props":{"width":1000,"top":440,"skin":"images/line-1.png","scaleY":1,"scaleX":1,"centerX":20},
+                                    "props":{"x":-30,"width":1000,"top":610,"skin":"images/line-1.png","scaleY":1,"scaleX":1,"centerX":20},
                                     "nodeParent":42,
                                     "label":"Image",
                                     "isDirectory":false,
                                     "isAniNode":true,
                                     "hasChild":false,
-                                    "compId":200,
+                                    "compId":208,
                                     "child":[
                                         ]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help6",
-                                    "props":{"width":900,"top":455,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help6","height":70,"centerX":0},
+                                    "props":{"width":900,"top":625,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help6","height":70,"centerX":0},
                                     "nodeParent":42,
                                     "label":"Help6",
                                     "isOpen":false,
@@ -360,9 +473,10 @@
                                         }]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help7",
-                                    "props":{"width":900,"top":525,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help7","height":70,"centerX":0},
+                                    "props":{"width":900,"top":695,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help7","height":70,"centerX":0},
                                     "nodeParent":42,
                                     "label":"Help7",
                                     "isOpen":false,
@@ -400,9 +514,10 @@
                                         }]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help8",
-                                    "props":{"width":900,"top":595,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help8","height":70,"centerX":0},
+                                    "props":{"width":900,"top":765,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help8","height":70,"centerX":0},
                                     "nodeParent":42,
                                     "label":"Help8",
                                     "isOpen":false,
@@ -440,9 +555,10 @@
                                         }]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help9",
-                                    "props":{"width":900,"top":665,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help9","height":70,"centerX":0},
+                                    "props":{"width":900,"top":835,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help9","height":70,"centerX":0},
                                     "nodeParent":42,
                                     "label":"Help9",
                                     "isOpen":false,
@@ -480,9 +596,10 @@
                                         }]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help10",
-                                    "props":{"width":900,"top":735,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help10","height":70,"centerX":0},
+                                    "props":{"width":900,"top":905,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help10","height":70,"centerX":0},
                                     "nodeParent":42,
                                     "label":"Help10",
                                     "isOpen":false,
@@ -520,9 +637,10 @@
                                         }]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help11",
-                                    "props":{"width":900,"top":805,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help11","height":70,"centerX":0},
+                                    "props":{"width":900,"top":975,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help11","height":70,"centerX":0},
                                     "nodeParent":42,
                                     "label":"Help11",
                                     "isOpen":false,
@@ -560,9 +678,10 @@
                                         }]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Panel",
                                     "searchKey":"Panel,Help12",
-                                    "props":{"width":900,"top":875,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help12","height":70,"centerX":0},
+                                    "props":{"width":900,"top":1045,"runtime":"../laya/assets/sounds/SoundSE001.mp3","name":"Help12","height":70,"centerX":0},
                                     "nodeParent":42,
                                     "label":"Help12",
                                     "isOpen":false,
@@ -600,9 +719,10 @@
                                         }]
                                 },
                                 {
+                                    "x":60,
                                     "type":"Image",
                                     "searchKey":"Image",
-                                    "props":{"x":0,"width":1000,"top":960,"skin":"images/line-1.png","scaleY":1,"scaleX":1,"centerX":20},
+                                    "props":{"x":0,"width":1000,"top":1130,"skin":"images/line-1.png","scaleY":1,"scaleX":1,"centerX":20},
                                     "nodeParent":42,
                                     "label":"Image",
                                     "isDirectory":false,
