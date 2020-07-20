@@ -13900,32 +13900,32 @@ Config.drawWeightList = [
     {
         "type": "bike",
         "id": 0,
-        "weight": 8000
+        "weight": 8834
     },
     {
         "type": "bike",
         "id": 1,
-        "weight": 8000
+        "weight": 8834
     },
     {
         "type": "bike",
         "id": 4,
-        "weight": 8000
+        "weight": 8833
     },
     {
         "type": "bike",
         "id": 11,
-        "weight": 8000
+        "weight": 8833
     },
     {
         "type": "bike",
         "id": 13,
-        "weight": 8000
+        "weight": 8833
     },
     {
         "type": "bike",
         "id": 15,
-        "weight": 8000
+        "weight": 8833
     },
     {
         "type": "bike",
@@ -13960,117 +13960,117 @@ Config.drawWeightList = [
     {
         "type": "bike",
         "id": 21,
-        "weight": 2223
+        "weight": 500
     },
     {
         "type": "bike",
         "id": 22,
-        "weight": 2223
+        "weight": 500
     },
     {
         "type": "bike",
         "id": 23,
-        "weight": 2222
+        "weight": 500
     },
     {
         "type": "bike",
         "id": 7,
-        "weight": 2222
+        "weight": 4000
     },
     {
         "type": "bike",
         "id": 42,
-        "weight": 2222
+        "weight": 4000
     },
     {
         "type": "bike",
         "id": 43,
-        "weight": 2222
+        "weight": 4000
     },
     {
         "type": "bike",
         "id": 51,
-        "weight": 2222
+        "weight": 500
     },
     {
         "type": "bike",
         "id": 53,
-        "weight": 2222
+        "weight": 500
     },
     {
         "type": "bike",
         "id": 54,
-        "weight": 2222
+        "weight": 500
     },
     {
         "type": "bike",
         "id": 19,
-        "weight": 134
+        "weight": 32
     },
     {
         "type": "bike",
         "id": 10,
-        "weight": 134
+        "weight": 6
     },
     {
         "type": "bike",
         "id": 12,
-        "weight": 134
+        "weight": 2
     },
     {
         "type": "bike",
         "id": 9,
-        "weight": 134
+        "weight": 128
     },
     {
         "type": "bike",
         "id": 24,
-        "weight": 134
+        "weight": 26
     },
     {
         "type": "bike",
         "id": 18,
-        "weight": 133
+        "weight": 6
     },
     {
         "type": "bike",
         "id": 14,
-        "weight": 133
+        "weight": 1280
     },
     {
         "type": "bike",
         "id": 16,
-        "weight": 133
+        "weight": 256
     },
     {
         "type": "bike",
         "id": 17,
-        "weight": 133
+        "weight": 64
     },
     {
         "type": "bike",
         "id": 3,
-        "weight": 133
+        "weight": 128
     },
     {
         "type": "bike",
         "id": 52,
-        "weight": 133
+        "weight": 26
     },
     {
         "type": "bike",
         "id": 25,
-        "weight": 133
+        "weight": 6
     },
     {
         "type": "bike",
         "id": 34,
-        "weight": 133
+        "weight": 32
     },
     {
         "type": "bike",
         "id": 35,
-        "weight": 133
+        "weight": 6
     },
     {
         // 自行车奖励
@@ -14078,7 +14078,7 @@ Config.drawWeightList = [
         // 自行车ID
         "id": 36,
         // 随机权重
-        "weight": 133
+        "weight": 2
     },
     {
         // 金币奖励
