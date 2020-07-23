@@ -1893,18 +1893,19 @@ Config.roadSections = {
 
 
 
-        // 关卡元素：蔬菜
+        // 关卡元素：蔬菜青椒
         "Random/Random111-00002101",
         "Random/Random111-00002102",
         "Random/Random111-00002103",
-
-
+        "Random/Random111-00002104",
+        "Random/Random111-00002105",
 
     ],
 
     // 随机关卡（难度3：不跳会死：但不会太难）（每个路段为2000像素）
     "111-31": [
-        // 关卡元素：有坑路线
+
+		// 关卡元素：有坑路线
         "Random/Random111-00211101",
         "Random/Random111-00211102",
         "Random/Random111-00211103",
@@ -1913,17 +1914,71 @@ Config.roadSections = {
 
 
 
-        // 关卡元素：蔬菜
+        // 关卡元素：瓦斯
+        "Random/Random111-00211501",
+        "Random/Random111-00211502",
+
+
+
+
+
+
+        // 关卡元素：蔬菜青椒
         "Random/Random111-00212101",
         "Random/Random111-00212102",
         "Random/Random111-00212103",
 
 
 
-		// 关卡元素：有坑路线/蔬菜
+        // 关卡元素：蔬菜胡萝卜
+        "Random/Random111-00212201",
+        "Random/Random111-00212202",
+
+
+
+		// 关卡元素：有坑路线/蔬菜青椒
         "Random/Random111-00214101",
         "Random/Random111-00214102",
         "Random/Random111-00214103",
+        "Random/Random111-00214104",
+
+
+
+
+		// 关卡元素：有坑路线/蔬菜胡萝卜
+        "Random/Random111-00214201",
+        "Random/Random111-00214202",
+        "Random/Random111-00214203",
+
+
+
+
+		// 关卡元素：蔬菜青椒/蔬菜胡萝卜
+        "Random/Random111-00215101",
+
+
+
+
+
+		// 关卡元素：蔬菜青椒/瓦斯
+        "Random/Random111-00215501",
+
+
+
+
+
+
+		// 关卡元素：蔬菜胡萝卜/瓦斯
+        "Random/Random111-00215601",
+
+
+
+
+
+
+		// 关卡元素：蔬菜青椒/蔬菜胡萝卜/瓦斯
+        "Random/Random111-00217101",
+
 
 
 
@@ -1975,10 +2030,15 @@ Config.roadSections = {
 
 
 
-        // 关卡元素：蔬菜
+        // 关卡元素：蔬菜青椒
         "Random/Random111-00002101",
         "Random/Random111-00002102",
         "Random/Random111-00002103",
+        "Random/Random111-00002104",
+        "Random/Random111-00002105",
+
+
+
 
 
 
@@ -1988,7 +2048,7 @@ Config.roadSections = {
 
 		// 随机关卡（难度3：不跳会死：但不会太难）（每个路段为2000像素）
 
-        // 关卡元素：有坑路线
+		// 关卡元素：有坑路线
         "Random/Random111-00211101",
         "Random/Random111-00211102",
         "Random/Random111-00211103",
@@ -1997,17 +2057,72 @@ Config.roadSections = {
 
 
 
-        // 关卡元素：蔬菜
+        // 关卡元素：瓦斯
+        "Random/Random111-00211501",
+        "Random/Random111-00211502",
+
+
+
+
+
+
+        // 关卡元素：蔬菜青椒
         "Random/Random111-00212101",
         "Random/Random111-00212102",
         "Random/Random111-00212103",
 
 
 
-		// 关卡元素：有坑路线/蔬菜
+        // 关卡元素：蔬菜胡萝卜
+        "Random/Random111-00212201",
+        "Random/Random111-00212202",
+
+
+
+		// 关卡元素：有坑路线/蔬菜青椒
         "Random/Random111-00214101",
         "Random/Random111-00214102",
         "Random/Random111-00214103",
+        "Random/Random111-00214104",
+
+
+
+
+		// 关卡元素：有坑路线/蔬菜胡萝卜
+        "Random/Random111-00214201",
+        "Random/Random111-00214202",
+        "Random/Random111-00214203",
+
+
+
+
+		// 关卡元素：蔬菜青椒/蔬菜胡萝卜
+        "Random/Random111-00215101",
+
+
+
+
+
+		// 关卡元素：蔬菜青椒/瓦斯
+        "Random/Random111-00215501",
+
+
+
+
+
+
+		// 关卡元素：蔬菜胡萝卜/瓦斯
+        "Random/Random111-00215601",
+
+
+
+
+
+
+		// 关卡元素：蔬菜青椒/蔬菜胡萝卜/瓦斯
+        "Random/Random111-00217101",
+
+
 
 
 
