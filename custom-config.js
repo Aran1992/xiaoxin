@@ -1845,7 +1845,7 @@ Config.mapList = [
 Config.roadSections = {
 
     // 测试用
-    "111-1": [
+    "1-1": [
 
         "Random/Random111-00214102",
 
@@ -1866,7 +1866,7 @@ Config.roadSections = {
     // 随机关卡（难度2：不跳也死不了）（每个路段为2000像素）
     "111-21": [
 
-        // 关卡元素：平坦路线
+        // 难度2：关卡元素：平坦路线
         "Random/Random111-00000101",
         "Random/Random111-00000102",
         "Random/Random111-00000103",
@@ -1886,26 +1886,43 @@ Config.roadSections = {
 
 
 
-        // 关卡元素：有坑路线
+        // 难度2：关卡元素：有坑路线
         "Random/Random111-00001101",
         "Random/Random111-00001102",
+        "Random/Random111-00001103",
+
+
+
+        // 难度2：关卡元素：火球
+        "Random/Random111-00001601",
 
 
 
 
-        // 关卡元素：蔬菜青椒
+
+        // 难度2：关卡元素：乌云
+        "Random/Random111-00001701",
+
+
+
+
+        // 难度2：关卡元素：蔬菜青椒
         "Random/Random111-00002101",
         "Random/Random111-00002102",
         "Random/Random111-00002103",
         "Random/Random111-00002104",
         "Random/Random111-00002105",
+        "Random/Random111-00002106",
+        "Random/Random111-00002107",
+
+
 
     ],
 
     // 随机关卡（难度3：不跳会死：但不会太难）（每个路段为2000像素）
     "111-31": [
 
-		// 关卡元素：有坑路线
+		// 难度3：关卡元素：有坑路线
         "Random/Random111-00211101",
         "Random/Random111-00211102",
         "Random/Random111-00211103",
@@ -1914,29 +1931,54 @@ Config.roadSections = {
 
 
 
-        // 关卡元素：瓦斯
+        // 难度3：关卡元素：瓦斯
         "Random/Random111-00211501",
         "Random/Random111-00211502",
+        "Random/Random111-00211503",
+
+
+
+
+
+        // 难度3：关卡元素：火球
+        "Random/Random111-00211601",
+        "Random/Random111-00211602",
+        "Random/Random111-00211603",
+        "Random/Random111-00211604",
 
 
 
 
 
 
-        // 关卡元素：蔬菜青椒
+        // 难度3：关卡元素：乌云
+        "Random/Random111-00211701",
+        "Random/Random111-00211702",
+
+
+
+
+
+        // 难度3：关卡元素：蔬菜青椒
         "Random/Random111-00212101",
         "Random/Random111-00212102",
         "Random/Random111-00212103",
+        "Random/Random111-00212104",
+        "Random/Random111-00212105",
 
 
 
-        // 关卡元素：蔬菜胡萝卜
+
+
+        // 难度3：关卡元素：蔬菜胡萝卜
         "Random/Random111-00212201",
         "Random/Random111-00212202",
+        "Random/Random111-00212203",
 
 
 
-		// 关卡元素：有坑路线/蔬菜青椒
+
+		// 难度3：关卡元素：有坑路线/蔬菜青椒
         "Random/Random111-00214101",
         "Random/Random111-00214102",
         "Random/Random111-00214103",
@@ -1945,7 +1987,7 @@ Config.roadSections = {
 
 
 
-		// 关卡元素：有坑路线/蔬菜胡萝卜
+		// 难度3：关卡元素：有坑路线/蔬菜胡萝卜
         "Random/Random111-00214201",
         "Random/Random111-00214202",
         "Random/Random111-00214203",
@@ -1953,14 +1995,14 @@ Config.roadSections = {
 
 
 
-		// 关卡元素：蔬菜青椒/蔬菜胡萝卜
+		// 难度3：关卡元素：蔬菜青椒/蔬菜胡萝卜
         "Random/Random111-00215101",
 
 
 
 
 
-		// 关卡元素：蔬菜青椒/瓦斯
+		// 难度3：关卡元素：蔬菜青椒/瓦斯
         "Random/Random111-00215501",
 
 
@@ -1968,7 +2010,7 @@ Config.roadSections = {
 
 
 
-		// 关卡元素：蔬菜胡萝卜/瓦斯
+		// 难度3：关卡元素：蔬菜胡萝卜/瓦斯
         "Random/Random111-00215601",
 
 
@@ -1976,7 +2018,7 @@ Config.roadSections = {
 
 
 
-		// 关卡元素：蔬菜青椒/蔬菜胡萝卜/瓦斯
+		// 难度3：关卡元素：蔬菜青椒/蔬菜胡萝卜/瓦斯
         "Random/Random111-00217101",
 
 
@@ -2003,7 +2045,7 @@ Config.roadSections = {
 
 		// 随机关卡（难度2：不跳也死不了）（每个路段为2000像素）
 
-        // 关卡元素：平坦路线
+        // 难度2：关卡元素：平坦路线
         "Random/Random111-00000101",
         "Random/Random111-00000102",
         "Random/Random111-00000103",
@@ -2023,19 +2065,34 @@ Config.roadSections = {
 
 
 
-        // 关卡元素：有坑路线
+        // 难度2：关卡元素：有坑路线
         "Random/Random111-00001101",
         "Random/Random111-00001102",
+        "Random/Random111-00001103",
+
+
+
+        // 难度2：关卡元素：火球
+        "Random/Random111-00001601",
 
 
 
 
-        // 关卡元素：蔬菜青椒
+
+        // 难度2：关卡元素：乌云
+        "Random/Random111-00001701",
+
+
+
+
+        // 难度2：关卡元素：蔬菜青椒
         "Random/Random111-00002101",
         "Random/Random111-00002102",
         "Random/Random111-00002103",
         "Random/Random111-00002104",
         "Random/Random111-00002105",
+        "Random/Random111-00002106",
+        "Random/Random111-00002107",
 
 
 
@@ -2048,7 +2105,7 @@ Config.roadSections = {
 
 		// 随机关卡（难度3：不跳会死：但不会太难）（每个路段为2000像素）
 
-		// 关卡元素：有坑路线
+		// 难度3：关卡元素：有坑路线
         "Random/Random111-00211101",
         "Random/Random111-00211102",
         "Random/Random111-00211103",
@@ -2057,29 +2114,54 @@ Config.roadSections = {
 
 
 
-        // 关卡元素：瓦斯
+        // 难度3：关卡元素：瓦斯
         "Random/Random111-00211501",
         "Random/Random111-00211502",
+        "Random/Random111-00211503",
+
+
+
+
+
+        // 难度3：关卡元素：火球
+        "Random/Random111-00211601",
+        "Random/Random111-00211602",
+        "Random/Random111-00211603",
+        "Random/Random111-00211604",
 
 
 
 
 
 
-        // 关卡元素：蔬菜青椒
+        // 难度3：关卡元素：乌云
+        "Random/Random111-00211701",
+        "Random/Random111-00211702",
+
+
+
+
+
+        // 难度3：关卡元素：蔬菜青椒
         "Random/Random111-00212101",
         "Random/Random111-00212102",
         "Random/Random111-00212103",
+        "Random/Random111-00212104",
+        "Random/Random111-00212105",
 
 
 
-        // 关卡元素：蔬菜胡萝卜
+
+
+        // 难度3：关卡元素：蔬菜胡萝卜
         "Random/Random111-00212201",
         "Random/Random111-00212202",
+        "Random/Random111-00212203",
 
 
 
-		// 关卡元素：有坑路线/蔬菜青椒
+
+		// 难度3：关卡元素：有坑路线/蔬菜青椒
         "Random/Random111-00214101",
         "Random/Random111-00214102",
         "Random/Random111-00214103",
@@ -2088,7 +2170,7 @@ Config.roadSections = {
 
 
 
-		// 关卡元素：有坑路线/蔬菜胡萝卜
+		// 难度3：关卡元素：有坑路线/蔬菜胡萝卜
         "Random/Random111-00214201",
         "Random/Random111-00214202",
         "Random/Random111-00214203",
@@ -2096,14 +2178,14 @@ Config.roadSections = {
 
 
 
-		// 关卡元素：蔬菜青椒/蔬菜胡萝卜
+		// 难度3：关卡元素：蔬菜青椒/蔬菜胡萝卜
         "Random/Random111-00215101",
 
 
 
 
 
-		// 关卡元素：蔬菜青椒/瓦斯
+		// 难度3：关卡元素：蔬菜青椒/瓦斯
         "Random/Random111-00215501",
 
 
@@ -2111,7 +2193,7 @@ Config.roadSections = {
 
 
 
-		// 关卡元素：蔬菜胡萝卜/瓦斯
+		// 难度3：关卡元素：蔬菜胡萝卜/瓦斯
         "Random/Random111-00215601",
 
 
@@ -2119,7 +2201,7 @@ Config.roadSections = {
 
 
 
-		// 关卡元素：蔬菜青椒/蔬菜胡萝卜/瓦斯
+		// 难度3：关卡元素：蔬菜青椒/蔬菜胡萝卜/瓦斯
         "Random/Random111-00217101",
 
 
