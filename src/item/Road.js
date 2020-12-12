@@ -46,7 +46,7 @@ export default class Road {
         let pathInRoad = path.map((p, i) => i % 2 === 0 ? p - rect.x : p - rect.y);
         this.createSide(sideTexturePath, rect.width, rect.height);
         this.createTop(topTexturePath, pathInRoad);
-        this.createEdgeMask(pathInRoad);
+        // this.createEdgeMask(pathInRoad);
         this.createClipMask(pathInRoad);
         this.sprite.cacheAsBitmap = true;
         this.sprite.position.set(rect.x, rect.y);
