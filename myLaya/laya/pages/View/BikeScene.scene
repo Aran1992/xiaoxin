@@ -2,7 +2,7 @@
     "x":0,
     "type":"Scene",
     "selectedBox":1,
-    "selecteID":3,
+    "selecteID":298,
     "searchKey":"Scene",
     "referenceLines":[
         ],
@@ -337,7 +337,7 @@
             "x":15,
             "type":"Image",
             "searchKey":"Image,leftArrow",
-            "props":{"var":"leftArrow","skin":"images/button-lastBtn-2.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","right":660,"bottom":355},
+            "props":{"var":"leftArrow","skin":"images/button-lastBtn-2.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","left":576,"bottom":355},
             "nodeParent":1,
             "label":"leftArrow",
             "isOpen":false,
