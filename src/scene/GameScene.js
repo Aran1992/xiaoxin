@@ -77,7 +77,6 @@ export default class GameScene extends Scene {
         this.addChildAt(this.gameContainer, 0);
         let scale = App.sceneHeight / Config.designHeight;
         this.gameContainer.scale.set(scale, scale);
-        this.gameContainer.x = (App.sceneWidth - scale * Config.designWidth) / 2;
         this.gameContainer.interactive = true;
         this.gameContainer.buttonMode = true;
         this.gameContainer.on("pointerdown", this.onPointerDown.bind(this));
@@ -949,14 +948,16 @@ export default class GameScene extends Scene {
             this.cameraContainer.addChild(container);
             let texture = resources[texturePath].texture;
             let color = Utils.getTexturePointColor(texture, texture.width - 1, texture.height - 1);
-            let bg = {container};
+            let bg = {container, sprites: []};
             let scale = this.bgScale[bgIndex];
-            for (let i = 0; i < 2; i++) {
+            let count = Math.ceil(App.sceneWidth / (texture.width * scale)) + 1;
+            console.log("count", count);
+            for (let i = 0; i < count; i++) {
                 let sprite = new Sprite(texture);
                 container.addChild(sprite);
                 sprite.scale.set(scale, scale);
                 sprite.position.set(i * texture.width * scale, this.bgY[bgIndex]);
-                bg[i === 0 ? "before" : "after"] = sprite;
+                bg.sprites.push(sprite);
                 if (bgIndex === this.bgTextureList.length - 1) {
                     let graphics = new Graphics();
                     graphics.beginFill(color);
@@ -1514,7 +1515,8 @@ export default class GameScene extends Scene {
             let lastBg = this.bgList[lastIndex];
             let bgY = this.bgY[lastIndex];
             let scale = this.bgScale[lastIndex];
-            let bgOriginHeight = lastBg.before.height + (lastBg.before.children[0] ? lastBg.before.children[0].height : 0);
+            const lastBgFirstSprite = lastBg.sprites[0];
+            let bgOriginHeight = lastBgFirstSprite.height + (lastBgFirstSprite.children[0] ? lastBgFirstSprite.children[0].height : 0);
             let bgHeight = bgY + bgOriginHeight * scale;
             let vpd = this.verticalParallaxDepth[lastIndex] === undefined ? 1 : this.verticalParallaxDepth[lastIndex];
             if (lastBg.container.y + bgHeight - vpd * cameraMoveY < Config.designHeight - this.cameraContainer.y
@@ -1611,12 +1613,13 @@ export default class GameScene extends Scene {
     }
 
     scrollBg() {
-        this.bgList.forEach((item, index) => {
-            if (item.container.x + item.before.x + item.before.width * this.bgScale[index] < -this.cameraContainer.x) {
-                item.before.x = item.after.x + item.after.width * this.bgScale[index];
-                let temp = item.before;
-                item.before = item.after;
-                item.after = temp;
+        this.bgList.forEach((bg, index) => {
+            const first = bg.sprites[0];
+            const last = bg.sprites[bg.sprites.length - 1];
+            if (bg.container.x + first.x + first.width * this.bgScale[index] < -this.cameraContainer.x) {
+                first.x = last.x + last.width * this.bgScale[index];
+                bg.sprites.splice(0, 1);
+                bg.sprites.push(first);
             }
         });
     }

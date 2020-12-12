@@ -129,7 +129,7 @@ export default class EndlessGameScene extends GameScene {
     }
 
     dynamicCreateRoad() {
-        if (this.mapWidth <= -this.cameraContainer.x + Config.designWidth) {
+        if (this.mapWidth <= -this.cameraContainer.x + App.sceneWidth) {
             if (this.partList.length === 0) {
                 this.preparePartList();
             }
