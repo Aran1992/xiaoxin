@@ -458,7 +458,7 @@
                         {
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"skin":"images/english/leave.png","centerY":-2,"centerX":0},
+                            "props":{"skin":"images/english/leave2.png","centerY":-2,"centerX":0},
                             "nodeParent":100,
                             "label":"Image",
                             "isOpen":true,

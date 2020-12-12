@@ -2,7 +2,7 @@
     "x":0,
     "type":"Scene",
     "selectedBox":1,
-    "selecteID":111,
+    "selecteID":16,
     "searchKey":"Scene",
     "props":{"width":1280,"sceneColor":"#000000","height":720},
     "nodeParent":-1,
@@ -64,14 +64,13 @@
                     "props":{"top":65,"skin":"images/bg-432.png","sizeGrid":"20,20,20,20","centerX":0},
                     "nodeParent":16,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":80,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-metre.png","scaleY":0.6,"scaleX":0.6,"left":20,"centerY":-2},
@@ -86,7 +85,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,distanceValueText",
                             "props":{"y":0,"x":0,"var":"distanceValueText","text":"123456","right":20,"fontSize":30,"font":"meter","color":"#000000","centerY":0},
@@ -100,7 +98,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"y":0,"x":0,"width":150,"skin":"images/english/current-distance.png","left":80,"height":38,"centerY":0},
@@ -122,14 +119,13 @@
                     "props":{"top":120,"skin":"images/bg-432.png","sizeGrid":"20,20,20,20","centerX":0},
                     "nodeParent":16,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":94,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/levelbg_s.png","scaleY":0.25,"scaleX":0.25,"left":20,"centerY":0},
@@ -144,7 +140,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,expValueText",
                             "props":{"y":0,"x":0,"var":"expValueText","text":"123456","right":20,"fontSize":30,"font":"exp","color":"#000000","centerY":0},
@@ -158,7 +153,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"y":0,"x":0,"width":150,"skin":"images/english/current-exp.png","left":80,"height":38,"centerY":0},
@@ -180,14 +174,13 @@
                     "props":{"top":175,"skin":"images/bg-432.png","sizeGrid":"20,20,20,20","centerX":0},
                     "nodeParent":16,
                     "label":"Image",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":97,
                     "child":[
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"skin":"images/icon-coin.png","scaleY":0.3,"scaleX":0.3,"left":20,"centerY":0},
@@ -202,7 +195,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Label",
                             "searchKey":"Label,coinValueText",
                             "props":{"var":"coinValueText","text":"123456","right":20,"fontSize":30,"font":"medal","color":"#000000","centerY":0},
@@ -216,7 +208,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
                             "props":{"y":0,"x":0,"width":150,"skin":"images/english/current-gold.png","left":80,"height":39,"centerY":0},
@@ -396,16 +387,17 @@
                     "props":{"width":228,"var":"leaveButton","skin":"images/button-66.png","runtime":"../laya/assets/sounds/SoundSE001.mp3","height":85,"centerX":-300,"bottom":40},
                     "nodeParent":16,
                     "label":"leaveButton",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":100,
                     "child":[
                         {
+                            "x":45,
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"skin":"images/english/leave.png","centerY":-2,"centerX":0},
+                            "props":{"skin":"images/english/leave2.png","centerY":-2,"centerX":0},
                             "nodeParent":100,
                             "label":"Image",
                             "isOpen":true,

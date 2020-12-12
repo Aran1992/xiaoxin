@@ -73,7 +73,7 @@
                         {
                             "type":"Image",
                             "searchKey":"Image",
-                            "props":{"skin":"images/english/count.png","centerY":0,"centerX":0},
+                            "props":{"skin":"images/english/count2.png","centerY":0,"centerX":0},
                             "nodeParent":73,
                             "label":"Image",
                             "isDirectory":false,
