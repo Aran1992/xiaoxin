@@ -24,7 +24,7 @@
     "mime": "^2.4.3",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
-    "xlsx": "^0.14.2"
+    "xlsx": "^0.17.0"
   },
   "dependencies": {
     "@tweenjs/tween.js": "^18.5.0",
